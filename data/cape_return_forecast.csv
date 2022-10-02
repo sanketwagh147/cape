@@ -1,0 +1,143 @@
+,ETF_NAME,INDEX_NAME,FWD_RETURN_5Y_FORECAST,BENCHMARK_TICKER
+ACWI,iShares MSCI ACWI ETF,MSCI World USD,0.016,MSDUWI
+BBRE,JPMorgan BetaBuilders MSCI US REIT ETF,Dow Jones US Select Real Estate Securities Index,-0.0002,DWRSF
+BBUS,JPMorgan BetaBuilders US Equity ETF,S&P 500 INDEX,0.0096,SPX
+BKLC,BNY Mellon US Large Cap Core Equity ETF,S&P 100 Index,0.0055,OEX
+BKSE,BNY Mellon US Small Cap Core Equity ETF,MSCI United States Small Cap Index,0.098,MXUSSC
+CRBN,iShares MSCI ACWI Low Carbon Target ETF,MSCI World USD,0.016,MSDUWI
+DIA,SPDR Dow Jones Industrial Average ETF Trust,Dow Jones Industrial Average,0.0322,INDU
+DVY,iShares Select Dividend ETF,Dow Jones Select Dividend Index,0.0425,DJDVP
+ESGU,iShares ESG Aware MSCI USA ETF,S&P 500 INDEX,0.0096,SPX
+ESML,iShares ESG Aware MSCI USA Small-Cap ETF,MSCI United States Small Cap Index,0.098,MXUSSC
+FAS,Direxion Daily Financial Bull 3X Shares,MSCI USA Financials Index,0.0254,MXUS0FN
+FMAT,Fidelity MSCI Materials Index ETF,MSCI USA Materials Index,0.0418,MXUS0MT
+FNCL,Fidelity MSCI Financials Index ETF,MSCI USA Financials Index,0.0254,MXUS0FN
+FENY,Fidelity MSCI Energy Index ETF,MSCI USA Energy Index,0.0556,MXUS0EN
+FDIS,Fidelity MSCI Consumer Discretionary Index ETF,MSCI USA Consumer Discretionary Index,0.0347,MXUS0CD
+FREL,Fidelity MSCI Real Estate Index ETF,Bloomberg US REITs  **To be discontinued  in 2022**,-0.0074,BBREIT
+FTEC,Fidelity MSCI Information Technology Index ETF,Technology Select Sector Index,0.0322,IXT
+FRI,First Trust S&P REIT Index Fund,Dow Jones US Select Real Estate Securities Index,-0.0002,DWRSF
+FSTA,Fidelity MSCI Consumer Staples Index ETF,MSCI USA Consumer Staples Index,0.0363,MXUS0CS
+FUTY,Fidelity MSCI Utilities Index ETF,MSCI USA Utilities Index,-0.0181,MXUS0UT
+GSUS,Goldman Sachs MarketBeta US Equity ETF,S&P 500 INDEX,0.0096,SPX
+IJK,iShares S&P Mid-Cap 400 Growth ETF,S&P MidCap 400 Growth Index,0.1055,MIDG
+IJR,iShares Core S&P Small-Cap ETF,S&P Small Cap 600 Index,0.1743,SML
+IJS,iShares S&P Small-Cap 600 Value ETF,S&P Small Cap 600 Value Index,0.1625,SMLV
+IJT,iShares S&P Small-Cap 600 Growth ETF,S&P Small Cap 600 Growth Index,0.1723,SMLG
+ILCB,iShares Morningstar US Equity ETF,S&P 500 INDEX,0.0096,SPX
+ILCG,iShares Morningstar Growth ETF,Russell 3000 Growth Index,0.0013,RAG
+IDU,iShares US Utilities ETF,MSCI USA Utilities Index,-0.0181,MXUS0UT
+IJH,iShares Core S&P Mid-Cap ETF,S&P Midcap 400 Index,0.0992,MID
+IJJ,iShares S&P Mid-Cap 400 Value ETF,S&P Midcap 400 Value Index,0.075,MIDV
+IMCG,iShares Morningstar Mid-Cap Growth ETF,Russell Midcap Growth Index,0.0549,RDG
+ITOT,iShares Core S&P Total US Stock Market ETF,S&P 500 INDEX,0.0096,SPX
+JUST,Goldman Sachs JUST US Large Cap Equity ETF,S&P 500 INDEX,0.0096,SPX
+IYR,iShares U.S. Real Estate ETF,Bloomberg US REITs  **To be discontinued  in 2022**,-0.0074,BBREIT
+IYW,iShares US Technology ETF,NASDAQ Computer Index,0.0679,IXK
+IYY,iShares Dow Jones U.S. ETF,S&P 500 INDEX,0.0096,SPX
+IUSV,iShares Core S&P U.S. Value ETF,S&P 500 Value Index,-0.0241,SVX
+IVE,iShares S&P 500 Value ETF,S&P 500 Value Index,-0.0241,SVX
+IVOO,Vanguard S&P Mid-Cap 400 ETF,S&P Midcap 400 Index,0.0992,MID
+IVOV,Vanguard S&P Mid-Cap 400 Value ETF,S&P Midcap 400 Value Index,0.075,MIDV
+IVV,iShares Core S&P 500 ETF,S&P 500 INDEX,0.0096,SPX
+IWB,iShares Russell 1000 ETF,S&P 500 INDEX,0.0096,SPX
+IWD,iShares Russell 1000 Value ETF,Russell 1000 Value Index,0.0132,RLV
+IWF,iShares Russell 1000 Growth ETF,Russell 1000 Growth Index,-0.0041,RLG
+IWL,iShares Russell Top 200 ETF,S&P 500 INDEX,0.0096,SPX
+IWM,iShares Russell 2000 ETF,Russell 2000 Index,0.1052,RTY
+IWN,iShares Russell 2000 Value ETF,Russell 2000 Value Index,0.1041,RUJ
+KRE,SPDR S&P Regional Banking ETF,NASDAQ Bank Index,0.0433,CBNK
+IWP,iShares Russell Mid-Cap Growth ETF,Russell Midcap Growth Index,0.0549,RDG
+IWR,iShares Russell Mid-Cap ETF,Russell Midcap real-time Index,0.056,RMC
+IWS,iShares Russell Mid-Cap Value ETF,Russell Midcap Value Index,0.0362,RMV
+IWV,iShares Russell 3000 ETF,S&P 500 INDEX,0.0096,SPX
+IXC,iShares Global Energy ETF,MSCI KOKUSAI Energy Index,0.0418,MXKO0EN
+KOKU,Xtrackers MSCI Kokusai Equity ETF,MSCI World USD,0.016,MSDUWI
+JHML,John Hancock Multi-Factor Large Cap ETF,S&P 500 INDEX,0.0096,SPX
+JHMM,John Hancock Multi-Factor Mid Cap ETF,Russell Midcap real-time Index,0.056,RMC
+JHSC,John Hancock Multifactor Small Cap ETF,MSCI United States Small Cap Index,0.098,MXUSSC
+IXN,iShares Global Tech ETF,MSCI ACWI Information Technology Index,0.0421,MXWD0IT
+IYE,iShares U.S. Energy ETF,MSCI USA Energy Index,0.0556,MXUS0EN
+IYH,iShares U.S. Healthcare ETF,MSCI USA Health Care Index,0.0688,MXUS0HC
+KBWB,Invesco KBW Bank ETF,KBW Bank Index,0.0019,BKX
+MDY,SPDR S&P MidCap 400 ETF Trust,S&P Midcap 400 Index,0.0992,MID
+MDYG,SPDR S&P 400 Mid CapGrowth ETF,S&P MidCap 400 Growth Index,0.1055,MIDG
+MDYV,SPDR S&P 400 Mid Cap Value ETF,S&P Midcap 400 Value Index,0.075,MIDV
+MGK,Vanguard Mega Cap Growth ETF,Russell 1000 Growth Index,-0.0041,RLG
+OIH,VanEck Oil Services ETF,Philadelphia Stock Exchange Oil Service Sector Index,-0.2034,OSX
+OEF,iShares S&P 100 ETF,S&P 100 Index,0.0055,OEX
+NUSC,Nuveen ESG Small-Cap ETF,MSCI United States Small Cap Index,0.098,MXUSSC
+ONEQ,Fidelity Nasdaq Composite Index ETF,NASDAQ Composite Index,0.076,CCMP
+PBSM,Invesco PureBeta MSCI USA Small Cap ETF,MSCI North America Small Cap Index,0.0917,MXNASC
+OVL,Overlay Shares Large Cap Equity ETF,S&P 500 INDEX,0.0096,SPX
+PSCD,Invesco S&P SmallCap Consumer Discretionary ETF,S&P 600 Consumer Discretionary Sector GICS Level 1 Index,0.2226,S6COND
+PSCT,Invesco S&P SmallCap Information Technology ETF,S&P 600 Information Technology Sector GICS Level 1 Index,0.0489,S6INFT
+QLD,ProShares Ultra QQQ,NASDAQ-100 Index,0.1398,NDQ
+QQQ,Invesco QQQ Trust Series 1,NASDAQ-100 Index,0.1398,NDQ
+RWR,SPDR Dow Jones REIT ETF,Dow Jones US Select Real Estate Securities Index,-0.0002,DWRSF
+SCHX,Schwab US Large-Cap ETF,S&P 500 INDEX,0.0096,SPX
+SCHK,Schwab 1000 Index ETF,S&P 500 INDEX,0.0096,SPX
+SCHV,Schwab U.S. Large-Cap Value ETF,Russell 1000 Value Index,0.0132,RLV
+SCHA,Schwab US Small-Cap ETF,MSCI United States Small Cap Index,0.098,MXUSSC
+SCHB,Schwab US Broad Market ETF,S&P 500 INDEX,0.0096,SPX
+SCHG,Schwab U.S. Large-Cap Growth ETF,Russell 1000 Growth Index,-0.0041,RLG
+SCHH,Schwab U.S. REIT ETF,Bloomberg US REITs  **To be discontinued  in 2022**,-0.0074,BBREIT
+SLYV,SPDR S&P 600 Small CapValue ETF,S&P Small Cap 600 Value Index,0.1625,SMLV
+SMH,VanEck Semiconductor ETF,Philadelphia Stock Exchange Semiconductor Index,0.0492,SOX
+SMMD,iShares Russell 2500 ETF,MSCI United States Small Cap Index,0.098,MXUSSC
+SOXL,Direxion Daily Semiconductors Bull 3x Shares,Philadelphia Stock Exchange Semiconductor Index,0.0492,SOX
+SOXX,iShares Semiconductor ETF,Philadelphia Stock Exchange Semiconductor Index,0.0492,SOX
+SPMD,SPDR Portfolio S&P 400 Mid Cap ETF,S&P Midcap 400 Index,0.0992,MID
+SPLG,SPDR Portfolio S&P 500 ETF,S&P 500 INDEX,0.0096,SPX
+SPXL,Direxion Daily S&P 500 Bull 3X,S&P 500 INDEX,0.0096,SPX
+SPY,SPDR S&P 500 ETF Trust,S&P 500 INDEX,0.0096,SPX
+SPYV,SPDR Portfolio S&P 500 Value ETF,S&P 500 Value Index,-0.0241,SVX
+SPYX,SPDR S&P 500 Fossil Fuel Reserves Free ETF,S&P 500 INDEX,0.0096,SPX
+SLY,SPDR S&P 600 Small CapETF,S&P Small Cap 600 Index,0.1743,SML
+SLYG,SPDR S&P 600 Small Cap Growth ETF,S&P Small Cap 600 Growth Index,0.1723,SMLG
+SNPE,Xtrackers S&P 500 ESG ETF,S&P 500 INDEX,0.0096,SPX
+SSO,ProShares Ultra S&P500,S&P 500 INDEX,0.0096,SPX
+SSPY,Syntax Stratified Large Cap ETF,S&P 500 Equal Weighted Index,0.0451,SPW
+SPSM,SPDR Portfolio S&P 600 Small Cap ETF,S&P Small Cap 600 Index,0.1743,SML
+TNA,Direxion Daily Small Cap Bull 3X Shares,Russell 2000 Index,0.1052,RTY
+TOK,iShares MSCI Kokusai ETF,MSCI World USD,0.016,MSDUWI
+TECL,Direxion Daily Technology Bull 3X Shares,Technology Select Sector Index,0.0322,IXT
+TQQQ,ProShares UltraPro QQQ,NASDAQ-100 Index,0.1398,NDQ
+TMFC,Motley Fool 100 Index ETF,Russell 1000 Growth Index,-0.0041,RLG
+UPRO,ProShares UltraPro S&P 500,S&P 500 INDEX,0.0096,SPX
+VFH,Vanguard Financials ETF,MSCI USA Financials Index,0.0254,MXUS0FN
+VTI,Vanguard Total Stock Market ETF,S&P 500 INDEX,0.0096,SPX
+URTH,iShares MSCI World ETF,MSCI World USD,0.016,MSDUWI
+VAW,Vanguard Materials ETF,MSCI USA Materials Index,0.0418,MXUS0MT
+VB,Vanguard Small-Cap ETF,MSCI United States Small Cap Index,0.098,MXUSSC
+VGT,Vanguard Information Technology ETF,Technology Select Sector Index,0.0322,IXT
+VDC,Vanguard Consumer Staples ETF,MSCI USA Consumer Staples Index,0.0363,MXUS0CS
+VDE,Vanguard Energy ETF,MSCI USA Energy Index,0.0556,MXUS0EN
+USRT,iShares Core US REIT ETF,Dow Jones US Select Real Estate Securities Index,-0.0002,DWRSF
+VPU,Vanguard Utilities ETF,MSCI USA Utilities Index,-0.0181,MXUS0UT
+VTWO,Vanguard Russell 2000 ETF,Russell 2000 Index,0.1052,RTY
+VTWV,Vanguard Russell 2000 Value,Russell 2000 Value Index,0.1041,RUJ
+VUG,Vanguard Growth ETF,Russell 1000 Growth Index,-0.0041,RLG
+VV,Vanguard Large-Cap ETF,S&P 500 INDEX,0.0096,SPX
+VNQ,Vanguard Real Estate ETF,Bloomberg US REITs  **To be discontinued  in 2022**,-0.0074,BBREIT
+VIOO,Vanguard S&P Small-Cap 600 ETF,S&P Small Cap 600 Index,0.1743,SML
+VIOV,Vanguard S&P Small-Cap 600 Value ETF,S&P Small Cap 600 Value Index,0.1625,SMLV
+VIOG,Vanguard S&P Small-Cap 600 Growth ETF,S&P Small Cap 600 Growth Index,0.1723,SMLG
+VO,Vanguard Mid-Cap ETF,Russell Midcap real-time Index,0.056,RMC
+VONE,Vanguard Russell 1000,S&P 500 INDEX,0.0096,SPX
+VONG,Vanguard Russell 1000 Growth ETF,Russell 1000 Growth Index,-0.0041,RLG
+VONV,Vanguard Russell 1000 Value,Russell 1000 Value Index,0.0132,RLV
+VOO,Vanguard S&P 500 ETF,S&P 500 INDEX,0.0096,SPX
+VOOV,Vanguard S&P 500 Value ETF,S&P 500 Value Index,-0.0241,SVX
+VOT,Vanguard Mid-Cap Growth ETF,Russell Midcap Growth Index,0.0549,RDG
+XOUT,GraniteShares XOUT US Large Cap ETF,S&P 500 Growth Index,0.0353,SGX
+XLE,Energy Select Sector SPDR Fund,MSCI USA Energy Index,0.0556,MXUS0EN
+XLF,Financial Select Sector SPDR Fund,MSCI USA Financials Index,0.0254,MXUS0FN
+XLG,Invesco Exchange-Traded Fund Trust-Invesco S&P 500r Top 50 ETF,S&P 100 Index,0.0055,OEX
+XLI,Industrial Select Sector SPDR Fund,MSCI USA Industrials Index,0.0529,MXUS0IN
+XLK,Technology Select Sector SPDR Fund,Technology Select Sector Index,0.0322,IXT
+XLU,Utilities Select Sector SPDR Fund,MSCI USA Utilities Index,-0.0181,MXUS0UT
+XLV,Health Care Select Sector SPDR Fund,MSCI USA Health Care Index,0.0688,MXUS0HC
+XME,SPDR S&P Metals & Mining ETF,S&P Metals and Mining Select Industry Index,0.0236,SPSIMM
+XHB,SPDR S&P Homebuilders ETF,S&P Homebuilding Select Industry Index,0.0299,SPSIHO
+XLB,Materials Select Sector SPDR Fund,MSCI USA Materials Index,0.0418,MXUS0MT
