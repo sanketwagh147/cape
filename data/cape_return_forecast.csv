@@ -14,7 +14,6 @@ FMAT,Fidelity MSCI Materials Index ETF,MSCI USA Materials Index,0.0749,MXUS0MT
 FNCL,Fidelity MSCI Financials Index ETF,MSCI USA Financials Index,0.0324,MXUS0FN
 FENY,Fidelity MSCI Energy Index ETF,MSCI USA Energy Index,0.0484,MXUS0EN
 FDIS,Fidelity MSCI Consumer Discretionary Index ETF,MSCI USA Consumer Discretionary Index,0.0447,MXUS0CD
-FREL,Fidelity MSCI Real Estate Index ETF,Bloomberg US REITs  **To be discontinued  in 2022**,0.0086,BBREIT
 FTEC,Fidelity MSCI Information Technology Index ETF,Technology Select Sector Index,0.0518,IXT
 FRI,First Trust S&P REIT Index Fund,Dow Jones US Select Real Estate Securities Index,0.0175,DWRSF
 FSTA,Fidelity MSCI Consumer Staples Index ETF,MSCI USA Consumer Staples Index,0.041,MXUS0CS
@@ -32,7 +31,6 @@ IJJ,iShares S&P Mid-Cap 400 Value ETF,S&P Midcap 400 Value Index,0.1141,MIDV
 IMCG,iShares Morningstar Mid-Cap Growth ETF,Russell Midcap Growth Index,0.0695,RDG
 ITOT,iShares Core S&P Total US Stock Market ETF,S&P 500 INDEX,0.0265,SPX
 JUST,Goldman Sachs JUST US Large Cap Equity ETF,S&P 500 INDEX,0.0265,SPX
-IYR,iShares U.S. Real Estate ETF,Bloomberg US REITs  **To be discontinued  in 2022**,0.0086,BBREIT
 IYW,iShares US Technology ETF,NASDAQ Computer Index,0.1005,IXK
 IYY,iShares Dow Jones U.S. ETF,S&P 500 INDEX,0.0265,SPX
 IUSV,iShares Core S&P U.S. Value ETF,S&P 500 Value Index,-0.0066,SVX
@@ -81,7 +79,6 @@ SCHV,Schwab U.S. Large-Cap Value ETF,Russell 1000 Value Index,0.0265,RLV
 SCHA,Schwab US Small-Cap ETF,MSCI United States Small Cap Index,0.125,MXUSSC
 SCHB,Schwab US Broad Market ETF,S&P 500 INDEX,0.0265,SPX
 SCHG,Schwab U.S. Large-Cap Growth ETF,Russell 1000 Growth Index,0.0151,RLG
-SCHH,Schwab U.S. REIT ETF,Bloomberg US REITs  **To be discontinued  in 2022**,0.0086,BBREIT
 SLYV,SPDR S&P 600 Small CapValue ETF,S&P Small Cap 600 Value Index,0.1917,SMLV
 SMH,VanEck Semiconductor ETF,Philadelphia Stock Exchange Semiconductor Index,0.08,SOX
 SMMD,iShares Russell 2500 ETF,MSCI United States Small Cap Index,0.125,MXUSSC
@@ -119,7 +116,6 @@ VTWO,Vanguard Russell 2000 ETF,Russell 2000 Index,0.1304,RTY
 VTWV,Vanguard Russell 2000 Value,Russell 2000 Value Index,0.1304,RUJ
 VUG,Vanguard Growth ETF,Russell 1000 Growth Index,0.0151,RLG
 VV,Vanguard Large-Cap ETF,S&P 500 INDEX,0.0265,SPX
-VNQ,Vanguard Real Estate ETF,Bloomberg US REITs  **To be discontinued  in 2022**,0.0086,BBREIT
 VIOO,Vanguard S&P Small-Cap 600 ETF,S&P Small Cap 600 Index,0.1994,SML
 VIOV,Vanguard S&P Small-Cap 600 Value ETF,S&P Small Cap 600 Value Index,0.1917,SMLV
 VIOG,Vanguard S&P Small-Cap 600 Growth ETF,S&P Small Cap 600 Growth Index,0.1955,SMLG
