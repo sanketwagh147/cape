@@ -15,12 +15,25 @@ This application regresses five-year forward stock returns on historical CAPE ra
 
 ### Formulas
 
-$CAPE = \frac{\text{Price}}{\text{Ten-year average of inflation adjusted earnings}}$
+$\text{CAPE} = \frac{\text{Price}}{\text{Ten-year average of inflation adjusted earnings}}$
 
 $\text{Five-Year Forward Return}=\frac{\text{Price Five Years into the Future}}{\text{Current Price}}$
 
-### Regression Plot
+$\text{Regression Forecast}=\beta_{0}+\beta_{1}ln(CAPE)$
+
+### Regression Analysis Plots
+
+The following plots are an example analysis of the S&P 500 Index as of September 29, 2022. 
 
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_SPX.png)
 
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_heatmap_SPX.png)
+
+### Forecasts
+
+![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_observed_forecast_SPX.png)
+![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/long_term_pe_ratio_SPX.png)
+
+![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/expected_fwd_return_5y_SPX.png)
+
+DISCLAIMER: Nothing in this application project should be construed as investment advice. This project is for purely research purposes only. Invest at your own risk. 
