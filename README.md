@@ -21,7 +21,7 @@ $\text{Five-Year Forward Return}=\frac{\text{Price Five Years into the Future}}{
 
 $\text{Regression Forecast}=\beta_{0}+\beta_{1}ln(CAPE)$
 
-### Regression Analysis Plots
+### Regression Analysis and Plots
 
 The following plots are an example analysis of the S&P 500 Index as of September 29, 2022. 
 
@@ -32,8 +32,11 @@ The following plots are an example analysis of the S&P 500 Index as of September
 ### Forecasts
 
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_observed_forecast_SPX.png)
+
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/long_term_pe_ratio_SPX.png)
 
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/expected_fwd_return_5y_SPX.png)
 
-DISCLAIMER: Nothing in this application project should be construed as investment advice. This project is for purely research purposes only. Invest at your own risk. 
+## DISCLAIMER
+
+Nothing in this application project should be construed as investment advice. This project is for purely research purposes only. Invest at your own risk. 
