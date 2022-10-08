@@ -23,7 +23,7 @@ $\text{Regression Forecast}=\beta_{0}+\beta_{1}ln(CAPE)$
 
 ### Regression Analysis and Plots
 
-The following plots are an example analysis of the S&P 500 Index as of September 29, 2022. 
+The following plots are an example analysis of the S&P 500 Index as of September 29, 2022. However, the sample ends in September 29, 2017 because that is the last date in which an ex-post 5-year forward return can be computed. 
 
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_SPX.png)
 
@@ -39,4 +39,4 @@ The following plots are an example analysis of the S&P 500 Index as of September
 
 ## DISCLAIMER
 
-Nothing in this application project should be construed as investment advice. This project is for purely research purposes only. Invest at your own risk. 
+Nothing in this application should be interpreted as investment advice or a recommendation to buy or sell a security. This application is for purely research purposes only. Invest at your own risk. 
