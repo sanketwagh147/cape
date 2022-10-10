@@ -42,11 +42,11 @@ def forward_return_forecast(breakpoint_return=0.10, above=True, top=None, drop_d
         if drop_duplicates:
             df = fwd_return_5y_forecast[
                      fwd_return_5y_forecast.FWD_RETURN_5Y_FORECAST <= breakpoint_return].sort_values(
-                by='FWD_RETURN_5Y_FORECAST', ascending=False).drop_duplicates(subset=['INDEX_TICKER']).iloc[:top, :]
+                by='FWD_RETURN_5Y_FORECAST').drop_duplicates(subset=['INDEX_TICKER']).iloc[:top, :]
         else:
             df = fwd_return_5y_forecast[
                      fwd_return_5y_forecast.FWD_RETURN_5Y_FORECAST <= breakpoint_return].sort_values(
-                by='FWD_RETURN_5Y_FORECAST', ascending=False).iloc[:top, :]
+                by='FWD_RETURN_5Y_FORECAST').iloc[:top, :]
     return df
 
 
