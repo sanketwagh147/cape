@@ -1,6 +1,18 @@
 import pandas as pd
-from cape import fwd_return_5y_forecast
 from IPython.display import Image
+
+
+def print_data_date():
+    print('Data current as of: {}'.format(
+        pd.read_csv('https://raw.githubusercontent.com/nathanramoscfa/cape/main/data/as_of_date.csv'
+                    ).iloc[:, 1:].squeeze()))
+
+
+def forecast_data():
+    df = pd.read_csv(
+        'https://raw.githubusercontent.com/nathanramoscfa/cape/main/data/cape_return_forecast.csv', index_col=0)
+    df.index.name = 'TICKER'
+    return df
 
 
 def import_results():
@@ -14,6 +26,7 @@ def import_results():
 
 
 def forward_return_forecast(breakpoint_return=0.10, above=True, top=None, drop_duplicates=False):
+    fwd_return_5y_forecast = forecast_data()
     if above:
         print('ETFs with above {}% expected forward 5-year return:'.format(breakpoint_return))
         if drop_duplicates:
@@ -38,12 +51,14 @@ def forward_return_forecast(breakpoint_return=0.10, above=True, top=None, drop_d
 
 
 def available_tickers():
+    fwd_return_5y_forecast = forecast_data()
     print('Available ETF tickers: \n')
     for x in range(0, len(list(fwd_return_5y_forecast.sort_index().index)), 10):
         print(*list(fwd_return_5y_forecast.sort_index().index)[x:x + 10])
 
 
 def check_ticker(etf_ticker):
+    fwd_return_5y_forecast = forecast_data()
     if etf_ticker not in fwd_return_5y_forecast.index:
         print('Available ETF tickers: ')
         for x in range(0, len(list(fwd_return_5y_forecast.sort_index().index)), 10):
@@ -52,12 +67,14 @@ def check_ticker(etf_ticker):
 
 
 def ticker_results(etf_ticker):
+    fwd_return_5y_forecast = forecast_data()
     print(fwd_return_5y_forecast.loc[etf_ticker])
     print('Expected 5-Year Return ({}): {}%'.format(fwd_return_5y_forecast.loc[etf_ticker].loc['INDEX_NAME'], round(
         fwd_return_5y_forecast.loc[etf_ticker].loc['FWD_RETURN_5Y_FORECAST'] * 100, 2)))
 
 
 def chart(etf_ticker, chart_num=1):
+    fwd_return_5y_forecast = forecast_data()
     index_ticker = fwd_return_5y_forecast.loc[etf_ticker]['INDEX_TICKER']
     if chart_num == 1:
         Image(
