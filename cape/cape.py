@@ -67,7 +67,7 @@ def check_ticker(etf_ticker):
 
 
 def ticker_results(etf_ticker):
-    check_ticker()
+    check_ticker(etf_ticker)
     fwd_return_5y_forecast = forecast_data()
     print(fwd_return_5y_forecast.loc[etf_ticker])
     print('Expected 5-Year Return ({}): {}%'.format(fwd_return_5y_forecast.loc[etf_ticker].loc['INDEX_NAME'], round(
