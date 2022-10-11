@@ -67,13 +67,11 @@ def check_ticker(etf_ticker):
 
 
 def ticker_results(etf_ticker):
-    try:
-        fwd_return_5y_forecast = forecast_data()
-        print(fwd_return_5y_forecast.loc[etf_ticker])
-        print('Expected 5-Year Return ({}): {}%'.format(fwd_return_5y_forecast.loc[etf_ticker].loc['INDEX_NAME'], round(
-            fwd_return_5y_forecast.loc[etf_ticker].loc['FWD_RETURN_5Y_FORECAST'] * 100, 2)))
-    except KeyError:
-        check_ticker()
+    check_ticker()
+    fwd_return_5y_forecast = forecast_data()
+    print(fwd_return_5y_forecast.loc[etf_ticker])
+    print('Expected 5-Year Return ({}): {}%'.format(fwd_return_5y_forecast.loc[etf_ticker].loc['INDEX_NAME'], round(
+        fwd_return_5y_forecast.loc[etf_ticker].loc['FWD_RETURN_5Y_FORECAST'] * 100, 2)))
 
 
 def chart(etf_ticker, chart_num=1):
