@@ -60,17 +60,20 @@ def available_tickers():
 def check_ticker(etf_ticker):
     fwd_return_5y_forecast = forecast_data()
     if etf_ticker not in fwd_return_5y_forecast.index:
-        print('Available ETF tickers: ')
+        print('Available ETF tickers: \n')
         for x in range(0, len(list(fwd_return_5y_forecast.sort_index().index)), 10):
             print(*list(fwd_return_5y_forecast.sort_index().index)[x:x + 10])
         raise IndexError('The etf_ticker is not available in the results. Please input a valid etf_ticker.')
 
 
 def ticker_results(etf_ticker):
-    fwd_return_5y_forecast = forecast_data()
-    print(fwd_return_5y_forecast.loc[etf_ticker])
-    print('Expected 5-Year Return ({}): {}%'.format(fwd_return_5y_forecast.loc[etf_ticker].loc['INDEX_NAME'], round(
-        fwd_return_5y_forecast.loc[etf_ticker].loc['FWD_RETURN_5Y_FORECAST'] * 100, 2)))
+    try:
+        fwd_return_5y_forecast = forecast_data()
+        print(fwd_return_5y_forecast.loc[etf_ticker])
+        print('Expected 5-Year Return ({}): {}%'.format(fwd_return_5y_forecast.loc[etf_ticker].loc['INDEX_NAME'], round(
+            fwd_return_5y_forecast.loc[etf_ticker].loc['FWD_RETURN_5Y_FORECAST'] * 100, 2)))
+    except KeyError:
+        check_ticker()
 
 
 def chart(etf_ticker, chart_num=1):
