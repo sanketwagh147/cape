@@ -1,5 +1,5 @@
 import pandas as pd
-from IPython.display import Image
+from IPython.display import Image, display
 
 
 def print_data_date():
@@ -78,22 +78,22 @@ def chart(etf_ticker, chart_num=1):
     fwd_return_5y_forecast = forecast_data()
     index_ticker = fwd_return_5y_forecast.loc[etf_ticker]['INDEX_TICKER']
     if chart_num == 1:
-        Image(
+        display(Image(
             'https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{}.png'.format(
-                index_ticker))
+                index_ticker)))
     elif chart_num == 2:
-        Image(
+        display(Image(
             'https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_heatmap_{}.png'.format(
-                index_ticker))
+                index_ticker)))
     elif chart_num == 3:
-        Image(
+        display(Image(
             'https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_observed_forecast_{}.png'.format(
-                index_ticker))
+                index_ticker)))
     elif chart_num == 4:
-        Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/long_term_pe_ratio_{}.png'.format(
-            index_ticker))
+        display(Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/long_term_pe_ratio_{}.png'.format(
+            index_ticker)))
     elif chart_num == 5:
-        Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/expected_fwd_return_5y_{}.png'.format(
-            index_ticker))
+        display(Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/expected_fwd_return_5y_{}.png'.format(
+            index_ticker)))
     else:
         raise ValueError('Invalid chart_num parameter. Must input integer from 1 to 5 corresponding to desired chart.')
