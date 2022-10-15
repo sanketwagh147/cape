@@ -60,9 +60,6 @@ setup(
     author="Nathan Ramos, CFA©",  # Optional
     # This should be a valid email address corresponding to the author listed
     # above.
-    author_email="info@nrcapitalmanagement.com",  # Optional
-    # Classifiers help users find your project by categorizing it.
-    #
     # For a list of valid classifiers, see https://pypi.org/classifiers/
     classifiers=[  # Optional
         # How mature is this project? Common values are
