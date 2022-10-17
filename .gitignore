@@ -1,5 +1,5 @@
 # general things to ignore
-django/
+# django/
 build/
 dist/
 *.egg-info/

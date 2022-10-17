@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: orange;
+}
+a:link {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a {font-size: 50px}
