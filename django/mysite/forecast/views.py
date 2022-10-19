@@ -13,5 +13,4 @@ def Table(request):
     json_records = df.reset_index().to_json(orient='records')
     data = json.loads(json_records)
     context = {'d': data}
-
     return render(request, 'forecast_table.html', context)
