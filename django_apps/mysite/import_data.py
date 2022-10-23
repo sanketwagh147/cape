@@ -2,11 +2,12 @@ import os
 import sys
 import django
 import pandas as pd
-from forecast.models import Forecast
 
-# django.setup()
-# sys.path.append('django_apps/mysite/forecast')
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
+django.setup()
+sys.path.append('django_apps/mysite/forecast')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
+
+from forecast.models import Forecast
 
 
 def run():

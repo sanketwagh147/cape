@@ -39,4 +39,6 @@ The following plots are an example analysis of the S&P 500 Index as of September
 
 ## DISCLAIMER
 
-Nothing in this application should be interpreted as investment advice or a recommendation to buy or sell a security. This application is for purely research purposes only. Invest at your own risk. 
+Nothing in this application should be interpreted as investment advice or a recommendation to buy or sell a security. 
+No guarantees are made regarding the accuracy or reliability of the data or forecasts. This application is for 
+purely research purposes only. Invest at your own risk. 

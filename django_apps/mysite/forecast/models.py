@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Forecast(models.Model):
     etf_ticker = models.CharField(max_length=10)
     etf_name = models.CharField(max_length=200)

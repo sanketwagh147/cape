@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sippin' wock!</title>
+    <title>CAPE Application</title>
     {% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'forecast/index_style.css' %}">
-    <style type="text/css">a{color: orange;}</style>
+    <style type="text/css"></style>
 </head>
 <body>
-<p>I took the wock to Poland!</p>
-<a href="{% url 'forecast:forecast_table' %}">Forecast Table</a>
+<p><h1><b>CAPE FORECAST APPLICATION</b></h1></p>
+<p><h2>Click below to see 5-year annualized return forecasts for selected equity ETFs based on the
+    Cyclically-Adjusted Price/Earnings (CAPE) Ratio. Please visit the project's
+    <a href="https://github.com/nathanramoscfa/cape" target="_blank">GitHub</a> page to learn more.
+</h2></p>
+<h1><a href="{% url 'forecast:forecast_table' %}">Forecast Table</a></h1><br><br>
 </body>
 </html>

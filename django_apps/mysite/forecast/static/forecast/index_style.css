@@ -1,6 +1,35 @@
 body {
-    /*background: white url("images/background.gif");*/
     background-color: black;
     color: orange;
-    font-size: 100px;
+    font-size: 100%;
+}
+h1 {
+    background-color: black;
+    color: orange;
+    font-size: 6.25em;
+}
+h2 {
+    background-color: black;
+    color: orange;
+    font-size: 3.125em;
+}
+a:link {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: orange;
+  background-color: transparent;
+  text-decoration: underline;
 }
