@@ -26,7 +26,7 @@
 
 <nav>
   <ul>
-    <li><a href="{% url 'forecast:index' %}">Home</a></li><br>
+    <li><a class="nav" href="{% url 'forecast:index' %}">Home</a></li><br>
   </ul>
 </nav>
 
@@ -45,11 +45,11 @@
     {% if d %}
     {% for i in d %}
 	  <tr>
-		<td>{{i.etf_ticker}}</td>
-		<td>{{i.etf_name}}</td>
-		<td>{{i.index_name}}</td>
-		<td>{{i.cape}}</td>
-		<td>{{i.fwd_return_forecast}}</td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.etf_ticker}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.etf_name}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.index_name}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.cape}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.fwd_return_forecast}}</a></td>
 	  </tr>
 	{% endfor %}
     {% endif %}

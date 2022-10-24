@@ -1,25 +1,12 @@
-body {
-    background-color: black;
-    color: orange;
-}
-a:link {
-  color: orange;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:visited {
-  color: orange;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a:active {
-  color: orange;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a {font-size: 50px}
+body {background-color: black; color: orange;}
+
+.table a:link {color: white; background-color: transparent; text-decoration: none;}
+.table a:visited {color: white; background-color: transparent; text-decoration: none;}
+.table a:hover {color: orange; background-color: transparent; text-decoration: underline;}
+.table a:active {color: white; background-color: transparent; text-decoration: underline;}
+
+a.nav {color: white; font-size: 50px; text-decoration: none}
+a.nav:link {color: orange;}
+a.nav:visited {color: orange;}
+a.nav:hover {color: red;}
+a.nav:active {color: orange;}
