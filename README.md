@@ -35,7 +35,7 @@ $\text{Regression Forecast}=\beta_{0}+\beta_{1}ln(CAPE)$
 
 The following plots are an example analysis of the S&P 500 Index as of September 30, 2022. However, the sample ends in September 29, 2017 
 because that is the last date in which an ex-post 5-year annualized forward return can be computed. The regression model predicts the 
-S&P 500 Index will have an annualized 2.95% over the next 5 years based on a CAPE ratio of 25.5.  
+S&P 500 Index will have an annualized 2.95% over the next 5 years based on a CAPE ratio of 25.5. 
 
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_SPX.png)
 
