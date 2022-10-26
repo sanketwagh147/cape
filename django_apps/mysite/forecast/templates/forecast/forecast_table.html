@@ -13,7 +13,7 @@
   <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
   {% load static %}
-  <link rel="stylesheet" type="text/css" href="{% static 'forecast/forecast_table_style.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'forecast/css/forecast_table_style.css' %}">
   <style type="text/css">
   ul {
     list-style-type: none;
@@ -38,7 +38,9 @@
 		<th>ETF Name</th>
 		<th>Index Name</th>
 		<th>CAPE</th>
-		<th>Return Forecast Annualized (5-Year)</th>
+		<th>Annualized Return Forecast (5-Year)</th>
+        <th>Forecast Lower Confidence</th>
+        <th>Forecast Upper Confidence</th>
 	  </tr>
 	</thead>
 	<tbody>
@@ -50,6 +52,8 @@
         <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.index_name}}</a></td>
         <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.cape}}</a></td>
         <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.fwd_return_forecast}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.lower_confidence}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.upper_confidence}}</a></td>
 	  </tr>
 	{% endfor %}
     {% endif %}

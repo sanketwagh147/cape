@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.views.generic import TemplateView
 from .models import Forecast
 
 
@@ -9,6 +10,8 @@ def index(request):
 def forecast_table(request):
     data = Forecast.objects.all().order_by('-fwd_return_forecast').values()
     context = {'d': data}
-    if data:
-        print('working')
     return render(request, 'forecast_table.html', context)
+
+
+class ChartView(TemplateView):
+    template_name = 'charts.html'

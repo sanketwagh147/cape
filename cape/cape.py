@@ -83,16 +83,12 @@ def chart(etf_ticker, chart_num=1):
                 index_ticker)))
     elif chart_num == 2:
         display(Image(
-            'https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_heatmap_{}.png'.format(
-                index_ticker)))
-    elif chart_num == 3:
-        display(Image(
             'https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_observed_forecast_{}.png'.format(
                 index_ticker)))
-    elif chart_num == 4:
+    elif chart_num == 3:
         display(Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/long_term_pe_ratio_{}.png'.format(
             index_ticker)))
-    elif chart_num == 5:
+    elif chart_num == 4:
         display(Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/expected_fwd_return_5y_{}.png'.format(
             index_ticker)))
     else:
