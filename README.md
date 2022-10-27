@@ -46,12 +46,12 @@ CAPE ratio of 25.5.
 
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/expected_fwd_return_5y_SPX.jpg)
 
-### DATA SOURCE
+### Data Source
 
 Data to compute regression models comes from Bloomberg Finance LP. However, this data cannot be published due to licensing agreements. 
 What is presented by this application is the output of regression models based on the source data. 
 
-## DISCLAIMER
+## Disclaimer
 
 Nothing in this application should be interpreted as investment advice or a recommendation to buy or sell a security. 
 No guarantees are made regarding the accuracy or reliability of the data or forecasts. This application is for 
