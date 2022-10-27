@@ -10,4 +10,3 @@ class Forecast(models.Model):
     lower_confidence = models.CharField(max_length=10)
     upper_confidence = models.CharField(max_length=10)
     index_ticker = models.CharField(max_length=10)
-

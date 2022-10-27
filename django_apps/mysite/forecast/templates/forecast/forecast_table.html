@@ -39,21 +39,21 @@
 		<th>Index Name</th>
 		<th>CAPE</th>
 		<th>Annualized Return Forecast (5-Year)</th>
-        <th>Forecast Lower Confidence</th>
-        <th>Forecast Upper Confidence</th>
+        <th>Forecast Lower 95% Confidence</th>
+        <th>Forecast Upper 95% Confidence</th>
 	  </tr>
 	</thead>
 	<tbody>
     {% if d %}
     {% for i in d %}
 	  <tr>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.etf_ticker}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.etf_name}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.index_name}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.cape}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.fwd_return_forecast}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.lower_confidence}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{{i.index_ticker}}.png" target="_blank">{{i.upper_confidence}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.etf_ticker}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.etf_name}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.index_name}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.cape}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.fwd_return_forecast}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.lower_confidence}}</a></td>
+        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.upper_confidence}}</a></td>
 	  </tr>
 	{% endfor %}
     {% endif %}
