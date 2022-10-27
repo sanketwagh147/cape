@@ -38,15 +38,15 @@ because that is the last date in which an ex-post 5-year annualized forward retu
 S&P 500 Index will have an annualized 2.95% with a 95% confidence interval of between -8.10% and 13.90% over the next 5 years based on a 
 CAPE ratio of 25.5. 
 
-![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_SPX.jpg)
+![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_SPX.jpg)
 
-![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_heatmap_SPX.jpg)
+![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_heatmap_SPX.jpg)
 
-![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_observed_forecast_SPX.jpg)
+![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_observed_forecast_SPX.jpg)
 
-![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/long_term_pe_ratio_SPX.jpg)
+![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/long_term_pe_ratio_SPX.jpg)
 
-![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/expected_fwd_return_5y_SPX.jpg)
+![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/expected_fwd_return_5y_SPX.jpg)
 
 ### DATA SOURCE
 
