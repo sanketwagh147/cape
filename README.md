@@ -40,8 +40,6 @@ CAPE ratio of 25.5.
 
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_SPX.jpg)
 
-![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_heatmap_SPX.jpg)
-
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_observed_forecast_SPX.jpg)
 
 ![S&P 500 INDEX](https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/long_term_pe_ratio_SPX.jpg)
