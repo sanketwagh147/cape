@@ -6,12 +6,17 @@ body {
 h1 {
     background-color: black;
     color: orange;
-    font-size: 6.25em;
+    font-size: 6.0em;
 }
 h2 {
     background-color: black;
     color: orange;
-    font-size: 3.125em;
+    font-size: 3.0em;
+}
+h3 {
+    background-color: black;
+    color: orange;
+    font-size: 1.5em;
 }
 a:link {
   color: orange;
@@ -32,4 +37,8 @@ a:active {
   color: orange;
   background-color: transparent;
   text-decoration: underline;
+}
+.disclaimer {
+    position: absolute;
+    bottom: 0;
 }
