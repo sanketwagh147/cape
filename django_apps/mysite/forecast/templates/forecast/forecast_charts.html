@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CAPE Charts</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'forecast/css/forecast_charts_style.css' %}">
+    <style type="text/css">
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a class="nav" href="{% url 'forecast:index' %}">Home</a></li><br><br>
+    <li><a class="nav" href="{% url 'forecast:forecast_table' %}">Forecast Table</a></li><br>
+  </ul>
+</nav>
+<div class="container">
+    <div class="box"><img src="{% static 'forecast/images/sample_regression_NDQ.jpg' %}" alt="sample_regression"/></div>
+    <div class="box"><img src="{% static 'forecast/images/sample_observed_forecast_NDQ.jpg' %}" alt="sample_observed_forecast"/></div>
+    <div class="box"><img src="{% static 'forecast/images/long_term_pe_ratio_NDQ.jpg' %}" alt="long_term_pe_ratio"/></div>
+    <div class="box"><img src="{% static 'forecast/images/expected_fwd_return_5y_NDQ.jpg' %}" alt="expected_fwd_return"/></div>
+</div>
+</body>
+</html>

@@ -14,4 +14,4 @@ def forecast_table(request):
 
 
 class ChartView(TemplateView):
-    template_name = 'charts.html'
+    template_name = 'forecast_charts.html'

@@ -15,11 +15,11 @@
   {% load static %}
   <link rel="stylesheet" type="text/css" href="{% static 'forecast/css/forecast_table_style.css' %}">
   <style type="text/css">
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+      }
   </style>
 </head>
 <body>
@@ -47,13 +47,21 @@
     {% if d %}
     {% for i in d %}
 	  <tr>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.etf_ticker}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.etf_name}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.index_name}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.cape}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.fwd_return_forecast}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.lower_confidence}}</a></td>
-        <td><a href="https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast/images/sample_regression_{{i.index_ticker}}.jpg" target="_blank">{{i.upper_confidence}}</a></td>
+<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.etf_ticker}}</a></td>-->
+<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.etf_name}}</a></td>-->
+<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.index_name}}</a></td>-->
+<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.cape}}</a></td>-->
+<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.fwd_return_forecast}}</a></td>-->
+<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.lower_confidence}}</a></td>-->
+<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.upper_confidence}}</a></td>-->
+
+        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.etf_ticker}}</a></td>
+        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.etf_name}}</a></td>
+        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.index_name}}</a></td>
+        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.cape}}</a></td>
+        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.fwd_return_forecast}}</a></td>
+        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.lower_confidence}}</a></td>
+        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.upper_confidence}}</a></td>
 	  </tr>
 	{% endfor %}
     {% endif %}
@@ -70,6 +78,5 @@
   });
   </script>
 </div>
-
 </body>
 </html>
