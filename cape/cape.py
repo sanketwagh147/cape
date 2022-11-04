@@ -79,17 +79,17 @@ def chart(etf_ticker, chart_num=1):
     index_ticker = fwd_return_5y_forecast.loc[etf_ticker]['INDEX_TICKER']
     if chart_num == 1:
         display(Image(
-            'https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_regression_{}.png'.format(
-                index_ticker)))
+            'https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast'
+            '/images/sample_regression_{}.png'.format(index_ticker)))
     elif chart_num == 2:
         display(Image(
-            'https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/sample_observed_forecast_{}.png'.format(
-                index_ticker)))
+            'https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static/forecast'
+            '/images/sample_observed_forecast_{}.png'.format(index_ticker)))
     elif chart_num == 3:
-        display(Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/long_term_pe_ratio_{}.png'.format(
-            index_ticker)))
+        display(Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static'
+                      '/forecast/images/long_term_pe_ratio_{}.png'.format(index_ticker)))
     elif chart_num == 4:
-        display(Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/charts/expected_fwd_return_5y_{}.png'.format(
-            index_ticker)))
+        display(Image('https://raw.githubusercontent.com/nathanramoscfa/cape/main/django_apps/mysite/forecast/static'
+                      '/forecast/images/expected_fwd_return_5y_{}.png'.format(index_ticker)))
     else:
         raise ValueError('Invalid chart_num parameter. Must input integer from 1 to 5 corresponding to desired chart.')
