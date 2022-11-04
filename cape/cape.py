@@ -28,7 +28,7 @@ def import_results():
 def forward_return_forecast(breakpoint_return=0.10, above=True, top=None, drop_duplicates=False):
     fwd_return_5y_forecast = forecast_data()
     if above:
-        print('ETFs with above {}% expected forward 5-year return:'.format(breakpoint_return))
+        print('ETFs with above {}% expected forward 5-year return:'.format(breakpoint_return*100))
         if drop_duplicates:
             df = fwd_return_5y_forecast[
                      fwd_return_5y_forecast.FWD_RETURN_5Y_FORECAST >= breakpoint_return].sort_values(
@@ -38,7 +38,7 @@ def forward_return_forecast(breakpoint_return=0.10, above=True, top=None, drop_d
                      fwd_return_5y_forecast.FWD_RETURN_5Y_FORECAST >= breakpoint_return].sort_values(
                 by='FWD_RETURN_5Y_FORECAST', ascending=False).iloc[:top, :]
     else:
-        print('ETFs with below {}% expected forward 5-year return:'.format(breakpoint_return))
+        print('ETFs with below {}% expected forward 5-year return:'.format(breakpoint_return*100))
         if drop_duplicates:
             df = fwd_return_5y_forecast[
                      fwd_return_5y_forecast.FWD_RETURN_5Y_FORECAST <= breakpoint_return].sort_values(
