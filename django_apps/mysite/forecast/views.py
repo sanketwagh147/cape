@@ -15,3 +15,9 @@ def forecast_table(request):
 
 class ChartView(TemplateView):
     template_name = 'forecast_charts.html'
+
+    # def get(self, request, ticker=None):
+    #     if ticker:
+    #         return render(request, self.template_name, {'ticker': ticker})
+    #     else:
+    #         return render(request, self.template_name)

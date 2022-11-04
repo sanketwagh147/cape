@@ -47,20 +47,12 @@
     {% if d %}
     {% for i in d %}
 	  <tr>
-<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.etf_ticker}}</a></td>-->
-<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.etf_name}}</a></td>-->
-<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.index_name}}</a></td>-->
-<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.cape}}</a></td>-->
-<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.fwd_return_forecast}}</a></td>-->
-<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.lower_confidence}}</a></td>-->
-<!--        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.upper_confidence}}</a></td>-->
-
-        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.etf_ticker}}</a></td>
-        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.etf_name}}</a></td>
-        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.index_name}}</a></td>
-        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.cape}}</a></td>
-        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.fwd_return_forecast}}</a></td>
-        <td><a href="{% url 'forecast:forecast_charts' %}" target="_blank">{{i.lower_confidence}}</a></td>
+        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.etf_ticker}}</a></td>
+        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.etf_name}}</a></td>
+        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.index_name}}</a></td>
+        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.cape}}</a></td>
+        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.fwd_return_forecast}}</a></td>
+        <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.lower_confidence}}</a></td>
         <td><a href="{% static '/forecast/images/sample_regression_'|add:i.index_ticker|add:'.jpg' %}" target="_blank">{{i.upper_confidence}}</a></td>
 	  </tr>
 	{% endfor %}

@@ -21,10 +21,10 @@
   </ul>
 </nav>
 <div class="container">
-    <div class="box"><img src="{% static 'forecast/images/sample_regression_NDQ.jpg' %}" alt="sample_regression"/></div>
-    <div class="box"><img src="{% static 'forecast/images/sample_observed_forecast_NDQ.jpg' %}" alt="sample_observed_forecast"/></div>
-    <div class="box"><img src="{% static 'forecast/images/long_term_pe_ratio_NDQ.jpg' %}" alt="long_term_pe_ratio"/></div>
-    <div class="box"><img src="{% static 'forecast/images/expected_fwd_return_5y_NDQ.jpg' %}" alt="expected_fwd_return"/></div>
+    <img src="{% static 'forecast/images/sample_regression_'|add:ticker|add:'.jpg' %}" alt="sample_regression"/>
+    <img src="{% static 'forecast/images/sample_observed_forecast_'|add:ticker|add:'.jpg' %}" alt="sample_observed_forecast"/>
+    <img src="{% static 'forecast/images/long_term_pe_ratio_'|add:ticker|add:'.jpg' %}" alt="long_term_pe_ratio"/>
+    <img src="{% static 'forecast/images/expected_fwd_return_5y_'|add:ticker|add:'.jpg' %}" alt="expected_fwd_return"/>
 </div>
 </body>
 </html>

@@ -17,11 +17,11 @@ This application regresses forward five-year annualized stock returns (referred 
 
 ### Formulas
 
-$\Large\text{CAPE} = \frac{\text{Price}}{\text{Inflation adjusted earnings ten-year average}}$
+$\text{CAPE} = \frac{\text{Price}}{\text{Inflation adjusted earnings ten-year average}}$
 
-$\Large\text{Forward five-year annualized return}=\frac{\text{Price five years into the future}}{\text{Current price}}$
+$\text{Forward five-year annualized return}=\frac{\text{Price five years into the future}}{\text{Current price}}$
 
-$\Large\text{Forward five-year annualized return forecast}=\beta_{0}+\beta_{1}ln(CAPE)$
+$\text{Forward five-year annualized return forecast}=\beta_{0}+\beta_{1}ln(CAPE)$
 
 
 ### Regression Model
