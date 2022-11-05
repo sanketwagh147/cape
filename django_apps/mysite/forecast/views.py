@@ -8,7 +8,7 @@ def index(request):
 
 
 def forecast_table(request):
-    data = Forecast.objects.all().order_by('-fwd_return_forecast').values()
+    data = Forecast.objects.all().order_by('-fwd_return_forecast')
     context = {'d': data}
     return render(request, 'forecast_table.html', context)
 
