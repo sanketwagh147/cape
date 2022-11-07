@@ -17,14 +17,14 @@
 <nav>
   <ul>
     <li><a class="nav" href="{% url 'forecast:index' %}">Home</a></li><br><br>
-    <li><a class="nav" href="{% url 'forecast:forecast_table' %}">Forecast Table</a></li><br>
+    <li><a class="nav" href="{% url 'forecast:forecast_table' %}">Forecasts</a></li><br>
   </ul>
 </nav>
-<div class="container">
-    <img src="{% static 'forecast/images/sample_regression_'|add:ticker|add:'.jpg' %}" alt="sample_regression"/>
-    <img src="{% static 'forecast/images/sample_observed_forecast_'|add:ticker|add:'.jpg' %}" alt="sample_observed_forecast"/>
-    <img src="{% static 'forecast/images/long_term_pe_ratio_'|add:ticker|add:'.jpg' %}" alt="long_term_pe_ratio"/>
-    <img src="{% static 'forecast/images/expected_fwd_return_5y_'|add:ticker|add:'.jpg' %}" alt="expected_fwd_return"/>
+<div class="grid-container">
+    <img class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_regression_chart}}" alt="sample_regression"/>
+    <img class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_observed_forecast_chart}}" alt="sample_observed_forecast"/>
+    <img class="grid-item" src="{% static 'forecast/images/' %}{{charts.long_term_pe_ratio_chart}}" alt="long_term_pe_ratio"/>
+    <img class="grid-item" src="{% static 'forecast/images/' %}{{charts.expected_fwd_return_chart}}" alt="expected_fwd_return"/>
 </div>
 </body>
 </html>

@@ -1,5 +1,4 @@
-from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.shortcuts import get_object_or_404, render
 from .models import Forecast
 
 
@@ -9,15 +8,11 @@ def index(request):
 
 def forecast_table(request):
     data = Forecast.objects.all().order_by('-fwd_return_forecast')
-    context = {'d': data}
+    context = {'data': data}
     return render(request, 'forecast_table.html', context)
 
 
-class ChartView(TemplateView):
-    template_name = 'forecast_charts.html'
-
-    def get(self, request, ticker=None):
-        if ticker:
-            return render(request, self.template_name, {'ticker': ticker})
-        else:
-            return render(request, self.template_name)
+def forecast_charts(request, pk):
+    charts = Forecast.objects.get(pk=pk)
+    context = {'charts': charts}
+    return render(request, 'forecast_charts.html', context)

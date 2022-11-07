@@ -28,6 +28,10 @@ def run():
             lower_confidence=entry['LOWER_CONFIDENCE'],
             upper_confidence=entry['UPPER_CONFIDENCE'],
             index_ticker=entry['INDEX_TICKER'],
+            expected_fwd_return_chart='expected_fwd_return_5y_{}.jpg'.format(entry['INDEX_TICKER']),
+            long_term_pe_ratio_chart='long_term_pe_ratio_{}.jpg'.format(entry['INDEX_TICKER']),
+            sample_observed_forecast_chart='sample_observed_forecast_{}.jpg'.format(entry['INDEX_TICKER']),
+            sample_regression_chart='sample_regression_{}.jpg'.format(entry['INDEX_TICKER']),
         )
         forecast.save()
     print('Saved all entries to database.')
