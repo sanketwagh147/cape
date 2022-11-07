@@ -3,37 +3,31 @@ body {
     color: orange;
     font-size: 100%;
 }
-.container {
-    /*display: grid;*/
-    /*grid-template-columns: auto auto;*/
-    /*grid-gap: 1em;*/
-    /*width: 75vw;*/
-    /*height: 75vh;*/
-    /*justify-content: end;*/
 
-    max-width: 75%;
-    margin: 0 auto;
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 1fr));
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: auto auto;
+    margin: 0 auto;
     grid-gap: 10px;
+    max-width: 75%;
 }
-.box {
+
+.grid-item {
     border: 1px solid teal;
     box-sizing: border-box;
-}
-.box img {
     width: 100%;
     height: 100%;
 }
+
 a.nav {
     color: white;
-    font-size: 25px;
+    font-size: 50px;
     text-decoration: none;
     position:fixed;
     width:200px;
     display: block;
 }
+
 a.nav:link {color: orange;}
 a.nav:visited {color: orange;}
 a.nav:hover {color: red;}
