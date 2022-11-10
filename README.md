@@ -4,7 +4,7 @@
 
 This application is designed to present forecasts of future long-run stock returns using Robert Shiller's Cyclically 
 Adjusted Price-Earnings Ratio (CAPE) and present these forecasts visually. Run this 
-![Jupyter Notebook](https://colab.research.google.com/drive/1C-i16lymr9wU3-ZZoZLjPnb2_WF3fkAj?usp=sharing) to see the 
+![Jupyter Notebook](https://colab.research.google.com/drive/1C-i16lymr9wU3-ZZoZLjPnb2_WF3fkAj?usp=sharing)] to see the 
 raw forecasts and charts. 
 
 ## Theoretical Basis
