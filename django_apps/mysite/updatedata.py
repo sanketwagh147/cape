@@ -17,22 +17,24 @@ def run():
     df.FWD_RETURN_5Y_FORECAST = df.FWD_RETURN_5Y_FORECAST.map('{:,.2%}'.format)
     df.LOWER_CONFIDENCE = df.LOWER_CONFIDENCE.map('{:,.2%}'.format)
     df.UPPER_CONFIDENCE = df.UPPER_CONFIDENCE.map('{:,.2%}'.format)
-    array = df.to_dict(orient='records')
-    for entry in array:
-        forecast = Forecast(
-            etf_ticker=entry['ETF_TICKER'],
-            etf_name=entry['ETF_NAME'],
-            index_name=entry['INDEX_NAME'],
-            cape=entry['CAPE'],
-            fwd_return_forecast=entry['FWD_RETURN_5Y_FORECAST'],
-            lower_confidence=entry['LOWER_CONFIDENCE'],
-            upper_confidence=entry['UPPER_CONFIDENCE'],
-            index_ticker=entry['INDEX_TICKER'],
-            expected_fwd_return_chart='expected_fwd_return_5y_{}.jpg'.format(entry['INDEX_TICKER']),
-            long_term_pe_ratio_chart='long_term_pe_ratio_{}.jpg'.format(entry['INDEX_TICKER']),
-            sample_observed_forecast_chart='sample_observed_forecast_{}.jpg'.format(entry['INDEX_TICKER']),
-            sample_regression_chart='sample_regression_{}.jpg'.format(entry['INDEX_TICKER']),
-        )
+    for ticker in Forecast.objects.values_list('etf_ticker'):
+        forecast = Forecast.objects.get(etf_ticker=ticker)
+        forecast.etf_ticker = df[df['ETF_TICKER'] == ticker].ETF_TICKER
+        forecast.etf_name = df[df['ETF_TICKER'] == ticker].ETF_NAME
+        forecast.index_name = df[df['ETF_TICKER'] == ticker].INDEX_NAME
+        forecast.cape = df[df['ETF_TICKER'] == ticker].CAPE
+        forecast.fwd_return_forecast = df[df['ETF_TICKER'] == ticker].FWD_RETURN_5Y_FORECAST
+        forecast.lower_confidence = df[df['ETF_TICKER'] == ticker].LOWER_CONFIDENCE
+        forecast.upper_confidence = df[df['ETF_TICKER'] == ticker].UPPER_CONFIDENCE
+        forecast.index_ticker = df[df['ETF_TICKER'] == ticker].INDEX_TICKER
+        forecast.expected_fwd_return_chart = 'expected_fwd_return_5y_{}.jpg'.format(
+            df[df['ETF_TICKER'] == ticker].INDEX_TICKER)
+        forecast.long_term_pe_ratio_chart = 'long_term_pe_ratio_{}.jpg'.format(
+            df[df['ETF_TICKER'] == ticker].INDEX_TICKER)
+        forecast.sample_observed_forecast_chart = 'sample_observed_forecast_{}.jpg'.format(
+            df[df['ETF_TICKER'] == ticker].INDEX_TICKER)
+        forecast.sample_regression_chart = 'sample_regression_{}.jpg'.format(
+            df[df['ETF_TICKER'] == ticker].INDEX_TICKER)
         forecast.save()
     print('Saved all entries to database.')
     return
