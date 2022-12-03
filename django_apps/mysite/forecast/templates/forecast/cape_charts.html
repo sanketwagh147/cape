@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Charts</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'forecast/css/forecast_charts_style.css' %}">
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <style type="text/css">
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="sidenav">
+    <a class="nav" href="{% url 'forecast:index' %}">Home</a>
+    <a class="nav" href="{% url 'forecast:equity_etf_table' %}">Equity ETFs</a>
+    <a class="nav" href="{% url 'forecast:bond_etf_table' %}">Bond ETFs</a>
+    <a class="nav" href="{% url 'forecast:common_stock_table' %}">Stocks</a>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div id="images-grid" class="grid-container">
+    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_regression_chart}}" alt="sample_regression"/>
+    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_observed_forecast_chart}}" alt="sample_observed_forecast"/>
+    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.long_term_pe_ratio_chart}}" alt="long_term_pe_ratio"/>
+    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.expected_fwd_return_chart}}" alt="expected_fwd_return"/>
+</div>
+<div class="disclaimer"><p><h3>
+    Disclaimer: Nothing in this application should be interpreted as investment advice or a recommendation to buy or sell a
+    security. No guarantees are made regarding the accuracy or reliability of the data or forecasts. We accept no
+    liability for any actions made based on any data or forecasts from this application. This application is for purely
+    research purposes only. Invest at your own risk.
+</h3></p></div>
+<script type="text/javascript">
+$('img[data-enlargeable]').addClass('grid-item').click(function() {
+    var src = $(this).attr('src');
+    var modal;
+
+    function removeModal() {
+        modal.remove();
+        $('body').off('keyup.modal-close');
+    }
+    modal = $('<div>').css({
+        background: 'RGBA(0,0,0,.5) url(' + src + ') no-repeat center',
+        backgroundSize: 'contain',
+        width: '100%',
+        height: '100%',
+        position: 'fixed',
+        zIndex: '10000',
+        top: '0',
+        left: '0',
+        cursor: 'zoom-out'
+    }).click(function() {
+        removeModal();
+    }).appendTo('body');
+    //handling ESC
+    $('body').on('keyup.modal-close', function(e) {
+        if (e.key === 'Escape') {
+            removeModal();
+        }
+    });
+});
+</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import render, redirect
 from .models import Forecast
 
 
@@ -6,13 +6,25 @@ def index(request):
     return render(request, 'index.html')
 
 
-def forecast_table(request):
-    data = Forecast.objects.all().order_by('-fwd_return_forecast')
+def equity_etf_table(request):
+    data = Forecast.objects.filter(security_type='Equity ETF').order_by('-fwd_return_forecast')
     context = {'data': data}
-    return render(request, 'forecast_table.html', context)
+    return render(request, 'equity_etf_table.html', context)
 
 
-def forecast_charts(request, pk):
+def common_stock_table(request):
+    data = Forecast.objects.filter(security_type='Common Stock').order_by('-fwd_return_forecast')
+    context = {'data': data}
+    return render(request, 'common_stock_table.html', context)
+
+
+def bond_etf_table(request):
+    data = Forecast.objects.filter(security_type='Bond ETF').order_by('-fwd_return_forecast')
+    context = {'data': data}
+    return render(request, 'bond_etf_table.html', context)
+
+
+def cape_charts(request, pk):
     charts = Forecast.objects.get(pk=pk)
     context = {'charts': charts}
-    return render(request, 'forecast_charts.html', context)
+    return render(request, 'cape_charts.html', context)

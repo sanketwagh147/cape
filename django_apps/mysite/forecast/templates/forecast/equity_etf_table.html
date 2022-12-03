@@ -1,0 +1,78 @@
+<!-- Write HTML code here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Forecast Table</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+  <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'forecast/css/forecast_table_style.css' %}">
+  <style type="text/css">
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+      }
+  </style>
+</head>
+<body>
+
+<div class="container"><p><h1><b>FORECASTS FOR EQUITY ETFs</b></h1></p></div>
+
+<div class="sidenav">
+    <a class="nav" href="{% url 'forecast:index' %}">Home</a>
+    <a class="nav" href="{% url 'forecast:common_stock_table' %}">Stocks</a>
+    <a class="nav" href="{% url 'forecast:bond_etf_table' %}">Bond ETFs</a>
+</div>
+
+<div class="container" id="content">
+  <table id="equity_etf_table" class="table table-dark table-hover table-striped table-bordered table-sm">
+	<thead>
+	  <tr>
+		<th data-sortable="true">Ticker</th>
+		<th>Name</th>
+		<th>Index Name</th>
+		<th>Annualized Return Forecast (5-Year)</th>
+        <th>Forecast Lower 95% Confidence</th>
+        <th>Forecast Upper 95% Confidence</th>
+	  </tr>
+	</thead>
+	<tbody>
+    {% for i in data %}
+	  <tr>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.ticker}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.name}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.index_name}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.fwd_return_forecast}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.lower_confidence}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.upper_confidence}}</a></td>
+	  </tr>
+	{% endfor %}
+	</tbody>
+  </table>
+  <script>
+  $('#equity_etf_table').DataTable({
+    "bLengthChange": true,
+    "lengthMenu": [ [20, 50, 100 -1], [20, 50, 100, "All"] ],
+    "iDisplayLength": 20,
+    bInfo: false,
+    responsive: true,
+    order: [[3, 'desc']],
+  });
+  </script>
+</div>
+<div class="disclaimer"><p><h4>
+    Disclaimer: Nothing in this application should be interpreted as investment advice or a recommendation to buy or sell a
+    security. No guarantees are made regarding the accuracy or reliability of the data or forecasts. We accept no
+    liability for any actions made based on any data or forecasts from this application. This application is for purely
+    research purposes only. Invest at your own risk.
+</h4></p></div>
+</body>
+</html>

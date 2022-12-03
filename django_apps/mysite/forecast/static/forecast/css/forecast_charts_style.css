@@ -19,16 +19,40 @@ body {
     height: 100%;
 }
 
-a.nav {
-    color: white;
-    font-size: 50px;
-    text-decoration: none;
-    position:fixed;
-    width:200px;
-    display: block;
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: Arial;
 }
 
-a.nav:link {color: orange;}
-a.nav:visited {color: orange;}
-a.nav:hover {color: red;}
-a.nav:active {color: orange;}
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: orange;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.grid-container {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.disclaimer {
+  margin-left: 200px;
+}

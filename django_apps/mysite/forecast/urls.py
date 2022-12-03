@@ -4,6 +4,8 @@ from . import views
 app_name = 'forecast'
 urlpatterns = [
     path('', views.index, name='index'),
-    path('forecast_table/', views.forecast_table, name='forecast_table'),
-    path('forecast_charts/<int:pk>', views.forecast_charts, name='forecast_charts'),
+    path('equity_etf_table/', views.equity_etf_table, name='equity_etf_table'),
+    path('common_stock_table/', views.common_stock_table, name='common_stock_table'),
+    path('bond_etf_table/', views.bond_etf_table, name='bond_etf_table'),
+    path('cape_charts/<int:pk>', views.cape_charts, name='cape_charts'),
 ]

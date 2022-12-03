@@ -1,12 +1,44 @@
-body {background-color: black; color: orange;}
+body {background-color: black; color: orange}
 
 .table a:link {color: white; background-color: transparent; text-decoration: none;}
 .table a:visited {color: white; background-color: transparent; text-decoration: none;}
 .table a:hover {color: orange; background-color: transparent; text-decoration: underline;}
 .table a:active {color: white; background-color: transparent; text-decoration: underline;}
 
-a.nav {color: white; font-size: 50px; text-decoration: none}
-a.nav:link {color: orange;}
-a.nav:visited {color: orange;}
-a.nav:hover {color: red;}
-a.nav:active {color: orange;}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: "Arial";
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: orange;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.container {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.disclaimer {
+  margin-left: 200px;
+}
