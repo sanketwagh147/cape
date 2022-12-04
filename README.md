@@ -15,25 +15,25 @@ These instructions work on Windows 10. For any other system, simply do the equiv
 
  1. Install the [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) package manager on your computer. 
  
- 2. Open Anaconda Prompt and create a new environment with the following command: 
+ 2. Open Anaconda Prompt and create a new environment with the following command: <br>
 	 `conda create -n nrcapital python=3.10`
 	
- 3. Activate the new environment. 
+ 3. Activate the new environment.<br>
 	 `conda activate nrcapital`
 	 
- 4. If you don't have a folder for your projects, create one anywhere on your computer. In Anaconda Prompt, navigate to the project folder where you want to store project files.
+ 4. If you don't have a folder for your projects, create one anywhere on your computer. In Anaconda Prompt, navigate to the project folder where you want to store project files.<br>
 	 `cd C:\Users\JohnDoe\Projects`
 	 
- 5. Clone the NRCapital project repository into your environment. This downloads the project's files to your environment. 
+ 5. Clone the NRCapital project repository into your environment. This downloads the project's files to your environment. <br>
 	 `git clone https://github.com/nathanramoscfa/nrcapital.git`
 
- 6. Install the project's dependencies into your environment. 
+ 6. Install the project's dependencies into your environment. <br>
 	 `python setup.py install`
 
- 7. Navigate to folder containing the application's `manage.py` file. 
+ 7. Navigate to folder containing the application's `manage.py` file. <br>
 	 `cd C:\Users\JohnDoe\Projects\nrcapital\django_apps\mysite`
 
- 8. Run the project's server. 
+ 8. Run the project's server. <br>
 	 `python manage.py runserver`
 
  9. Open a web browser like Google Chrome and visit [127.0.0.1:8000/forecast/](127.0.0.1:8000/forecast/). 
