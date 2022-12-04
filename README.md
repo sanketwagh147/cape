@@ -4,6 +4,7 @@ NRCapital is a financial application for displaying statistically-derived equity
 
 ## Table of Contents
 
+ - [Quick Start](#Quick-Start)
  - [Forecast Tables](#Forecast-Tables)
  - [Forecast Dashboards](#Forecast-Dashboards)
  - [Forecast Charts](#Forecast-Charts)
