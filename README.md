@@ -1,4 +1,4 @@
-# NRCapital Expected Return Forecasts
+# NRCapital
 
 NRCapital is a financial application for displaying statistically-derived equity and bond exchanged-traded funds (ETFs) and common stock expected returns. These expected returns can be used as inputs in securities analysis and portfolio optimization. Only ETFs and common stocks with sufficient data and statistically significant regression model results are included in the application. Please refer to the [documentation](https://nr-capital-management.gitbook.io/nrcapital/) for more details. 
 
