@@ -8,6 +8,39 @@ NRCapital is a financial application for displaying statistically-derived equity
  - [Forecast Dashboards](#Forecast-Dashboards)
  - [Forecast Charts](#Forecast-Charts)
 
+## Quick Start
+
+These instructions work on Windows 10. For any other system, simply do the equivalent commands on your system. These instructions assume the user is starting from nothing and so some steps may be redundant. Feel free to skip any step that has already been satisfied. After install, only steps 7-9 in Anaconda Prompt need to be used to run the application. If you have any issues installing or using the application, submit your issue to the project's GitHub [Issues](https://github.com/nathanramoscfa/nrcapital/issues) page. 
+
+ 1. Install the [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) package manager on your computer. 
+ 
+ 2. Open Anaconda Prompt and create a new environment with the following command: 
+	 `conda create -n nrcapital python=3.10`
+	
+ 3. Activate the new environment. 
+	 `conda activate nrcapital`
+	 
+ 4. If you don't have a folder for your projects, create one anywhere on your computer. In Anaconda Prompt, navigate to the project folder where you want to store project files.
+	 `cd C:\Users\JohnDoe\Projects`
+	 
+ 5. Clone the NRCapital project repository into your environment. This downloads the project's files to your environment. 
+	 `git clone https://github.com/nathanramoscfa/nrcapital.git`
+
+ 6. Install the project's dependencies into your environment. 
+	 `python setup.py install`
+
+ 7. Navigate to folder containing the application's `manage.py` file. 
+	 `cd C:\Users\JohnDoe\Projects\nrcapital\django_apps\mysite`
+
+ 8. Run the project's server. 
+	 `python manage.py runserver`
+
+ 9. Open a web browser like Google Chrome and visit [127.0.0.1:8000/forecast/](127.0.0.1:8000/forecast/). 
+
+The browser should then load the application's home page. See [Functions](/o/rvIrvgj6CnY7ZQwxkkP8/s/SKjgOWTTLSJxR5P9qKTd/functions) for a more detailed explanation of how to use the application. 
+ 
+ ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSKjgOWTTLSJxR5P9qKTd%2Fuploads%2FQkmpI2Qq8bifNIdBzjeD%2Fimage.png?alt=media&token=c6f2afdb-e056-4935-b1a5-48b5923c6532)
+
 ## Forecast Tables
 
 The application provides a sortable and searchable table of forecasts with 95% confidence intervals for equity ETFs, bond ETFs, and common stocks. Clicking on any row will open a dashboard of statistical plots specific to that ticker which shows the forecast in detail. 
