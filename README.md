@@ -40,7 +40,7 @@ These instructions work on Windows 10. For any other system, simply do the equiv
 
 The browser should then load the application's home page. See [Functions](/o/rvIrvgj6CnY7ZQwxkkP8/s/SKjgOWTTLSJxR5P9qKTd/functions) for a more detailed explanation of how to use the application. 
  
- ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSKjgOWTTLSJxR5P9qKTd%2Fuploads%2FQkmpI2Qq8bifNIdBzjeD%2Fimage.png?alt=media&token=c6f2afdb-e056-4935-b1a5-48b5923c6532)
+ ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSKjgOWTTLSJxR5P9qKTd%2Fuploads%2FtY3liFyAqgnWe3lVtuyi%2Fimage.png?alt=media&token=a94c664f-744e-4230-84e4-bef772d71777)
 
 ## Forecast Tables
 
