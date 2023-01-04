@@ -38,7 +38,7 @@ These instructions work on Windows 10. For any other system, simply do the equiv
 
  9. Open a web browser like Google Chrome and visit [127.0.0.1:8000/forecast/](127.0.0.1:8000/forecast/). 
 
-The browser should then load the application's home page. See [Functions](/o/rvIrvgj6CnY7ZQwxkkP8/s/SKjgOWTTLSJxR5P9qKTd/functions) for a more detailed explanation of how to use the application. 
+The browser should then load the application's home page. See [Forecasts](https://app.gitbook.com/o/rvIrvgj6CnY7ZQwxkkP8/s/SKjgOWTTLSJxR5P9qKTd/~/changes/r6BYAi2ZcgoWlTMv69O1/forecasts) for a more detailed explanation of how to use the application. 
  
  ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSKjgOWTTLSJxR5P9qKTd%2Fuploads%2FtY3liFyAqgnWe3lVtuyi%2Fimage.png?alt=media&token=a94c664f-744e-4230-84e4-bef772d71777)
 
