@@ -1,133 +1,133 @@
 TICKER,NAME,INDEX_NAME,CAPE,FWD_RETURN_FORECAST,LOWER_CONFIDENCE,UPPER_CONFIDENCE,F_PVALUE,INDEX_TICKER
-KBWB,Invesco KBW Bank ETF,KBW Bank,12.32,0.0086,-0.1609,0.1789,0.0,BKX
-ONEQ,Fidelity Nasdaq Composite Index ETF,NASDAQ Composite,33.36,0.1129,0.0155,0.2089,0.0,CCMP
-DVY,iShares Select Dividend ETF,Dow Jones Select Dividend,14.66,0.0405,-0.0854,0.166,0.0004,DJDVP
-BBRE,JPMorgan BetaBuilders MSCI US REIT ETF,Dow Jones US Select Real Estate Securities,45.79,0.0114,-0.1093,0.1318,0.0,DWRSF
-FRI,First Trust S&P REIT Index Fund,Dow Jones US Select Real Estate Securities,45.79,0.0114,-0.1093,0.1318,0.0,DWRSF
-RWR,SPDR Dow Jones REIT ETF,Dow Jones US Select Real Estate Securities,45.79,0.0114,-0.1093,0.1318,0.0,DWRSF
-USRT,iShares Core US REIT ETF,Dow Jones US Select Real Estate Securities,45.79,0.0114,-0.1093,0.1318,0.0,DWRSF
-DIA,SPDR Dow Jones Industrial Average ETF Trust,Dow Jones Industrial Average,24.01,0.0288,-0.0688,0.1262,0.0,INDU
-IYW,iShares US Technology ETF,NASDAQ Computer,37.85,0.1264,-0.0004,0.2547,0.0,IXK
-FTEC,Fidelity MSCI Information Technology Index ETF,Technology Select Sector,36.36,0.0659,-0.0929,0.2251,0.0083,IXT
-XLK,Technology Select Sector SPDR Fund,Technology Select Sector,36.36,0.0659,-0.0929,0.2251,0.0083,IXT
-VGT,Vanguard Information Technology ETF,Technology Select Sector,36.36,0.0659,-0.0929,0.2251,0.0083,IXT
-IVOO,Vanguard S&P Mid-Cap 400 ETF,S&P Midcap 400,21.69,0.1064,0.0431,0.1706,0.0,MID
-IJH,iShares Core S&P Mid-Cap ETF,S&P Midcap 400,21.69,0.1064,0.0431,0.1706,0.0,MID
-MDY,SPDR S&P MidCap 400 ETF Trust,S&P Midcap 400,21.69,0.1064,0.0431,0.1706,0.0,MID
-SPMD,SPDR Portfolio S&P 400 Mid Cap ETF,S&P Midcap 400,21.69,0.1064,0.0431,0.1706,0.0,MID
-IJK,iShares S&P Mid-Cap 400 Growth ETF,S&P MidCap 400 Growth,28.75,0.1195,0.0539,0.1844,0.0,MIDG
-MDYG,SPDR S&P 400 Mid CapGrowth ETF,S&P MidCap 400 Growth,28.75,0.1195,0.0539,0.1844,0.0,MIDG
-IJJ,iShares S&P Mid-Cap 400 Value ETF,S&P Midcap 400 Value,17.32,0.0859,0.0185,0.1531,0.0,MIDV
-IVOV,Vanguard S&P Mid-Cap 400 Value ETF,S&P Midcap 400 Value,17.32,0.0859,0.0185,0.1531,0.0,MIDV
-MDYV,SPDR S&P 400 Mid Cap Value ETF,S&P Midcap 400 Value,17.32,0.0859,0.0185,0.1531,0.0,MIDV
-ACWI,iShares MSCI ACWI ETF,MSCI World USD,24.3,0.0204,-0.0665,0.1071,0.0,MSDUWI
-CRBN,iShares MSCI ACWI Low Carbon Target ETF,MSCI World USD,24.3,0.0204,-0.0665,0.1071,0.0,MSDUWI
-KOKU,Xtrackers MSCI Kokusai Equity ETF,MSCI World USD,24.3,0.0204,-0.0665,0.1071,0.0,MSDUWI
-TOK,iShares MSCI Kokusai ETF,MSCI World USD,24.3,0.0204,-0.0665,0.1071,0.0,MSDUWI
-URTH,iShares MSCI World ETF,MSCI World USD,24.3,0.0204,-0.0665,0.1071,0.0,MSDUWI
-VT,Vanguard Total World Stock ETF,MSCI World USD,24.3,0.0204,-0.0665,0.1071,0.0,MSDUWI
-IXC,iShares Global Energy ETF,MSCI KOKUSAI Energy,23.63,0.0479,-0.0941,0.1899,0.0,MXKO0EN
-PBSM,Invesco PureBeta MSCI USA Small Cap ETF,MSCI North America Small Cap,19.74,0.0998,0.0288,0.1693,0.0,MXNASC
-FDIS,Fidelity MSCI Consumer Discretionary Index ETF,MSCI USA Consumer Discretionary,34.26,0.0488,-0.1134,0.2114,0.0,MXUS0CD
-FSTA,Fidelity MSCI Consumer Staples Index ETF,MSCI USA Consumer Staples,24.7,0.0361,-0.0424,0.1146,0.0,MXUS0CS
-VDC,Vanguard Consumer Staples ETF,MSCI USA Consumer Staples,24.7,0.0361,-0.0424,0.1146,0.0,MXUS0CS
-FENY,Fidelity MSCI Energy Index ETF,MSCI USA Energy,24.66,0.0637,-0.0996,0.2266,0.0,MXUS0EN
-IYE,iShares U.S. Energy ETF,MSCI USA Energy,24.66,0.0637,-0.0996,0.2266,0.0,MXUS0EN
-XLE,Energy Select Sector SPDR Fund,MSCI USA Energy,24.66,0.0637,-0.0996,0.2266,0.0,MXUS0EN
-VDE,Vanguard Energy ETF,MSCI USA Energy,24.66,0.0637,-0.0996,0.2266,0.0,MXUS0EN
-FNCL,Fidelity MSCI Financials Index ETF,MSCI USA Financials,17.91,0.0231,-0.152,0.1979,0.0,MXUS0FN
-XLF,Financial Select Sector SPDR Fund,MSCI USA Financials,17.91,0.0231,-0.152,0.1979,0.0,MXUS0FN
-VFH,Vanguard Financials ETF,MSCI USA Financials,17.91,0.0231,-0.152,0.1979,0.0,MXUS0FN
-IYH,iShares U.S. Healthcare ETF,MSCI USA Health Care,31.63,0.0571,-0.0554,0.1689,0.0,MXUS0HC
-XLV,Health Care Select Sector SPDR Fund,MSCI USA Health Care,31.63,0.0571,-0.0554,0.1689,0.0,MXUS0HC
-FIDU,Fidelity MSCI Industrials Index ETF,MSCI USA Industrials,25.42,0.0473,-0.0682,0.1621,0.0,MXUS0IN
-XLI,Industrial Select Sector SPDR Fund,MSCI USA Industrials,25.42,0.0473,-0.0682,0.1621,0.0,MXUS0IN
-VIS,Vanguard Industrials ETF,MSCI USA Industrials,25.42,0.0473,-0.0682,0.1621,0.0,MXUS0IN
-FMAT,Fidelity MSCI Materials Index ETF,MSCI USA Materials,21.4,0.04,-0.0287,0.1074,0.0,MXUS0MT
-VAW,Vanguard Materials ETF,MSCI USA Materials,21.4,0.04,-0.0287,0.1074,0.0,MXUS0MT
-XLB,Materials Select Sector SPDR Fund,MSCI USA Materials,21.4,0.04,-0.0287,0.1074,0.0,MXUS0MT
-FUTY,Fidelity MSCI Utilities Index ETF,MSCI USA Utilities,20.5,-0.0088,-0.1126,0.095,0.0,MXUS0UT
-IDU,iShares US Utilities ETF,MSCI USA Utilities,20.5,-0.0088,-0.1126,0.095,0.0,MXUS0UT
-VPU,Vanguard Utilities ETF,MSCI USA Utilities,20.5,-0.0088,-0.1126,0.095,0.0,MXUS0UT
-XLU,Utilities Select Sector SPDR Fund,MSCI USA Utilities,20.5,-0.0088,-0.1126,0.095,0.0,MXUS0UT
-BKSE,BNY Mellon US Small Cap Core Equity ETF,MSCI United States Small Cap,19.62,0.1062,0.036,0.1755,0.0,MXUSSC
-ESML,iShares ESG Aware MSCI USA Small-Cap ETF,MSCI United States Small Cap,19.62,0.1062,0.036,0.1755,0.0,MXUSSC
-JHSC,John Hancock Multifactor Small Cap ETF,MSCI United States Small Cap,19.62,0.1062,0.036,0.1755,0.0,MXUSSC
-NUSC,Nuveen ESG Small-Cap ETF,MSCI United States Small Cap,19.62,0.1062,0.036,0.1755,0.0,MXUSSC
-SMMD,iShares Russell 2500 ETF,MSCI United States Small Cap,19.62,0.1062,0.036,0.1755,0.0,MXUSSC
-VB,Vanguard Small-Cap ETF,MSCI United States Small Cap,19.62,0.1062,0.036,0.1755,0.0,MXUSSC
-SCHA,Schwab US Small-Cap ETF,MSCI United States Small Cap,19.62,0.1062,0.036,0.1755,0.0,MXUSSC
-IXN,iShares Global Tech ETF,MSCI ACWI Information Technology,34.14,0.0715,-0.0578,0.2002,0.0,MXWD0IT
-QQQ,Invesco QQQ Trust Series 1,NASDAQ-100,35.57,0.1685,0.0876,0.2481,0.0,NDQ
-BKLC,BNY Mellon US Large Cap Core Equity ETF,S&P 100,27.02,0.0158,-0.1005,0.1317,0.0,OEX
-OEF,iShares S&P 100 ETF,S&P 100,27.02,0.0158,-0.1005,0.1317,0.0,OEX
-XLG,Invesco Exchange-Traded Fund Trust-Invesco S&P 500r Top 50 ETF,S&P 100,27.02,0.0158,-0.1005,0.1317,0.0,OEX
-OIH,VanEck Oil Services ETF,Philadelphia Stock Exchange Oil Service Sector,9.14,-0.1643,-0.4073,0.0794,0.0,OSX
-ILCG,iShares Morningstar Growth ETF,Russell 3000 Growth,39.58,0.0236,-0.103,0.1498,0.0,RAG
-VUG,Vanguard Growth ETF,Russell 3000 Growth,39.58,0.0236,-0.103,0.1498,0.0,RAG
-IWP,iShares Russell Mid-Cap Growth ETF,Russell Midcap Growth,38.74,0.0606,-0.0418,0.1638,0.0,RDG
-VOT,Vanguard Mid-Cap Growth ETF,Russell Midcap Growth,38.74,0.0606,-0.0418,0.1638,0.0,RDG
-IWF,iShares Russell 1000 Growth ETF,Russell 1000 Growth,40.21,0.0203,-0.1106,0.1515,0.0,RLG
-MGK,Vanguard Mega Cap Growth ETF,Russell 1000 Growth,40.21,0.0203,-0.1106,0.1515,0.0,RLG
-SCHG,Schwab U.S. Large-Cap Growth ETF,Russell 1000 Growth,40.21,0.0203,-0.1106,0.1515,0.0,RLG
-TMFC,Motley Fool 100 Index ETF,Russell 1000 Growth,40.21,0.0203,-0.1106,0.1515,0.0,RLG
-VONG,Vanguard Russell 1000 Growth ETF,Russell 1000 Growth,40.21,0.0203,-0.1106,0.1515,0.0,RLG
-IWD,iShares Russell 1000 Value ETF,Russell 1000 Value,20.51,0.0119,-0.0747,0.0982,0.0,RLV
-SCHV,Schwab U.S. Large-Cap Value ETF,Russell 1000 Value,20.51,0.0119,-0.0747,0.0982,0.0,RLV
-VONV,Vanguard Russell 1000 Value,Russell 1000 Value,20.51,0.0119,-0.0747,0.0982,0.0,RLV
-IMCB,iShares Morningstar Mid-Cap ETF,Russell Midcap real-time,23.59,0.0602,-0.0156,0.1356,0.0,RMC
-IWR,iShares Russell Mid-Cap ETF,Russell Midcap real-time,23.59,0.0602,-0.0156,0.1356,0.0,RMC
-JHMM,John Hancock Multi-Factor Mid Cap ETF,Russell Midcap real-time,23.59,0.0602,-0.0156,0.1356,0.0,RMC
-VO,Vanguard Mid-Cap ETF,Russell Midcap real-time,23.59,0.0602,-0.0156,0.1356,0.0,RMC
-IWS,iShares Russell Mid-Cap Value ETF,Russell Midcap Value,19.83,0.0399,-0.0534,0.1324,0.0,RMV
-IWM,iShares Russell 2000 ETF,Russell 2000,18.94,0.1074,0.0335,0.182,0.0,RTY
-VTWO,Vanguard Russell 2000 ETF,Russell 2000,18.94,0.1074,0.0335,0.182,0.0,RTY
-IWN,iShares Russell 2000 Value ETF,Russell 2000 Value,14.84,0.1041,0.0258,0.1823,0.0,RUJ
-VTWV,Vanguard Russell 2000 Value,Russell 2000 Value,14.84,0.1041,0.0258,0.1823,0.0,RUJ
-PSCD,Invesco S&P SmallCap Consumer Discretionary ETF,S&P 600 Consumer Discretionary Sector,13.34,0.2112,0.0962,0.325,0.0,S6COND
-PSCT,Invesco S&P SmallCap Information Technology ETF,S&P 600 Information Technology Sector,33.47,0.0827,-0.0204,0.1868,0.0,S6INFT
-XOUT,GraniteShares XOUT US Large Cap ETF,S&P 500 Growth,35.79,0.0604,-0.07,0.1903,0.0002,SGX
-IJR,iShares Core S&P Small-Cap ETF,S&P Small Cap 600,17.74,0.1774,0.1098,0.2455,0.0,SML
-FYX,First Trust Small Cap Core AlphaDEX Fund,S&P Small Cap 600,17.74,0.1774,0.1098,0.2455,0.0,SML
-SLY,SPDR S&P 600 Small CapETF,S&P Small Cap 600,17.74,0.1774,0.1098,0.2455,0.0,SML
-SPSM,SPDR Portfolio S&P 600 Small Cap ETF,S&P Small Cap 600,17.74,0.1774,0.1098,0.2455,0.0,SML
-VIOO,Vanguard S&P Small-Cap 600 ETF,S&P Small Cap 600,17.74,0.1774,0.1098,0.2455,0.0,SML
-IJT,iShares S&P Small-Cap 600 Growth ETF,S&P Small Cap 600 Growth,26.33,0.1575,0.0847,0.2309,0.0,SMLG
-SLYG,SPDR S&P 600 Small Cap Growth ETF,S&P Small Cap 600 Growth,26.33,0.1575,0.0847,0.2309,0.0,SMLG
-VIOG,Vanguard S&P Small-Cap 600 Growth ETF,S&P Small Cap 600 Growth,26.33,0.1575,0.0847,0.2309,0.0,SMLG
-IJS,iShares S&P Small-Cap 600 Value ETF,S&P Small Cap 600 Value,13.26,0.194,0.1296,0.2593,0.0,SMLV
-SLYV,SPDR S&P 600 Small CapValue ETF,S&P Small Cap 600 Value,13.26,0.194,0.1296,0.2593,0.0,SMLV
-VIOV,Vanguard S&P Small-Cap 600 Value ETF,S&P Small Cap 600 Value,13.26,0.194,0.1296,0.2593,0.0,SMLV
-SMH,VanEck Semiconductor ETF,Philadelphia Stock Exchange Semiconductor,32.88,0.0892,-0.1238,0.2999,0.0,SOX
-SOXX,iShares Semiconductor ETF,Philadelphia Stock Exchange Semiconductor,32.88,0.0892,-0.1238,0.2999,0.0,SOX
-XHB,SPDR S&P Homebuilders ETF,S&P Homebuilding Select Industry,20.43,0.0379,-0.2206,0.2965,0.0,SPSIHO
-XME,SPDR S&P Metals & Mining ETF,S&P Metals and Mining Select Industry,18.34,0.0109,-0.2724,0.2944,0.0,SPSIMM
-SSPY,Syntax Stratified Large Cap ETF,S&P 500 Equal Weighted,21.94,0.0582,-0.0053,0.1208,0.0,SPW
-ESGU,iShares ESG Aware MSCI USA ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-BBUS,JPMorgan BetaBuilders US Equity ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-ILCB,iShares Morningstar US Equity ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-GSUS,Goldman Sachs MarketBeta US Equity ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-ITOT,iShares Core S&P Total US Stock Market ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-IVV,iShares Core S&P 500 ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-IWB,iShares Russell 1000 ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-IWL,iShares Russell Top 200 ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-JUST,Goldman Sachs JUST US Large Cap Equity ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-IYY,iShares Dow Jones U.S. ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-IWV,iShares Russell 3000 ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-JHML,John Hancock Multi-Factor Large Cap ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-OVL,Overlay Shares Large Cap Equity ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-SCHK,Schwab 1000 Index ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-SCHX,Schwab US Large-Cap ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-SNPE,Xtrackers S&P 500 ESG ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-SPLG,SPDR Portfolio S&P 500 ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-SPY,SPDR S&P 500 ETF Trust,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-SPYX,SPDR S&P 500 Fossil Fuel Reserves Free ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-VTI,Vanguard Total Stock Market ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-VV,Vanguard Large-Cap ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-SCHB,Schwab US Broad Market ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-VONE,Vanguard Russell 1000,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-VOO,Vanguard S&P 500 ETF,S&P 500 INDEX,27.03,0.019,-0.091,0.1292,0.0,SPX
-IUSV,iShares Core S&P U.S. Value ETF,S&P 500 Value,21.47,-0.0241,-0.1122,0.0637,0.0,SVX
-IVE,iShares S&P 500 Value ETF,S&P 500 Value,21.47,-0.0241,-0.1122,0.0637,0.0,SVX
-SPYV,SPDR Portfolio S&P 500 Value ETF,S&P 500 Value,21.47,-0.0241,-0.1122,0.0637,0.0,SVX
-VOOV,Vanguard S&P 500 Value ETF,S&P 500 Value,21.47,-0.0241,-0.1122,0.0637,0.0,SVX
+KBWB,Invesco KBW Bank ETF,KBW Bank,12.57,0.0054,-0.1638,0.1759,0.0,BKX
+ONEQ,Fidelity Nasdaq Composite Index ETF,NASDAQ Composite,32.81,0.1174,0.0201,0.2135,0.0,CCMP
+DVY,iShares Select Dividend ETF,Dow Jones Select Dividend,14.69,0.0403,-0.0854,0.166,0.0004,DJDVP
+BBRE,JPMorgan BetaBuilders MSCI US REIT ETF,Dow Jones US Select Real Estate Securities,45.52,0.0121,-0.1083,0.1328,0.0,DWRSF
+FRI,First Trust S&P REIT Index Fund,Dow Jones US Select Real Estate Securities,45.52,0.0121,-0.1083,0.1328,0.0,DWRSF
+RWR,SPDR Dow Jones REIT ETF,Dow Jones US Select Real Estate Securities,45.52,0.0121,-0.1083,0.1328,0.0,DWRSF
+USRT,iShares Core US REIT ETF,Dow Jones US Select Real Estate Securities,45.52,0.0121,-0.1083,0.1328,0.0,DWRSF
+DIA,SPDR Dow Jones Industrial Average ETF Trust,Dow Jones Industrial Average,23.83,0.0298,-0.0681,0.1269,0.0,INDU
+IYW,iShares US Technology ETF,NASDAQ Computer,36.65,0.1349,0.0073,0.2624,0.0,IXK
+FTEC,Fidelity MSCI Information Technology Index ETF,Technology Select Sector,35.37,0.0692,-0.0897,0.2283,0.0083,IXT
+XLK,Technology Select Sector SPDR Fund,Technology Select Sector,35.37,0.0692,-0.0897,0.2283,0.0083,IXT
+VGT,Vanguard Information Technology ETF,Technology Select Sector,35.37,0.0692,-0.0897,0.2283,0.0083,IXT
+IVOO,Vanguard S&P Mid-Cap 400 ETF,S&P Midcap 400,21.71,0.1063,0.0421,0.1696,0.0,MID
+IJH,iShares Core S&P Mid-Cap ETF,S&P Midcap 400,21.71,0.1063,0.0421,0.1696,0.0,MID
+MDY,SPDR S&P MidCap 400 ETF Trust,S&P Midcap 400,21.71,0.1063,0.0421,0.1696,0.0,MID
+SPMD,SPDR Portfolio S&P 400 Mid Cap ETF,S&P Midcap 400,21.71,0.1063,0.0421,0.1696,0.0,MID
+IJK,iShares S&P Mid-Cap 400 Growth ETF,S&P MidCap 400 Growth,28.51,0.1213,0.0564,0.1869,0.0,MIDG
+MDYG,SPDR S&P 400 Mid CapGrowth ETF,S&P MidCap 400 Growth,28.51,0.1213,0.0564,0.1869,0.0,MIDG
+IJJ,iShares S&P Mid-Cap 400 Value ETF,S&P Midcap 400 Value,17.51,0.0825,0.0156,0.1503,0.0,MIDV
+IVOV,Vanguard S&P Mid-Cap 400 Value ETF,S&P Midcap 400 Value,17.51,0.0825,0.0156,0.1503,0.0,MIDV
+MDYV,SPDR S&P 400 Mid Cap Value ETF,S&P Midcap 400 Value,17.51,0.0825,0.0156,0.1503,0.0,MIDV
+ACWI,iShares MSCI ACWI ETF,MSCI World USD,24.42,0.0197,-0.0672,0.1064,0.0,MSDUWI
+CRBN,iShares MSCI ACWI Low Carbon Target ETF,MSCI World USD,24.42,0.0197,-0.0672,0.1064,0.0,MSDUWI
+KOKU,Xtrackers MSCI Kokusai Equity ETF,MSCI World USD,24.42,0.0197,-0.0672,0.1064,0.0,MSDUWI
+TOK,iShares MSCI Kokusai ETF,MSCI World USD,24.42,0.0197,-0.0672,0.1064,0.0,MSDUWI
+URTH,iShares MSCI World ETF,MSCI World USD,24.42,0.0197,-0.0672,0.1064,0.0,MSDUWI
+VT,Vanguard Total World Stock ETF,MSCI World USD,24.42,0.0197,-0.0672,0.1064,0.0,MSDUWI
+IXC,iShares Global Energy ETF,MSCI KOKUSAI Energy,23.28,0.0467,-0.0951,0.1889,0.0,MXKO0EN
+PBSM,Invesco PureBeta MSCI USA Small Cap ETF,MSCI North America Small Cap,19.76,0.0994,0.0288,0.1693,0.0,MXNASC
+FDIS,Fidelity MSCI Consumer Discretionary Index ETF,MSCI USA Consumer Discretionary,34.69,0.047,-0.1148,0.2099,0.0,MXUS0CD
+FSTA,Fidelity MSCI Consumer Staples Index ETF,MSCI USA Consumer Staples,24.48,0.0366,-0.0418,0.1151,0.0,MXUS0CS
+VDC,Vanguard Consumer Staples ETF,MSCI USA Consumer Staples,24.48,0.0366,-0.0418,0.1151,0.0,MXUS0CS
+FENY,Fidelity MSCI Energy Index ETF,MSCI USA Energy,24.2,0.062,-0.1012,0.225,0.0,MXUS0EN
+IYE,iShares U.S. Energy ETF,MSCI USA Energy,24.2,0.062,-0.1012,0.225,0.0,MXUS0EN
+XLE,Energy Select Sector SPDR Fund,MSCI USA Energy,24.2,0.062,-0.1012,0.225,0.0,MXUS0EN
+VDE,Vanguard Energy ETF,MSCI USA Energy,24.2,0.062,-0.1012,0.225,0.0,MXUS0EN
+FNCL,Fidelity MSCI Financials Index ETF,MSCI USA Financials,18.13,0.022,-0.1533,0.1967,0.0,MXUS0FN
+XLF,Financial Select Sector SPDR Fund,MSCI USA Financials,18.13,0.022,-0.1533,0.1967,0.0,MXUS0FN
+VFH,Vanguard Financials ETF,MSCI USA Financials,18.13,0.022,-0.1533,0.1967,0.0,MXUS0FN
+IYH,iShares U.S. Healthcare ETF,MSCI USA Health Care,31.2,0.0591,-0.053,0.1713,0.0,MXUS0HC
+XLV,Health Care Select Sector SPDR Fund,MSCI USA Health Care,31.2,0.0591,-0.053,0.1713,0.0,MXUS0HC
+FIDU,Fidelity MSCI Industrials Index ETF,MSCI USA Industrials,25.25,0.0482,-0.0668,0.1635,0.0,MXUS0IN
+XLI,Industrial Select Sector SPDR Fund,MSCI USA Industrials,25.25,0.0482,-0.0668,0.1635,0.0,MXUS0IN
+VIS,Vanguard Industrials ETF,MSCI USA Industrials,25.25,0.0482,-0.0668,0.1635,0.0,MXUS0IN
+FMAT,Fidelity MSCI Materials Index ETF,MSCI USA Materials,21.63,0.0369,-0.0317,0.1044,0.0,MXUS0MT
+VAW,Vanguard Materials ETF,MSCI USA Materials,21.63,0.0369,-0.0317,0.1044,0.0,MXUS0MT
+XLB,Materials Select Sector SPDR Fund,MSCI USA Materials,21.63,0.0369,-0.0317,0.1044,0.0,MXUS0MT
+FUTY,Fidelity MSCI Utilities Index ETF,MSCI USA Utilities,20.24,-0.0072,-0.1111,0.0965,0.0,MXUS0UT
+IDU,iShares US Utilities ETF,MSCI USA Utilities,20.24,-0.0072,-0.1111,0.0965,0.0,MXUS0UT
+VPU,Vanguard Utilities ETF,MSCI USA Utilities,20.24,-0.0072,-0.1111,0.0965,0.0,MXUS0UT
+XLU,Utilities Select Sector SPDR Fund,MSCI USA Utilities,20.24,-0.0072,-0.1111,0.0965,0.0,MXUS0UT
+BKSE,BNY Mellon US Small Cap Core Equity ETF,MSCI United States Small Cap,19.63,0.106,0.036,0.1755,0.0,MXUSSC
+ESML,iShares ESG Aware MSCI USA Small-Cap ETF,MSCI United States Small Cap,19.63,0.106,0.036,0.1755,0.0,MXUSSC
+JHSC,John Hancock Multifactor Small Cap ETF,MSCI United States Small Cap,19.63,0.106,0.036,0.1755,0.0,MXUSSC
+NUSC,Nuveen ESG Small-Cap ETF,MSCI United States Small Cap,19.63,0.106,0.036,0.1755,0.0,MXUSSC
+SMMD,iShares Russell 2500 ETF,MSCI United States Small Cap,19.63,0.106,0.036,0.1755,0.0,MXUSSC
+VB,Vanguard Small-Cap ETF,MSCI United States Small Cap,19.63,0.106,0.036,0.1755,0.0,MXUSSC
+SCHA,Schwab US Small-Cap ETF,MSCI United States Small Cap,19.63,0.106,0.036,0.1755,0.0,MXUSSC
+IXN,iShares Global Tech ETF,MSCI ACWI Information Technology,33.58,0.0747,-0.0547,0.2033,0.0,MXWD0IT
+QQQ,Invesco QQQ Trust Series 1,NASDAQ-100,34.97,0.1722,0.0912,0.2517,0.0,NDQ
+BKLC,BNY Mellon US Large Cap Core Equity ETF,S&P 100,26.77,0.017,-0.0987,0.1334,0.0,OEX
+OEF,iShares S&P 100 ETF,S&P 100,26.77,0.017,-0.0987,0.1334,0.0,OEX
+XLG,Invesco Exchange-Traded Fund Trust-Invesco S&P 500r Top 50 ETF,S&P 100,26.77,0.017,-0.0987,0.1334,0.0,OEX
+OIH,VanEck Oil Services ETF,Philadelphia Stock Exchange Oil Service Sector,8.81,-0.1697,-0.4125,0.0742,0.0,OSX
+ILCG,iShares Morningstar Growth ETF,Russell 3000 Growth,38.87,0.0271,-0.0987,0.154,0.0,RAG
+VUG,Vanguard Growth ETF,Russell 3000 Growth,38.87,0.0271,-0.0987,0.154,0.0,RAG
+IWP,iShares Russell Mid-Cap Growth ETF,Russell Midcap Growth,38.44,0.062,-0.0405,0.1651,0.0,RDG
+VOT,Vanguard Mid-Cap Growth ETF,Russell Midcap Growth,38.44,0.062,-0.0405,0.1651,0.0,RDG
+IWF,iShares Russell 1000 Growth ETF,Russell 1000 Growth,39.46,0.0241,-0.1077,0.1544,0.0,RLG
+MGK,Vanguard Mega Cap Growth ETF,Russell 1000 Growth,39.46,0.0241,-0.1077,0.1544,0.0,RLG
+SCHG,Schwab U.S. Large-Cap Growth ETF,Russell 1000 Growth,39.46,0.0241,-0.1077,0.1544,0.0,RLG
+TMFC,Motley Fool 100 Index ETF,Russell 1000 Growth,39.46,0.0241,-0.1077,0.1544,0.0,RLG
+VONG,Vanguard Russell 1000 Growth ETF,Russell 1000 Growth,39.46,0.0241,-0.1077,0.1544,0.0,RLG
+IWD,iShares Russell 1000 Value ETF,Russell 1000 Value,20.56,0.0115,-0.0747,0.0982,0.0,RLV
+SCHV,Schwab U.S. Large-Cap Value ETF,Russell 1000 Value,20.56,0.0115,-0.0747,0.0982,0.0,RLV
+VONV,Vanguard Russell 1000 Value,Russell 1000 Value,20.56,0.0115,-0.0747,0.0982,0.0,RLV
+IMCB,iShares Morningstar Mid-Cap ETF,Russell Midcap real-time,23.6,0.0602,-0.0156,0.1356,0.0,RMC
+IWR,iShares Russell Mid-Cap ETF,Russell Midcap real-time,23.6,0.0602,-0.0156,0.1356,0.0,RMC
+JHMM,John Hancock Multi-Factor Mid Cap ETF,Russell Midcap real-time,23.6,0.0602,-0.0156,0.1356,0.0,RMC
+VO,Vanguard Mid-Cap ETF,Russell Midcap real-time,23.6,0.0602,-0.0156,0.1356,0.0,RMC
+IWS,iShares Russell Mid-Cap Value ETF,Russell Midcap Value,19.91,0.0391,-0.0544,0.1314,0.0,RMV
+IWM,iShares Russell 2000 ETF,Russell 2000,18.85,0.1088,0.0347,0.1831,0.0,RTY
+VTWO,Vanguard Russell 2000 ETF,Russell 2000,18.85,0.1088,0.0347,0.1831,0.0,RTY
+IWN,iShares Russell 2000 Value ETF,Russell 2000 Value,14.73,0.1062,0.028,0.1846,0.0,RUJ
+VTWV,Vanguard Russell 2000 Value,Russell 2000 Value,14.73,0.1062,0.028,0.1846,0.0,RUJ
+PSCD,Invesco S&P SmallCap Consumer Discretionary ETF,S&P 600 Consumer Discretionary Sector,13.75,0.2029,0.0879,0.3168,0.0,S6COND
+PSCT,Invesco S&P SmallCap Information Technology ETF,S&P 600 Information Technology Sector,33.63,0.0812,-0.0223,0.185,0.0,S6INFT
+XOUT,GraniteShares XOUT US Large Cap ETF,S&P 500 Growth,35.1,0.0623,-0.0681,0.1923,0.0002,SGX
+IJR,iShares Core S&P Small-Cap ETF,S&P Small Cap 600,17.66,0.1785,0.111,0.2468,0.0,SML
+FYX,First Trust Small Cap Core AlphaDEX Fund,S&P Small Cap 600,17.66,0.1785,0.111,0.2468,0.0,SML
+SLY,SPDR S&P 600 Small CapETF,S&P Small Cap 600,17.66,0.1785,0.111,0.2468,0.0,SML
+SPSM,SPDR Portfolio S&P 600 Small Cap ETF,S&P Small Cap 600,17.66,0.1785,0.111,0.2468,0.0,SML
+VIOO,Vanguard S&P Small-Cap 600 ETF,S&P Small Cap 600,17.66,0.1785,0.111,0.2468,0.0,SML
+IJT,iShares S&P Small-Cap 600 Growth ETF,S&P Small Cap 600 Growth,26.19,0.1587,0.0862,0.2323,0.0,SMLG
+SLYG,SPDR S&P 600 Small Cap Growth ETF,S&P Small Cap 600 Growth,26.19,0.1587,0.0862,0.2323,0.0,SMLG
+VIOG,Vanguard S&P Small-Cap 600 Growth ETF,S&P Small Cap 600 Growth,26.19,0.1587,0.0862,0.2323,0.0,SMLG
+IJS,iShares S&P Small-Cap 600 Value ETF,S&P Small Cap 600 Value,13.27,0.1937,0.1296,0.2593,0.0,SMLV
+SLYV,SPDR S&P 600 Small CapValue ETF,S&P Small Cap 600 Value,13.27,0.1937,0.1296,0.2593,0.0,SMLV
+VIOV,Vanguard S&P Small-Cap 600 Value ETF,S&P Small Cap 600 Value,13.27,0.1937,0.1296,0.2593,0.0,SMLV
+SMH,VanEck Semiconductor ETF,Philadelphia Stock Exchange Semiconductor,32.78,0.0902,-0.1214,0.3023,0.0,SOX
+SOXX,iShares Semiconductor ETF,Philadelphia Stock Exchange Semiconductor,32.78,0.0902,-0.1214,0.3023,0.0,SOX
+XHB,SPDR S&P Homebuilders ETF,S&P Homebuilding Select Industry,21.11,0.0341,-0.2247,0.2924,0.0,SPSIHO
+XME,SPDR S&P Metals & Mining ETF,S&P Metals and Mining Select Industry,18.75,0.008,-0.2749,0.2919,0.0,SPSIMM
+SSPY,Syntax Stratified Large Cap ETF,S&P 500 Equal Weighted,21.97,0.0579,-0.0053,0.1208,0.0,SPW
+ESGU,iShares ESG Aware MSCI USA ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+BBUS,JPMorgan BetaBuilders US Equity ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+ILCB,iShares Morningstar US Equity ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+GSUS,Goldman Sachs MarketBeta US Equity ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+ITOT,iShares Core S&P Total US Stock Market ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+IVV,iShares Core S&P 500 ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+IWB,iShares Russell 1000 ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+IWL,iShares Russell Top 200 ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+JUST,Goldman Sachs JUST US Large Cap Equity ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+IYY,iShares Dow Jones U.S. ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+IWV,iShares Russell 3000 ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+JHML,John Hancock Multi-Factor Large Cap ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+OVL,Overlay Shares Large Cap Equity ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+SCHK,Schwab 1000 Index ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+SCHX,Schwab US Large-Cap ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+SNPE,Xtrackers S&P 500 ESG ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+SPLG,SPDR Portfolio S&P 500 ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+SPY,SPDR S&P 500 ETF Trust,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+SPYX,SPDR S&P 500 Fossil Fuel Reserves Free ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+VTI,Vanguard Total Stock Market ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+VV,Vanguard Large-Cap ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+SCHB,Schwab US Broad Market ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+VONE,Vanguard Russell 1000,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+VOO,Vanguard S&P 500 ETF,S&P 500 INDEX,26.84,0.0204,-0.0901,0.1301,0.0,SPX
+IUSV,iShares Core S&P U.S. Value ETF,S&P 500 Value,21.59,-0.0253,-0.1134,0.0626,0.0,SVX
+IVE,iShares S&P 500 Value ETF,S&P 500 Value,21.59,-0.0253,-0.1134,0.0626,0.0,SVX
+SPYV,SPDR Portfolio S&P 500 Value ETF,S&P 500 Value,21.59,-0.0253,-0.1134,0.0626,0.0,SVX
+VOOV,Vanguard S&P 500 Value ETF,S&P 500 Value,21.59,-0.0253,-0.1134,0.0626,0.0,SVX
