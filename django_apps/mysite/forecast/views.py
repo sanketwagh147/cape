@@ -24,6 +24,12 @@ def bond_etf_table(request):
     return render(request, 'bond_etf_table.html', context)
 
 
+def outliers_table(request):
+    data = Forecast.objects.filter(outlier_bool=True).order_by('-fwd_return_forecast')
+    context = {'data': data}
+    return render(request, 'outliers_table.html', context)
+
+
 def cape_charts(request, pk):
     charts = Forecast.objects.get(pk=pk)
     context = {'charts': charts}

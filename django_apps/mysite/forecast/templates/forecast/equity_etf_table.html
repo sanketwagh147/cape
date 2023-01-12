@@ -24,12 +24,13 @@
 </head>
 <body>
 
-<div class="container"><p><h1><b>FORECASTS FOR EQUITY ETFs</b></h1></p></div>
+<div class="container"><p><h1><b>FORECASTS FOR EQUITY ETFs</b></h1></div>
 
 <div class="sidenav">
     <a class="nav" href="{% url 'forecast:index' %}">Home</a>
     <a class="nav" href="{% url 'forecast:common_stock_table' %}">Stocks</a>
     <a class="nav" href="{% url 'forecast:bond_etf_table' %}">Bond ETFs</a>
+<!--    <a class="nav" href="{% url 'forecast:outliers_table' %}">Outliers</a>-->
 </div>
 
 <div class="container" id="content">
@@ -73,6 +74,6 @@
     security. No guarantees are made regarding the accuracy or reliability of the data or forecasts. We accept no
     liability for any actions made based on any data or forecasts from this application. This application is for purely
     research purposes only. Invest at your own risk.
-</h4></p></div>
+</h4></div>
 </body>
 </html>

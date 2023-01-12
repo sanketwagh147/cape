@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Common Stocks</title>
+  <title>Outliers</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -24,17 +24,17 @@
 </head>
 <body>
 
-<div class="container"><p><h1><b>FORECASTS FOR COMMON STOCKS</b></h1></div>
+<div class="container"><p><h1><b>FORECASTS FOR OUTLIER ETFs & COMMON STOCKS</b></h1></div>
 
 <div class="sidenav">
     <a class="nav" href="{% url 'forecast:index' %}">Home</a>
     <a class="nav" href="{% url 'forecast:equity_etf_table' %}">Equity ETFs</a>
     <a class="nav" href="{% url 'forecast:bond_etf_table' %}">Bond ETFs</a>
-<!--    <a class="nav" href="{% url 'forecast:outliers_table' %}">Outliers</a>-->
+    <a class="nav" href="{% url 'forecast:common_stock_table' %}">Stocks</a>
 </div>
 
 <div class="container" id="content">
-  <table id="common_stock_table" class="table table-dark table-hover table-striped table-bordered table-sm">
+  <table id="outliers_table" class="table table-dark table-hover table-striped table-bordered table-sm">
 	<thead>
 	  <tr>
 		<th data-sortable="true">Ticker</th>
@@ -57,7 +57,7 @@
 	</tbody>
   </table>
   <script>
-  $('#common_stock_table').DataTable({
+  $('#outliers_table').DataTable({
     "bLengthChange": true,
     "lengthMenu": [ [20, 50, 100 -1], [20, 50, 100, "All"] ],
     "iDisplayLength": 20,

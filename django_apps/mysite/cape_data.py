@@ -12,6 +12,8 @@ from forecast.models import Forecast
 
 
 def run():
+    print('deleting stale database entries...')
+    delete()
     print('reading csv...')
     etf_cape_df = pd.read_csv("../../data/etf_cape_return_forecast.csv")
     etf_cape_df.CAPE = etf_cape_df.CAPE.map('{:,.2f}'.format)
@@ -133,8 +135,82 @@ def run():
             forecast.bond_pe_ratio = bond_etf_df[bond_etf_df['TICKER'] == entry['TICKER']].PE_RATIO.iloc[0]
             forecast.security_type = 'Bond ETF'
             forecast.save()
+
+    outliers_etf = pd.read_csv("../../data/outlier_etf_cape_forecast.csv")
+    outliers_stock = pd.read_csv("../../data/outlier_stock_cape_forecast.csv")
+    outliers_df = pd.concat([outliers_etf, outliers_stock])
+    outliers_df.index.name = 'TICKER'
+    outliers_df.CAPE = outliers_df.CAPE.map('{:,.2f}'.format)
+    outliers_df.FWD_RETURN_FORECAST = outliers_df.FWD_RETURN_FORECAST.map('{:,.2%}'.format)
+    outliers_df.LOWER_CONFIDENCE = outliers_df.LOWER_CONFIDENCE.map('{:,.2%}'.format)
+    outliers_df.UPPER_CONFIDENCE = outliers_df.UPPER_CONFIDENCE.map('{:,.2%}'.format)
+    outliers_df.F_PVALUE = outliers_df.F_PVALUE.map('{:,.4f}'.format)
+    array = outliers_df.to_dict(orient='records')
+    entries = Forecast.objects.values_list('ticker')
+    entries = [entry[0] for entry in entries]
+    for entry in tqdm(array):
+        if entry['TICKER'] not in entries:
+            forecast = Forecast(
+                ticker=entry['TICKER'],
+                name=entry['NAME'],
+                index_name=entry['INDEX_NAME'],
+                cape=entry['CAPE'],
+                fwd_return_forecast=entry['FWD_RETURN_FORECAST'],
+                lower_confidence=entry['LOWER_CONFIDENCE'],
+                upper_confidence=entry['UPPER_CONFIDENCE'],
+                f_pvalue=entry['F_PVALUE'],
+                index_ticker=entry['INDEX_TICKER'],
+                expected_fwd_return_chart='expected_fwd_return_{}.jpg'.format(entry['INDEX_TICKER']),
+                long_term_pe_ratio_chart='long_term_pe_ratio_{}.jpg'.format(entry['INDEX_TICKER']),
+                sample_observed_forecast_chart='sample_observed_forecast_{}.jpg'.format(entry['INDEX_TICKER']),
+                sample_regression_chart='sample_regression_{}.jpg'.format(entry['INDEX_TICKER']),
+                security_type='Equity ETF',
+                outlier_bool=True
+            )
+            forecast.save()
+        else:
+            forecast = Forecast.objects.get(ticker=entry['TICKER'])
+            forecast.name = outliers_df[outliers_df['TICKER'] == entry['TICKER']].NAME.iloc[0]
+            forecast.index_name = outliers_df[outliers_df['TICKER'] == entry['TICKER']].INDEX_NAME.iloc[0]
+            forecast.cape = outliers_df[outliers_df['TICKER'] == entry['TICKER']].CAPE.iloc[0]
+            forecast.fwd_return_forecast = outliers_df[outliers_df['TICKER'] == entry['TICKER']].FWD_RETURN_FORECAST.iloc[0]
+            forecast.lower_confidence = outliers_df[outliers_df['TICKER'] == entry['TICKER']].LOWER_CONFIDENCE.iloc[0]
+            forecast.upper_confidence = outliers_df[outliers_df['TICKER'] == entry['TICKER']].UPPER_CONFIDENCE.iloc[0]
+            forecast.f_pvalue = outliers_df[outliers_df['TICKER'] == entry['TICKER']].F_PVALUE.iloc[0]
+            forecast.index_ticker = outliers_df[outliers_df['TICKER'] == entry['TICKER']].INDEX_TICKER.iloc[0]
+            forecast.expected_fwd_return_chart = 'expected_fwd_return_{}.jpg'.format(
+                outliers_df[outliers_df['TICKER'] == entry['TICKER']].INDEX_TICKER.iloc[0])
+            forecast.long_term_pe_ratio_chart = 'long_term_pe_ratio_{}.jpg'.format(
+                outliers_df[outliers_df['TICKER'] == entry['TICKER']].INDEX_TICKER.iloc[0])
+            forecast.sample_observed_forecast_chart = 'sample_observed_forecast_{}.jpg'.format(
+                outliers_df[outliers_df['TICKER'] == entry['TICKER']].INDEX_TICKER.iloc[0])
+            forecast.sample_regression_chart = 'sample_regression_{}.jpg'.format(
+                outliers_df[outliers_df['TICKER'] == entry['TICKER']].INDEX_TICKER.iloc[0])
+            forecast.security_type = 'Equity ETF'
+            forecast.outlier_bool = True
+            forecast.save()
     print('Saved all entries to database.')
     return
+
+
+def delete():
+    df1 = pd.read_csv("../../data/etf_cape_return_forecast.csv", index_col=0).reset_index()
+    df2 = pd.read_csv("../../data/stock_cape_return_forecast.csv", index_col=0).reset_index()
+    df3 = pd.read_csv("../../data/acf_yield.csv")
+    df4 = pd.concat([
+        pd.read_csv("../../data/outlier_etf_cape_forecast.csv", index_col=0),
+        pd.read_csv("../../data/outlier_stock_cape_forecast.csv", index_col=0)
+    ])
+    df4.index.name = 'TICKER'
+    df4 = df4.reset_index()
+    df = pd.concat([df1, df2, df3, df4])
+    queryset = Forecast.objects.all()
+    print('Deleted tickers:')
+    for obj in queryset:
+        ticker = obj.ticker
+        if ticker not in df.TICKER.values:
+            print(ticker)
+            obj.delete()
 
 
 if __name__ == "__main__":
