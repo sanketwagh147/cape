@@ -24,17 +24,17 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <div id="images-grid" class="grid-container">
-    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_regression_chart}}" alt="sample_regression"/>
-    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_observed_forecast_chart}}" alt="sample_observed_forecast"/>
-    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.long_term_pe_ratio_chart}}" alt="long_term_pe_ratio"/>
-    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.expected_fwd_return_chart}}" alt="expected_fwd_return"/>
+    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_regression_chart}}?{{ charts.updated_at }}" alt="sample_regression"/>
+    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_observed_forecast_chart}}?{{ charts.updated_at }}" alt="sample_observed_forecast"/>
+    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.long_term_pe_ratio_chart}}?{{ charts.updated_at }}" alt="long_term_pe_ratio"/>
+    <img data-enlargeable width="100" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.expected_fwd_return_chart}}?{{ charts.updated_at }}" alt="expected_fwd_return"/>
 </div>
 <div class="disclaimer"><p><h3>
     Disclaimer: Nothing in this application should be interpreted as investment advice or a recommendation to buy or sell a
     security. No guarantees are made regarding the accuracy or reliability of the data or forecasts. We accept no
     liability for any actions made based on any data or forecasts from this application. This application is for purely
     research purposes only. Invest at your own risk.
-</h3></p></div>
+</h3></div>
 <script type="text/javascript">
 $('img[data-enlargeable]').addClass('grid-item').click(function() {
     var src = $(this).attr('src');

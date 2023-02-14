@@ -47,11 +47,11 @@
 	<tbody>
     {% for i in data %}
 	  <tr>
-        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.ticker}}</a></td>
-        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.name}}</a></td>
-        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.fwd_return_forecast}}</a></td>
-        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.lower_confidence}}</a></td>
-        <td><a href="{% url 'forecast:cape_charts' i.id %}">{{i.upper_confidence}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}" target="_blank">{{i.ticker}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}" target="_blank">{{i.name}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}" target="_blank">{{i.fwd_return_forecast}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}" target="_blank">{{i.lower_confidence}}</a></td>
+        <td><a href="{% url 'forecast:cape_charts' i.id %}" target="_blank">{{i.upper_confidence}}</a></td>
 	  </tr>
 	{% endfor %}
 	</tbody>

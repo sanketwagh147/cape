@@ -21,6 +21,7 @@ class Forecast(models.Model):
     sample_regression_chart = models.CharField(max_length=100)
     security_type = models.CharField(max_length=100)
     outlier_bool = models.BooleanField(default=False)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.ticker

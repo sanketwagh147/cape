@@ -1,673 +1,675 @@
 TICKER,NAME,CLASSIFICATION,CAPE,FWD_RETURN_FORECAST,LOWER_CONFIDENCE,UPPER_CONFIDENCE,F_PVALUE,MINIMUM_CAPE,MAXIMUM_CAPE,RSQUARED
-AA,Alcoa Corp,U.S. Mid-cap Value Common Stock,24.04,-0.0401,-0.2925,0.2119,0.0088,2.52,52.78,0.0314
-AAON,AAON Inc,U.S. Small-cap Growth Common Stock,63.42,0.1,-0.0575,0.2576,0.0,12.88,57.84,0.2392
-ABC,AmerisourceBergen Corp,U.S. Large-cap Value Common Stock,27.07,0.126,0.0202,0.2316,0.0,12.61,65.67,0.6497
-ABCB,Ameris Bancorp,U.S. Small-cap Blend Common Stock,13.6,0.1125,-0.1768,0.4013,0.0063,3.96,120.23,0.0202
-ABM,ABM Industries Inc,U.S. Small-cap Value Common Stock,17.54,0.0684,-0.0172,0.1532,0.0,10.03,25.53,0.334
-ABT,Abbott Laboratories,U.S. Large-cap Growth Common Stock,40.0,0.2006,0.0639,0.3375,0.0186,5.84,18.61,0.0446
-ACIW,ACI Worldwide Inc,U.S. Small-cap Blend Common Stock,32.53,0.1308,-0.0541,0.3158,0.0,10.91,60.92,0.335
-ACNB,ACNB Corp,U.S. Small-cap Blend Common Stock,12.7,0.0602,-0.1008,0.2212,0.0256,3.58,16.5,0.0112
-ADBE,Adobe Inc,U.S. Large-cap Growth Common Stock,65.61,0.1487,-0.1209,0.4177,0.0,17.47,162.85,0.1553
-ADI,Analog Devices Inc,U.S. Large-cap Growth Common Stock,32.5,0.0727,-0.1029,0.25,0.0,8.7,154.66,0.4311
-ADM,Archer-Daniels-Midland Co,U.S. Large-cap Value Common Stock,20.29,0.0083,-0.139,0.1557,0.0,6.33,32.18,0.3819
-ADP,Automatic Data Processing Inc,U.S. Large-cap Growth Common Stock,40.95,0.0596,-0.1038,0.2227,0.0094,11.3,37.58,0.0565
-ADSK,Autodesk Inc,U.S. Large-cap Growth Common Stock,424.34,-0.1023,-0.3958,0.1914,0.0,13.58,326.92,0.1793
-ADTN,ADTRAN Holdings Inc,U.S. Small-cap Blend Common Stock,96.78,-0.1246,-0.3048,0.0557,0.0031,10.03,43.4,0.0792
-AEIS,Advanced Energy Industries Inc,U.S. Small-cap Blend Common Stock,25.3,0.214,-0.0634,0.4902,0.0,20.93,175.98,0.2399
-AEP,American Electric Power Co Inc,U.S. Large-cap Blend Common Stock,20.35,0.1316,0.0085,0.2544,0.0001,3.15,18.25,0.0769
-AES,AES Corp/The,U.S. Mid-cap Blend Common Stock,18.29,-0.0444,-0.2102,0.1218,0.0,1.97,96.38,0.7628
-AFG,American Financial Group Inc/OH,U.S. Mid-cap Blend Common Stock,16.68,0.0189,-0.0941,0.132,0.0,4.24,14.51,0.404
-AFL,Aflac Inc,U.S. Large-cap Blend Common Stock,15.66,0.1015,-0.0195,0.2228,0.0,5.06,33.8,0.1408
-AGCO,AGCO Corp,U.S. Mid-cap Value Common Stock,22.46,0.0426,-0.1055,0.1908,0.0,2.78,46.42,0.2912
-AGM,Federal Agricultural Mortgage Corp,U.S. Small-cap Blend Common Stock,15.71,-0.0359,-0.2507,0.1811,0.0,0.94,27.5,0.6791
-AIN,Albany International Corp,U.S. Small-cap Blend Common Stock,37.67,0.0342,-0.1911,0.2596,0.0078,3.84,48.28,0.0455
-AIR,AAR Corp,U.S. Small-cap Value Common Stock,24.62,-0.0389,-0.1643,0.085,0.0,4.33,43.96,0.8111
-AIT,Applied Industrial Technologies Inc,U.S. Small-cap Blend Common Stock,31.19,-0.0061,-0.1312,0.1193,0.0,7.25,28.22,0.5341
-AKR,Acadia Realty Trust,Real Estate REIT,28.7,0.0993,-0.0257,0.2243,0.0,8.74,78.34,0.7871
-ALB,Albemarle Corp,U.S. Mid-cap Growth Common Stock,46.29,0.0516,-0.0821,0.1849,0.0,8.33,34.84,0.1927
-ALCO,Alico Inc,U.S. Small-cap Blend Common Stock,36.55,-0.0296,-0.2013,0.1416,0.0,9.41,78.82,0.4597
-ALE,ALLETE Inc,U.S. Small-cap Blend Common Stock,16.6,0.0605,-0.0609,0.1815,0.0,1.56,23.27,0.1133
-ALL,Allstate Corp/The,U.S. Large-cap Value Common Stock,14.44,0.0388,-0.1543,0.2321,0.0,2.85,23.36,0.1888
-ALX,Alexander's Inc,Real Estate REIT,14.53,0.1023,-0.1043,0.309,0.0146,14.84,1081.52,0.026
-AMAT,Applied Materials Inc,U.S. Large-cap Growth Common Stock,29.81,0.0715,-0.1873,0.3306,0.0,9.68,158.35,0.3278
-AME,AMETEK Inc,U.S. Large-cap Growth Common Stock,40.03,0.1063,-0.002,0.2145,0.0,12.02,41.72,0.5097
-AMGN,Amgen Inc,U.S. Large-cap Growth Common Stock,19.13,0.1564,-0.007,0.3206,0.0,11.31,100.88,0.4211
-AMNB,American National Bankshares Inc,U.S. Small-cap Growth Common Stock,11.83,0.044,-0.0719,0.1597,0.0,4.53,19.25,0.0686
-AMWD,American Woodmark Corp,U.S. Small-cap Value Common Stock,14.82,0.1429,-0.1732,0.459,0.0018,8.61,122.27,0.0404
-AN,AutoNation Inc,U.S. Small-cap Value Common Stock,15.08,0.1565,-0.0341,0.3482,0.0,5.77,1049.87,0.4364
-ANDE,Andersons Inc/The,U.S. Small-cap Value Common Stock,16.53,0.0807,-0.1909,0.3492,0.0,5.5,46.85,0.4071
-ANF,Abercrombie & Fitch Co,U.S. Small-cap Value Common Stock,15.71,-0.0521,-0.2848,0.1799,0.0001,4.17,29.05,0.1348
-ANSS,ANSYS Inc,U.S. Mid-cap Growth Common Stock,58.42,0.1735,0.0599,0.2869,0.0,24.52,82.54,0.6687
-AOS,A O Smith Corp,U.S. Mid-cap Blend Common Stock,25.82,0.1564,-0.0796,0.3924,0.0484,6.07,56.06,0.0124
-APA,APA Corp,U.S. Mid-cap Blend Common Stock,14.83,-0.0272,-0.2501,0.1951,0.0,5.11,53.21,0.5682
-APH,Amphenol Corp,U.S. Large-cap Growth Common Stock,38.93,0.1679,0.0771,0.259,0.0,19.49,89.58,0.5615
-APOG,Apogee Enterprises Inc,U.S. Small-cap Value Common Stock,15.28,0.1019,-0.104,0.3063,0.0,4.26,45.29,0.5027
-ARCB,ArcBest Corp,U.S. Small-cap Value Common Stock,21.86,0.0703,-0.2095,0.3508,0.0038,4.98,144.32,0.0827
-AROW,Arrow Financial Corp,U.S. Small-cap Growth Common Stock,13.78,0.0415,-0.0409,0.1242,0.0,5.05,18.78,0.4023
-ARTNA,Artesian Resources Corp,U.S. Small-cap Growth Common Stock,32.86,0.05,-0.0445,0.1447,0.0,7.04,32.1,0.149
-ARW,Arrow Electronics Inc,U.S. Mid-cap Value Common Stock,11.75,0.1285,0.0266,0.2303,0.0,6.71,28.6,0.6532
-ASB,Associated Banc-Corp,U.S. Small-cap Blend Common Stock,12.13,0.0052,-0.1845,0.1944,0.0,3.75,25.53,0.1975
-ASGN,ASGN Inc,U.S. Small-cap Value Common Stock,28.12,0.1382,-0.2476,0.5248,0.005,6.05,113.62,0.0796
-ASH,Ashland Inc,U.S. Mid-cap Blend Common Stock,25.43,0.003,-0.2143,0.2199,0.0008,0.77,20.04,0.1803
-ASTE,Astec Industries Inc,U.S. Small-cap Value Common Stock,29.9,0.0036,-0.1209,0.129,0.0,6.48,61.78,0.6969
-ATGE,Adtalem Global Education Inc,U.S. Small-cap Blend Common Stock,14.05,0.0587,-0.1621,0.2797,0.0025,6.03,286.65,0.0388
-ATNI,ATN International Inc,U.S. Small-cap Blend Common Stock,44.07,-0.0758,-0.202,0.0506,0.0,3.16,37.4,0.8382
-ATO,Atmos Energy Corp,U.S. Mid-cap Growth Common Stock,24.05,0.1436,0.015,0.2719,0.0085,4.73,29.01,0.0394
-ATR,AptarGroup Inc,U.S. Mid-cap Blend Common Stock,28.1,0.0888,0.0268,0.1506,0.0,11.61,29.28,0.3602
-ATRO,Astronics Corp,U.S. Small-cap Value Common Stock,14.91,0.1973,-0.1795,0.5736,0.0,5.42,68.98,0.2488
-AUB,Atlantic Union Bankshares Corp,U.S. Small-cap Growth Common Stock,14.69,0.013,-0.1523,0.18,0.0,4.76,23.64,0.5499
-AVB,AvalonBay Communities Inc,Real Estate REIT,33.97,0.1124,0.0083,0.2165,0.0,9.77,66.5,0.5442
-AVD,American Vanguard Corp,U.S. Small-cap Blend Common Stock,30.52,0.0991,-0.2974,0.4962,0.0,7.98,73.01,0.5002
-AVNT,Avient Corp,U.S. Small-cap Value Common Stock,18.33,0.1364,-0.2003,0.4754,0.0,5.4,82.78,0.239
-AVT,Avnet Inc,U.S. Small-cap Value Common Stock,11.01,0.0372,-0.0891,0.1637,0.0,4.51,21.46,0.4746
-AVY,Avery Dennison Corp,U.S. Mid-cap Blend Common Stock,30.92,0.0309,-0.1991,0.2611,0.0002,4.37,33.79,0.0565
-AWR,American States Water Co,U.S. Small-cap Growth Common Stock,43.4,0.1704,0.0539,0.2871,0.0,5.47,39.0,0.0557
-AXP,American Express Co,U.S. Large-cap Blend Common Stock,22.65,0.0177,-0.1092,0.144,0.0,3.74,31.09,0.5714
-AZO,AutoZone Inc,U.S. Large-cap Blend Common Stock,34.25,0.1516,0.0641,0.24,0.0,17.56,51.12,0.6583
-AZZ,AZZ Inc,U.S. Small-cap Value Common Stock,14.0,0.2378,0.0401,0.4354,0.0,6.22,37.24,0.5394
-B,Barnes Group Inc,U.S. Small-cap Blend Common Stock,15.54,0.1008,-0.0477,0.2479,0.0,6.84,35.01,0.4305
-BA,Boeing Co/The,U.S. Large-cap Blend Common Stock,37.2,-0.0915,-0.2797,0.0967,0.0,6.55,36.87,0.3806
-BALL,Ball Corp,U.S. Mid-cap Blend Common Stock,25.43,0.1594,0.0416,0.2777,0.0,12.14,39.86,0.4402
-BANF,BancFirst Corp,U.S. Small-cap Growth Common Stock,22.41,0.0494,-0.0868,0.1852,0.0,7.11,27.24,0.1911
-BAX,Baxter International Inc,U.S. Mid-cap Blend Common Stock,14.13,0.0261,-0.0689,0.1204,0.0,5.87,20.03,0.5376
-BBBY,Bed Bath & Beyond Inc,U.S. Small-cap Value Common Stock,1.27,-0.327,-0.6257,-0.0283,0.0,4.45,109.35,0.2163
-BBSI,Barrett Business Services Inc,U.S. Small-cap Value Common Stock,23.93,0.1859,-0.005,0.3746,0.0,4.25,70.02,0.7715
-BBWI,Bath & Body Works Inc,U.S. Mid-cap Blend Common Stock,11.58,0.033,-0.2595,0.3248,0.0,1.82,25.36,0.2884
-BBY,Best Buy Co Inc,U.S. Mid-cap Value Common Stock,14.96,0.1436,-0.1899,0.477,0.0,3.44,133.64,0.0881
-BC,Brunswick Corp/DE,U.S. Small-cap Value Common Stock,15.66,0.0896,-0.2665,0.4455,0.0032,1.19,67.75,0.1017
-BCO,Brink's Co/The,U.S. Small-cap Value Common Stock,22.47,-0.0035,-0.1804,0.1728,0.0,2.75,36.59,0.4136
-BCPC,Balchem Corp,U.S. Small-cap Growth Common Stock,49.01,0.1752,0.0817,0.269,0.0,15.04,69.92,0.6416
-BDX,Becton Dickinson and Co,U.S. Large-cap Growth Common Stock,23.71,0.0812,-0.0004,0.1627,0.0,14.0,32.54,0.6209
-BEN,Franklin Resources Inc,U.S. Mid-cap Blend Common Stock,8.16,0.1395,-0.0714,0.35,0.001,7.26,28.33,0.075
-BF/A,Brown-Forman Corp,U.S. Large-cap Growth Common Stock,36.82,0.1082,-0.0003,0.2171,0.0,10.71,42.94,0.1144
-BF/B,Brown-Forman Corp,U.S. Large-cap Growth Common Stock,37.06,0.1205,0.0087,0.2326,0.0027,11.2,42.26,0.0428
-BFS,Saul Centers Inc,Real Estate REIT,25.72,0.0161,-0.0748,0.1076,0.0,6.79,39.55,0.7607
-BH,Biglari Holdings Inc,U.S. Small-cap Value Common Stock,14.0,0.1288,-0.0429,0.3012,0.0,5.21,50.98,0.6325
-BHB,Bar Harbor Bankshares,U.S. Small-cap Blend Common Stock,12.41,0.0617,-0.0376,0.1601,0.0,3.55,18.2,0.3177
-BHE,Benchmark Electronics Inc,U.S. Small-cap Value Common Stock,19.65,0.0458,-0.1069,0.1983,0.0,8.69,52.55,0.1989
-BIG,Big Lots Inc,U.S. Small-cap Value Common Stock,6.54,0.1777,-0.0148,0.3703,0.0,6.56,54.93,0.243
-BIIB,Biogen Inc,U.S. Large-cap Growth Common Stock,13.37,0.2629,-0.0244,0.5504,0.0,22.85,4187.05,0.2044
-BIO,Bio-Rad Laboratories Inc,U.S. Mid-cap Growth Common Stock,65.72,-0.0083,-0.1747,0.1585,0.0,13.51,55.65,0.3673
-BK,Bank of New York Mellon Corp/The,U.S. Large-cap Blend Common Stock,12.33,0.0558,-0.068,0.1796,0.0,7.29,29.21,0.4065
-BKE,Buckle Inc/The,U.S. Small-cap Blend Common Stock,13.09,-0.127,-0.2991,0.0429,0.0,2.46,14.31,0.6312
-BKH,Black Hills Corp,U.S. Small-cap Blend Common Stock,18.35,0.0601,-0.0697,0.1899,0.0001,4.28,24.97,0.0805
-BMI,Badger Meter Inc,U.S. Small-cap Growth Common Stock,67.17,-0.0315,-0.2074,0.1447,0.0,10.62,52.94,0.4387
-BMY,Bristol-Myers Squibb Co,U.S. Large-cap Blend Common Stock,21.59,-0.0069,-0.2131,0.1994,0.0,5.71,32.71,0.2115
-BOH,Bank of Hawaii Corp,U.S. Small-cap Growth Common Stock,14.14,0.0329,-0.0514,0.1168,0.0,3.58,19.04,0.7074
-BOKF,BOK Financial Corp,U.S. Mid-cap Growth Common Stock,14.59,0.0806,-0.0113,0.1726,0.0,8.32,19.15,0.4052
-BOOM,DMC Global Inc,U.S. Small-cap Value Common Stock,24.84,0.1277,-0.4705,0.7252,0.0,3.68,139.3,0.4482
-BRC,Brady Corp,U.S. Small-cap Blend Common Stock,19.49,0.0217,-0.0993,0.1432,0.0,7.26,24.76,0.3712
-BRK/B,Berkshire Hathaway Inc,U.S. Large-cap Blend Common Stock,31.1,0.1008,0.0203,0.1808,0.0,19.16,81.85,0.3118
-BRO,Brown & Brown Inc,U.S. Mid-cap Growth Common Stock,38.41,0.1187,-0.1097,0.3466,0.0,13.82,71.05,0.1388
-BSX,Boston Scientific Corp,U.S. Large-cap Growth Common Stock,48.24,0.0048,-0.3175,0.3275,0.0,5.13,108.4,0.2472
-BWA,BorgWarner Inc,U.S. Mid-cap Value Common Stock,11.26,0.22,0.0554,0.384,0.0,6.11,35.32,0.5914
-BYD,Boyd Gaming Corp,U.S. Mid-cap Blend Common Stock,46.9,-0.0173,-0.4757,0.4415,0.0,2.74,179.57,0.2318
-CAC,Camden National Corp,U.S. Small-cap Blend Common Stock,11.42,0.0348,-0.0598,0.1291,0.0,5.28,15.47,0.3567
-CACC,Credit Acceptance Corp,U.S. Small-cap Blend Common Stock,16.13,0.2879,0.0721,0.5043,0.0,10.35,41.51,0.1832
-CACI,CACI International Inc,U.S. Mid-cap Blend Common Stock,25.87,0.1691,-0.0514,0.389,0.0,13.08,73.67,0.2724
-CADE,Cadence Bank,U.S. Small-cap Blend Common Stock,12.12,0.0404,-0.0909,0.1717,0.0,4.78,23.67,0.3163
-CAG,Conagra Brands Inc,U.S. Mid-cap Blend Common Stock,14.19,0.0321,-0.0866,0.1506,0.0,4.76,17.61,0.0815
-CAH,Cardinal Health Inc,U.S. Mid-cap Value Common Stock,15.36,0.0022,-0.1175,0.1234,0.0,4.74,27.61,0.6564
-CAKE,Cheesecake Factory Inc/The,U.S. Small-cap Value Common Stock,18.24,0.1316,-0.1052,0.3677,0.0,7.26,89.37,0.1694
-CAL,Caleres Inc,U.S. Small-cap Value Common Stock,10.62,0.142,-0.0369,0.3177,0.0,2.4,26.21,0.7003
-CASH,Pathward Financial Inc,U.S. Small-cap Blend Common Stock,18.34,0.1224,-0.1304,0.3748,0.0,4.75,37.91,0.1292
-CASS,Cass Information Systems Inc,U.S. Small-cap Growth Common Stock,22.47,0.0802,-0.0237,0.1852,0.0,7.34,33.65,0.7216
-CASY,Casey's General Stores Inc,U.S. Mid-cap Value Common Stock,32.1,0.1295,0.0021,0.2572,0.0072,12.9,40.97,0.0197
-CAT,Caterpillar Inc,U.S. Large-cap Blend Common Stock,28.6,-0.0946,-0.2088,0.0197,0.0,5.22,23.18,0.638
-CATO,Cato Corp/The,U.S. Small-cap Value Common Stock,7.03,0.15,-0.0034,0.3026,0.0,3.44,15.86,0.6056
-CATY,Cathay General Bancorp,U.S. Small-cap Growth Common Stock,12.93,0.096,-0.1554,0.3459,0.0,3.59,28.25,0.3203
-CB,Chubb Ltd,U.S. Large-cap Blend Common Stock,23.65,0.0115,-0.0497,0.0725,0.0,6.6,19.98,0.6323
-CBRL,Cracker Barrel Old Country Store Inc,U.S. Small-cap Value Common Stock,14.55,0.1052,-0.0749,0.2854,0.0,4.83,27.98,0.4923
-CBT,Cabot Corp,U.S. Small-cap Value Common Stock,17.43,-0.0103,-0.1412,0.1218,0.0,3.93,20.21,0.5369
-CBU,Community Bank System Inc,U.S. Small-cap Growth Common Stock,16.07,0.1006,-0.0184,0.2199,0.0031,5.19,24.4,0.0339
-CCBG,Capital City Bank Group Inc,U.S. Small-cap Blend Common Stock,22.24,0.005,-0.2521,0.2624,0.0001,5.11,56.86,0.1008
-CCF,Chase Corp,U.S. Small-cap Blend Common Stock,20.78,0.1472,-0.1256,0.4202,0.0,6.89,55.23,0.0753
-CCK,Crown Holdings Inc,U.S. Mid-cap Value Common Stock,18.57,0.0686,-0.23,0.3668,0.0,0.61,49.58,0.2609
-CCL,Carnival Corp,U.S. Mid-cap Value Common Stock,26.48,-0.0854,-0.2775,0.1054,0.0,5.58,34.29,0.3267
-CENT,Central Garden & Pet Co,U.S. Small-cap Value Common Stock,23.76,0.06,-0.2219,0.3412,0.0,5.22,56.03,0.3978
-CFR,Cullen/Frost Bankers Inc,U.S. Mid-cap Growth Common Stock,19.27,0.055,-0.0292,0.139,0.0,9.84,20.25,0.143
-CGNX,Cognex Corp,U.S. Mid-cap Growth Common Stock,50.29,0.111,-0.2258,0.448,0.0165,13.4,138.46,0.0296
-CHCO,City Holding Co,U.S. Small-cap Growth Common Stock,17.11,-0.014,-0.1263,0.0986,0.0,2.04,18.18,0.7196
-CHD,Church & Dwight Co Inc,U.S. Mid-cap Growth Common Stock,31.9,0.1674,0.1081,0.2263,0.0,16.39,42.67,0.352
-CHDN,Churchill Downs Inc,U.S. Mid-cap Growth Common Stock,63.86,0.323,0.1193,0.5272,0.0,12.32,68.45,0.2801
-CHE,Chemed Corp,U.S. Mid-cap Growth Common Stock,39.8,0.1553,-0.0363,0.3465,0.0134,12.39,58.5,0.041
-CI,Cigna Corp,U.S. Large-cap Value Common Stock,21.19,0.0469,-0.1313,0.227,0.0,4.11,31.98,0.4711
-CINF,Cincinnati Financial Corp,U.S. Mid-cap Blend Common Stock,23.73,-0.0272,-0.1646,0.11,0.0,5.21,20.73,0.3636
-CL,Colgate-Palmolive Co,U.S. Large-cap Growth Common Stock,20.94,0.0943,0.0415,0.1475,0.0,15.13,40.22,0.6813
-CLF,Cleveland-Cliffs Inc,U.S. Mid-cap Value Common Stock,11.28,0.095,-0.5694,0.7586,0.0,0.34,111.26,0.1041
-CLX,Clorox Co/The,U.S. Mid-cap Blend Common Stock,21.87,0.0693,-0.0139,0.1521,0.0,11.64,33.52,0.3688
-CMA,Comerica Inc,U.S. Mid-cap Blend Common Stock,12.21,0.0269,-0.1668,0.2202,0.0036,2.4,28.7,0.0481
-CMC,Commercial Metals Co,U.S. Mid-cap Value Common Stock,20.41,-0.0262,-0.3247,0.2705,0.0,4.96,27.53,0.2702
-CMCO,Columbus McKinnon Corp/NY,U.S. Small-cap Blend Common Stock,16.49,0.0878,-0.1175,0.2898,0.0,1.23,39.42,0.6235
-CMI,Cummins Inc,U.S. Large-cap Blend Common Stock,18.75,0.135,-0.1212,0.3903,0.0,3.85,36.96,0.2823
-CMS,CMS Energy Corp,U.S. Mid-cap Blend Common Stock,24.38,0.1034,-0.0742,0.281,0.0372,1.29,352.81,0.0393
-CNMD,CONMED Corp,U.S. Small-cap Blend Common Stock,49.63,0.039,-0.1465,0.2246,0.0022,8.09,38.33,0.0459
-CNOB,ConnectOne Bancorp Inc,U.S. Small-cap Blend Common Stock,10.19,0.127,-0.0389,0.2936,0.0,6.86,26.11,0.2433
-COF,Capital One Financial Corp,U.S. Large-cap Blend Common Stock,9.28,0.0894,-0.1053,0.2852,0.0,2.08,52.44,0.2614
-COHR,Coherent Corp,U.S. Small-cap Blend Common Stock,26.21,0.2012,-0.0061,0.4096,0.0,14.35,86.28,0.2861
-COLB,Columbia Banking System Inc,U.S. Small-cap Blend Common Stock,11.42,0.1232,-0.08,0.3263,0.0,3.0,41.6,0.2588
-COO,Cooper Cos Inc/The,U.S. Mid-cap Growth Common Stock,23.31,0.186,-0.0786,0.449,0.0121,7.7,2651.15,0.1639
-CPB,Campbell Soup Co,U.S. Mid-cap Blend Common Stock,15.05,-0.0085,-0.1021,0.0857,0.0,6.76,21.28,0.5884
-CPK,Chesapeake Utilities Corp,U.S. Small-cap Blend Common Stock,31.55,0.177,0.0782,0.2758,0.0,4.47,34.31,0.0818
-CPRT,Copart Inc,U.S. Mid-cap Growth Common Stock,58.09,0.1353,-0.0521,0.3235,0.0,23.81,99.47,0.2606
-CPT,Camden Property Trust,Real Estate REIT,46.69,0.0942,-0.0497,0.2378,0.0039,7.33,60.8,0.0584
-CR,Crane Holdings Co,U.S. Mid-cap Blend Common Stock,19.22,0.0317,-0.1084,0.1725,0.0,5.38,23.96,0.319
-CRD/A,Crawford & Co,U.S. Small-cap Value Common Stock,9.08,-0.032,-0.2595,0.1951,0.0,2.7,13.41,0.1624
-CRS,Carpenter Technology Corp,U.S. Small-cap Value Common Stock,31.57,-0.1591,-0.3872,0.0688,0.0,2.73,30.87,0.5737
-CRVL,CorVel Corp,U.S. Small-cap Growth Common Stock,69.4,-0.0402,-0.1955,0.115,0.0,14.15,57.15,0.3498
-CSCO,Cisco Systems Inc,U.S. Large-cap Growth Common Stock,17.86,0.1114,-0.0372,0.2591,0.0,9.58,373.1,0.5151
-CSGS,CSG Systems International Inc,U.S. Small-cap Blend Common Stock,22.78,0.0091,-0.1534,0.1705,0.0,5.8,24.48,0.1791
-CSL,Carlisle Cos Inc,U.S. Mid-cap Blend Common Stock,33.28,0.0184,-0.125,0.1617,0.0,7.64,28.72,0.2974
-CSX,CSX Corp,U.S. Large-cap Growth Common Stock,25.41,0.138,-0.0702,0.3459,0.0311,6.45,38.89,0.0174
-CTAS,Cintas Corp,U.S. Large-cap Growth Common Stock,57.72,0.0348,-0.2465,0.3151,0.0,9.29,70.42,0.1557
-CTBI,Community Trust Bancorp Inc,U.S. Small-cap Growth Common Stock,10.89,0.0507,-0.0259,0.1277,0.0,4.43,16.66,0.7117
-CTO,CTO Realty Growth Inc,Real Estate REIT,16.85,0.0582,-0.1488,0.2655,0.0,7.42,47.29,0.2263
-CTRA,Coterra Energy Inc,U.S. Mid-cap Blend Common Stock,3.62,0.0491,-0.2628,0.3609,0.0151,15.22,6870.99,0.039
-CTS,CTS Corp,U.S. Small-cap Blend Common Stock,42.62,-0.0336,-0.3006,0.2325,0.0003,2.68,94.83,0.1153
-CVBF,CVB Financial Corp,U.S. Small-cap Growth Common Stock,16.63,0.0597,-0.101,0.2204,0.0,5.44,23.77,0.3484
-CVS,CVS Health Corp,U.S. Large-cap Value Common Stock,13.57,0.2201,0.1133,0.3277,0.0,11.61,32.3,0.7174
-CVX,Chevron Corp,U.S. Large-cap Blend Common Stock,22.2,-0.0058,-0.1253,0.1136,0.0033,5.71,13.52,0.0719
-CW,Curtiss-Wright Corp,U.S. Mid-cap Blend Common Stock,26.38,0.0635,-0.0556,0.1827,0.0,12.37,37.1,0.6489
-CWT,California Water Service Group,U.S. Small-cap Growth Common Stock,39.01,0.1348,0.0213,0.2486,0.0012,6.44,38.1,0.0421
-D,Dominion Energy Inc,U.S. Large-cap Blend Common Stock,14.05,0.0708,-0.0032,0.1443,0.0,3.72,18.86,0.4029
-DCI,Donaldson Co Inc,U.S. Mid-cap Blend Common Stock,26.5,0.1037,0.0328,0.1733,0.0,14.42,32.88,0.7321
-DDS,Dillard's Inc,U.S. Small-cap Value Common Stock,29.27,0.0364,-0.4067,0.4806,0.0006,2.27,66.34,0.0908
-DE,Deere & Co,U.S. Large-cap Blend Common Stock,33.93,-0.0254,-0.1825,0.1315,0.0,8.43,32.83,0.3184
-DECK,Deckers Outdoor Corp,U.S. Mid-cap Blend Common Stock,46.48,0.1585,-0.188,0.5063,0.0,5.49,115.04,0.5578
-DGICA,Donegal Group Inc,U.S. Small-cap Value Common Stock,19.85,-0.0836,-0.1692,0.0022,0.0,2.87,20.05,0.7374
-DGII,Digi International Inc,U.S. Small-cap Blend Common Stock,108.69,-0.1014,-0.3368,0.134,0.0,3.26,86.54,0.1995
-DHI,DR Horton Inc,U.S. Large-cap Value Common Stock,15.49,0.137,-0.2113,0.4845,0.0019,2.35,75.15,0.032
-DHR,Danaher Corp,U.S. Large-cap Growth Common Stock,49.06,0.0953,-0.0256,0.2168,0.0,15.18,54.89,0.1699
-DIN,Dine Brands Global Inc,U.S. Small-cap Blend Common Stock,13.04,0.1208,-0.0371,0.2771,0.0,2.62,29.2,0.6165
-DINO,HF Sinclair Corp,U.S. Mid-cap Value Common Stock,13.15,0.1425,-0.2058,0.4888,0.0,2.26,36.13,0.4382
-DIOD,Diodes Inc,U.S. Small-cap Blend Common Stock,37.08,0.0859,-0.2011,0.3717,0.0,6.93,79.14,0.5327
-DIS,Walt Disney Co/The,U.S. Large-cap Blend Common Stock,21.68,0.1546,0.0219,0.2866,0.0,12.09,47.12,0.6291
-DLTR,Dollar Tree Inc,U.S. Large-cap Blend Common Stock,28.85,0.2039,0.0501,0.3579,0.0,17.11,56.56,0.5068
-DLX,Deluxe Corp,U.S. Small-cap Value Common Stock,3.76,0.211,0.0161,0.4039,0.0,1.5,16.79,0.6537
-DORM,Dorman Products Inc,U.S. Small-cap Blend Common Stock,24.82,0.1835,-0.0939,0.4616,0.0,2.45,56.22,0.3662
-DOV,Dover Corp,U.S. Mid-cap Blend Common Stock,26.6,-0.0578,-0.2005,0.0849,0.0,5.23,18.82,0.2608
-DRI,Darden Restaurants Inc,U.S. Mid-cap Blend Common Stock,31.14,0.0649,-0.0439,0.1739,0.0,5.77,25.71,0.1267
-DTE,DTE Energy Co,U.S. Mid-cap Blend Common Stock,17.88,0.1321,0.0223,0.2418,0.0026,2.18,18.7,0.039
-DVN,Devon Energy Corp,U.S. Large-cap Blend Common Stock,24.07,0.0909,-0.1817,0.3637,0.0,2.93,57.1,0.1246
-DY,Dycom Industries Inc,U.S. Small-cap Value Common Stock,31.93,0.0954,-0.2515,0.4411,0.0,4.69,4390.57,0.1918
-EA,Electronic Arts Inc,U.S. Large-cap Growth Common Stock,30.57,0.2018,-0.1939,0.5978,0.0001,18.58,295.78,0.0764
-EAT,Brinker International Inc,U.S. Small-cap Value Common Stock,11.37,0.1955,0.0314,0.361,0.0,3.53,30.4,0.5699
-EBF,Ennis Inc,U.S. Small-cap Blend Common Stock,14.87,-0.0482,-0.1548,0.0582,0.0,1.95,12.3,0.5906
-ECL,Ecolab Inc,U.S. Large-cap Blend Common Stock,29.45,0.1595,0.0849,0.2343,0.0,20.13,46.11,0.4522
-EFX,Equifax Inc,U.S. Mid-cap Growth Common Stock,39.94,0.0844,-0.0895,0.2581,0.0017,10.17,46.28,0.0415
-EIX,Edison International,U.S. Mid-cap Blend Common Stock,12.56,-0.0195,-0.1754,0.1357,0.0,2.14,15.44,0.5337
-EL,Estee Lauder Cos Inc/The,U.S. Large-cap Growth Common Stock,51.12,0.1254,-0.0697,0.3206,0.002,10.9,46.38,0.0855
-ELS,Equity LifeStyle Properties Inc,Real Estate REIT,56.4,0.1825,0.0607,0.3045,0.0003,9.39,82.67,0.1007
-EMN,Eastman Chemical Co,U.S. Mid-cap Blend Common Stock,10.14,0.1105,-0.0737,0.2948,0.0154,3.52,17.97,0.0563
-EMR,Emerson Electric Co,U.S. Large-cap Blend Common Stock,20.29,-0.0204,-0.0987,0.0576,0.0,8.63,19.26,0.5175
-EOG,EOG Resources Inc,U.S. Large-cap Blend Common Stock,29.42,0.1003,-0.1177,0.3182,0.0,12.11,45.95,0.2211
-EPAC,Enerpac Tool Group Corp,U.S. Small-cap Blend Common Stock,20.79,-0.0597,-0.2044,0.0854,0.0,1.68,26.5,0.8572
-EQC,Equity Commonwealth,Real Estate REIT,54.93,0.0191,-0.15,0.1881,0.0104,1.15,45.51,0.035
-EQR,Equity Residential,Real Estate REIT,61.33,0.098,-0.014,0.21,0.0,7.6,263.06,0.151
-EQT,EQT Corp,U.S. Mid-cap Blend Common Stock,44.82,-0.2344,-0.4177,-0.0512,0.0,4.27,30.92,0.6481
-ES,Eversource Energy,U.S. Mid-cap Blend Common Stock,21.44,0.1258,0.0298,0.222,0.0175,2.04,28.29,0.0593
-ESE,ESCO Technologies Inc,U.S. Small-cap Blend Common Stock,37.78,0.0287,-0.1398,0.1966,0.0,14.37,50.8,0.2109
-ESS,Essex Property Trust Inc,Real Estate REIT,43.74,0.1104,-0.0107,0.2312,0.0,11.24,82.94,0.3075
-ESTE,Earthstone Energy Inc,U.S. Small-cap Value Common Stock,11.53,0.2169,-0.3446,0.7774,0.0,2.68,120.04,0.2126
-ETD,Ethan Allen Interiors Inc,U.S. Small-cap Value Common Stock,12.71,-0.0131,-0.1795,0.1526,0.0,2.34,20.69,0.1947
-ETN,Eaton Corp PLC,U.S. Large-cap Blend Common Stock,28.59,-0.0355,-0.1715,0.1007,0.0,5.35,17.06,0.3048
-ETR,Entergy Corp,U.S. Mid-cap Blend Common Stock,12.77,0.0032,-0.1001,0.1074,0.0,3.33,14.78,0.5942
-EXP,Eagle Materials Inc,U.S. Small-cap Blend Common Stock,22.01,0.113,-0.0738,0.3011,0.0,6.36,50.63,0.6041
-FAST,Fastenal Co,U.S. Mid-cap Growth Common Stock,36.38,0.1577,0.0565,0.2587,0.0,21.67,70.52,0.4834
-FBNC,First Bancorp/Southern Pines NC,U.S. Small-cap Growth Common Stock,14.11,0.0795,-0.1332,0.2916,0.0197,5.68,39.56,0.0247
-FCBC,First Community Bankshares Inc,U.S. Small-cap Growth Common Stock,14.24,-0.0327,-0.261,0.1953,0.0,3.14,20.92,0.1415
-FCF,First Commonwealth Financial Corp,U.S. Small-cap Blend Common Stock,13.53,0.0328,-0.1618,0.2271,0.0171,3.57,27.88,0.0187
-FCN,FTI Consulting Inc,U.S. Small-cap Blend Common Stock,35.54,0.0682,-0.1628,0.298,0.0,12.23,71.73,0.2236
-FCX,Freeport-McMoRan Inc,U.S. Large-cap Blend Common Stock,32.89,0.031,-0.3858,0.4476,0.0009,1.34,37.8,0.0383
-FDS,FactSet Research Systems Inc,U.S. Mid-cap Growth Common Stock,44.15,0.1528,0.07,0.2359,0.0,24.14,56.48,0.2509
-FDX,FedEx Corp,U.S. Large-cap Value Common Stock,12.67,0.18,0.0198,0.3392,0.0,8.74,47.71,0.2215
-FELE,Franklin Electric Co Inc,U.S. Small-cap Blend Common Stock,34.22,-0.0109,-0.1274,0.1056,0.0,11.11,34.1,0.535
-FFIC,Flushing Financial Corp,U.S. Small-cap Blend Common Stock,9.2,0.0603,-0.0375,0.1575,0.0,3.03,16.37,0.7068
-FICO,Fair Isaac Corp,U.S. Mid-cap Growth Common Stock,99.85,0.029,-0.2668,0.3251,0.0,6.79,65.56,0.1551
-FISV,Fiserv Inc,U.S. Large-cap Growth Common Stock,40.66,0.1527,0.0018,0.3028,0.0,16.22,108.21,0.3718
-FITB,Fifth Third Bancorp,U.S. Mid-cap Blend Common Stock,12.5,0.0143,-0.2755,0.3047,0.0,0.66,29.43,0.2008
-FIZZ,National Beverage Corp,U.S. Small-cap Growth Common Stock,31.91,0.2564,0.0479,0.4643,0.0,0.07,93.22,0.1344
-FL,Foot Locker Inc,U.S. Small-cap Value Common Stock,7.98,0.1864,-0.106,0.4802,0.0,3.76,2524.68,0.2336
-FLIC,First of Long Island Corp/The,U.S. Small-cap Blend Common Stock,10.33,0.1054,0.0176,0.1936,0.0,6.9,22.98,0.5446
-FLR,Fluor Corp,U.S. Small-cap Value Common Stock,15.76,0.0446,-0.2596,0.3494,0.0048,7.03,53.49,0.0749
-FLS,Flowserve Corp,U.S. Small-cap Blend Common Stock,13.28,0.1361,-0.1434,0.4162,0.0,5.27,57.29,0.1328
-FMC,FMC Corp,U.S. Mid-cap Blend Common Stock,25.94,0.1095,-0.1132,0.3327,0.0393,2.3,27.39,0.037
-FMNB,Farmers National Banc Corp,U.S. Small-cap Blend Common Stock,10.79,0.0218,-0.2101,0.2546,0.0,3.37,21.09,0.2113
-FNB,FNB Corp/PA,U.S. Small-cap Blend Common Stock,11.52,-0.0346,-0.1849,0.1157,0.0,2.33,14.85,0.2886
-FNLC,First Bancorp Inc/The,U.S. Small-cap Blend Common Stock,11.81,0.0543,-0.0479,0.1569,0.0,5.37,17.86,0.1515
-FRME,First Merchants Corp,U.S. Small-cap Growth Common Stock,13.6,0.0409,-0.2238,0.3051,0.0,3.12,34.15,0.1011
-FRPH,FRP Holdings Inc,U.S. Small-cap Growth Common Stock,236.7,-0.3759,-0.5301,-0.2222,0.0,10.47,65.18,0.4817
-FRT,Federal Realty Investment Trust,Real Estate REIT,35.81,0.0697,-0.0242,0.1649,0.0,7.72,58.03,0.8339
-FUL,HB Fuller Co,U.S. Small-cap Blend Common Stock,20.91,0.053,-0.0654,0.1711,0.0,7.2,28.12,0.3076
-FULT,Fulton Financial Corp,U.S. Small-cap Blend Common Stock,11.92,0.0224,-0.1142,0.1596,0.0,3.68,19.23,0.2639
-FWRD,Forward Air Corp,U.S. Small-cap Blend Common Stock,31.56,0.0862,-0.0394,0.2117,0.0,12.77,87.63,0.2187
-GBCI,Glacier Bancorp Inc,U.S. Small-cap Growth Common Stock,18.6,0.0602,-0.098,0.2181,0.0,5.85,27.36,0.4497
-GBX,Greenbrier Cos Inc/The,U.S. Small-cap Value Common Stock,8.47,0.2023,-0.0007,0.4062,0.0,2.35,39.21,0.727
-GD,General Dynamics Corp,U.S. Large-cap Blend Common Stock,19.37,0.0372,-0.0494,0.1248,0.0,8.09,23.08,0.7099
-GE,General Electric Co,U.S. Large-cap Blend Common Stock,11.71,-0.0284,-0.2228,0.1653,0.0,2.57,31.66,0.2374
-GEF,Greif Inc,U.S. Small-cap Value Common Stock,13.89,0.0296,-0.1721,0.2315,0.0,3.78,23.98,0.3794
-GEF/B,Greif Inc,U.S. Small-cap Value Common Stock,15.97,0.0112,-0.1656,0.1882,0.0,3.68,17.64,0.3306
-GEO,GEO Group Inc/The,U.S. Small-cap Value Common Stock,7.57,0.3197,0.1121,0.525,0.0,5.34,26.12,0.5978
-GFF,Griffon Corp,U.S. Small-cap Value Common Stock,24.79,-0.0223,-0.2468,0.2018,0.0,5.0,43.5,0.1949
-GGG,Graco Inc,U.S. Mid-cap Growth Common Stock,33.83,0.068,-0.092,0.2271,0.0,8.28,42.58,0.4035
-GHC,Graham Holdings Co,U.S. Small-cap Value Common Stock,23.81,-0.0812,-0.2366,0.0738,0.0,4.99,24.6,0.5172
-GIC,Global Industrial Co,U.S. Small-cap Value Common Stock,28.26,-0.0845,-0.331,0.1655,0.0,1.0,35.36,0.6533
-GIII,G-III Apparel Group Ltd,U.S. Small-cap Value Common Stock,6.0,0.3097,-0.0528,0.6704,0.0157,5.11,882.16,0.0923
-GIS,General Mills Inc,U.S. Large-cap Blend Common Stock,20.37,0.0375,-0.0305,0.1055,0.0,9.68,22.7,0.2804
-GL,Globe Life Inc,U.S. Mid-cap Blend Common Stock,18.82,0.0349,-0.0906,0.1609,0.0,4.02,24.55,0.4344
-GLT,Glatfelter Corp,U.S. Small-cap Value Common Stock,3.87,0.1663,-0.0076,0.3404,0.0,5.27,27.2,0.1971
-GLW,Corning Inc,U.S. Mid-cap Blend Common Stock,21.27,0.0383,-0.1411,0.2167,0.0,2.77,161.09,0.7283
-GNTX,Gentex Corp,U.S. Mid-cap Growth Common Stock,18.86,0.148,0.0077,0.2879,0.0,8.79,65.87,0.2784
-GPC,Genuine Parts Co,U.S. Mid-cap Blend Common Stock,26.73,0.0569,-0.0663,0.18,0.0,4.95,23.81,0.0914
-GPS,Gap Inc/The,U.S. Small-cap Value Common Stock,5.72,0.1457,-0.0291,0.3206,0.0,6.63,67.76,0.3454
-GRC,Gorman-Rupp Co/The,U.S. Small-cap Blend Common Stock,21.38,0.0848,-0.0214,0.1917,0.0,7.05,35.51,0.3586
-GSBC,Great Southern Bancorp Inc,U.S. Small-cap Blend Common Stock,11.78,0.1162,-0.0658,0.2988,0.0,3.04,24.7,0.2524
-GVA,Granite Construction Inc,U.S. Small-cap Value Common Stock,48.15,-0.1465,-0.3079,0.0137,0.0,8.74,54.22,0.4538
-GWW,WW Grainger Inc,U.S. Mid-cap Blend Common Stock,31.65,0.0764,-0.0681,0.2212,0.0,9.34,34.2,0.1292
-HAE,Haemonetics Corp,U.S. Small-cap Growth Common Stock,41.45,0.0593,-0.0741,0.1934,0.0,12.83,42.19,0.1359
-HAIN,Hain Celestial Group Inc/The,U.S. Small-cap Value Common Stock,13.6,0.3473,0.1244,0.57,0.0,15.53,175.44,0.5341
-HAL,Halliburton Co,U.S. Large-cap Blend Common Stock,20.69,0.0444,-0.2334,0.3232,0.0006,8.93,87.28,0.0836
-HAS,Hasbro Inc,U.S. Mid-cap Blend Common Stock,12.61,0.1165,-0.06,0.2929,0.0,6.19,30.68,0.0618
-HBAN,Huntington Bancshares Inc/OH,U.S. Mid-cap Blend Common Stock,13.06,-0.0395,-0.3131,0.2346,0.0,0.66,31.72,0.1647
-HCSG,Healthcare Services Group Inc,U.S. Small-cap Value Common Stock,13.03,0.3014,0.0987,0.5042,0.0,4.79,67.29,0.6309
-HD,Home Depot Inc/The,U.S. Large-cap Blend Common Stock,30.79,0.0963,-0.1205,0.3128,0.0,7.25,99.79,0.3775
-HE,Hawaiian Electric Industries Inc,U.S. Small-cap Blend Common Stock,19.44,0.0692,-0.0244,0.1627,0.0003,3.38,20.23,0.058
-HEI,HEICO Corp,U.S. Mid-cap Growth Common Stock,89.07,0.0745,-0.1247,0.2745,0.0,13.5,130.05,0.319
-HELE,Helen of Troy Ltd,U.S. Small-cap Blend Common Stock,14.42,0.1908,0.0072,0.3756,0.0,6.25,45.89,0.4007
-HES,Hess Corp,U.S. Large-cap Growth Common Stock,281.41,0.2676,0.0201,0.5151,0.0,7.88,443.53,0.1226
-HIBB,Hibbett Inc,U.S. Small-cap Value Common Stock,14.59,0.1598,-0.1132,0.4332,0.0,5.35,66.54,0.2086
-HIFS,Hingham Institution For Savings The,U.S. Small-cap Growth Common Stock,16.11,0.1373,-0.0638,0.3377,0.0,4.29,29.25,0.0757
-HIG,Hartford Financial Services Group Inc/The,U.S. Mid-cap Blend Common Stock,16.85,-0.0965,-0.3407,0.1465,0.0,0.77,24.62,0.4534
-HIW,Highwoods Properties Inc,Real Estate REIT,25.37,0.0762,-0.0302,0.1831,0.0,3.62,61.85,0.2217
-HMN,Horace Mann Educators Corp,U.S. Small-cap Blend Common Stock,12.56,-0.0088,-0.2051,0.1871,0.0,3.91,16.8,0.1998
-HNI,HNI Corp,U.S. Small-cap Value Common Stock,12.47,0.0514,-0.1014,0.2027,0.0,2.92,27.12,0.5034
-HOLX,Hologic Inc,U.S. Mid-cap Growth Common Stock,33.86,0.269,-0.1037,0.6409,0.0,7.88,291.3,0.2709
-HON,Honeywell International Inc,U.S. Large-cap Growth Common Stock,26.47,0.0431,-0.1433,0.2294,0.0001,5.74,26.3,0.0985
-HPQ,HP Inc,U.S. Mid-cap Value Common Stock,9.63,-0.0882,-0.2283,0.0523,0.0,1.51,16.02,0.7087
-HRB,H&R Block Inc,U.S. Small-cap Blend Common Stock,12.73,0.0683,-0.101,0.2379,0.0,5.28,25.54,0.3722
-HRL,Hormel Foods Corp,U.S. Mid-cap Blend Common Stock,24.8,0.1187,0.0,0.2374,0.0,10.37,43.06,0.1053
-HSC,Harsco Corp,U.S. Small-cap Value Common Stock,25.39,-0.1533,-0.3702,0.0647,0.0,2.85,29.39,0.4317
-HSIC,Henry Schein Inc,U.S. Mid-cap Value Common Stock,23.68,0.1419,0.0734,0.2108,0.0,16.3,34.09,0.7683
-HSY,Hershey Co/The,U.S. Large-cap Growth Common Stock,35.39,0.0043,-0.1243,0.133,0.0,11.61,31.89,0.3261
-HTLD,Heartland Express Inc,U.S. Small-cap Blend Common Stock,23.39,0.0782,-0.0529,0.2084,0.0,12.93,38.38,0.5087
-HTLF,Heartland Financial USA Inc,U.S. Small-cap Blend Common Stock,11.48,0.1452,0.0257,0.2666,0.0,7.54,23.15,0.5854
-HUBB,Hubbell Inc,U.S. Mid-cap Blend Common Stock,30.23,0.0392,-0.1193,0.1978,0.0,6.36,24.56,0.1122
-HUM,Humana Inc,U.S. Large-cap Value Common Stock,27.18,0.1114,-0.0525,0.2752,0.0,4.81,44.91,0.5858
-HWKN,Hawkins Inc,U.S. Small-cap Value Common Stock,23.66,0.0614,-0.0712,0.1945,0.0,7.13,28.09,0.255
-IBM,International Business Machines Corp,U.S. Large-cap Blend Common Stock,8.8,0.0595,-0.0781,0.1975,0.0164,6.79,521.3,0.0552
-IBOC,International Bancshares Corp,U.S. Small-cap Growth Common Stock,14.51,-0.0036,-0.1252,0.1189,0.0,3.32,19.18,0.5358
-ICUI,ICU Medical Inc,U.S. Small-cap Blend Common Stock,37.41,0.1203,-0.0375,0.2796,0.0,18.51,76.09,0.4302
-IDA,IDACORP Inc,U.S. Small-cap Growth Common Stock,20.87,0.139,0.0177,0.2607,0.0,4.23,23.99,0.1257
-IDXX,IDEXX Laboratories Inc,U.S. Large-cap Growth Common Stock,101.04,0.145,-0.0461,0.336,0.0008,29.4,101.2,0.0698
-IEX,IDEX Corp,U.S. Mid-cap Growth Common Stock,42.62,0.117,-0.0337,0.2677,0.0075,11.16,42.25,0.0273
-IFF,International Flavors & Fragrances Inc,U.S. Mid-cap Blend Common Stock,19.46,0.0776,-0.0898,0.2453,0.0025,5.09,30.4,0.0315
-IMKTA,Ingles Markets Inc,U.S. Small-cap Value Common Stock,15.17,0.0575,-0.1379,0.2531,0.0,4.98,24.09,0.1708
-INT,World Fuel Services Corp,U.S. Small-cap Value Common Stock,10.24,0.2526,-0.0531,0.557,0.0,5.75,48.12,0.2311
-INTC,Intel Corp,U.S. Large-cap Blend Common Stock,7.89,0.1731,0.0479,0.2994,0.0,7.2,64.34,0.5786
-INTU,Intuit Inc,U.S. Large-cap Growth Common Stock,75.54,0.1546,-0.0047,0.3125,0.0,21.15,2033.56,0.3897
-IP,International Paper Co,U.S. Mid-cap Value Common Stock,8.29,0.101,-0.0929,0.2948,0.0002,2.42,18.52,0.1908
-IPAR,Inter Parfums Inc,U.S. Small-cap Growth Common Stock,58.27,-0.0135,-0.1753,0.1485,0.0,6.02,51.5,0.4961
-IPG,Interpublic Group of Cos Inc/The,U.S. Mid-cap Blend Common Stock,20.0,0.0089,-0.2951,0.3121,0.0049,4.04,50.81,0.0629
-ITIC,Investors Title Co,U.S. Small-cap Value Common Stock,11.96,0.1242,-0.0704,0.3193,0.0,4.31,29.06,0.1128
-ITT,ITT Inc,U.S. Mid-cap Blend Common Stock,24.2,-0.031,-0.179,0.1169,0.0,1.98,11.94,0.1962
-ITW,Illinois Tool Works Inc,U.S. Large-cap Growth Common Stock,31.47,0.0438,-0.0836,0.1708,0.0,8.35,34.71,0.2032
-J,Jacobs Solutions Inc,U.S. Mid-cap Blend Common Stock,25.04,0.1203,-0.0828,0.3222,0.0,11.79,74.45,0.177
-JACK,Jack in the Box Inc,U.S. Small-cap Blend Common Stock,16.92,0.1594,-0.058,0.3774,0.0,11.29,581.24,0.2297
-JBHT,JB Hunt Transport Services Inc,U.S. Mid-cap Blend Common Stock,34.36,0.1568,0.0157,0.2993,0.0,10.97,61.42,0.5596
-JBL,Jabil Inc,U.S. Mid-cap Value Common Stock,25.83,0.0261,-0.1395,0.1922,0.0,3.59,150.22,0.5282
-JBSS,John B Sanfilippo & Son Inc,U.S. Small-cap Value Common Stock,20.3,0.1124,-0.2693,0.4954,0.0,3.2,47.4,0.2006
-JJSF,J & J Snack Foods Corp,U.S. Small-cap Blend Common Stock,35.84,0.0844,-0.0075,0.1757,0.0,10.74,42.5,0.5691
-JKHY,Jack Henry & Associates Inc,U.S. Mid-cap Growth Common Stock,43.99,0.1093,-0.0271,0.2447,0.0,15.88,114.15,0.4757
-JNJ,Johnson & Johnson,U.S. Large-cap Growth Common Stock,21.3,0.064,-0.0058,0.1336,0.0,10.68,29.42,0.4582
-JOE,St Joe Co/The,U.S. Small-cap Growth Common Stock,46.16,-0.0071,-0.2816,0.2675,0.0001,15.64,81.0,0.0709
-JOUT,Johnson Outdoors Inc,U.S. Small-cap Value Common Stock,15.05,0.1678,-0.0477,0.385,0.0,4.32,47.35,0.4388
-JWN,Nordstrom Inc,U.S. Small-cap Value Common Stock,7.31,0.2909,0.0394,0.541,0.0,5.1,33.79,0.3888
-K,Kellogg Co,U.S. Mid-cap Blend Common Stock,15.21,0.0267,-0.0353,0.0892,0.0,7.24,18.88,0.5752
-KAMN,Kaman Corp,U.S. Small-cap Value Common Stock,9.78,0.1683,0.0445,0.2917,0.0,7.12,35.1,0.4467
-KELYA,Kelly Services Inc,U.S. Small-cap Value Common Stock,9.05,0.0247,-0.1397,0.1888,0.0368,5.32,33.4,0.026
-KEX,Kirby Corp,U.S. Small-cap Blend Common Stock,21.65,0.1189,-0.087,0.3246,0.0112,14.88,47.56,0.0569
-KEY,KeyCorp,U.S. Mid-cap Blend Common Stock,10.86,0.0102,-0.2848,0.3046,0.003,2.0,87.57,0.0427
-KIM,Kimco Realty Corp,Real Estate REIT,22.38,-0.071,-0.2389,0.0976,0.0,3.45,28.35,0.6006
-KLAC,KLA Corp,U.S. Large-cap Growth Common Stock,37.07,0.0261,-0.2191,0.2703,0.0,5.62,90.03,0.2801
-KMB,Kimberly-Clark Corp,U.S. Large-cap Blend Common Stock,17.56,0.0317,-0.0626,0.1258,0.0,6.9,21.16,0.3123
-KMPR,Kemper Corp,U.S. Small-cap Value Common Stock,21.24,-0.0723,-0.2234,0.0794,0.0,3.35,29.17,0.4147
-KMT,Kennametal Inc,U.S. Small-cap Blend Common Stock,12.26,0.0664,-0.0385,0.171,0.0,5.9,22.36,0.6156
-KO,Coca-Cola Co/The,U.S. Large-cap Growth Common Stock,24.28,-0.0002,-0.0522,0.0525,0.0,11.79,41.46,0.8197
-KR,Kroger Co/The,U.S. Large-cap Value Common Stock,15.88,0.0734,-0.0592,0.2075,0.0,9.04,41.06,0.5827
-L,Loews Corp,U.S. Mid-cap Blend Common Stock,18.07,0.0632,-0.0719,0.1975,0.0,5.75,34.49,0.3023
-LCII,LCI Industries,U.S. Small-cap Value Common Stock,14.75,0.2004,-0.0238,0.426,0.0,3.5,45.9,0.5714
-LCUT,Lifetime Brands Inc,U.S. Small-cap Value Common Stock,7.53,0.1953,0.0075,0.3844,0.0,2.05,33.12,0.6987
-LECO,Lincoln Electric Holdings Inc,U.S. Mid-cap Blend Common Stock,31.25,0.0462,-0.0667,0.1595,0.0,7.82,37.15,0.4864
-LEG,Leggett & Platt Inc,U.S. Small-cap Value Common Stock,13.31,0.0627,-0.0916,0.2177,0.0,4.65,27.21,0.1878
-LEN,Lennar Corp,U.S. Mid-cap Value Common Stock,13.76,0.0727,-0.2721,0.4183,0.0,1.5,39.12,0.222
-LFUS,Littelfuse Inc,U.S. Mid-cap Blend Common Stock,29.35,0.1073,-0.099,0.313,0.0,7.88,52.41,0.2345
-LH,Laboratory Corp of America Holdings,U.S. Mid-cap Blend Common Stock,18.1,0.1741,0.0637,0.2851,0.0,2.28,46.66,0.8199
-LHX,L3Harris Technologies Inc,U.S. Large-cap Blend Common Stock,26.91,0.0456,-0.114,0.2043,0.0,7.81,34.69,0.4011
-LKFN,Lakeland Financial Corp,U.S. Small-cap Growth Common Stock,21.65,0.1012,-0.0429,0.2446,0.0,5.62,28.95,0.111
-LLY,Eli Lilly & Co,U.S. Large-cap Growth Common Stock,60.28,-0.0852,-0.2936,0.1229,0.0,5.92,48.27,0.2856
-LMT,Lockheed Martin Corp,U.S. Large-cap Blend Common Stock,20.07,0.0945,-0.0541,0.2434,0.0,5.5,26.36,0.3455
-LNC,Lincoln National Corp,U.S. Small-cap Value Common Stock,5.94,0.1533,-0.031,0.3379,0.0,1.22,18.15,0.5291
-LNN,Lindsay Corp,U.S. Small-cap Blend Common Stock,37.24,0.0567,-0.1022,0.2161,0.0,12.12,79.05,0.1471
-LNT,Alliant Energy Corp,U.S. Mid-cap Growth Common Stock,21.63,0.1491,0.0273,0.271,0.0001,3.15,23.44,0.1152
-LOW,Lowe's Cos Inc,U.S. Large-cap Blend Common Stock,29.09,0.1409,-0.0708,0.3517,0.0,9.37,63.89,0.165
-LRCX,Lam Research Corp,U.S. Large-cap Growth Common Stock,28.66,0.1486,-0.1003,0.3956,0.0,5.76,103.84,0.3751
-LSCC,Lattice Semiconductor Corp,U.S. Mid-cap Growth Common Stock,415.27,0.2235,-0.2332,0.6797,0.0056,4.98,225.02,0.0699
-LSTR,Landstar System Inc,U.S. Mid-cap Value Common Stock,28.49,0.1308,-0.0178,0.2804,0.0,12.37,50.12,0.6403
-LUMN,Lumen Technologies Inc,U.S. Small-cap Value Common Stock,2.97,0.0619,-0.0836,0.2077,0.0,3.15,15.25,0.0619
-LUV,Southwest Airlines Co,U.S. Mid-cap Value Common Stock,17.01,0.2218,-0.0406,0.4851,0.0,9.24,55.73,0.3707
-LZB,La-Z-Boy Inc,U.S. Small-cap Value Common Stock,12.1,0.0862,-0.2591,0.4315,0.0292,1.09,77.16,0.0971
-M,Macy's Inc,U.S. Small-cap Value Common Stock,6.02,0.1723,-0.0326,0.3775,0.0,2.11,21.59,0.5896
-MAA,Mid-America Apartment Communities Inc,Real Estate REIT,65.11,0.1277,0.0313,0.2243,0.0,6.59,117.49,0.321
-MAC,Macerich Co/The,Real Estate REIT,22.84,0.0149,-0.191,0.2247,0.0,2.0,69.53,0.73
-MAN,ManpowerGroup Inc,U.S. Small-cap Value Common Stock,11.51,0.1295,-0.0223,0.2808,0.0,6.84,66.07,0.3456
-MAS,Masco Corp,U.S. Mid-cap Blend Common Stock,19.76,0.0523,-0.2126,0.3177,0.006,2.16,55.22,0.0428
-MAT,Mattel Inc,U.S. Mid-cap Blend Common Stock,27.59,-0.2068,-0.3744,-0.0393,0.0,5.85,23.16,0.4623
-MATV,Mativ Holdings Inc,U.S. Small-cap Value Common Stock,6.68,0.1566,-0.0693,0.3839,0.0,4.58,22.52,0.2586
-MATW,Matthews International Corp,U.S. Small-cap Value Common Stock,13.96,0.0854,-0.1042,0.2752,0.0,10.5,30.15,0.1407
-MCD,McDonald's Corp,U.S. Large-cap Growth Common Stock,34.47,0.0117,-0.153,0.1766,0.0,6.46,28.72,0.2197
-MCHP,Microchip Technology Inc,U.S. Large-cap Growth Common Stock,51.96,0.0321,-0.1114,0.1767,0.0,11.8,60.92,0.2948
-MCK,McKesson Corp,U.S. Large-cap Value Common Stock,26.15,0.1003,-0.0196,0.2206,0.0,13.53,83.08,0.7398
-MCRI,Monarch Casino & Resort Inc,U.S. Small-cap Blend Common Stock,37.55,0.1061,-0.2592,0.47,0.0,7.85,79.22,0.1629
-MCS,Marcus Corp/The,U.S. Small-cap Value Common Stock,33.2,-0.0441,-0.2511,0.163,0.0,5.43,37.08,0.1792
-MCY,Mercury General Corp,U.S. Small-cap Value Common Stock,26.47,-0.0841,-0.1787,0.0103,0.0,3.59,18.68,0.3924
-MD,Pediatrix Medical Group Inc,U.S. Small-cap Value Common Stock,5.31,0.4259,0.1181,0.7338,0.0031,16.12,43.56,0.0965
-MDC,MDC Holdings Inc,U.S. Small-cap Value Common Stock,8.89,0.112,-0.2369,0.4611,0.0018,3.39,284.11,0.0283
-MDT,Medtronic PLC,U.S. Large-cap Growth Common Stock,19.82,0.0686,-0.0088,0.1457,0.0,10.38,36.87,0.8058
-MDU,MDU Resources Group Inc,U.S. Mid-cap Value Common Stock,16.68,0.0009,-0.1033,0.1057,0.0,6.43,18.33,0.4579
-MGEE,MGE Energy Inc,U.S. Small-cap Growth Common Stock,25.09,0.1059,0.0205,0.1909,0.0065,4.64,29.81,0.0375
-MGRC,McGrath RentCorp,U.S. Small-cap Growth Common Stock,37.2,-0.0004,-0.1537,0.1532,0.0001,6.53,25.02,0.1338
-MHK,Mohawk Industries Inc,U.S. Mid-cap Value Common Stock,9.0,0.2888,0.0377,0.5405,0.0,4.64,51.92,0.3701
-MHO,M/I Homes Inc,U.S. Small-cap Value Common Stock,9.06,0.0624,-0.3044,0.4285,0.0003,1.64,57.52,0.0549
-MIDD,Middleby Corp/The,U.S. Mid-cap Blend Common Stock,25.5,0.4921,0.1514,0.8311,0.0,13.77,326.65,0.5029
-MKC,McCormick & Co Inc/MD,U.S. Mid-cap Growth Common Stock,27.7,0.1103,0.0153,0.2054,0.0,12.06,32.19,0.1344
-MKL,Markel Corp,U.S. Mid-cap Blend Common Stock,39.86,0.0853,-0.0306,0.201,0.0,18.45,75.74,0.3135
-MLI,Mueller Industries Inc,U.S. Small-cap Value Common Stock,18.87,0.0447,-0.0937,0.1837,0.0003,4.69,24.37,0.1271
-MLKN,MillerKnoll Inc,U.S. Small-cap Value Common Stock,9.66,0.1077,-0.0239,0.2392,0.0,5.32,58.61,0.3569
-MLM,Martin Marietta Materials Inc,U.S. Mid-cap Growth Common Stock,41.77,0.0622,-0.1108,0.2358,0.0,9.53,59.22,0.2448
-MMM,3M Co,U.S. Large-cap Blend Common Stock,11.45,0.1935,0.1221,0.2648,0.0,8.09,29.34,0.7726
-MMSI,Merit Medical Systems Inc,U.S. Small-cap Growth Common Stock,68.38,0.0127,-0.236,0.2618,0.0,16.27,123.04,0.4203
-MNRO,Monro Inc,U.S. Small-cap Blend Common Stock,22.46,0.1612,-0.0018,0.3239,0.0,5.75,50.26,0.5322
-MO,Altria Group Inc,U.S. Large-cap Growth Common Stock,10.62,0.0662,-0.0863,0.219,0.0,0.52,20.01,0.3174
-MOD,Modine Manufacturing Co,U.S. Small-cap Value Common Stock,25.06,-0.0333,-0.2904,0.224,0.0285,0.97,334.59,0.051
-MOG/A,Moog Inc,U.S. Small-cap Value Common Stock,18.5,0.1445,-0.0413,0.3296,0.0,12.46,47.02,0.1894
-MOV,Movado Group Inc,U.S. Small-cap Blend Common Stock,13.15,0.1215,-0.0553,0.296,0.0,3.92,37.4,0.587
-MPAA,Motorcar Parts of America Inc,U.S. Small-cap Value Common Stock,11.98,0.1295,-0.2207,0.4793,0.0,1.93,232.78,0.234
-MRK,Merck & Co Inc,U.S. Large-cap Growth Common Stock,25.36,-0.0367,-0.1881,0.1146,0.0,4.26,22.39,0.25
-MRO,Marathon Oil Corp,U.S. Mid-cap Blend Common Stock,40.1,-0.095,-0.3982,0.2085,0.0032,2.33,16.94,0.039
-MRTN,Marten Transport Ltd,U.S. Small-cap Blend Common Stock,34.17,0.0405,-0.0976,0.1789,0.0,7.2,40.98,0.4564
-MS,Morgan Stanley,U.S. Large-cap Blend Common Stock,18.97,-0.0035,-0.2783,0.2714,0.0374,2.47,28.64,0.0385
-MSA,MSA Safety Inc,U.S. Small-cap Growth Common Stock,38.88,-0.0241,-0.2387,0.1904,0.0,8.34,38.7,0.4159
-MSEX,Middlesex Water Co,U.S. Small-cap Growth Common Stock,45.25,0.1778,0.0135,0.3422,0.0121,5.1,38.65,0.0462
-MSFT,Microsoft Corp,U.S. Large-cap Growth Common Stock,45.38,0.0457,-0.1805,0.2717,0.0,9.11,132.25,0.3541
-MSM,MSC Industrial Direct Co Inc,U.S. Small-cap Blend Common Stock,15.08,0.1346,0.012,0.2574,0.0,8.34,32.07,0.2846
-MTB,M&T Bank Corp,U.S. Mid-cap Blend Common Stock,12.8,0.0845,-0.0467,0.2153,0.0,4.27,21.0,0.3755
-MTRN,Materion Corp,U.S. Small-cap Blend Common Stock,39.16,0.0361,-0.1867,0.2595,0.0,6.24,126.8,0.346
-MTW,Manitowoc Co Inc/The,U.S. Small-cap Value Common Stock,12.7,-0.1792,-0.4306,0.0729,0.0,0.62,16.71,0.4893
-MTX,Minerals Technologies Inc,U.S. Small-cap Blend Common Stock,13.39,0.1736,0.0545,0.2936,0.0,8.81,37.6,0.5409
-MTZ,MasTec Inc,U.S. Mid-cap Value Common Stock,31.63,0.0773,-0.1365,0.2919,0.0,2.88,181.38,0.6056
-MUR,Murphy Oil Corp,U.S. Mid-cap Blend Common Stock,38.89,0.2363,-0.0005,0.4734,0.0,3.1,29.14,0.3264
-MYE,Myers Industries Inc,U.S. Small-cap Value Common Stock,25.63,-0.0044,-0.1561,0.1478,0.0,3.54,32.43,0.1484
-NATI,National Instruments Corp,U.S. Small-cap Blend Common Stock,51.42,-0.0348,-0.0968,0.0269,0.0,16.03,52.66,0.6986
-NBN,Northeast Bank,U.S. Small-cap Blend Common Stock,15.48,-0.0258,-0.2159,0.1652,0.0,5.06,22.17,0.3265
-NBTB,NBT Bancorp Inc,U.S. Small-cap Growth Common Stock,13.81,0.0285,-0.058,0.1152,0.0,4.92,19.48,0.3293
-NCR,NCR Corp,U.S. Small-cap Value Common Stock,9.48,0.2357,0.0689,0.4023,0.0,6.76,35.23,0.5139
-NEE,NextEra Energy Inc,U.S. Large-cap Growth Common Stock,35.78,0.2325,0.1158,0.3492,0.0,5.48,27.91,0.1832
-NEM,Newmont Corp,U.S. Large-cap Growth Common Stock,27.24,0.0381,-0.149,0.2258,0.0,5.28,73.52,0.36
-NEOG,Neogen Corp,U.S. Small-cap Growth Common Stock,39.07,0.2824,0.1586,0.4073,0.0,32.0,399.13,0.5521
-NEU,NewMarket Corp,U.S. Small-cap Blend Common Stock,14.18,0.1801,-0.3011,0.6611,0.0022,0.68,37.7,0.0607
-NFG,National Fuel Gas Co,U.S. Small-cap Blend Common Stock,13.52,0.0552,-0.0592,0.1695,0.0,6.61,21.95,0.4084
-NHC,National HealthCare Corp,U.S. Small-cap Value Common Stock,13.38,0.0643,-0.0881,0.2156,0.0,0.69,19.91,0.6937
-NHI,National Health Investors Inc,Real Estate REIT,14.17,0.0996,-0.0107,0.2114,0.0,0.56,19.65,0.6205
-NJR,New Jersey Resources Corp,U.S. Small-cap Blend Common Stock,22.56,0.0881,0.0149,0.1617,0.0,5.67,26.96,0.1779
-NL,NL Industries Inc,U.S. Small-cap Blend Common Stock,13.91,0.041,-0.1996,0.2816,0.0,5.37,6492.77,0.2413
-NNN,National Retail Properties Inc,Real Estate REIT,28.96,0.0755,-0.0224,0.1738,0.0,2.17,33.27,0.3485
-NPK,National Presto Industries Inc,U.S. Small-cap Blend Common Stock,11.44,0.0902,-0.0828,0.2632,0.0272,2.31,14.25,0.0348
-NR,Newpark Resources Inc,U.S. Small-cap Value Common Stock,105.82,-0.1918,-0.429,0.0451,0.0007,8.89,83.61,0.1193
-NSC,Norfolk Southern Corp,U.S. Large-cap Growth Common Stock,25.26,0.0862,-0.0931,0.2658,0.0,5.51,24.03,0.0845
-NSIT,Insight Enterprises Inc,U.S. Small-cap Value Common Stock,25.18,-0.0315,-0.2111,0.1462,0.0,1.75,40.54,0.5819
-NSSC,Napco Security Technologies Inc,U.S. Small-cap Growth Common Stock,110.61,0.0368,-0.3803,0.4541,0.0,6.11,104.15,0.1435
-NTAP,NetApp Inc,U.S. Mid-cap Blend Common Stock,20.09,0.153,-0.0239,0.3302,0.0,13.36,131.56,0.2269
-NTRS,Northern Trust Corp,U.S. Mid-cap Blend Common Stock,16.04,0.0712,-0.0267,0.1701,0.0,8.28,46.27,0.5298
-NUE,Nucor Corp,U.S. Large-cap Value Common Stock,18.77,0.0322,-0.2096,0.2749,0.0,6.16,23.65,0.2052
-NWBI,Northwest Bancshares Inc,U.S. Small-cap Blend Common Stock,14.1,0.074,0.0136,0.1351,0.0,7.71,21.92,0.7762
-NWL,Newell Brands Inc,U.S. Mid-cap Value Common Stock,7.17,0.0921,-0.082,0.2685,0.0,2.27,23.09,0.5543
-NWN,Northwest Natural Holding Co,U.S. Small-cap Blend Common Stock,18.05,0.0276,-0.048,0.1036,0.0,4.88,22.12,0.4215
-NYCB,New York Community Bancorp Inc,U.S. Mid-cap Blend Common Stock,8.19,0.0346,-0.1086,0.1783,0.0,3.61,18.14,0.2739
-NYT,New York Times Co/The,U.S. Small-cap Blend Common Stock,39.42,-0.0231,-0.3592,0.3125,0.0,2.04,45.83,0.0502
-O,Realty Income Corp,Real Estate REIT,50.01,0.0903,0.0096,0.171,0.0,4.61,52.14,0.2715
-OCFC,OceanFirst Financial Corp,U.S. Small-cap Blend Common Stock,12.43,-0.0101,-0.149,0.1293,0.0,4.29,21.19,0.3644
-ODFL,Old Dominion Freight Line Inc,U.S. Large-cap Growth Common Stock,64.56,0.1691,-0.0718,0.4099,0.0,7.31,58.25,0.2264
-OFC,Corporate Office Properties Trust,Real Estate REIT,40.87,0.0268,-0.0852,0.139,0.0,14.35,64.95,0.8212
-OFIX,Orthofix Medical Inc,U.S. Small-cap Value Common Stock,31.2,-0.0523,-0.183,0.0791,0.0,5.5,46.27,0.4467
-OGE,OGE Energy Corp,U.S. Mid-cap Blend Common Stock,16.86,0.0751,-0.0465,0.1967,0.0,3.61,17.94,0.0964
-OHI,Omega Healthcare Investors Inc,Real Estate REIT,15.21,0.1541,-0.0149,0.3238,0.0,0.29,151.68,0.4321
-OI,O-I Glass Inc,U.S. Small-cap Value Common Stock,6.67,0.0923,-0.1501,0.3355,0.0,2.59,61.29,0.2912
-OKE,ONEOK Inc,U.S. Mid-cap Blend Common Stock,24.8,0.075,-0.0841,0.2345,0.0,3.84,25.29,0.1682
-OLP,One Liberty Properties Inc,Real Estate REIT,23.91,0.0013,-0.2015,0.2045,0.0001,0.68,18.58,0.1695
-OMC,Omnicom Group Inc,U.S. Mid-cap Blend Common Stock,13.88,0.0964,-0.0335,0.2266,0.0,7.24,55.28,0.2966
-OMI,Owens & Minor Inc,U.S. Small-cap Value Common Stock,8.28,-0.0143,-0.2645,0.2359,0.0344,9.02,35.1,0.0151
-OPY,Oppenheimer Holdings Inc,U.S. Small-cap Value Common Stock,12.95,-0.0144,-0.2099,0.1808,0.0,3.19,28.49,0.2414
-ORCL,Oracle Corp,U.S. Large-cap Growth Common Stock,26.74,0.1136,-0.0138,0.2416,0.0,16.29,299.65,0.4627
-ORLY,O'Reilly Automotive Inc,U.S. Large-cap Growth Common Stock,41.98,0.2004,0.0812,0.3204,0.0,20.75,66.7,0.5141
-OVV,Ovintiv Inc,U.S. Mid-cap Blend Common Stock,12.2,0.0477,-0.3052,0.4,0.0008,1.26,15.8,0.0442
-OXM,Oxford Industries Inc,U.S. Small-cap Blend Common Stock,25.3,0.1306,-0.2052,0.4672,0.0,2.28,132.79,0.192
-OXY,Occidental Petroleum Corp,U.S. Large-cap Blend Common Stock,22.53,0.1623,-0.1672,0.4912,0.0,8.55,159.5,0.0694
-PAG,Penske Automotive Group Inc,U.S. Mid-cap Value Common Stock,16.92,0.0805,-0.0492,0.2132,0.0,4.02,23.43,0.7248
-PAYX,Paychex Inc,U.S. Large-cap Growth Common Stock,37.45,0.089,-0.0614,0.2398,0.0,12.95,145.97,0.1897
-PCAR,PACCAR Inc,U.S. Large-cap Blend Common Stock,18.87,0.0102,-0.0959,0.1147,0.0,4.82,19.45,0.7723
-PCG,PG&E Corp,U.S. Large-cap Blend Common Stock,4.91,0.1567,-0.0349,0.3507,0.0,2.16,21.59,0.6191
-PDCE,PDC Energy Inc,U.S. Small-cap Blend Common Stock,26.84,0.1284,-0.1578,0.4132,0.0,7.67,130.81,0.6362
-PEAK,Healthpeak Properties Inc,Real Estate REIT,25.43,0.0101,-0.0798,0.0998,0.0,2.61,26.93,0.6558
-PEBO,Peoples Bancorp Inc/OH,U.S. Small-cap Blend Common Stock,11.2,0.0218,-0.1498,0.194,0.0,3.08,19.17,0.2727
-PEG,Public Service Enterprise Group Inc,U.S. Large-cap Blend Common Stock,15.59,0.0439,-0.0615,0.1489,0.0,2.84,14.55,0.268
-PEGA,Pegasystems Inc,U.S. Small-cap Blend Common Stock,71.47,0.2532,0.0316,0.4773,0.0005,36.71,898.67,0.2585
-PENN,Penn Entertainment Inc,U.S. Small-cap Value Common Stock,26.38,0.004,-0.2885,0.2967,0.0,3.35,23.12,0.1859
-PEP,PepsiCo Inc,U.S. Large-cap Blend Common Stock,27.36,0.0115,-0.0423,0.065,0.0,12.97,24.12,0.4817
-PFC,Premier Financial Corp,U.S. Small-cap Blend Common Stock,10.61,0.0953,-0.1209,0.3123,0.0,2.19,22.63,0.4724
-PFE,Pfizer Inc,U.S. Large-cap Blend Common Stock,15.53,0.0298,-0.1093,0.1693,0.0,3.71,49.92,0.4556
-PG,Procter & Gamble Co/The,U.S. Large-cap Growth Common Stock,26.57,0.0397,-0.0331,0.1131,0.0,12.32,29.84,0.2311
-PGR,Progressive Corp/The,U.S. Large-cap Blend Common Stock,31.03,0.0648,-0.1377,0.2673,0.0,6.25,27.36,0.1148
-PH,Parker-Hannifin Corp,U.S. Large-cap Blend Common Stock,27.96,0.0153,-0.0906,0.1206,0.0,8.37,28.28,0.3887
-PHM,PulteGroup Inc,U.S. Mid-cap Value Common Stock,13.15,0.1104,-0.2602,0.482,0.0013,1.97,87.68,0.0359
-PII,Polaris Inc,U.S. Mid-cap Value Common Stock,14.67,0.1807,-0.0517,0.4126,0.0,4.85,47.44,0.5331
-PKE,Park Aerospace Corp,U.S. Small-cap Growth Common Stock,46.17,-0.1996,-0.2821,-0.1172,0.0,2.89,15.43,0.4746
-PKI,PerkinElmer Inc,U.S. Mid-cap Growth Common Stock,32.65,0.0749,-0.134,0.2847,0.0,7.38,81.11,0.152
-PLAB,Photronics Inc,U.S. Small-cap Blend Common Stock,26.5,-0.0392,-0.3054,0.2276,0.0,0.91,62.78,0.3713
-PLXS,Plexus Corp,U.S. Small-cap Value Common Stock,22.08,0.1256,0.025,0.2269,0.0,13.31,190.97,0.7411
-PNR,Pentair PLC,U.S. Mid-cap Blend Common Stock,16.52,-0.0011,-0.1064,0.1051,0.0,5.47,20.2,0.5731
-PNW,Pinnacle West Capital Corp,U.S. Mid-cap Blend Common Stock,14.68,0.0686,-0.0508,0.188,0.028,3.62,21.21,0.0296
-POOL,Pool Corp,U.S. Mid-cap Blend Common Stock,49.77,0.1213,-0.1633,0.405,0.0002,10.1,57.42,0.1174
-POWI,Power Integrations Inc,U.S. Small-cap Growth Common Stock,55.52,0.067,-0.0528,0.1864,0.0,22.08,99.85,0.5059
-POWL,Powell Industries Inc,U.S. Small-cap Value Common Stock,30.86,-0.0423,-0.181,0.0975,0.0,6.06,38.73,0.3398
-PPG,PPG Industries Inc,U.S. Mid-cap Blend Common Stock,20.25,0.0849,-0.1128,0.2833,0.0017,5.52,34.69,0.0572
-PPL,PPL Corp,U.S. Mid-cap Blend Common Stock,12.43,-0.0429,-0.1355,0.0499,0.0,2.7,11.63,0.6908
-PRA,ProAssurance Corp,U.S. Small-cap Value Common Stock,8.69,0.1384,-0.0615,0.3392,0.0,4.24,19.03,0.2623
-PRG,PROG Holdings Inc,U.S. Small-cap Value Common Stock,7.18,0.3182,0.1615,0.4748,0.0,11.38,35.71,0.259
-PRGS,Progress Software Corp,U.S. Small-cap Growth Common Stock,33.32,0.0577,-0.0393,0.1547,0.0,13.46,62.56,0.3411
-PRK,Park National Corp,U.S. Small-cap Growth Common Stock,15.53,0.0195,-0.1124,0.151,0.0001,4.1,17.72,0.0867
-PRMW,Primo Water Corp,U.S. Small-cap Blend Common Stock,84.54,-0.2307,-0.495,0.0334,0.0,1.14,67.8,0.563
-PSA,Public Storage,Real Estate REIT,35.67,0.124,0.0306,0.2168,0.0,7.22,58.69,0.5952
-PTC,PTC Inc,U.S. Mid-cap Growth Common Stock,81.78,-0.0899,-0.4011,0.223,0.0,5.21,116.38,0.2456
-PVH,PVH Corp,U.S. Small-cap Value Common Stock,10.31,0.1969,-0.0487,0.4432,0.0,5.4,44.78,0.2053
-PZZA,Papa John's International Inc,U.S. Small-cap Blend Common Stock,46.62,0.0142,-0.1567,0.1863,0.0,11.87,69.78,0.5359
-QCRH,QCR Holdings Inc,U.S. Small-cap Blend Common Stock,12.87,0.1337,-0.0713,0.3388,0.0,7.39,32.76,0.4442
-QGEN,QIAGEN NV,U.S. Mid-cap Growth Common Stock,34.57,0.1181,-0.0035,0.2404,0.0,24.78,98.39,0.2552
-R,Ryder System Inc,U.S. Small-cap Value Common Stock,16.85,-0.0414,-0.1462,0.0641,0.0,5.05,20.72,0.7244
-RCII,Rent-A-Center Inc/TX,U.S. Small-cap Value Common Stock,10.69,0.035,-0.2182,0.2872,0.0,3.0,29.61,0.2454
-RCKY,Rocky Brands Inc,U.S. Small-cap Value Common Stock,15.9,0.0966,-0.2492,0.4411,0.0,3.22,62.03,0.1742
-RCL,Royal Caribbean Cruises Ltd,U.S. Mid-cap Blend Common Stock,550.85,-0.7619,-0.9821,-0.5414,0.0,2.04,34.73,0.5297
-REG,Regency Centers Corp,Real Estate REIT,42.83,0.0082,-0.1597,0.1763,0.0,5.8,79.3,0.4103
-RES,RPC Inc,U.S. Small-cap Blend Common Stock,28.1,0.1015,-0.2608,0.4645,0.0,8.79,80.33,0.0974
-REX,REX American Resources Corp,U.S. Small-cap Value Common Stock,18.74,0.0757,-0.1459,0.2978,0.0,3.68,49.14,0.4
-RF,Regions Financial Corp,U.S. Mid-cap Blend Common Stock,15.3,-0.0458,-0.3534,0.2616,0.0,1.07,38.64,0.1092
-RGA,Reinsurance Group of America Inc,U.S. Mid-cap Value Common Stock,12.99,0.0939,-0.0001,0.1873,0.0,6.3,22.4,0.6087
-RHI,Robert Half International Inc,U.S. Mid-cap Blend Common Stock,22.14,0.1264,0.0073,0.2452,0.0,11.65,92.63,0.5002
-RJF,Raymond James Financial Inc,U.S. Mid-cap Blend Common Stock,24.04,0.0601,-0.0523,0.1725,0.0,8.08,23.77,0.2945
-RLI,RLI Corp,U.S. Mid-cap Growth Common Stock,37.18,0.0033,-0.0928,0.0997,0.0,6.44,17.95,0.2884
-RMD,ResMed Inc,U.S. Mid-cap Growth Common Stock,55.01,0.135,0.0333,0.2362,0.0,26.38,96.3,0.4895
-RNST,Renasant Corp,U.S. Small-cap Blend Common Stock,12.56,0.0614,-0.0982,0.2204,0.0,4.86,26.09,0.4317
-ROCK,Gibraltar Industries Inc,U.S. Small-cap Blend Common Stock,24.78,0.0578,-0.2078,0.3227,0.0048,3.44,57.87,0.0386
-ROG,Rogers Corp,U.S. Small-cap Blend Common Stock,29.84,0.1135,-0.1213,0.3482,0.0126,9.55,135.45,0.0219
-ROK,Rockwell Automation Inc,U.S. Large-cap Growth Common Stock,32.34,0.0764,-0.1008,0.2528,0.0,4.39,34.68,0.1801
-ROL,Rollins Inc,U.S. Mid-cap Growth Common Stock,71.97,0.2115,0.0901,0.3331,0.0453,10.95,77.06,0.0445
-ROP,Roper Technologies Inc,U.S. Large-cap Growth Common Stock,46.14,0.1138,0.0171,0.21,0.0,17.93,49.11,0.3574
-ROST,Ross Stores Inc,U.S. Large-cap Blend Common Stock,32.99,0.1655,0.0219,0.3084,0.0,12.15,42.14,0.3136
-RPM,RPM International Inc,U.S. Mid-cap Blend Common Stock,25.75,0.0941,-0.0512,0.2395,0.0017,5.64,24.96,0.0469
-RPT,RPT Realty,Real Estate REIT,81.57,-0.3808,-0.5526,-0.2091,0.0,1.48,31.28,0.5866
-RRC,Range Resources Corp,U.S. Mid-cap Blend Common Stock,8.43,0.4384,0.0383,0.8419,0.0,2.86,125.58,0.5706
-RRX,Regal Rexnord Corp,U.S. Mid-cap Blend Common Stock,21.29,0.0187,-0.1011,0.1391,0.0,7.02,24.01,0.4322
-RS,Reliance Steel & Aluminum Co,U.S. Mid-cap Value Common Stock,20.5,0.0485,-0.121,0.2166,0.0,5.61,27.55,0.3648
-RUSHA,Rush Enterprises Inc,U.S. Small-cap Value Common Stock,21.2,0.0869,-0.0785,0.2516,0.0,2.82,35.17,0.4342
-RUSHB,Rush Enterprises Inc,U.S. Small-cap Value Common Stock,22.9,0.0568,-0.0785,0.1932,0.0,5.41,33.3,0.613
-RYN,Rayonier Inc,Real Estate REIT,44.24,-0.1087,-0.2135,-0.0039,0.0,3.44,19.15,0.6366
-SAM,Boston Beer Co Inc/The,U.S. Small-cap Blend Common Stock,41.88,0.2288,0.0128,0.4439,0.0,19.7,93.81,0.3181
-SANM,Sanmina Corp,U.S. Small-cap Value Common Stock,19.67,-0.035,-0.3949,0.3219,0.0,0.71,220.16,0.3648
-SASR,Sandy Spring Bancorp Inc,U.S. Small-cap Blend Common Stock,10.89,0.0636,-0.1379,0.2657,0.0,3.36,26.49,0.2171
-SBSI,Southside Bancshares Inc,U.S. Small-cap Growth Common Stock,14.21,0.0648,0.0035,0.1261,0.0,7.43,17.87,0.6373
-SBUX,Starbucks Corp,U.S. Large-cap Growth Common Stock,44.92,0.2305,0.0193,0.4425,0.0,15.41,160.28,0.3097
-SCHL,Scholastic Corp,U.S. Small-cap Value Common Stock,27.19,-0.0308,-0.1649,0.1043,0.0,4.21,38.72,0.3064
-SCHN,Schnitzer Steel Industries Inc,U.S. Small-cap Value Common Stock,13.97,0.0539,-0.3716,0.4787,0.0,4.04,42.04,0.1283
-SCHW,Charles Schwab Corp/The,U.S. Large-cap Growth Common Stock,32.81,0.0895,-0.0399,0.2203,0.0,14.17,171.95,0.7127
-SCI,Service Corp International/US,U.S. Mid-cap Blend Common Stock,31.42,0.0523,-0.3091,0.4134,0.001,1.37,37.36,0.0601
-SCVL,Shoe Carnival Inc,U.S. Small-cap Value Common Stock,15.69,0.128,-0.033,0.2881,0.0,5.14,62.8,0.3336
-SEB,Seaboard Corp,U.S. Small-cap Value Common Stock,13.25,0.1922,-0.1597,0.5448,0.0002,9.53,58.85,0.0463
-SEIC,SEI Investments Co,U.S. Mid-cap Growth Common Stock,20.55,0.155,-0.046,0.3551,0.0,11.86,150.51,0.1813
-SF,Stifel Financial Corp,U.S. Mid-cap Blend Common Stock,16.74,0.3099,0.084,0.5356,0.0,13.94,47.05,0.2826
-SFNC,Simmons First National Corp,U.S. Small-cap Blend Common Stock,9.59,0.1175,0.011,0.2253,0.0,4.76,23.9,0.5352
-SHEN,Shenandoah Telecommunications Co,U.S. Small-cap Blend Common Stock,31.03,0.0127,-0.1635,0.1878,0.0,7.17,41.58,0.5025
-SHOO,Steven Madden Ltd,U.S. Small-cap Blend Common Stock,18.75,0.2524,0.07,0.4341,0.0,10.81,44.45,0.4266
-SHYF,Shyft Group Inc/The,U.S. Small-cap Blend Common Stock,50.02,-0.0423,-0.3265,0.243,0.0,3.06,80.71,0.2374
-SIGI,Selective Insurance Group Inc,U.S. Small-cap Blend Common Stock,23.14,0.0307,-0.157,0.2191,0.0,6.0,30.78,0.1843
-SIVB,SVB Financial Group,U.S. Mid-cap Blend Common Stock,17.06,0.237,0.0247,0.448,0.0,7.12,84.42,0.239
-SJI,South Jersey Industries Inc,U.S. Small-cap Blend Common Stock,22.34,0.0291,-0.06,0.1181,0.0,4.96,20.42,0.483
-SJM,J M Smucker Co/The,U.S. Mid-cap Blend Common Stock,18.97,0.0668,-0.0244,0.1582,0.0,6.27,26.69,0.4894
-SJW,SJW Group,U.S. Small-cap Growth Common Stock,34.5,0.0594,-0.0906,0.2093,0.0,6.13,39.41,0.1039
-SKT,Tanger Factory Outlet Centers Inc,Real Estate REIT,15.65,0.1687,-0.0403,0.3765,0.0,4.33,63.25,0.5075
-SKYW,SkyWest Inc,U.S. Small-cap Value Common Stock,7.28,0.188,-0.1153,0.4903,0.0,3.55,58.93,0.2465
-SLM,SLM Corp,U.S. Small-cap Blend Common Stock,9.99,-0.0424,-0.3407,0.2556,0.0,0.83,12.56,0.332
-SM,SM Energy Co,U.S. Small-cap Blend Common Stock,21.6,0.0381,-0.3704,0.4478,0.0385,3.45,64.19,0.0443
-SMBC,Southern Missouri Bancorp Inc,U.S. Small-cap Blend Common Stock,14.26,0.1068,-0.0244,0.2378,0.0,6.22,22.7,0.508
-SMG,Scotts Miracle-Gro Co/The,U.S. Small-cap Value Common Stock,11.61,0.18,0.0518,0.3081,0.0,6.44,29.41,0.192
-SMTC,Semtech Corp,U.S. Small-cap Blend Common Stock,41.07,0.0892,-0.1646,0.3424,0.0,17.41,334.42,0.2409
-SNA,Snap-on Inc,U.S. Mid-cap Blend Common Stock,19.91,0.1032,-0.0911,0.2977,0.024,6.3,30.87,0.0165
-SO,Southern Co/The,U.S. Large-cap Blend Common Stock,18.74,0.0398,-0.0263,0.1058,0.0,2.25,15.06,0.5748
-SON,Sonoco Products Co,U.S. Mid-cap Value Common Stock,17.76,0.0585,-0.0415,0.1586,0.0056,5.3,18.45,0.0253
-SPG,Simon Property Group Inc,Real Estate REIT,19.26,0.1809,0.0177,0.3442,0.0,7.18,45.66,0.6215
-SPGI,S&P Global Inc,U.S. Large-cap Growth Common Stock,45.51,0.06,-0.1597,0.2797,0.0,7.65,44.49,0.1762
-SPXC,SPX Technologies Inc,U.S. Small-cap Blend Common Stock,36.9,-0.062,-0.2537,0.1295,0.0,2.13,19.55,0.1419
-SR,Spire Inc,U.S. Small-cap Blend Common Stock,16.21,0.0867,0.0021,0.1712,0.0049,3.88,21.33,0.0604
-SRCE,1st Source Corp,U.S. Small-cap Growth Common Stock,13.75,0.062,-0.0934,0.2175,0.0,5.36,25.13,0.0698
-SSB,SouthState Corp,U.S. Mid-cap Growth Common Stock,13.77,0.1206,-0.0216,0.2635,0.0,7.97,31.13,0.3469
-SSP,EW Scripps Co/The,U.S. Small-cap Value Common Stock,20.38,-0.2123,-0.4434,0.0166,0.0,0.19,38.7,0.4456
-STBA,S&T Bancorp Inc,U.S. Small-cap Growth Common Stock,13.08,0.0027,-0.1519,0.1582,0.0,3.77,19.73,0.308
-STT,State Street Corp,U.S. Mid-cap Blend Common Stock,12.39,0.0781,-0.0627,0.2194,0.0,5.83,44.18,0.2291
-STZ,Constellation Brands Inc,U.S. Large-cap Growth Common Stock,26.41,0.177,-0.074,0.4277,0.0,8.83,55.86,0.5098
-SVC,Service Properties Trust,Real Estate REIT,22.95,-0.1889,-0.3664,-0.0114,0.0,1.82,18.02,0.4773
-SWK,Stanley Black & Decker Inc,U.S. Mid-cap Value Common Stock,10.01,0.1402,0.0129,0.2674,0.0,6.36,28.48,0.2615
-SWX,Southwest Gas Holdings Inc,U.S. Small-cap Value Common Stock,16.05,0.0861,-0.0158,0.1874,0.0,8.56,27.38,0.2456
-SXI,Standex International Corp,U.S. Small-cap Blend Common Stock,20.43,0.0618,-0.1603,0.2837,0.0081,4.04,28.91,0.0401
-SXT,Sensient Technologies Corp,U.S. Small-cap Blend Common Stock,19.73,0.0746,-0.0559,0.2051,0.0206,7.06,27.48,0.023
-SYBT,Stock Yards Bancorp Inc,U.S. Small-cap Growth Common Stock,22.01,0.0558,-0.0761,0.1874,0.0003,8.77,29.96,0.1493
-SYK,Stryker Corp,U.S. Large-cap Growth Common Stock,36.98,0.1483,-0.0242,0.3212,0.0,17.16,82.03,0.1926
-SYY,Sysco Corp,U.S. Large-cap Value Common Stock,27.82,0.0556,-0.0908,0.2019,0.0,10.34,39.0,0.2305
-T,AT&T Inc,U.S. Large-cap Blend Common Stock,6.65,0.0121,-0.0886,0.1128,0.0,2.37,8.88,0.3719
-TAP,Molson Coors Beverage Co,U.S. Mid-cap Blend Common Stock,10.33,0.1286,-0.0384,0.295,0.0,9.9,40.07,0.1692
-TBI,TrueBlue Inc,U.S. Small-cap Value Common Stock,10.76,0.237,0.0021,0.4709,0.0,8.77,64.32,0.3383
-TCBK,TriCo Bancshares,U.S. Small-cap Growth Common Stock,17.13,0.0326,-0.1092,0.1734,0.0,6.27,26.13,0.4591
-TDS,Telephone and Data Systems Inc,U.S. Small-cap Value Common Stock,27.51,-0.0067,-0.1608,0.1473,0.0023,5.17,82.44,0.0293
-TECH,Bio-Techne Corp,U.S. Mid-cap Growth Common Stock,88.51,0.0864,-0.0968,0.2697,0.0,22.29,218.0,0.1348
-TFC,Truist Financial Corp,U.S. Large-cap Blend Common Stock,11.28,0.0495,-0.071,0.1704,0.0,3.64,18.34,0.1334
-TG,Tredegar Corp,U.S. Small-cap Value Common Stock,8.89,0.0113,-0.08,0.1026,0.0,4.09,33.21,0.4235
-TGNA,TEGNA Inc,U.S. Small-cap Blend Common Stock,9.09,-0.1024,-0.3954,0.1895,0.0,0.19,11.07,0.383
-TGT,Target Corp,U.S. Large-cap Value Common Stock,23.07,0.081,-0.0755,0.2379,0.0,8.42,37.63,0.1558
-THFF,First Financial Corp/IN,U.S. Small-cap Blend Common Stock,11.17,0.0536,-0.0115,0.119,0.0,5.76,17.79,0.4665
-TILE,Interface Inc,U.S. Small-cap Value Common Stock,11.69,0.1214,-0.1242,0.3681,0.0,5.28,61.92,0.2843
-TJX,TJX Cos Inc/The,U.S. Large-cap Blend Common Stock,38.52,0.0803,-0.0328,0.1936,0.0,11.04,47.76,0.5081
-TKR,Timken Co/The,U.S. Small-cap Blend Common Stock,19.18,-0.0236,-0.1771,0.1295,0.0,4.03,17.74,0.3224
-TMP,Tompkins Financial Corp,U.S. Small-cap Growth Common Stock,13.79,0.0632,-0.0228,0.1496,0.0,6.21,23.81,0.4384
-TNC,Tennant Co,U.S. Small-cap Blend Common Stock,23.21,0.0674,-0.0922,0.2268,0.0001,5.86,41.36,0.1506
-TOL,Toll Brothers Inc,U.S. Mid-cap Value Common Stock,12.2,0.137,-0.1357,0.4092,0.0,6.25,44.85,0.0941
-TR,Tootsie Roll Industries Inc,U.S. Small-cap Growth Common Stock,42.67,0.0002,-0.1002,0.1011,0.0,14.83,43.73,0.1374
-TRC,Tejon Ranch Co,U.S. Small-cap Growth Common Stock,103.69,0.0157,-0.1496,0.1807,0.0023,85.66,7182.42,0.0669
-TRMK,Trustmark Corp,U.S. Small-cap Blend Common Stock,11.72,0.0378,-0.0601,0.1355,0.0,5.14,16.41,0.1011
-TRN,Trinity Industries Inc,U.S. Small-cap Blend Common Stock,13.38,-0.0166,-0.2332,0.2017,0.0,2.47,19.71,0.3614
-TRNS,Transcat Inc,U.S. Small-cap Blend Common Stock,77.63,-0.0311,-0.2749,0.2138,0.0,8.25,119.81,0.5406
-TROW,T Rowe Price Group Inc,U.S. Mid-cap Growth Common Stock,14.42,0.2735,0.1978,0.3503,0.0,10.34,34.03,0.7761
-TRST,TrustCo Bank Corp NY,U.S. Small-cap Growth Common Stock,10.85,0.0014,-0.1414,0.1443,0.0,4.34,16.89,0.1651
-TRV,Travelers Cos Inc/The,U.S. Large-cap Blend Common Stock,15.32,0.0748,-0.0383,0.1881,0.0007,6.07,19.7,0.0594
-TSCO,Tractor Supply Co,U.S. Mid-cap Blend Common Stock,40.95,0.1787,0.0271,0.3293,0.0,3.82,66.65,0.8593
-TSN,Tyson Foods Inc,U.S. Mid-cap Value Common Stock,10.74,0.134,-0.112,0.3796,0.0,6.06,34.69,0.0643
-TTC,Toro Co/The,U.S. Mid-cap Blend Common Stock,36.84,0.0883,-0.0698,0.246,0.0,8.7,50.66,0.4822
-TTEK,Tetra Tech Inc,U.S. Mid-cap Blend Common Stock,54.08,-0.0135,-0.1955,0.1683,0.0,15.59,76.08,0.3175
-TUP,Tupperware Brands Corp,U.S. Small-cap Value Common Stock,0.94,0.718,0.39,1.0461,0.0,3.81,22.59,0.3465
-TXN,Texas Instruments Inc,U.S. Large-cap Growth Common Stock,30.64,0.0785,-0.0682,0.2241,0.0,9.37,150.68,0.6602
-TXT,Textron Inc,U.S. Mid-cap Blend Common Stock,21.74,-0.0416,-0.2124,0.1315,0.0,2.34,29.69,0.6119
-UBA,Urstadt Biddle Properties Inc,Real Estate REIT,25.57,0.0083,-0.0779,0.0955,0.0,1.65,27.24,0.6051
-UBSI,United Bankshares Inc/WV,U.S. Small-cap Growth Common Stock,14.84,-0.0153,-0.1241,0.094,0.0,3.72,18.04,0.3505
-UFCS,United Fire Group Inc,U.S. Small-cap Value Common Stock,18.5,-0.0616,-0.2226,0.0993,0.0,4.1,29.16,0.6475
-UFPT,UFP Technologies Inc,U.S. Small-cap Blend Common Stock,51.65,0.1071,-0.1264,0.3408,0.0,8.74,74.2,0.1413
-UGI,UGI Corp,U.S. Mid-cap Value Common Stock,14.4,0.1291,0.0588,0.1979,0.0,5.75,24.79,0.8681
-UHAL,U-Haul Holding Co,U.S. Mid-cap Blend Common Stock,24.44,0.1984,-0.1009,0.496,0.0,2.87,61.54,0.3097
-UHS,Universal Health Services Inc,U.S. Mid-cap Value Common Stock,15.61,0.2516,0.1119,0.3908,0.0,12.49,59.64,0.4965
-UHT,Universal Health Realty Income Trust,Real Estate REIT,18.78,0.0865,-0.026,0.199,0.0,2.36,25.82,0.1817
-UMBF,UMB Financial Corp,U.S. Small-cap Blend Common Stock,16.29,0.0852,-0.0016,0.1718,0.0,8.94,26.14,0.2979
-UNF,UniFirst Corp/MA,U.S. Small-cap Blend Common Stock,25.4,0.0745,-0.0526,0.2012,0.0,6.15,30.65,0.4111
-UNFI,United Natural Foods Inc,U.S. Small-cap Value Common Stock,11.48,0.1498,-0.1479,0.4473,0.0012,15.87,65.03,0.0758
-UNH,UnitedHealth Group Inc,U.S. Large-cap Blend Common Stock,36.81,0.1447,-0.0902,0.3791,0.0,8.44,53.52,0.3083
-UNM,Unum Group,U.S. Mid-cap Value Common Stock,9.63,0.0171,-0.172,0.2056,0.0,3.04,16.72,0.2348
-UNP,Union Pacific Corp,U.S. Large-cap Growth Common Stock,21.86,0.1722,0.03,0.3141,0.0018,7.79,34.52,0.0457
-UPS,United Parcel Service Inc,U.S. Large-cap Blend Common Stock,21.63,0.0307,-0.0724,0.1337,0.0,8.56,24.78,0.3822
-URBN,Urban Outfitters Inc,U.S. Small-cap Value Common Stock,11.95,0.349,-0.1349,0.8325,0.0,9.83,151.12,0.1681
-USLM,United States Lime & Minerals Inc,U.S. Small-cap Growth Common Stock,31.39,0.0678,-0.2216,0.357,0.0,3.79,43.38,0.238
-USM,United States Cellular Corp,U.S. Small-cap Value Common Stock,32.23,-0.0097,-0.1523,0.1327,0.0,13.53,137.21,0.2042
-USNA,USANA Health Sciences Inc,U.S. Small-cap Blend Common Stock,11.41,0.3636,0.1791,0.5481,0.0,12.37,103.69,0.6317
-UTL,Unitil Corp,U.S. Small-cap Blend Common Stock,20.34,0.1081,0.007,0.2093,0.0063,3.44,26.42,0.0526
-UTMD,Utah Medical Products Inc,U.S. Small-cap Growth Common Stock,21.51,0.0762,-0.0343,0.1861,0.0,4.94,27.17,0.5766
-UVSP,Univest Financial Corp,U.S. Small-cap Blend Common Stock,12.29,0.0084,-0.1355,0.153,0.0,5.02,19.23,0.2747
-UVV,Universal Corp/VA,U.S. Small-cap Value Common Stock,12.14,-0.0324,-0.1222,0.0576,0.0,1.99,12.22,0.4331
-VFC,VF Corp,U.S. Mid-cap Value Common Stock,9.17,0.1653,-0.0206,0.3514,0.0,4.53,30.06,0.1689
-VHI,Valhi Inc,U.S. Small-cap Value Common Stock,12.75,0.1201,-0.1814,0.4189,0.0,4.14,379.04,0.5043
-VIVO,Meridian Bioscience Inc,U.S. Small-cap Growth Common Stock,30.1,0.0619,-0.234,0.3584,0.0,4.37,76.65,0.4676
-VLGEA,Village Super Market Inc,U.S. Small-cap Value Common Stock,11.8,0.1088,-0.0081,0.2244,0.0,6.11,21.03,0.7838
-VLY,Valley National Bancorp,U.S. Small-cap Blend Common Stock,12.11,-0.0075,-0.1224,0.1078,0.0001,4.59,12.93,0.1129
-VMC,Vulcan Materials Co,U.S. Mid-cap Blend Common Stock,53.57,0.0588,-0.1535,0.271,0.003,10.08,133.5,0.0269
-VMI,Valmont Industries Inc,U.S. Mid-cap Blend Common Stock,32.86,0.0528,-0.1198,0.2261,0.0,11.45,53.21,0.3092
-VNO,Vornado Realty Trust,Real Estate REIT,127.32,-0.4336,-0.5376,-0.3301,0.0,4.93,36.1,0.8236
-VSH,Vishay Intertechnology Inc,U.S. Small-cap Value Common Stock,14.78,-0.0036,-0.1898,0.1846,0.0,1.86,66.49,0.4197
-VTRS,Viatris Inc,U.S. Mid-cap Value Common Stock,4.61,0.4622,0.2069,0.7175,0.0,9.43,48.15,0.25
-VZ,Verizon Communications Inc,U.S. Large-cap Blend Common Stock,7.91,0.0531,-0.0775,0.1839,0.0297,3.22,13.9,0.0159
-WAFD,Washington Federal Inc,U.S. Small-cap Blend Common Stock,13.3,0.0193,-0.1141,0.1535,0.0,4.51,19.97,0.254
-WASH,Washington Trust Bancorp Inc,U.S. Small-cap Growth Common Stock,10.84,0.0839,-0.0499,0.2177,0.0,5.02,21.11,0.3133
-WAT,Waters Corp,U.S. Mid-cap Growth Common Stock,36.94,0.0881,0.0176,0.1589,0.0,18.02,48.55,0.6054
-WBA,Walgreens Boots Alliance Inc,U.S. Large-cap Value Common Stock,7.64,0.1805,-0.0097,0.3709,0.0,10.27,67.82,0.1969
-WBS,Webster Financial Corp,U.S. Mid-cap Blend Common Stock,14.28,0.0185,-0.2469,0.2855,0.0,0.96,36.95,0.2068
-WDFC,WD-40 Co,U.S. Small-cap Growth Common Stock,37.62,0.2029,0.0668,0.3385,0.0,7.4,42.96,0.1988
-WEC,WEC Energy Group Inc,U.S. Mid-cap Blend Common Stock,24.12,0.153,0.0654,0.2408,0.0099,4.5,24.66,0.0486
-WELL,Welltower Inc,Real Estate REIT,65.11,0.0433,-0.0329,0.1193,0.0,1.9,55.03,0.5924
-WERN,Werner Enterprises Inc,U.S. Small-cap Value Common Stock,23.21,0.0469,-0.042,0.1358,0.0,6.66,27.99,0.2256
-WEYS,Weyco Group Inc,U.S. Small-cap Value Common Stock,13.86,-0.0057,-0.1077,0.0977,0.0,6.32,15.27,0.6127
-WGO,Winnebago Industries Inc,U.S. Small-cap Value Common Stock,14.03,0.1603,-0.2057,0.5279,0.0,2.61,60.15,0.138
-WHR,Whirlpool Corp,U.S. Mid-cap Value Common Stock,8.27,0.1098,-0.0128,0.2304,0.0,2.16,16.94,0.6522
-WIRE,Encore Wire Corp,U.S. Small-cap Value Common Stock,19.1,0.1309,-0.0626,0.3242,0.0,9.92,64.42,0.3697
-WLY,John Wiley & Sons Inc,U.S. Small-cap Blend Common Stock,13.12,0.0396,-0.0942,0.1735,0.0001,12.09,58.31,0.0905
-WMB,Williams Cos Inc/The,U.S. Large-cap Growth Common Stock,22.89,-0.1394,-0.3715,0.0921,0.0,0.7,27.29,0.6364
-WMT,Walmart Inc,U.S. Large-cap Value Common Stock,24.01,0.065,-0.0508,0.18,0.0,11.27,64.41,0.3712
-WOR,Worthington Industries Inc,U.S. Small-cap Value Common Stock,10.79,0.0949,-0.073,0.2623,0.0,4.28,28.33,0.163
-WRB,W R Berkley Corp,U.S. Mid-cap Blend Common Stock,26.68,0.1011,-0.0812,0.2834,0.0,6.78,35.01,0.1884
-WRLD,World Acceptance Corp,U.S. Small-cap Value Common Stock,9.1,0.266,0.013,0.5179,0.0,4.31,40.7,0.248
-WSBC,WesBanco Inc,U.S. Small-cap Growth Common Stock,11.56,0.0107,-0.1241,0.1454,0.0,4.23,17.58,0.2875
-WSFS,WSFS Financial Corp,U.S. Small-cap Blend Common Stock,13.33,0.1521,-0.0147,0.3201,0.0,5.77,33.43,0.6719
-WSM,Williams-Sonoma Inc,U.S. Mid-cap Value Common Stock,18.01,0.1664,-0.0838,0.4177,0.0,3.77,94.28,0.2488
-WSO,Watsco Inc,U.S. Mid-cap Blend Common Stock,37.29,0.068,-0.0892,0.2248,0.0,7.69,39.07,0.3499
-WTFC,Wintrust Financial Corp,U.S. Small-cap Blend Common Stock,16.0,0.1126,-0.0397,0.2643,0.0,5.57,45.1,0.492
-WTRG,Essential Utilities Inc,U.S. Mid-cap Growth Common Stock,29.97,0.0686,-0.023,0.161,0.0,8.14,36.68,0.4752
-WTS,Watts Water Technologies Inc,U.S. Small-cap Blend Common Stock,40.15,0.0524,-0.0983,0.2032,0.0003,6.85,32.65,0.0951
-WWD,Woodward Inc,U.S. Mid-cap Blend Common Stock,28.41,0.1384,0.0347,0.2416,0.0,10.63,53.61,0.6457
-WWW,Wolverine World Wide Inc,U.S. Small-cap Value Common Stock,7.72,0.3617,0.2392,0.4843,0.0,10.47,49.0,0.6132
-XEL,Xcel Energy Inc,U.S. Large-cap Blend Common Stock,23.9,0.1598,0.0248,0.2938,0.0,1.53,25.46,0.2598
-XOM,Exxon Mobil Corp,U.S. Large-cap Blend Common Stock,19.94,0.1265,-0.0057,0.2586,0.0001,7.03,16.05,0.0961
-XRAY,DENTSPLY SIRONA Inc,U.S. Mid-cap Blend Common Stock,15.77,0.1785,0.0283,0.3287,0.0,16.31,37.0,0.2221
-XRX,Xerox Holdings Corp,U.S. Small-cap Value Common Stock,5.27,-0.019,-0.1612,0.1249,0.0,1.54,22.23,0.6786
-ZBRA,Zebra Technologies Corp,U.S. Mid-cap Blend Common Stock,42.42,0.1108,-0.1864,0.4077,0.0009,11.77,62.06,0.0762
-ZEUS,Olympic Steel Inc,U.S. Small-cap Value Common Stock,16.22,0.0575,-0.326,0.44,0.0,3.24,44.95,0.3067
-ZION,Zions Bancorp NA,U.S. Mid-cap Blend Common Stock,13.64,0.0242,-0.2466,0.2949,0.0005,1.83,80.11,0.0457
+AA,Alcoa Corp,U.S. Mid-cap Value Common Stock,21.85,-0.0353,-0.2871,0.2165,0.0093,2.52,52.78,0.0304
+AAON,AAON Inc,U.S. Small-cap Growth Common Stock,66.22,0.0958,-0.0617,0.253,0.0,12.88,57.84,0.2389
+ABC,AmerisourceBergen Corp,U.S. Large-cap Value Common Stock,25.51,0.1388,0.0342,0.2453,0.0,12.57,65.47,0.6486
+ABCB,Ameris Bancorp,U.S. Small-cap Blend Common Stock,14.29,0.1108,-0.1778,0.3995,0.0048,3.96,120.23,0.0216
+ABM,ABM Industries Inc,U.S. Small-cap Value Common Stock,18.58,0.059,-0.0261,0.144,0.0,10.03,25.53,0.3334
+ABT,Abbott Laboratories,U.S. Large-cap Growth Common Stock,39.48,0.1982,0.0618,0.3349,0.0151,5.84,20.76,0.0451
+ACIW,ACI Worldwide Inc,U.S. Small-cap Blend Common Stock,31.79,0.1346,-0.0499,0.3191,0.0,10.91,60.92,0.3363
+ACNB,ACNB Corp,U.S. Small-cap Blend Common Stock,13.07,0.0601,-0.1006,0.2208,0.0277,3.58,16.5,0.0106
+ADBE,Adobe Inc,U.S. Large-cap Growth Common Stock,66.36,0.1479,-0.1204,0.4174,0.0,17.47,162.85,0.1552
+ADI,Analog Devices Inc,U.S. Large-cap Growth Common Stock,34.33,0.0649,-0.1121,0.2406,0.0,8.7,154.66,0.4295
+ADM,Archer-Daniels-Midland Co,U.S. Large-cap Value Common Stock,19.87,0.0117,-0.1355,0.1592,0.0,6.29,32.0,0.3808
+ADP,Automatic Data Processing Inc,U.S. Large-cap Growth Common Stock,42.19,0.0594,-0.1039,0.2227,0.011,11.3,37.58,0.0536
+ADSK,Autodesk Inc,U.S. Large-cap Growth Common Stock,450.74,-0.0966,-0.3909,0.1973,0.0,13.58,344.57,0.1733
+ADTN,ADTRAN Holdings Inc,U.S. Small-cap Blend Common Stock,91.19,-0.1201,-0.2998,0.0598,0.0028,10.03,43.4,0.0801
+AEIS,Advanced Energy Industries Inc,U.S. Small-cap Blend Common Stock,25.04,0.2156,-0.0613,0.4912,0.0,20.93,175.98,0.2395
+AEP,American Electric Power Co Inc,U.S. Large-cap Blend Common Stock,19.91,0.1304,0.0077,0.2531,0.0001,3.12,18.08,0.0768
+AES,AES Corp/The,U.S. Mid-cap Blend Common Stock,17.87,-0.0406,-0.2054,0.1276,0.0,1.96,95.77,0.762
+AFG,American Financial Group Inc/OH,U.S. Mid-cap Blend Common Stock,16.03,0.03,-0.0837,0.1437,0.0,4.24,14.93,0.3939
+AFL,Aflac Inc,U.S. Large-cap Blend Common Stock,15.08,0.1028,-0.0154,0.2209,0.0,5.06,33.3,0.147
+AGCO,AGCO Corp,U.S. Mid-cap Value Common Stock,21.39,0.0477,-0.1002,0.1963,0.0,2.78,46.42,0.2888
+AGM,Federal Agricultural Mortgage Corp,U.S. Small-cap Blend Common Stock,16.47,-0.0447,-0.2623,0.1711,0.0,0.94,27.5,0.6749
+AIN,Albany International Corp,U.S. Small-cap Growth Common Stock,38.01,0.0369,-0.1894,0.2637,0.0106,3.84,48.28,0.0416
+AIR,AAR Corp,U.S. Small-cap Value Common Stock,25.6,-0.0499,-0.1756,0.0742,0.0,4.33,43.96,0.8095
+AIT,Applied Industrial Technologies Inc,U.S. Small-cap Blend Common Stock,31.9,-0.0085,-0.1345,0.1176,0.0,7.25,28.22,0.5263
+AKR,Acadia Realty Trust,Real Estate REIT,27.81,0.1052,-0.0201,0.2293,0.0,8.74,78.34,0.7882
+ALB,Albemarle Corp,U.S. Mid-cap Growth Common Stock,44.35,0.0585,-0.0756,0.1924,0.0,8.33,34.84,0.1858
+ALCO,Alico Inc,U.S. Small-cap Blend Common Stock,42.53,-0.0531,-0.2247,0.1189,0.0,9.22,78.82,0.4579
+ALE,ALLETE Inc,U.S. Small-cap Blend Common Stock,16.47,0.0598,-0.0613,0.1809,0.0,1.56,23.27,0.1184
+ALL,Allstate Corp/The,U.S. Large-cap Value Common Stock,15.84,0.0285,-0.1645,0.2219,0.0,2.85,23.36,0.1858
+ALX,Alexander's Inc,Real Estate REIT,13.86,0.102,-0.1047,0.3089,0.0173,14.84,1081.52,0.0242
+AMAT,Applied Materials Inc,U.S. Large-cap Growth Common Stock,30.88,0.0664,-0.1933,0.3248,0.0,9.68,158.35,0.3252
+AME,AMETEK Inc,U.S. Large-cap Growth Common Stock,39.79,0.108,-0.0005,0.2162,0.0,11.95,41.72,0.5074
+AMGN,Amgen Inc,U.S. Large-cap Growth Common Stock,18.18,0.1613,0.0068,0.315,0.0,11.31,97.61,0.4686
+AMNB,American National Bankshares Inc,U.S. Small-cap Blend Common Stock,12.06,0.0429,-0.0728,0.1582,0.0,4.53,19.25,0.0716
+AMWD,American Woodmark Corp,U.S. Small-cap Value Common Stock,16.09,0.1395,-0.177,0.4559,0.0012,8.61,122.27,0.0447
+AN,AutoNation Inc,U.S. Mid-cap Value Common Stock,16.84,0.145,-0.0462,0.3356,0.0,5.77,1049.87,0.4365
+ANDE,Andersons Inc/The,U.S. Small-cap Value Common Stock,17.56,0.0632,-0.2053,0.3341,0.0,5.5,46.85,0.406
+ANF,Abercrombie & Fitch Co,U.S. Small-cap Value Common Stock,17.87,-0.0636,-0.2953,0.169,0.0001,4.17,29.05,0.1351
+ANSS,ANSYS Inc,U.S. Mid-cap Growth Common Stock,59.75,0.1654,0.053,0.2796,0.0,24.52,82.54,0.6706
+AOS,A O Smith Corp,U.S. Mid-cap Blend Common Stock,28.25,0.1535,-0.0822,0.3887,0.0251,6.03,56.53,0.0172
+APA,APA Corp,U.S. Mid-cap Blend Common Stock,13.79,-0.0429,-0.2655,0.1806,0.0,5.11,53.21,0.5648
+APH,Amphenol Corp,U.S. Large-cap Growth Common Stock,40.15,0.1613,0.0698,0.2514,0.0,19.49,89.58,0.5625
+APOG,Apogee Enterprises Inc,U.S. Small-cap Value Common Stock,16.09,0.0912,-0.1135,0.2962,0.0,4.24,45.04,0.5027
+ARCB,ArcBest Corp,U.S. Small-cap Value Common Stock,23.98,0.0764,-0.2026,0.3564,0.0029,4.97,144.15,0.0856
+AROW,Arrow Financial Corp,U.S. Small-cap Blend Common Stock,12.85,0.0524,-0.0297,0.1353,0.0,5.05,18.78,0.4012
+ARTNA,Artesian Resources Corp,U.S. Small-cap Growth Common Stock,33.6,0.0502,-0.0446,0.1449,0.0,7.0,31.95,0.1436
+ARW,Arrow Electronics Inc,U.S. Mid-cap Value Common Stock,12.38,0.1123,0.0078,0.2169,0.0,6.71,27.92,0.6352
+ASB,Associated Banc-Corp,U.S. Small-cap Blend Common Stock,13.12,-0.0037,-0.1935,0.1855,0.0,3.75,25.53,0.1938
+ASGN,ASGN Inc,U.S. Small-cap Value Common Stock,27.87,0.1388,-0.2463,0.5244,0.0048,6.05,113.62,0.0802
+ASH,Ashland Inc,U.S. Small-cap Blend Common Stock,25.33,0.0072,-0.2116,0.2262,0.001,0.77,20.07,0.1724
+ASTE,Astec Industries Inc,U.S. Small-cap Value Common Stock,30.72,-0.0032,-0.1282,0.1215,0.0,6.48,61.78,0.6977
+ATGE,Adtalem Global Education Inc,U.S. Small-cap Blend Common Stock,15.28,0.0578,-0.1583,0.2735,0.0,6.03,273.6,0.0582
+ATNI,ATN International Inc,U.S. Small-cap Value Common Stock,43.68,-0.0742,-0.2005,0.0518,0.0,3.16,37.4,0.839
+ATO,Atmos Energy Corp,U.S. Mid-cap Growth Common Stock,23.83,0.1408,0.0127,0.2692,0.0157,4.79,29.01,0.031
+ATR,AptarGroup Inc,U.S. Mid-cap Blend Common Stock,27.37,0.0912,0.0296,0.1532,0.0,11.57,29.18,0.3657
+ATRO,Astronics Corp,U.S. Small-cap Value Common Stock,14.57,0.2005,-0.1765,0.5774,0.0,5.42,68.98,0.2515
+AUB,Atlantic Union Bankshares Corp,U.S. Small-cap Growth Common Stock,14.93,0.0088,-0.1587,0.1747,0.0,4.73,23.46,0.5451
+AVB,AvalonBay Communities Inc,Real Estate REIT,34.51,0.1107,0.0071,0.215,0.0,9.77,66.5,0.5458
+AVD,American Vanguard Corp,U.S. Small-cap Value Common Stock,29.01,0.1182,-0.2782,0.5139,0.0,7.98,73.01,0.5007
+AVNT,Avient Corp,U.S. Small-cap Value Common Stock,17.89,0.1417,-0.1963,0.4782,0.0,5.4,82.78,0.2392
+AVT,Avnet Inc,U.S. Small-cap Value Common Stock,11.01,0.0362,-0.0911,0.1634,0.0,4.51,21.46,0.4698
+AVY,Avery Dennison Corp,U.S. Mid-cap Blend Common Stock,30.16,0.0293,-0.2015,0.2602,0.0004,4.37,37.63,0.0571
+AWR,American States Water Co,U.S. Small-cap Growth Common Stock,43.27,0.1697,0.0533,0.2862,0.0,5.47,39.0,0.0546
+AXP,American Express Co,U.S. Large-cap Blend Common Stock,23.83,0.0057,-0.1218,0.1321,0.0,3.74,31.09,0.5676
+AZO,AutoZone Inc,U.S. Large-cap Blend Common Stock,36.76,0.1323,0.0437,0.2196,0.0,17.56,51.12,0.658
+AZZ,AZZ Inc,U.S. Small-cap Value Common Stock,13.57,0.2465,0.0485,0.4444,0.0,6.22,37.24,0.5378
+B,Barnes Group Inc,U.S. Small-cap Blend Common Stock,16.0,0.0956,-0.0525,0.2426,0.0,6.84,35.01,0.4378
+BA,Boeing Co/The,U.S. Large-cap Blend Common Stock,41.36,-0.1157,-0.3036,0.0722,0.0,6.55,43.29,0.3869
+BALL,Ball Corp,U.S. Mid-cap Blend Common Stock,24.75,0.1636,0.0474,0.2798,0.0,11.79,39.86,0.456
+BANF,BancFirst Corp,U.S. Small-cap Growth Common Stock,23.74,0.0446,-0.0917,0.1806,0.0,7.11,27.24,0.186
+BAX,Baxter International Inc,U.S. Mid-cap Blend Common Stock,12.85,0.047,-0.0433,0.1372,0.0,5.87,20.03,0.5712
+BBBY,Bed Bath & Beyond Inc,U.S. Small-cap Value Common Stock,1.02,-0.3568,-0.6555,-0.0581,0.0,4.45,109.35,0.2256
+BBSI,Barrett Business Services Inc,U.S. Small-cap Value Common Stock,24.05,0.1852,-0.0056,0.3737,0.0,4.25,70.02,0.7712
+BBWI,Bath & Body Works Inc,U.S. Mid-cap Blend Common Stock,11.6,0.033,-0.2592,0.324,0.0,1.82,25.36,0.2884
+BBY,Best Buy Co Inc,U.S. Mid-cap Value Common Stock,15.26,0.1422,-0.191,0.4747,0.0,3.44,133.64,0.0882
+BC,Brunswick Corp/DE,U.S. Mid-cap Value Common Stock,16.67,0.0849,-0.2731,0.442,0.0034,1.19,67.75,0.0996
+BCO,Brink's Co/The,U.S. Small-cap Value Common Stock,22.53,-0.003,-0.1799,0.1728,0.0,2.74,40.05,0.4174
+BCPC,Balchem Corp,U.S. Small-cap Growth Common Stock,51.6,0.1652,0.0718,0.2592,0.0,15.04,69.92,0.6422
+BDX,Becton Dickinson and Co,U.S. Large-cap Growth Common Stock,23.13,0.0887,0.0053,0.1709,0.0,14.0,34.3,0.6144
+BEN,Franklin Resources Inc,U.S. Mid-cap Blend Common Stock,8.56,0.1334,-0.0786,0.3447,0.0009,7.26,27.78,0.0749
+BF/A,Brown-Forman Corp,U.S. Mid-cap Growth Common Stock,36.47,0.1082,-0.0004,0.2168,0.0,10.71,42.94,0.1199
+BF/B,Brown-Forman Corp,U.S. Mid-cap Growth Common Stock,36.54,0.12,0.0079,0.2319,0.0018,11.2,42.65,0.0474
+BFS,Saul Centers Inc,Real Estate REIT,26.02,0.0141,-0.0762,0.106,0.0,6.79,39.55,0.7609
+BH,Biglari Holdings Inc,U.S. Small-cap Blend Common Stock,14.95,0.1104,-0.0616,0.2819,0.0,5.21,50.98,0.6342
+BHB,Bar Harbor Bankshares,U.S. Small-cap Blend Common Stock,12.86,0.0582,-0.0403,0.157,0.0,3.55,18.2,0.3192
+BHE,Benchmark Electronics Inc,U.S. Small-cap Value Common Stock,17.95,0.0535,-0.098,0.2054,0.0,8.69,51.79,0.2076
+BIG,Big Lots Inc,U.S. Small-cap Value Common Stock,6.56,0.1763,-0.0183,0.3708,0.0,6.56,54.93,0.2381
+BIIB,Biogen Inc,U.S. Large-cap Growth Common Stock,13.39,0.2604,-0.028,0.5488,0.0,22.85,4187.05,0.1993
+BIO,Bio-Rad Laboratories Inc,U.S. Mid-cap Growth Common Stock,64.76,-0.0026,-0.1691,0.164,0.0,13.51,55.65,0.3654
+BK,Bank of New York Mellon Corp/The,U.S. Large-cap Blend Common Stock,12.79,0.0496,-0.0743,0.1731,0.0,7.29,29.21,0.4056
+BKE,Buckle Inc/The,U.S. Small-cap Blend Common Stock,13.13,-0.1282,-0.2991,0.0423,0.0,2.46,14.31,0.6332
+BKH,Black Hills Corp,U.S. Small-cap Blend Common Stock,16.26,0.0656,-0.0643,0.1958,0.0002,4.23,24.73,0.0738
+BMI,Badger Meter Inc,U.S. Small-cap Growth Common Stock,72.77,-0.0447,-0.2214,0.1319,0.0,10.62,52.94,0.4324
+BMY,Bristol-Myers Squibb Co,U.S. Large-cap Blend Common Stock,21.74,-0.0072,-0.215,0.2001,0.0,5.71,32.71,0.2068
+BOH,Bank of Hawaii Corp,U.S. Small-cap Growth Common Stock,14.44,0.0292,-0.055,0.113,0.0,3.58,19.04,0.7084
+BOKF,BOK Financial Corp,U.S. Mid-cap Growth Common Stock,15.25,0.0692,-0.0225,0.1612,0.0,8.28,19.81,0.4066
+BOOM,DMC Global Inc,U.S. Small-cap Value Common Stock,29.92,0.0676,-0.5275,0.6658,0.0,3.68,139.3,0.4488
+BRC,Brady Corp,U.S. Small-cap Blend Common Stock,19.59,0.021,-0.1001,0.1421,0.0,7.26,24.76,0.3708
+BRK/B,Berkshire Hathaway Inc,U.S. Large-cap Blend Common Stock,31.53,0.0995,0.0197,0.1799,0.0,19.16,81.85,0.3118
+BRO,Brown & Brown Inc,U.S. Mid-cap Growth Common Stock,38.99,0.1168,-0.111,0.3446,0.0,13.79,70.91,0.1384
+BSX,Boston Scientific Corp,U.S. Large-cap Growth Common Stock,49.08,0.0036,-0.3181,0.326,0.0,5.13,108.4,0.2462
+BWA,BorgWarner Inc,U.S. Mid-cap Value Common Stock,12.06,0.2033,0.0398,0.3685,0.0,6.11,35.32,0.5913
+BYD,Boyd Gaming Corp,U.S. Mid-cap Blend Common Stock,38.34,0.0158,-0.4446,0.4747,0.0,2.74,225.17,0.2248
+CAC,Camden National Corp,U.S. Small-cap Blend Common Stock,11.35,0.0363,-0.0583,0.1303,0.0,5.28,15.47,0.3567
+CACC,Credit Acceptance Corp,U.S. Small-cap Growth Common Stock,16.51,0.2841,0.0676,0.4998,0.0,10.35,41.51,0.1856
+CACI,CACI International Inc,U.S. Mid-cap Blend Common Stock,26.46,0.1654,-0.0539,0.3856,0.0,13.08,73.67,0.2724
+CADE,Cadence Bank,U.S. Small-cap Blend Common Stock,12.41,0.0369,-0.0949,0.1689,0.0,4.78,24.06,0.3162
+CAG,Conagra Brands Inc,U.S. Mid-cap Blend Common Stock,14.31,0.0317,-0.0867,0.1501,0.0,4.76,17.61,0.0826
+CAH,Cardinal Health Inc,U.S. Mid-cap Value Common Stock,15.33,0.0029,-0.1177,0.1231,0.0,4.74,27.61,0.6549
+CAKE,Cheesecake Factory Inc/The,U.S. Small-cap Value Common Stock,18.16,0.1308,-0.1061,0.367,0.0,7.26,89.37,0.1665
+CAL,Caleres Inc,U.S. Small-cap Value Common Stock,10.19,0.1552,-0.0225,0.3317,0.0,2.4,26.21,0.7002
+CASH,Pathward Financial Inc,U.S. Small-cap Blend Common Stock,18.82,0.1197,-0.1321,0.3719,0.0,4.75,37.91,0.1309
+CASS,Cass Information Systems Inc,U.S. Small-cap Growth Common Stock,23.73,0.0682,-0.0366,0.1719,0.0,7.34,33.65,0.7232
+CASY,Casey's General Stores Inc,U.S. Mid-cap Value Common Stock,31.39,0.1307,0.0035,0.2581,0.0076,12.88,40.9,0.0193
+CAT,Caterpillar Inc,U.S. Large-cap Blend Common Stock,26.24,-0.0641,-0.1824,0.0541,0.0,5.22,23.94,0.6147
+CATO,Cato Corp/The,U.S. Small-cap Value Common Stock,6.7,0.1639,0.0085,0.3215,0.0,3.44,15.86,0.586
+CATY,Cathay General Bancorp,U.S. Small-cap Growth Common Stock,13.57,0.0874,-0.1636,0.3371,0.0,3.59,28.33,0.3194
+CB,Chubb Ltd,U.S. Large-cap Blend Common Stock,21.87,0.0259,-0.0356,0.0875,0.0,6.6,20.57,0.6253
+CBRL,Cracker Barrel Old Country Store Inc,U.S. Small-cap Value Common Stock,14.67,0.1032,-0.0769,0.2827,0.0,4.83,27.98,0.496
+CBT,Cabot Corp,U.S. Small-cap Value Common Stock,18.41,-0.0183,-0.1511,0.1142,0.0,3.93,21.39,0.5202
+CBU,Community Bank System Inc,U.S. Small-cap Growth Common Stock,17.53,0.097,-0.0222,0.216,0.002,5.19,24.4,0.0371
+CCBG,Capital City Bank Group Inc,U.S. Small-cap Blend Common Stock,23.45,0.0031,-0.254,0.2611,0.0002,5.11,60.36,0.0947
+CCF,Chase Corp,U.S. Small-cap Blend Common Stock,21.65,0.1425,-0.1304,0.4149,0.0,6.89,55.23,0.0808
+CCK,Crown Holdings Inc,U.S. Mid-cap Value Common Stock,17.85,0.0778,-0.2122,0.3683,0.0,0.61,49.58,0.2561
+CCL,Carnival Corp,U.S. Mid-cap Blend Common Stock,30.33,-0.1155,-0.3085,0.0778,0.0,5.58,34.29,0.3321
+CENT,Central Garden & Pet Co,U.S. Small-cap Value Common Stock,24.54,0.0541,-0.2282,0.3345,0.0,5.22,56.03,0.3971
+CFR,Cullen/Frost Bankers Inc,U.S. Mid-cap Growth Common Stock,19.93,0.052,-0.032,0.1361,0.0,9.84,21.71,0.1425
+CGNX,Cognex Corp,U.S. Mid-cap Growth Common Stock,51.61,0.1083,-0.2275,0.4451,0.0122,13.4,138.46,0.0319
+CHCO,City Holding Co,U.S. Small-cap Growth Common Stock,18.61,-0.0308,-0.144,0.0823,0.0,2.04,18.18,0.7149
+CHD,Church & Dwight Co Inc,U.S. Mid-cap Growth Common Stock,34.9,0.1568,0.098,0.2161,0.0,16.43,42.67,0.3614
+CHDN,Churchill Downs Inc,U.S. Mid-cap Growth Common Stock,62.91,0.3171,0.1134,0.5213,0.0,12.32,74.19,0.2782
+CHE,Chemed Corp,U.S. Mid-cap Growth Common Stock,40.05,0.1547,-0.036,0.346,0.0124,12.39,58.5,0.0416
+CI,Cigna Corp,U.S. Large-cap Value Common Stock,20.26,0.0581,-0.1213,0.2374,0.0,4.11,31.98,0.4676
+CINF,Cincinnati Financial Corp,U.S. Mid-cap Blend Common Stock,28.81,-0.057,-0.1958,0.0817,0.0,5.21,21.32,0.3522
+CL,Colgate-Palmolive Co,U.S. Large-cap Growth Common Stock,21.57,0.0879,0.035,0.1414,0.0,15.13,40.22,0.6789
+CLF,Cleveland-Cliffs Inc,U.S. Mid-cap Value Common Stock,9.17,0.1199,-0.5441,0.7821,0.0,0.34,111.26,0.1091
+CLX,Clorox Co/The,U.S. Mid-cap Blend Common Stock,23.88,0.0556,-0.028,0.1392,0.0,11.64,32.98,0.3681
+CMA,Comerica Inc,U.S. Mid-cap Blend Common Stock,12.78,0.0245,-0.1683,0.218,0.0027,2.4,31.15,0.0494
+CMC,Commercial Metals Co,U.S. Mid-cap Value Common Stock,21.06,-0.026,-0.3263,0.2732,0.0,4.96,31.19,0.2573
+CMCO,Columbus McKinnon Corp/NY,U.S. Small-cap Blend Common Stock,17.34,0.0782,-0.1257,0.2811,0.0,1.23,42.6,0.6234
+CMI,Cummins Inc,U.S. Large-cap Blend Common Stock,18.45,0.1445,-0.1272,0.4168,0.0,3.85,36.96,0.1806
+CMS,CMS Energy Corp,U.S. Mid-cap Blend Common Stock,23.82,0.0166,-0.2536,0.2871,0.0,1.28,49.39,0.1429
+CNMD,CONMED Corp,U.S. Small-cap Blend Common Stock,50.08,0.0376,-0.1482,0.2235,0.0024,8.09,37.86,0.0461
+CNOB,ConnectOne Bancorp Inc,U.S. Small-cap Blend Common Stock,8.75,0.1491,-0.0166,0.3151,0.0,6.86,26.66,0.2472
+COF,Capital One Financial Corp,U.S. Large-cap Blend Common Stock,7.27,0.1113,-0.0841,0.3055,0.0,2.07,52.18,0.2615
+COHR,Coherent Corp,U.S. Small-cap Blend Common Stock,25.95,0.2025,-0.0054,0.4111,0.0,14.35,84.34,0.2838
+COLB,Columbia Banking System Inc,U.S. Small-cap Blend Common Stock,12.15,0.1127,-0.0905,0.315,0.0,2.97,41.22,0.2617
+COO,Cooper Cos Inc/The,U.S. Mid-cap Growth Common Stock,22.9,0.187,-0.0756,0.451,0.0122,7.7,2651.15,0.164
+CPB,Campbell Soup Co,U.S. Mid-cap Blend Common Stock,15.25,-0.0111,-0.1051,0.0827,0.0,6.76,21.28,0.5871
+CPK,Chesapeake Utilities Corp,U.S. Small-cap Blend Common Stock,31.08,0.1759,0.0771,0.2746,0.0,4.47,34.31,0.0796
+CPRT,Copart Inc,U.S. Large-cap Growth Common Stock,59.6,0.1313,-0.0566,0.3193,0.0,23.81,99.47,0.2569
+CPT,Camden Property Trust,Real Estate REIT,48.04,0.0935,-0.0498,0.237,0.0039,7.33,60.8,0.0582
+CR,Crane Holdings Co,U.S. Mid-cap Blend Common Stock,20.45,0.0218,-0.1187,0.162,0.0,5.38,24.58,0.3174
+CRD/A,Crawford & Co,U.S. Small-cap Value Common Stock,8.58,-0.0238,-0.2509,0.2028,0.0,2.7,13.41,0.1627
+CRS,Carpenter Technology Corp,U.S. Small-cap Blend Common Stock,32.34,-0.1646,-0.3926,0.0633,0.0,2.71,30.74,0.5725
+CRVL,CorVel Corp,U.S. Small-cap Growth Common Stock,71.89,-0.0463,-0.2038,0.1112,0.0,14.15,57.15,0.3379
+CSCO,Cisco Systems Inc,U.S. Large-cap Growth Common Stock,17.62,0.1124,-0.0357,0.2601,0.0,9.58,373.1,0.5147
+CSGS,CSG Systems International Inc,U.S. Small-cap Blend Common Stock,23.79,0.0054,-0.1561,0.1675,0.0,5.8,24.48,0.1761
+CSL,Carlisle Cos Inc,U.S. Mid-cap Blend Common Stock,33.29,0.0213,-0.1234,0.166,0.0,7.64,28.72,0.2871
+CSX,CSX Corp,U.S. Large-cap Growth Common Stock,26.72,0.1359,-0.0719,0.3433,0.029,6.45,38.89,0.0178
+CTAS,Cintas Corp,U.S. Large-cap Growth Common Stock,59.13,0.034,-0.2467,0.3156,0.0,9.29,70.42,0.1516
+CTBI,Community Trust Bancorp Inc,U.S. Small-cap Blend Common Stock,11.39,0.0411,-0.0357,0.1182,0.0,4.43,16.66,0.7107
+CTO,CTO Realty Growth Inc,Real Estate REIT,16.8,0.0587,-0.1479,0.2663,0.0,7.42,47.29,0.2228
+CTRA,Coterra Energy Inc,U.S. Mid-cap Blend Common Stock,3.58,0.0481,-0.2635,0.3595,0.0153,15.22,6870.99,0.039
+CTS,CTS Corp,U.S. Small-cap Blend Common Stock,42.31,-0.0321,-0.3002,0.2348,0.0005,2.68,92.89,0.1096
+CVBF,CVB Financial Corp,U.S. Small-cap Growth Common Stock,17.02,0.0556,-0.1051,0.2157,0.0,5.44,23.77,0.3489
+CVS,CVS Health Corp,U.S. Large-cap Value Common Stock,13.82,0.2227,0.1292,0.3166,0.0,11.61,36.48,0.7848
+CVX,Chevron Corp,U.S. Large-cap Blend Common Stock,21.16,0.0011,-0.1182,0.1206,0.0039,5.71,13.52,0.0696
+CW,Curtiss-Wright Corp,U.S. Mid-cap Blend Common Stock,28.21,0.0455,-0.074,0.1651,0.0,12.37,38.44,0.6461
+CWT,California Water Service Group,U.S. Small-cap Growth Common Stock,38.38,0.134,0.0205,0.2475,0.0012,6.41,37.95,0.0413
+D,Dominion Energy Inc,U.S. Large-cap Blend Common Stock,13.32,0.0745,0.0002,0.1488,0.0,3.68,18.86,0.3989
+DCI,Donaldson Co Inc,U.S. Mid-cap Blend Common Stock,27.44,0.0908,0.0207,0.1609,0.0,14.37,32.76,0.7331
+DDS,Dillard's Inc,U.S. Mid-cap Value Common Stock,30.52,0.0344,-0.4104,0.4798,0.0006,2.27,66.34,0.0893
+DE,Deere & Co,U.S. Large-cap Blend Common Stock,33.7,-0.0195,-0.1778,0.1385,0.0,8.43,32.83,0.3076
+DECK,Deckers Outdoor Corp,U.S. Mid-cap Blend Common Stock,42.71,0.1802,-0.1672,0.5255,0.0,5.49,115.04,0.5579
+DGICA,Donegal Group Inc,U.S. Small-cap Value Common Stock,20.01,-0.0839,-0.1705,0.0031,0.0,2.84,21.24,0.7295
+DGII,Digi International Inc,U.S. Small-cap Blend Common Stock,108.11,-0.1032,-0.3389,0.1324,0.0,3.26,86.54,0.2096
+DHI,DR Horton Inc,U.S. Large-cap Value Common Stock,16.13,0.1355,-0.2117,0.483,0.002,2.35,74.96,0.0307
+DHR,Danaher Corp,U.S. Large-cap Growth Common Stock,47.94,0.0989,-0.0226,0.2201,0.0,15.18,54.89,0.1673
+DIN,Dine Brands Global Inc,U.S. Small-cap Blend Common Stock,13.19,0.1176,-0.0406,0.2731,0.0,2.62,29.2,0.6161
+DINO,HF Sinclair Corp,U.S. Mid-cap Value Common Stock,12.71,0.1508,-0.1958,0.4978,0.0,2.26,36.13,0.439
+DIOD,Diodes Inc,U.S. Small-cap Blend Common Stock,37.13,0.0861,-0.2013,0.3713,0.0,6.93,79.14,0.5314
+DIS,Walt Disney Co/The,U.S. Large-cap Blend Common Stock,21.5,0.1576,0.0244,0.2907,0.0,12.09,46.82,0.6248
+DLTR,Dollar Tree Inc,U.S. Large-cap Blend Common Stock,28.48,0.2072,0.0529,0.3599,0.0,17.11,56.56,0.5096
+DLX,Deluxe Corp,U.S. Small-cap Value Common Stock,3.71,0.2155,0.0217,0.4112,0.0,1.5,16.79,0.6552
+DORM,Dorman Products Inc,U.S. Small-cap Blend Common Stock,25.13,0.1812,-0.0963,0.4583,0.0,2.45,56.22,0.3682
+DOV,Dover Corp,U.S. Mid-cap Blend Common Stock,28.26,-0.0635,-0.2083,0.0813,0.0,5.23,19.85,0.2451
+DRI,Darden Restaurants Inc,U.S. Mid-cap Blend Common Stock,31.02,0.067,-0.0417,0.1757,0.0,5.77,25.83,0.125
+DTE,DTE Energy Co,U.S. Mid-cap Blend Common Stock,17.95,0.1313,0.0216,0.241,0.0032,2.18,18.7,0.0373
+DVN,Devon Energy Corp,U.S. Large-cap Blend Common Stock,23.43,0.0887,-0.1843,0.3611,0.0,2.93,57.1,0.1227
+DY,Dycom Industries Inc,U.S. Small-cap Value Common Stock,28.9,0.1038,-0.2424,0.4489,0.0,4.69,4390.57,0.1927
+EA,Electronic Arts Inc,U.S. Mid-cap Growth Common Stock,25.99,0.2146,-0.1815,0.6109,0.0002,18.58,295.78,0.0747
+EAT,Brinker International Inc,U.S. Small-cap Value Common Stock,11.81,0.1826,0.0197,0.3435,0.0,3.53,30.24,0.5721
+EBF,Ennis Inc,U.S. Small-cap Blend Common Stock,15.34,-0.0508,-0.1577,0.0558,0.0,1.95,12.3,0.5873
+ECL,Ecolab Inc,U.S. Large-cap Blend Common Stock,28.59,0.1658,0.0904,0.2405,0.0,20.13,46.11,0.4536
+EFX,Equifax Inc,U.S. Mid-cap Growth Common Stock,38.91,0.0875,-0.0872,0.2622,0.0025,10.09,46.28,0.0374
+EIX,Edison International,U.S. Mid-cap Blend Common Stock,12.43,-0.0169,-0.1717,0.1393,0.0,2.14,15.44,0.5323
+EL,Estee Lauder Cos Inc/The,U.S. Large-cap Growth Common Stock,48.15,0.1321,-0.0624,0.3269,0.002,10.9,47.7,0.0852
+ELS,Equity LifeStyle Properties Inc,Real Estate REIT,57.58,0.1825,0.0609,0.3046,0.0004,9.39,82.67,0.0982
+EMN,Eastman Chemical Co,U.S. Mid-cap Value Common Stock,10.34,0.1088,-0.0754,0.2929,0.0134,3.52,17.97,0.0585
+EMR,Emerson Electric Co,U.S. Large-cap Blend Common Stock,20.72,-0.0245,-0.1035,0.0548,0.0,8.63,19.26,0.5084
+EOG,EOG Resources Inc,U.S. Large-cap Blend Common Stock,29.12,0.1032,-0.1147,0.3207,0.0,12.11,45.95,0.2214
+EPAC,Enerpac Tool Group Corp,U.S. Small-cap Blend Common Stock,21.66,-0.0693,-0.2145,0.0747,0.0,1.68,26.5,0.8573
+EQC,Equity Commonwealth,Real Estate REIT,53.88,0.02,-0.1488,0.1885,0.0102,1.15,45.51,0.0351
+EQR,Equity Residential,Real Estate REIT,63.63,0.0973,-0.015,0.2087,0.0,7.6,263.06,0.1531
+EQT,EQT Corp,U.S. Mid-cap Blend Common Stock,42.0,-0.2158,-0.3987,-0.0329,0.0,4.27,30.92,0.6482
+ES,Eversource Energy,U.S. Mid-cap Blend Common Stock,21.16,0.1267,0.0322,0.2215,0.0044,2.19,28.29,0.0779
+ESE,ESCO Technologies Inc,U.S. Small-cap Blend Common Stock,38.05,0.0282,-0.1393,0.1965,0.0,14.37,50.8,0.2099
+ESS,Essex Property Trust Inc,Real Estate REIT,46.36,0.1058,-0.0151,0.2268,0.0,11.24,82.94,0.3117
+ESTE,Earthstone Energy Inc,U.S. Small-cap Value Common Stock,10.91,0.2267,-0.3321,0.7882,0.0,2.68,120.04,0.2121
+ETD,Ethan Allen Interiors Inc,U.S. Small-cap Value Common Stock,14.11,-0.0228,-0.1897,0.1435,0.0,2.31,20.48,0.1887
+ETN,Eaton Corp PLC,U.S. Large-cap Blend Common Stock,30.38,-0.0413,-0.1782,0.0956,0.0,5.35,17.58,0.3002
+ETR,Entergy Corp,U.S. Mid-cap Blend Common Stock,12.43,0.007,-0.0964,0.111,0.0,3.3,14.64,0.5933
+EXP,Eagle Materials Inc,U.S. Small-cap Blend Common Stock,22.62,0.1084,-0.0796,0.2955,0.0,6.36,50.63,0.6026
+FAST,Fastenal Co,U.S. Mid-cap Growth Common Stock,38.4,0.1435,0.0428,0.2447,0.0,21.52,70.03,0.4832
+FBNC,First Bancorp/Southern Pines NC,U.S. Small-cap Growth Common Stock,15.67,0.0744,-0.1376,0.2864,0.0163,5.68,39.56,0.0255
+FCBC,First Community Bankshares Inc,U.S. Small-cap Growth Common Stock,14.29,-0.0309,-0.2596,0.1973,0.0,3.11,20.74,0.1351
+FCF,First Commonwealth Financial Corp,U.S. Small-cap Growth Common Stock,15.42,0.0281,-0.1658,0.2224,0.0163,3.54,27.65,0.0184
+FCN,FTI Consulting Inc,U.S. Small-cap Blend Common Stock,36.59,0.0647,-0.1658,0.2955,0.0,12.23,71.73,0.2261
+FCX,Freeport-McMoRan Inc,U.S. Large-cap Blend Common Stock,30.9,0.0354,-0.3808,0.4511,0.0009,1.34,37.8,0.0388
+FDS,FactSet Research Systems Inc,U.S. Mid-cap Growth Common Stock,45.08,0.1499,0.067,0.2324,0.0,24.14,56.48,0.2509
+FDX,FedEx Corp,U.S. Large-cap Value Common Stock,14.07,0.1654,0.0058,0.3255,0.0,8.74,47.71,0.2242
+FELE,Franklin Electric Co Inc,U.S. Small-cap Blend Common Stock,36.2,-0.0242,-0.1416,0.0928,0.0,11.08,34.01,0.5276
+FFIC,Flushing Financial Corp,U.S. Small-cap Blend Common Stock,9.97,0.0416,-0.0549,0.1397,0.0,3.03,16.37,0.7078
+FICO,Fair Isaac Corp,U.S. Mid-cap Growth Common Stock,104.99,0.027,-0.2697,0.3237,0.0,6.79,65.56,0.1496
+FISV,Fiserv Inc,U.S. Large-cap Growth Common Stock,42.83,0.1431,0.0008,0.2857,0.0,16.22,106.88,0.4153
+FITB,Fifth Third Bancorp,U.S. Mid-cap Blend Common Stock,12.96,0.0111,-0.2782,0.3016,0.0,0.66,29.43,0.1989
+FIZZ,National Beverage Corp,U.S. Small-cap Growth Common Stock,33.92,0.2542,0.0434,0.4649,0.0001,0.07,93.22,0.1228
+FL,Foot Locker Inc,U.S. Small-cap Value Common Stock,8.17,0.1836,-0.1085,0.4772,0.0,3.76,2524.68,0.2325
+FLIC,First of Long Island Corp/The,U.S. Small-cap Blend Common Stock,10.08,0.1099,0.0217,0.1975,0.0,6.9,22.98,0.553
+FLR,Fluor Corp,U.S. Small-cap Value Common Stock,15.19,0.0478,-0.2565,0.3521,0.005,7.03,53.49,0.0738
+FLS,Flowserve Corp,U.S. Small-cap Blend Common Stock,14.41,0.1257,-0.154,0.4058,0.0,5.27,57.29,0.1314
+FMC,FMC Corp,U.S. Mid-cap Blend Common Stock,24.63,0.1118,-0.1098,0.3334,0.0304,2.3,27.39,0.0419
+FMNB,Farmers National Banc Corp,U.S. Small-cap Blend Common Stock,11.44,0.0141,-0.218,0.2462,0.0,3.37,21.09,0.2088
+FNB,FNB Corp/PA,U.S. Small-cap Blend Common Stock,12.18,-0.0386,-0.1888,0.1122,0.0,2.33,14.85,0.2838
+FNLC,First Bancorp Inc/The,U.S. Small-cap Blend Common Stock,12.22,0.0518,-0.0502,0.1542,0.0,5.37,17.86,0.1516
+FRME,First Merchants Corp,U.S. Small-cap Growth Common Stock,14.14,0.0381,-0.2258,0.3023,0.0,3.12,34.15,0.1005
+FRPH,FRP Holdings Inc,U.S. Small-cap Growth Common Stock,250.9,-0.3781,-0.5328,-0.2238,0.0,10.47,68.33,0.4774
+FRT,Federal Realty Investment Trust,Real Estate REIT,36.23,0.0676,-0.0264,0.1623,0.0,7.72,58.03,0.8342
+FUL,HB Fuller Co,U.S. Small-cap Value Common Stock,21.97,0.0456,-0.0724,0.1638,0.0,7.18,28.05,0.307
+FULT,Fulton Financial Corp,U.S. Small-cap Blend Common Stock,12.84,0.0121,-0.1246,0.1491,0.0,3.68,19.23,0.2618
+FWRD,Forward Air Corp,U.S. Small-cap Blend Common Stock,29.85,0.0915,-0.0338,0.217,0.0,12.77,87.63,0.2182
+GBCI,Glacier Bancorp Inc,U.S. Small-cap Growth Common Stock,19.38,0.0528,-0.1048,0.2112,0.0,5.85,27.36,0.4489
+GBX,Greenbrier Cos Inc/The,U.S. Small-cap Value Common Stock,8.53,0.2003,-0.0024,0.4038,0.0,2.35,39.21,0.7277
+GD,General Dynamics Corp,U.S. Large-cap Blend Common Stock,19.83,0.0314,-0.056,0.1185,0.0,8.09,24.58,0.7088
+GE,General Electric Co,U.S. Large-cap Blend Common Stock,11.63,-0.0279,-0.2218,0.1655,0.0,2.57,31.66,0.2373
+GEF,Greif Inc,U.S. Small-cap Value Common Stock,14.21,0.0256,-0.1759,0.227,0.0,3.78,23.98,0.3792
+GEF/B,Greif Inc,U.S. Small-cap Value Common Stock,16.34,0.0084,-0.1685,0.185,0.0,3.68,17.64,0.3292
+GEO,GEO Group Inc/The,U.S. Small-cap Value Common Stock,7.98,0.3001,0.0929,0.5068,0.0,5.34,26.12,0.5967
+GFF,Griffon Corp,U.S. Small-cap Value Common Stock,24.05,-0.0159,-0.2426,0.2113,0.0,4.93,43.5,0.1861
+GGG,Graco Inc,U.S. Mid-cap Growth Common Stock,35.48,0.0593,-0.101,0.2201,0.0,8.28,43.51,0.3959
+GHC,Graham Holdings Co,U.S. Small-cap Value Common Stock,25.12,-0.0904,-0.246,0.0652,0.0,4.97,24.98,0.5128
+GIC,Global Industrial Co,U.S. Small-cap Value Common Stock,32.62,-0.1129,-0.3596,0.1375,0.0,1.0,35.36,0.6513
+GIII,G-III Apparel Group Ltd,U.S. Small-cap Value Common Stock,5.77,0.3098,-0.0536,0.6735,0.0167,5.11,882.16,0.0891
+GIS,General Mills Inc,U.S. Large-cap Blend Common Stock,20.03,0.0402,-0.0277,0.1085,0.0,9.68,22.7,0.276
+GL,Globe Life Inc,U.S. Mid-cap Blend Common Stock,19.09,0.0329,-0.0931,0.1602,0.0,4.02,24.55,0.4315
+GLT,Glatfelter Corp,U.S. Small-cap Value Common Stock,3.72,0.1728,-0.0037,0.3492,0.0,5.27,27.2,0.1988
+GLW,Corning Inc,U.S. Mid-cap Blend Common Stock,20.3,0.0501,-0.1276,0.2259,0.0,2.77,162.83,0.7346
+GNTX,Gentex Corp,U.S. Mid-cap Growth Common Stock,18.97,0.1469,0.0071,0.2869,0.0,8.79,65.87,0.2784
+GPC,Genuine Parts Co,U.S. Mid-cap Blend Common Stock,28.32,0.0549,-0.0681,0.1783,0.0,4.95,23.81,0.0883
+GPS,Gap Inc/The,U.S. Small-cap Value Common Stock,5.95,0.1392,-0.0366,0.3152,0.0,6.63,67.76,0.3396
+GRC,Gorman-Rupp Co/The,U.S. Small-cap Blend Common Stock,21.39,0.0848,-0.0226,0.1921,0.0,7.19,35.51,0.3547
+GSBC,Great Southern Bancorp Inc,U.S. Small-cap Blend Common Stock,12.25,0.1107,-0.0718,0.2922,0.0,3.04,24.7,0.2527
+GVA,Granite Construction Inc,U.S. Small-cap Value Common Stock,48.15,-0.1429,-0.3036,0.0183,0.0,8.74,54.42,0.4535
+GWW,WW Grainger Inc,U.S. Large-cap Blend Common Stock,36.23,0.0619,-0.0832,0.2071,0.0,9.28,34.11,0.1294
+HAE,Haemonetics Corp,U.S. Small-cap Growth Common Stock,40.09,0.0632,-0.0712,0.1978,0.0,12.64,42.19,0.1346
+HAIN,Hain Celestial Group Inc/The,U.S. Small-cap Value Common Stock,13.28,0.3506,0.1262,0.5752,0.0,15.53,175.44,0.5273
+HAL,Halliburton Co,U.S. Large-cap Blend Common Stock,20.05,0.0469,-0.2308,0.325,0.0006,8.93,87.28,0.0831
+HAS,Hasbro Inc,U.S. Mid-cap Blend Common Stock,12.63,0.1154,-0.0618,0.2919,0.0,6.12,30.32,0.0658
+HBAN,Huntington Bancshares Inc/OH,U.S. Mid-cap Blend Common Stock,13.39,-0.0391,-0.3129,0.2355,0.0,0.66,36.78,0.1593
+HCSG,Healthcare Services Group Inc,U.S. Small-cap Value Common Stock,12.85,0.3045,0.1009,0.5084,0.0,4.79,67.29,0.6338
+HD,Home Depot Inc/The,U.S. Large-cap Blend Common Stock,31.46,0.0938,-0.1219,0.3109,0.0,7.25,99.79,0.3762
+HE,Hawaiian Electric Industries Inc,U.S. Small-cap Blend Common Stock,20.08,0.0685,-0.025,0.1618,0.0002,3.38,20.23,0.0581
+HEI,HEICO Corp,U.S. Mid-cap Growth Common Stock,91.17,0.0722,-0.1283,0.2713,0.0,13.5,130.05,0.3151
+HELE,Helen of Troy Ltd,U.S. Small-cap Blend Common Stock,14.12,0.1947,0.011,0.3788,0.0,6.25,45.89,0.4016
+HES,Hess Corp,U.S. Large-cap Growth Common Stock,264.78,0.2637,0.0157,0.5122,0.0,7.88,443.53,0.1204
+HIBB,Hibbett Inc,U.S. Small-cap Value Common Stock,15.22,0.1543,-0.1173,0.4276,0.0,5.35,66.54,0.2151
+HIFS,Hingham Institution For Savings The,U.S. Small-cap Growth Common Stock,16.99,0.1331,-0.0674,0.3334,0.0,4.29,29.25,0.0783
+HIG,Hartford Financial Services Group Inc/The,U.S. Mid-cap Blend Common Stock,16.64,-0.0908,-0.3365,0.1545,0.0,0.77,27.09,0.4423
+HIW,Highwoods Properties Inc,Real Estate REIT,25.21,0.0758,-0.0316,0.1828,0.0,3.62,61.85,0.2263
+HMN,Horace Mann Educators Corp,U.S. Small-cap Blend Common Stock,14.21,-0.0277,-0.2257,0.1709,0.0,3.91,16.8,0.1883
+HNI,HNI Corp,U.S. Small-cap Value Common Stock,12.92,0.0446,-0.107,0.1967,0.0,2.92,27.12,0.5032
+HOG,Harley-Davidson Inc,U.S. Mid-cap Blend Common Stock,11.71,0.0615,-0.204,0.3267,0.0378,2.79,71.46,0.0376
+HOLX,Hologic Inc,U.S. Mid-cap Growth Common Stock,32.98,0.2722,-0.0973,0.6438,0.0,7.64,291.3,0.264
+HON,Honeywell International Inc,U.S. Large-cap Growth Common Stock,25.17,0.0503,-0.1368,0.2375,0.0002,5.74,29.3,0.0908
+HPQ,HP Inc,U.S. Mid-cap Value Common Stock,10.0,-0.0969,-0.2376,0.0429,0.0,1.51,16.02,0.7076
+HRB,H&R Block Inc,U.S. Small-cap Blend Common Stock,13.67,0.0506,-0.1125,0.215,0.0,5.28,25.54,0.3948
+HRL,Hormel Foods Corp,U.S. Mid-cap Blend Common Stock,25.07,0.1178,-0.0006,0.2364,0.0,10.37,43.06,0.1074
+HSC,Harsco Corp,U.S. Small-cap Value Common Stock,27.33,-0.1731,-0.3896,0.0445,0.0,2.85,29.39,0.435
+HSIC,Henry Schein Inc,U.S. Mid-cap Value Common Stock,24.42,0.1302,0.0607,0.1984,0.0,16.3,34.09,0.7661
+HSY,Hershey Co/The,U.S. Large-cap Growth Common Stock,38.3,-0.0089,-0.1388,0.1212,0.0,11.61,31.89,0.3193
+HTLD,Heartland Express Inc,U.S. Small-cap Blend Common Stock,22.85,0.0824,-0.0434,0.2084,0.0,12.72,38.38,0.5482
+HTLF,Heartland Financial USA Inc,U.S. Small-cap Blend Common Stock,12.32,0.1234,0.0028,0.2435,0.0,7.49,23.01,0.5854
+HUBB,Hubbell Inc,U.S. Mid-cap Blend Common Stock,31.79,0.0382,-0.1186,0.195,0.0,6.32,24.56,0.1134
+HUM,Humana Inc,U.S. Large-cap Value Common Stock,28.18,0.104,-0.0604,0.2669,0.0,4.81,44.91,0.5853
+HWKN,Hawkins Inc,U.S. Small-cap Value Common Stock,24.67,0.0594,-0.0712,0.1901,0.0,7.11,28.09,0.2599
+IBM,International Business Machines Corp,U.S. Large-cap Blend Common Stock,8.99,0.0585,-0.0789,0.1963,0.0168,6.7,514.97,0.0543
+IBOC,International Bancshares Corp,U.S. Small-cap Growth Common Stock,14.93,-0.0082,-0.1301,0.1148,0.0,3.32,19.18,0.5306
+ICUI,ICU Medical Inc,U.S. Small-cap Blend Common Stock,35.22,0.1342,-0.0241,0.2923,0.0,18.51,76.09,0.4363
+IDA,IDACORP Inc,U.S. Small-cap Blend Common Stock,20.62,0.1377,0.0161,0.2592,0.0,4.2,23.81,0.122
+IDXX,IDEXX Laboratories Inc,U.S. Large-cap Growth Common Stock,99.84,0.1591,-0.0281,0.3458,0.0014,29.4,102.44,0.055
+IEX,IDEX Corp,U.S. Mid-cap Growth Common Stock,39.85,0.1197,-0.0309,0.2703,0.0043,11.07,44.05,0.0306
+IFF,International Flavors & Fragrances Inc,U.S. Mid-cap Blend Common Stock,16.94,0.0845,-0.0823,0.2511,0.0017,5.05,30.4,0.0359
+IMKTA,Ingles Markets Inc,U.S. Small-cap Value Common Stock,15.0,0.0612,-0.1346,0.2572,0.0,4.95,24.09,0.1708
+INT,World Fuel Services Corp,U.S. Small-cap Value Common Stock,10.74,0.2408,-0.0655,0.546,0.0,5.75,48.12,0.2256
+INTC,Intel Corp,U.S. Large-cap Blend Common Stock,8.09,0.1664,0.0399,0.2921,0.0,7.11,63.56,0.5776
+INTU,Intuit Inc,U.S. Large-cap Growth Common Stock,74.73,0.1555,-0.0023,0.3144,0.0,21.15,2033.56,0.3893
+IP,International Paper Co,U.S. Mid-cap Value Common Stock,8.5,0.0963,-0.0993,0.2911,0.0003,2.42,18.52,0.1874
+IPAR,Inter Parfums Inc,U.S. Small-cap Growth Common Stock,61.32,-0.0196,-0.1824,0.1433,0.0,6.02,51.5,0.4885
+IPG,Interpublic Group of Cos Inc/The,U.S. Mid-cap Blend Common Stock,20.68,0.0056,-0.2983,0.3103,0.005,4.04,50.9,0.063
+ITIC,Investors Title Co,U.S. Small-cap Value Common Stock,12.16,0.1223,-0.0722,0.3166,0.0,4.31,29.06,0.1174
+ITT,ITT Inc,U.S. Mid-cap Blend Common Stock,24.23,-0.0261,-0.174,0.122,0.0,1.98,12.84,0.1919
+ITW,Illinois Tool Works Inc,U.S. Large-cap Growth Common Stock,31.79,0.0433,-0.0848,0.1713,0.0,8.35,35.11,0.1988
+J,Jacobs Solutions Inc,U.S. Mid-cap Value Common Stock,24.88,0.1198,-0.0827,0.3222,0.0,11.79,74.45,0.1777
+JACK,Jack in the Box Inc,U.S. Small-cap Blend Common Stock,17.63,0.1554,-0.0628,0.3726,0.0,11.29,581.24,0.2303
+JBHT,JB Hunt Transport Services Inc,U.S. Mid-cap Blend Common Stock,34.41,0.1563,0.0139,0.2969,0.0,10.95,61.29,0.5608
+JBL,Jabil Inc,U.S. Mid-cap Value Common Stock,28.1,0.0149,-0.1534,0.1815,0.0,3.59,150.22,0.5239
+JBSS,John B Sanfilippo & Son Inc,U.S. Small-cap Blend Common Stock,22.8,0.0965,-0.2848,0.4783,0.0,3.2,47.4,0.201
+JJSF,J & J Snack Foods Corp,U.S. Small-cap Blend Common Stock,34.69,0.0891,-0.0015,0.1803,0.0,10.67,42.5,0.5827
+JKHY,Jack Henry & Associates Inc,U.S. Mid-cap Growth Common Stock,41.17,0.1165,-0.0129,0.2444,0.0,15.88,111.91,0.5145
+JNJ,Johnson & Johnson,U.S. Large-cap Growth Common Stock,20.61,0.068,-0.0013,0.1378,0.0,10.68,29.42,0.459
+JOE,St Joe Co/The,U.S. Small-cap Growth Common Stock,46.9,-0.0083,-0.2832,0.2667,0.0002,15.64,81.0,0.0699
+JOUT,Johnson Outdoors Inc,U.S. Small-cap Value Common Stock,14.77,0.1699,-0.0492,0.3882,0.0,4.32,47.35,0.4213
+JWN,Nordstrom Inc,U.S. Small-cap Value Common Stock,8.74,0.2375,-0.0159,0.4889,0.0,5.1,33.79,0.3837
+K,Kellogg Co,U.S. Mid-cap Blend Common Stock,15.47,0.0237,-0.0376,0.0847,0.0,7.19,18.88,0.5899
+KAMN,Kaman Corp,U.S. Small-cap Value Common Stock,10.08,0.1637,0.0388,0.2885,0.0,7.12,35.1,0.4505
+KBAL,Kimball International Inc,U.S. Small-cap Value Common Stock,9.01,0.035,-0.2096,0.2795,0.0443,3.51,38.13,0.0184
+KELYA,Kelly Services Inc,U.S. Small-cap Value Common Stock,9.3,0.0236,-0.1404,0.1877,0.0296,5.32,33.4,0.0281
+KEX,Kirby Corp,U.S. Small-cap Blend Common Stock,24.45,0.1048,-0.1022,0.3123,0.0125,14.88,47.56,0.0547
+KEY,KeyCorp,U.S. Mid-cap Blend Common Stock,11.24,0.0096,-0.2846,0.3042,0.0028,2.0,87.57,0.0408
+KIM,Kimco Realty Corp,Real Estate REIT,21.58,-0.0611,-0.2294,0.1085,0.0,3.45,28.35,0.5957
+KLAC,KLA Corp,U.S. Large-cap Growth Common Stock,37.38,0.0262,-0.2192,0.2727,0.0,5.61,89.74,0.2747
+KMB,Kimberly-Clark Corp,U.S. Large-cap Blend Common Stock,17.72,0.031,-0.0634,0.1247,0.0,6.9,21.16,0.312
+KMPR,Kemper Corp,U.S. Small-cap Value Common Stock,24.79,-0.1034,-0.2559,0.0488,0.0,3.33,29.03,0.4099
+KMT,Kennametal Inc,U.S. Small-cap Blend Common Stock,12.93,0.0517,-0.0533,0.1577,0.0,5.82,22.2,0.6164
+KO,Coca-Cola Co/The,U.S. Large-cap Growth Common Stock,24.32,-0.0003,-0.0526,0.0524,0.0,11.79,41.46,0.8177
+KR,Kroger Co/The,U.S. Large-cap Value Common Stock,15.83,0.0744,-0.0584,0.2081,0.0,9.04,41.06,0.5816
+L,Loews Corp,U.S. Mid-cap Blend Common Stock,17.82,0.0654,-0.0698,0.2004,0.0,5.69,34.49,0.303
+LCII,LCI Industries,U.S. Small-cap Value Common Stock,15.78,0.1866,-0.0386,0.4103,0.0,3.5,45.9,0.5731
+LCUT,Lifetime Brands Inc,U.S. Small-cap Value Common Stock,7.46,0.1962,0.0093,0.3857,0.0,2.04,32.95,0.6994
+LECO,Lincoln Electric Holdings Inc,U.S. Mid-cap Blend Common Stock,33.32,0.0371,-0.0759,0.1507,0.0,7.82,37.15,0.4825
+LEG,Leggett & Platt Inc,U.S. Small-cap Value Common Stock,12.86,0.0647,-0.0904,0.2205,0.0,4.65,27.21,0.1874
+LEN,Lennar Corp,U.S. Mid-cap Value Common Stock,13.95,0.0719,-0.273,0.4171,0.0,1.5,39.12,0.2194
+LFUS,Littelfuse Inc,U.S. Mid-cap Blend Common Stock,30.21,0.1021,-0.1036,0.3076,0.0,7.88,52.41,0.2358
+LH,Laboratory Corp of America Holdings,U.S. Mid-cap Blend Common Stock,17.66,0.1781,0.0671,0.2884,0.0,2.28,46.66,0.8197
+LHX,L3Harris Technologies Inc,U.S. Large-cap Blend Common Stock,27.21,0.0439,-0.1145,0.2034,0.0,7.81,34.69,0.4016
+LKFN,Lakeland Financial Corp,U.S. Small-cap Growth Common Stock,22.24,0.0994,-0.0442,0.2427,0.0,5.62,28.95,0.1114
+LLY,Eli Lilly & Co,U.S. Large-cap Growth Common Stock,60.17,-0.0846,-0.2963,0.1268,0.0,5.92,48.47,0.2807
+LMT,Lockheed Martin Corp,U.S. Large-cap Blend Common Stock,21.04,0.0875,-0.0616,0.2355,0.0,5.5,28.52,0.3463
+LNC,Lincoln National Corp,U.S. Small-cap Value Common Stock,6.12,0.1454,-0.0394,0.3291,0.0,1.22,19.15,0.5327
+LNN,Lindsay Corp,U.S. Small-cap Blend Common Stock,38.34,0.0542,-0.1047,0.2131,0.0,12.09,78.88,0.1465
+LNT,Alliant Energy Corp,U.S. Mid-cap Blend Common Stock,21.38,0.1481,0.0266,0.2702,0.0002,3.13,23.24,0.1129
+LOW,Lowe's Cos Inc,U.S. Large-cap Blend Common Stock,30.76,0.1357,-0.0751,0.3468,0.0,9.37,63.89,0.1642
+LRCX,Lam Research Corp,U.S. Large-cap Growth Common Stock,30.29,0.1388,-0.1098,0.3866,0.0,5.76,103.84,0.3718
+LSCC,Lattice Semiconductor Corp,U.S. Mid-cap Growth Common Stock,371.66,0.2272,-0.2309,0.6858,0.003,4.98,264.62,0.0816
+LSTR,Landstar System Inc,U.S. Mid-cap Value Common Stock,29.41,0.12,-0.0286,0.2695,0.0,12.34,50.03,0.6394
+LUMN,Lumen Technologies Inc,U.S. Small-cap Value Common Stock,2.29,0.0722,-0.0703,0.2146,0.0002,3.15,14.99,0.0555
+LUV,Southwest Airlines Co,U.S. Mid-cap Value Common Stock,16.44,0.231,-0.0322,0.4938,0.0,9.24,55.73,0.3705
+LZB,La-Z-Boy Inc,U.S. Small-cap Value Common Stock,12.48,0.0836,-0.2605,0.4288,0.0287,1.09,77.16,0.0975
+M,Macy's Inc,U.S. Small-cap Value Common Stock,5.83,0.1812,-0.0232,0.3871,0.0,2.11,21.59,0.5876
+MAA,Mid-America Apartment Communities Inc,Real Estate REIT,66.62,0.1268,0.0304,0.223,0.0,6.59,117.49,0.3205
+MAC,Macerich Co/The,Real Estate REIT,22.61,0.0169,-0.192,0.2229,0.0,2.0,69.53,0.7319
+MAN,ManpowerGroup Inc,U.S. Small-cap Value Common Stock,11.66,0.1277,-0.0245,0.2784,0.0,6.84,66.07,0.3478
+MAS,Masco Corp,U.S. Mid-cap Blend Common Stock,21.44,0.0476,-0.2183,0.3141,0.0065,2.16,55.22,0.042
+MAT,Mattel Inc,U.S. Mid-cap Blend Common Stock,31.31,-0.2447,-0.4134,-0.0761,0.0,5.76,22.68,0.4578
+MATV,Mativ Holdings Inc,U.S. Small-cap Value Common Stock,6.82,0.1532,-0.0732,0.38,0.0,4.58,22.52,0.2595
+MATW,Matthews International Corp,U.S. Small-cap Value Common Stock,15.4,0.0701,-0.1198,0.2596,0.0,10.43,29.97,0.14
+MCD,McDonald's Corp,U.S. Large-cap Growth Common Stock,33.14,0.0215,-0.1439,0.1866,0.0,6.46,28.72,0.2149
+MCHP,Microchip Technology Inc,U.S. Large-cap Growth Common Stock,52.77,0.0316,-0.1131,0.1752,0.0,11.8,60.92,0.2913
+MCK,McKesson Corp,U.S. Large-cap Value Common Stock,24.32,0.1225,0.0034,0.2434,0.0,13.53,85.19,0.7422
+MCRI,Monarch Casino & Resort Inc,U.S. Small-cap Blend Common Stock,39.09,0.1006,-0.2633,0.4643,0.0,7.85,79.22,0.1629
+MCS,Marcus Corp/The,U.S. Small-cap Value Common Stock,34.29,-0.0491,-0.2555,0.1581,0.0,5.43,37.08,0.1838
+MCY,Mercury General Corp,U.S. Small-cap Value Common Stock,28.06,-0.0899,-0.1841,0.0044,0.0,3.59,18.68,0.396
+MD,Pediatrix Medical Group Inc,U.S. Small-cap Value Common Stock,5.25,0.4061,0.0951,0.7173,0.0054,16.12,43.56,0.0857
+MDC,MDC Holdings Inc,U.S. Small-cap Value Common Stock,9.0,0.1089,-0.2346,0.4528,0.0019,3.35,280.5,0.027
+MDT,Medtronic PLC,U.S. Large-cap Growth Common Stock,20.25,0.0638,-0.0125,0.1417,0.0,10.38,36.87,0.8059
+MDU,MDU Resources Group Inc,U.S. Mid-cap Value Common Stock,16.97,-0.0036,-0.1083,0.1015,0.0,7.0,18.33,0.442
+MGEE,MGE Energy Inc,U.S. Small-cap Growth Common Stock,25.6,0.1048,0.0196,0.19,0.0046,4.64,29.81,0.0404
+MGRC,McGrath RentCorp,U.S. Small-cap Growth Common Stock,41.77,-0.0058,-0.1599,0.1484,0.0002,6.53,25.22,0.1242
+MHK,Mohawk Industries Inc,U.S. Mid-cap Value Common Stock,9.18,0.2851,0.033,0.5356,0.0,4.64,51.92,0.374
+MHO,M/I Homes Inc,U.S. Small-cap Value Common Stock,8.65,0.0655,-0.3004,0.4319,0.0003,1.64,57.52,0.0528
+MIDD,Middleby Corp/The,U.S. Mid-cap Blend Common Stock,25.46,0.4917,0.1506,0.8318,0.0,13.77,326.65,0.5008
+MKC,McCormick & Co Inc/MD,U.S. Mid-cap Blend Common Stock,28.13,0.109,0.0138,0.2035,0.0,12.06,32.19,0.1379
+MKL,Markel Corp,U.S. Mid-cap Blend Common Stock,37.07,0.0919,-0.0244,0.2083,0.0,18.45,75.74,0.3123
+MLI,Mueller Industries Inc,U.S. Small-cap Value Common Stock,19.77,0.0433,-0.096,0.1828,0.0004,4.69,24.37,0.1191
+MLKN,MillerKnoll Inc,U.S. Small-cap Value Common Stock,9.78,0.1064,-0.0249,0.2385,0.0,5.32,58.61,0.3582
+MLM,Martin Marietta Materials Inc,U.S. Mid-cap Growth Common Stock,42.8,0.0606,-0.1124,0.2341,0.0,9.53,59.22,0.242
+MMM,3M Co,U.S. Large-cap Blend Common Stock,11.31,0.1975,0.1257,0.2683,0.0,8.09,30.01,0.7791
+MMSI,Merit Medical Systems Inc,U.S. Small-cap Growth Common Stock,69.28,0.0102,-0.2373,0.2599,0.0,16.27,123.04,0.4202
+MNRO,Monro Inc,U.S. Small-cap Blend Common Stock,24.34,0.1487,-0.0149,0.3114,0.0,5.75,50.26,0.5324
+MO,Altria Group Inc,U.S. Large-cap Growth Common Stock,11.39,0.0616,-0.0914,0.2136,0.0,0.52,20.01,0.3309
+MOD,Modine Manufacturing Co,U.S. Small-cap Value Common Stock,24.03,-0.0315,-0.2905,0.2271,0.0328,0.97,334.59,0.0486
+MOG/A,Moog Inc,U.S. Small-cap Value Common Stock,19.84,0.1322,-0.053,0.3182,0.0,12.46,47.7,0.1965
+MOV,Movado Group Inc,U.S. Small-cap Blend Common Stock,12.37,0.1373,-0.0379,0.3131,0.0,3.92,37.4,0.586
+MPAA,Motorcar Parts of America Inc,U.S. Small-cap Value Common Stock,14.8,0.1118,-0.2381,0.4612,0.0,1.93,232.78,0.2358
+MRK,Merck & Co Inc,U.S. Large-cap Growth Common Stock,20.79,-0.0166,-0.1694,0.137,0.0,4.26,22.14,0.2425
+MRO,Marathon Oil Corp,U.S. Mid-cap Blend Common Stock,24.77,-0.0517,-0.3546,0.2511,0.0034,2.33,16.94,0.0386
+MRTN,Marten Transport Ltd,U.S. Small-cap Blend Common Stock,24.71,0.093,-0.0454,0.2318,0.0,7.2,44.63,0.4521
+MS,Morgan Stanley,U.S. Large-cap Blend Common Stock,14.37,0.0172,-0.2581,0.2921,0.0457,2.45,28.41,0.0343
+MSA,MSA Safety Inc,U.S. Small-cap Growth Common Stock,35.29,-0.0004,-0.2145,0.2145,0.0,8.31,38.57,0.414
+MSEX,Middlesex Water Co,U.S. Small-cap Growth Common Stock,37.14,0.1696,0.0053,0.3334,0.0101,5.08,38.51,0.048
+MSFT,Microsoft Corp,U.S. Large-cap Growth Common Stock,36.24,0.0759,-0.1512,0.3015,0.0,9.11,132.25,0.3517
+MSM,MSC Industrial Direct Co Inc,U.S. Small-cap Blend Common Stock,14.46,0.1421,0.0189,0.2642,0.0,8.34,32.07,0.2843
+MTB,M&T Bank Corp,U.S. Mid-cap Blend Common Stock,13.31,0.0771,-0.0533,0.2083,0.0,4.27,22.96,0.3786
+MTRN,Materion Corp,U.S. Small-cap Value Common Stock,38.07,0.0403,-0.1819,0.2639,0.0,6.24,126.8,0.3453
+MTW,Manitowoc Co Inc/The,U.S. Small-cap Value Common Stock,13.44,-0.1898,-0.4422,0.0607,0.0,0.62,19.51,0.4928
+MTX,Minerals Technologies Inc,U.S. Small-cap Value Common Stock,12.35,0.1953,0.0766,0.3152,0.0,8.81,37.6,0.542
+MTZ,MasTec Inc,U.S. Mid-cap Value Common Stock,31.6,0.0775,-0.1373,0.2907,0.0,2.88,181.38,0.6049
+MUR,Murphy Oil Corp,U.S. Mid-cap Blend Common Stock,37.77,0.2326,-0.0042,0.4695,0.0,3.08,28.94,0.3243
+MYE,Myers Industries Inc,U.S. Small-cap Value Common Stock,25.76,-0.0028,-0.155,0.1488,0.0,3.54,32.43,0.1448
+NATI,National Instruments Corp,U.S. Mid-cap Growth Common Stock,48.69,-0.0198,-0.0833,0.0427,0.0,15.95,55.12,0.6864
+NBN,Northeast Bank,U.S. Small-cap Blend Common Stock,15.12,-0.0179,-0.2097,0.1748,0.0,5.06,22.16,0.3137
+NBTB,NBT Bancorp Inc,U.S. Small-cap Blend Common Stock,14.86,0.0193,-0.0673,0.1059,0.0,4.92,19.48,0.3278
+NCR,NCR Corp,U.S. Small-cap Value Common Stock,9.88,0.2239,0.0563,0.3909,0.0,6.76,35.23,0.5105
+NEE,NextEra Energy Inc,U.S. Large-cap Growth Common Stock,35.8,0.2309,0.1144,0.3477,0.0,5.48,27.91,0.1806
+NEM,Newmont Corp,U.S. Large-cap Blend Common Stock,24.68,0.048,-0.1394,0.2347,0.0,5.28,73.52,0.3599
+NEOG,Neogen Corp,U.S. Small-cap Growth Common Stock,39.09,0.2821,0.1552,0.4079,0.0,32.0,399.13,0.5495
+NEU,NewMarket Corp,U.S. Small-cap Blend Common Stock,14.26,0.1835,-0.2833,0.6497,0.0004,0.68,37.7,0.0805
+NFG,National Fuel Gas Co,U.S. Small-cap Blend Common Stock,13.68,0.054,-0.0587,0.1667,0.0,6.61,21.95,0.4301
+NHC,National HealthCare Corp,U.S. Small-cap Value Common Stock,13.71,0.0607,-0.0902,0.213,0.0,0.69,19.91,0.6943
+NHI,National Health Investors Inc,Real Estate REIT,14.26,0.0986,-0.0127,0.2095,0.0,0.56,19.65,0.6222
+NJR,New Jersey Resources Corp,U.S. Small-cap Blend Common Stock,23.09,0.0869,0.0135,0.1608,0.0,5.6,26.96,0.1751
+NL,NL Industries Inc,U.S. Small-cap Blend Common Stock,13.56,0.0417,-0.1979,0.283,0.0,5.37,6492.77,0.241
+NNN,National Retail Properties Inc,Real Estate REIT,28.42,0.0761,-0.0221,0.1736,0.0,2.14,32.89,0.35
+NPK,National Presto Industries Inc,U.S. Small-cap Blend Common Stock,11.6,0.0888,-0.0843,0.2618,0.0231,2.31,14.25,0.0367
+NR,Newpark Resources Inc,U.S. Small-cap Value Common Stock,116.8,-0.2041,-0.4408,0.0328,0.0007,8.89,83.61,0.1196
+NSC,Norfolk Southern Corp,U.S. Large-cap Growth Common Stock,25.35,0.0863,-0.0929,0.2653,0.0,5.48,24.69,0.0841
+NSIT,Insight Enterprises Inc,U.S. Small-cap Value Common Stock,27.51,-0.0491,-0.2284,0.1314,0.0,1.75,40.54,0.5765
+NSSC,Napco Security Technologies Inc,U.S. Small-cap Growth Common Stock,107.93,0.0429,-0.3752,0.4614,0.0,6.11,104.15,0.1442
+NTAP,NetApp Inc,U.S. Mid-cap Blend Common Stock,20.76,0.1497,-0.027,0.3268,0.0,13.36,131.56,0.2251
+NTRS,Northern Trust Corp,U.S. Mid-cap Blend Common Stock,16.34,0.0684,-0.0294,0.167,0.0,8.28,46.27,0.5306
+NUE,Nucor Corp,U.S. Large-cap Blend Common Stock,18.85,0.0366,-0.2072,0.281,0.0,6.16,25.85,0.1919
+NWBI,Northwest Bancshares Inc,U.S. Small-cap Blend Common Stock,14.41,0.0645,0.0036,0.1251,0.0,7.61,21.61,0.7762
+NWL,Newell Brands Inc,U.S. Small-cap Value Common Stock,6.54,0.1136,-0.0631,0.2886,0.0,2.27,23.09,0.5552
+NWN,Northwest Natural Holding Co,U.S. Small-cap Blend Common Stock,17.65,0.0285,-0.0471,0.1043,0.0,4.84,21.9,0.4261
+NYCB,New York Community Bancorp Inc,U.S. Mid-cap Blend Common Stock,8.25,0.0313,-0.112,0.1743,0.0,3.55,17.84,0.2748
+NYT,New York Times Co/The,U.S. Mid-cap Blend Common Stock,43.42,-0.0324,-0.3678,0.3023,0.0,2.04,45.24,0.0545
+O,Realty Income Corp,Real Estate REIT,49.16,0.0906,0.0103,0.1713,0.0,4.59,51.94,0.2731
+OCFC,OceanFirst Financial Corp,U.S. Small-cap Blend Common Stock,13.07,-0.0181,-0.1581,0.1203,0.0,4.25,21.01,0.361
+ODFL,Old Dominion Freight Line Inc,U.S. Large-cap Growth Common Stock,65.65,0.1648,-0.0669,0.3962,0.0,7.2,60.96,0.2642
+OFC,Corporate Office Properties Trust,Real Estate REIT,38.32,0.0471,-0.0659,0.1583,0.0,14.35,64.95,0.8206
+OFIX,Orthofix Medical Inc,U.S. Small-cap Value Common Stock,31.61,-0.0554,-0.1868,0.0768,0.0,5.5,46.27,0.4498
+OGE,OGE Energy Corp,U.S. Mid-cap Blend Common Stock,16.68,0.0755,-0.0459,0.1968,0.0,3.61,17.94,0.0967
+OHI,Omega Healthcare Investors Inc,Real Estate REIT,15.59,0.1512,-0.0187,0.3196,0.0,0.28,148.29,0.4323
+OI,O-I Glass Inc,U.S. Small-cap Value Common Stock,7.98,0.0677,-0.1755,0.3098,0.0,2.59,61.29,0.2895
+OKE,ONEOK Inc,U.S. Mid-cap Blend Common Stock,25.4,0.0737,-0.0852,0.2328,0.0,3.84,25.29,0.1688
+OLP,One Liberty Properties Inc,Real Estate REIT,24.03,0.0025,-0.2001,0.2051,0.0001,0.68,18.58,0.1693
+OMC,Omnicom Group Inc,U.S. Mid-cap Blend Common Stock,15.0,0.0854,-0.0345,0.2043,0.0,7.24,54.87,0.3304
+OMI,Owens & Minor Inc,U.S. Small-cap Value Common Stock,8.45,-0.0127,-0.2624,0.237,0.0262,9.02,35.1,0.016
+OPY,Oppenheimer Holdings Inc,U.S. Small-cap Value Common Stock,12.75,-0.005,-0.204,0.1943,0.0001,3.18,35.0,0.2104
+ORCL,Oracle Corp,U.S. Large-cap Growth Common Stock,26.87,0.1131,-0.0145,0.2404,0.0,16.29,299.65,0.4631
+ORLY,O'Reilly Automotive Inc,U.S. Large-cap Growth Common Stock,44.57,0.1847,0.0656,0.3045,0.0,20.75,66.7,0.5135
+OTTR,Otter Tail Corp,U.S. Small-cap Blend Common Stock,22.45,0.1074,-0.0213,0.2363,0.0446,4.22,32.26,0.0144
+OVV,Ovintiv Inc,U.S. Mid-cap Value Common Stock,11.5,0.043,-0.3083,0.3951,0.0008,1.26,15.8,0.0442
+OXM,Oxford Industries Inc,U.S. Small-cap Blend Common Stock,25.37,0.1307,-0.2048,0.4665,0.0,2.28,132.79,0.1913
+OXY,Occidental Petroleum Corp,U.S. Large-cap Blend Common Stock,21.93,0.1586,-0.1695,0.4879,0.0,8.55,159.5,0.069
+PAG,Penske Automotive Group Inc,U.S. Mid-cap Value Common Stock,18.47,0.0526,-0.081,0.1845,0.0,4.0,23.32,0.7176
+PAYX,Paychex Inc,U.S. Large-cap Growth Common Stock,38.27,0.0875,-0.0632,0.2377,0.0,12.87,144.99,0.1895
+PCAR,PACCAR Inc,U.S. Large-cap Blend Common Stock,18.68,0.0135,-0.0921,0.1202,0.0,4.8,19.39,0.7677
+PCG,PG&E Corp,U.S. Mid-cap Blend Common Stock,4.79,0.163,-0.0295,0.356,0.0,2.16,21.59,0.6201
+PDCE,PDC Energy Inc,U.S. Small-cap Blend Common Stock,25.81,0.1407,-0.1475,0.4276,0.0,7.67,130.81,0.6296
+PEAK,Healthpeak Properties Inc,U.S. Mid-cap Growth Common Stock,25.86,0.0076,-0.0818,0.0974,0.0,2.58,26.63,0.6559
+PEBO,Peoples Bancorp Inc/OH,U.S. Small-cap Blend Common Stock,11.66,0.0151,-0.1566,0.1869,0.0,3.04,19.42,0.2716
+PEG,Public Service Enterprise Group Inc,U.S. Mid-cap Blend Common Stock,15.76,0.043,-0.0619,0.1481,0.0,2.84,14.55,0.2686
+PEGA,Pegasystems Inc,U.S. Small-cap Blend Common Stock,72.48,0.2505,0.0273,0.4763,0.0005,36.71,898.67,0.2603
+PENN,Penn Entertainment Inc,U.S. Small-cap Value Common Stock,24.39,0.015,-0.2769,0.3069,0.0,3.35,23.12,0.1892
+PEP,PepsiCo Inc,U.S. Large-cap Blend Common Stock,28.56,0.0043,-0.0501,0.0587,0.0,12.97,23.96,0.4663
+PFC,Premier Financial Corp,U.S. Small-cap Blend Common Stock,10.8,0.089,-0.1283,0.3045,0.0,2.16,22.35,0.4718
+PFE,Pfizer Inc,U.S. Large-cap Blend Common Stock,15.36,0.0274,-0.1034,0.1581,0.0,3.71,49.11,0.5023
+PG,Procter & Gamble Co/The,U.S. Large-cap Growth Common Stock,26.47,0.0403,-0.0328,0.1135,0.0,12.34,29.84,0.2321
+PGR,Progressive Corp/The,U.S. Large-cap Blend Common Stock,31.82,0.065,-0.138,0.2681,0.0,6.25,27.36,0.1093
+PH,Parker-Hannifin Corp,U.S. Large-cap Blend Common Stock,30.33,0.0028,-0.1051,0.1105,0.0,8.34,28.17,0.3688
+PHM,PulteGroup Inc,U.S. Mid-cap Value Common Stock,13.23,0.1136,-0.2603,0.4873,0.0089,2.28,87.68,0.0231
+PII,Polaris Inc,U.S. Mid-cap Value Common Stock,15.64,0.1654,-0.0673,0.3976,0.0,4.85,47.44,0.5363
+PKE,Park Aerospace Corp,U.S. Small-cap Growth Common Stock,54.19,-0.2149,-0.2979,-0.1319,0.0,2.89,16.56,0.4657
+PKI,PerkinElmer Inc,U.S. Mid-cap Growth Common Stock,32.68,0.0755,-0.1336,0.2848,0.0,7.38,81.11,0.1499
+PLAB,Photronics Inc,U.S. Small-cap Blend Common Stock,25.74,-0.0328,-0.3001,0.2354,0.0,0.91,62.78,0.3657
+PLXS,Plexus Corp,U.S. Small-cap Value Common Stock,23.52,0.1146,0.0142,0.2157,0.0,13.31,190.97,0.7412
+PNR,Pentair PLC,U.S. Mid-cap Blend Common Stock,17.11,-0.0082,-0.1145,0.0966,0.0,5.44,20.2,0.5778
+PNW,Pinnacle West Capital Corp,U.S. Mid-cap Blend Common Stock,14.79,0.0676,-0.0515,0.187,0.0231,3.58,20.96,0.0315
+POOL,Pool Corp,U.S. Mid-cap Blend Common Stock,49.18,0.1249,-0.1589,0.4093,0.0002,10.1,57.42,0.1137
+POWI,Power Integrations Inc,U.S. Small-cap Growth Common Stock,53.02,0.0782,-0.0421,0.1977,0.0,22.08,99.85,0.5026
+POWL,Powell Industries Inc,U.S. Small-cap Value Common Stock,36.95,-0.0671,-0.207,0.0724,0.0,6.04,38.73,0.3393
+PPG,PPG Industries Inc,U.S. Mid-cap Blend Common Stock,20.47,0.0841,-0.1136,0.2816,0.0015,5.52,34.69,0.0586
+PPL,PPL Corp,U.S. Mid-cap Blend Common Stock,12.09,-0.0369,-0.1295,0.0557,0.0,2.7,11.63,0.6907
+PRA,ProAssurance Corp,U.S. Small-cap Value Common Stock,8.94,0.1325,-0.0697,0.3341,0.0,4.24,19.03,0.2641
+PRG,PROG Holdings Inc,U.S. Small-cap Value Common Stock,7.65,0.3039,0.1451,0.4625,0.0,11.38,35.71,0.2508
+PRGS,Progress Software Corp,U.S. Small-cap Growth Common Stock,36.17,0.0461,-0.0508,0.143,0.0,13.46,62.56,0.3423
+PRK,Park National Corp,U.S. Small-cap Growth Common Stock,16.53,0.0166,-0.1151,0.1482,0.0001,4.1,17.72,0.0838
+PRMW,Primo Water Corp,U.S. Small-cap Blend Common Stock,87.59,-0.2349,-0.4993,0.0291,0.0,1.14,67.8,0.5608
+PSA,Public Storage,Real Estate REIT,36.05,0.1229,0.0305,0.2164,0.0,7.22,58.69,0.5953
+PTC,PTC Inc,U.S. Mid-cap Growth Common Stock,78.7,-0.0736,-0.3898,0.2412,0.0,5.21,112.99,0.2106
+PVH,PVH Corp,U.S. Small-cap Value Common Stock,9.53,0.207,-0.0392,0.454,0.0,5.4,44.78,0.2063
+PZZA,Papa John's International Inc,U.S. Small-cap Blend Common Stock,48.37,0.0053,-0.1665,0.1758,0.0,11.82,69.48,0.5363
+QCRH,QCR Holdings Inc,U.S. Small-cap Blend Common Stock,13.62,0.1198,-0.0859,0.3242,0.0,7.39,32.76,0.4416
+QGEN,QIAGEN NV,U.S. Mid-cap Growth Common Stock,34.64,0.1177,-0.0039,0.2394,0.0,24.78,98.39,0.2552
+R,Ryder System Inc,U.S. Small-cap Value Common Stock,17.33,-0.0471,-0.1532,0.059,0.0,5.05,20.72,0.7184
+RCII,Rent-A-Center Inc/TX,U.S. Small-cap Value Common Stock,11.19,0.0292,-0.2239,0.2807,0.0,3.0,29.61,0.2505
+RCKY,Rocky Brands Inc,U.S. Small-cap Value Common Stock,15.11,0.1023,-0.2414,0.4474,0.0,3.22,62.03,0.174
+REG,Regency Centers Corp,Real Estate REIT,41.09,0.0141,-0.1536,0.1827,0.0,5.8,79.3,0.4064
+RES,RPC Inc,U.S. Small-cap Blend Common Stock,29.2,0.0941,-0.2691,0.4562,0.0,8.75,79.98,0.0995
+REX,REX American Resources Corp,U.S. Small-cap Value Common Stock,20.22,0.0607,-0.1608,0.282,0.0,3.68,49.14,0.4008
+RF,Regions Financial Corp,U.S. Mid-cap Blend Common Stock,15.63,-0.044,-0.3522,0.2637,0.0,1.07,42.93,0.1033
+RGA,Reinsurance Group of America Inc,U.S. Mid-cap Value Common Stock,13.11,0.0905,-0.0033,0.1838,0.0,6.27,22.28,0.6101
+RHI,Robert Half International Inc,U.S. Mid-cap Blend Common Stock,21.93,0.1279,0.0091,0.2466,0.0,11.65,92.63,0.5003
+RJF,Raymond James Financial Inc,U.S. Mid-cap Blend Common Stock,24.39,0.0592,-0.0535,0.1718,0.0,8.08,24.99,0.2887
+RLI,RLI Corp,U.S. Small-cap Growth Common Stock,38.02,0.0077,-0.0895,0.1047,0.0,6.44,19.27,0.2738
+RMD,ResMed Inc,U.S. Mid-cap Growth Common Stock,52.72,0.1425,0.0416,0.2441,0.0,26.33,96.11,0.4891
+RNST,Renasant Corp,U.S. Small-cap Blend Common Stock,13.58,0.0485,-0.1102,0.2078,0.0,4.86,26.09,0.433
+ROCK,Gibraltar Industries Inc,U.S. Small-cap Blend Common Stock,27.2,0.0532,-0.2118,0.3178,0.0045,3.44,57.87,0.038
+ROG,Rogers Corp,U.S. Small-cap Blend Common Stock,32.24,0.11,-0.1247,0.3446,0.0101,9.55,135.45,0.0237
+ROK,Rockwell Automation Inc,U.S. Large-cap Growth Common Stock,33.17,0.0744,-0.102,0.2507,0.0,4.39,34.68,0.1809
+ROP,Roper Technologies Inc,U.S. Large-cap Growth Common Stock,45.67,0.1159,0.0194,0.2119,0.0,17.93,50.43,0.3619
+ROST,Ross Stores Inc,U.S. Large-cap Blend Common Stock,32.24,0.1692,0.0263,0.3123,0.0,12.15,42.14,0.3182
+RPM,RPM International Inc,U.S. Mid-cap Blend Common Stock,25.92,0.0943,-0.0506,0.2397,0.0019,5.64,24.96,0.046
+RPT,RPT Realty,Real Estate REIT,82.99,-0.3749,-0.5484,-0.2017,0.0,1.48,31.28,0.5773
+RRC,Range Resources Corp,U.S. Mid-cap Blend Common Stock,8.57,0.4334,0.0311,0.8334,0.0,2.86,125.58,0.5701
+RRX,Regal Rexnord Corp,U.S. Mid-cap Blend Common Stock,23.59,0.0025,-0.1187,0.1248,0.0,7.02,24.01,0.4176
+RS,Reliance Steel & Aluminum Co,U.S. Mid-cap Value Common Stock,20.89,0.0454,-0.1239,0.2149,0.0,5.61,27.55,0.359
+RUSHA,Rush Enterprises Inc,U.S. Small-cap Value Common Stock,22.93,0.0775,-0.0869,0.2432,0.0,2.82,36.98,0.4315
+RUSHB,Rush Enterprises Inc,U.S. Small-cap Value Common Stock,24.9,0.0399,-0.0971,0.1782,0.0,5.41,34.69,0.6006
+RYN,Rayonier Inc,Real Estate REIT,47.55,-0.1195,-0.224,-0.0147,0.0,3.44,19.15,0.6367
+SAM,Boston Beer Co Inc/The,U.S. Small-cap Blend Common Stock,40.03,0.2379,0.0224,0.4532,0.0,19.7,93.81,0.3159
+SANM,Sanmina Corp,U.S. Small-cap Value Common Stock,21.79,-0.0473,-0.4059,0.3125,0.0,0.71,220.16,0.3614
+SASR,Sandy Spring Bancorp Inc,U.S. Small-cap Blend Common Stock,10.89,0.0624,-0.1391,0.2639,0.0,3.33,26.23,0.2169
+SBSI,Southside Bancshares Inc,U.S. Small-cap Growth Common Stock,15.13,0.0519,-0.0091,0.1133,0.0,7.43,17.87,0.6397
+SBUX,Starbucks Corp,U.S. Large-cap Growth Common Stock,44.18,0.2316,0.0196,0.4424,0.0,15.33,159.48,0.3083
+SCHL,Scholastic Corp,U.S. Small-cap Value Common Stock,28.64,-0.0367,-0.1716,0.0972,0.0,4.19,38.54,0.3062
+SCHN,Schnitzer Steel Industries Inc,U.S. Small-cap Value Common Stock,13.19,0.0615,-0.3633,0.485,0.0,4.02,41.81,0.1288
+SCHW,Charles Schwab Corp/The,U.S. Large-cap Growth Common Stock,35.33,0.0745,-0.0548,0.2057,0.0,14.13,171.42,0.7109
+SCI,Service Corp International/US,U.S. Mid-cap Blend Common Stock,31.12,0.0537,-0.3072,0.4144,0.001,1.37,38.07,0.0591
+SCSC,ScanSource Inc,U.S. Small-cap Value Common Stock,10.41,0.0048,-0.1625,0.1717,0.0478,12.39,58.63,0.0336
+SCVL,Shoe Carnival Inc,U.S. Small-cap Value Common Stock,15.75,0.1279,-0.0335,0.2876,0.0,5.14,62.8,0.3338
+SEB,Seaboard Corp,U.S. Small-cap Value Common Stock,12.83,0.1953,-0.1566,0.5477,0.0002,9.53,58.85,0.0465
+SEIC,SEI Investments Co,U.S. Mid-cap Growth Common Stock,20.87,0.1532,-0.0471,0.3542,0.0,11.86,150.51,0.1823
+SF,Stifel Financial Corp,U.S. Mid-cap Blend Common Stock,17.01,0.3047,0.079,0.5299,0.0,13.94,47.05,0.2825
+SFNC,Simmons First National Corp,U.S. Small-cap Blend Common Stock,10.01,0.1101,0.0033,0.2172,0.0,4.76,23.9,0.5394
+SHEN,Shenandoah Telecommunications Co,U.S. Small-cap Growth Common Stock,30.71,0.0152,-0.1594,0.191,0.0,7.17,41.58,0.5073
+SHOO,Steven Madden Ltd,U.S. Small-cap Blend Common Stock,18.42,0.2561,0.0734,0.4382,0.0,10.81,44.45,0.4248
+SHYF,Shyft Group Inc/The,U.S. Small-cap Blend Common Stock,47.95,-0.0326,-0.3182,0.2525,0.0,3.06,80.71,0.2316
+SIGI,Selective Insurance Group Inc,U.S. Small-cap Blend Common Stock,24.29,0.0264,-0.1615,0.2139,0.0,6.03,30.78,0.1885
+SIVB,SVB Financial Group,U.S. Mid-cap Blend Common Stock,17.58,0.2318,0.0207,0.4432,0.0,7.12,84.42,0.2414
+SJI,South Jersey Industries Inc,U.S. Small-cap Blend Common Stock,22.23,0.0292,-0.0596,0.1182,0.0,4.94,20.34,0.4832
+SJM,J M Smucker Co/The,U.S. Mid-cap Blend Common Stock,18.9,0.0665,-0.0243,0.158,0.0,6.22,26.5,0.49
+SJW,SJW Group,U.S. Small-cap Growth Common Stock,34.76,0.0589,-0.091,0.2083,0.0,6.1,39.22,0.1045
+SKT,Tanger Factory Outlet Centers Inc,Real Estate REIT,15.26,0.1702,-0.0384,0.3786,0.0,4.28,62.53,0.5055
+SKYW,SkyWest Inc,U.S. Small-cap Value Common Stock,7.35,0.1865,-0.1168,0.4895,0.0,3.55,58.93,0.2483
+SLM,SLM Corp,U.S. Small-cap Blend Common Stock,9.27,-0.0309,-0.3265,0.2657,0.0,0.83,12.56,0.3364
+SM,SM Energy Co,U.S. Small-cap Blend Common Stock,21.55,0.0384,-0.37,0.4465,0.0385,3.45,64.19,0.0441
+SMBC,Southern Missouri Bancorp Inc,U.S. Small-cap Blend Common Stock,14.13,0.1099,-0.021,0.2411,0.0,6.22,22.7,0.5076
+SMG,Scotts Miracle-Gro Co/The,U.S. Small-cap Blend Common Stock,13.4,0.1597,0.0311,0.2886,0.0,6.44,29.41,0.1982
+SMTC,Semtech Corp,U.S. Small-cap Blend Common Stock,37.93,0.0979,-0.1547,0.3519,0.0,17.41,334.42,0.2403
+SNA,Snap-on Inc,U.S. Mid-cap Blend Common Stock,17.14,0.1095,-0.0841,0.3033,0.0244,6.3,30.87,0.0168
+SO,Southern Co/The,U.S. Large-cap Blend Common Stock,18.12,0.0432,-0.0233,0.1095,0.0,2.25,15.06,0.5688
+SON,Sonoco Products Co,U.S. Small-cap Value Common Stock,17.6,0.0587,-0.0414,0.1589,0.0043,5.29,18.45,0.0265
+SPG,Simon Property Group Inc,Real Estate REIT,18.74,0.186,0.0236,0.3503,0.0,7.18,45.66,0.6208
+SPGI,S&P Global Inc,U.S. Large-cap Growth Common Stock,44.62,0.0647,-0.1562,0.2855,0.0,7.65,46.02,0.1708
+SPXC,SPX Technologies Inc,U.S. Small-cap Blend Common Stock,37.54,-0.0607,-0.2528,0.1313,0.0,2.13,19.55,0.1379
+SR,Spire Inc,U.S. Small-cap Blend Common Stock,16.64,0.0839,0.0,0.1677,0.001,4.02,21.33,0.0795
+SRCE,1st Source Corp,U.S. Small-cap Blend Common Stock,14.28,0.0586,-0.0966,0.2137,0.0,5.32,24.97,0.0718
+SSB,SouthState Corp,U.S. Small-cap Growth Common Stock,14.36,0.1136,-0.0289,0.2555,0.0,7.92,30.94,0.3502
+SSP,EW Scripps Co/The,U.S. Small-cap Value Common Stock,20.67,-0.201,-0.4325,0.033,0.0,0.19,45.65,0.4307
+STBA,S&T Bancorp Inc,U.S. Small-cap Growth Common Stock,14.07,-0.011,-0.1655,0.1446,0.0,3.73,19.56,0.3058
+STT,State Street Corp,U.S. Large-cap Blend Common Stock,12.84,0.0748,-0.066,0.2158,0.0,5.83,44.18,0.2291
+STZ,Constellation Brands Inc,U.S. Large-cap Growth Common Stock,26.38,0.1766,-0.0741,0.4267,0.0,8.8,55.67,0.5112
+SVC,Service Properties Trust,Real Estate REIT,22.58,-0.1866,-0.3638,-0.0097,0.0,1.82,18.17,0.4834
+SWK,Stanley Black & Decker Inc,U.S. Mid-cap Value Common Stock,10.73,0.1314,0.0036,0.2597,0.0,6.36,28.48,0.2744
+SWX,Southwest Gas Holdings Inc,U.S. Small-cap Value Common Stock,16.23,0.0845,-0.0168,0.1861,0.0,8.56,27.38,0.2506
+SXI,Standex International Corp,U.S. Small-cap Blend Common Stock,21.45,0.0598,-0.1617,0.2818,0.0061,4.04,28.85,0.0434
+SXT,Sensient Technologies Corp,U.S. Small-cap Blend Common Stock,20.94,0.072,-0.0583,0.2019,0.0094,7.02,27.33,0.0293
+SYBT,Stock Yards Bancorp Inc,U.S. Small-cap Growth Common Stock,22.82,0.053,-0.0785,0.1853,0.0004,8.77,29.96,0.1441
+SYK,Stryker Corp,U.S. Large-cap Growth Common Stock,38.18,0.1427,-0.0251,0.3108,0.0,17.16,82.03,0.2031
+SYY,Sysco Corp,U.S. Large-cap Value Common Stock,27.87,0.0548,-0.0879,0.197,0.0,10.34,38.66,0.231
+T,AT&T Inc,U.S. Large-cap Blend Common Stock,6.42,0.0163,-0.0842,0.1168,0.0,2.37,8.88,0.3735
+TAP,Molson Coors Beverage Co,U.S. Mid-cap Blend Common Stock,10.46,0.1266,-0.0406,0.2937,0.0,9.9,40.07,0.1683
+TBI,TrueBlue Inc,U.S. Small-cap Value Common Stock,10.46,0.2418,0.0071,0.4763,0.0,8.77,64.32,0.3368
+TCBK,TriCo Bancshares,U.S. Small-cap Growth Common Stock,17.57,0.0286,-0.1134,0.1702,0.0,6.27,26.13,0.453
+TDS,Telephone and Data Systems Inc,U.S. Small-cap Value Common Stock,24.0,-0.0042,-0.1586,0.1498,0.002,5.17,82.44,0.0303
+TECH,Bio-Techne Corp,U.S. Mid-cap Growth Common Stock,83.61,0.0885,-0.0898,0.2666,0.0,22.26,213.17,0.1421
+TFC,Truist Financial Corp,U.S. Large-cap Blend Common Stock,11.34,0.0482,-0.0725,0.1684,0.0,3.6,18.15,0.135
+TG,Tredegar Corp,U.S. Small-cap Value Common Stock,9.01,0.0103,-0.0808,0.1014,0.0,4.09,33.21,0.4232
+TGNA,TEGNA Inc,U.S. Small-cap Blend Common Stock,9.31,-0.1048,-0.3968,0.1882,0.0,0.19,11.07,0.3806
+TGT,Target Corp,U.S. Large-cap Value Common Stock,23.72,0.0785,-0.0785,0.235,0.0,8.42,37.63,0.1568
+THFF,First Financial Corp/IN,U.S. Small-cap Blend Common Stock,11.26,0.0523,-0.0127,0.1174,0.0,5.68,17.79,0.4759
+TILE,Interface Inc,U.S. Small-cap Value Common Stock,12.27,0.1146,-0.132,0.36,0.0,5.28,61.92,0.2862
+TJX,TJX Cos Inc/The,U.S. Large-cap Blend Common Stock,37.89,0.0831,-0.03,0.196,0.0,11.0,47.58,0.5078
+TKR,Timken Co/The,U.S. Mid-cap Blend Common Stock,20.05,-0.024,-0.1792,0.1314,0.0,4.03,17.22,0.2951
+TMP,Tompkins Financial Corp,U.S. Small-cap Blend Common Stock,14.02,0.0596,-0.0263,0.1458,0.0,6.16,23.63,0.4435
+TNC,Tennant Co,U.S. Small-cap Blend Common Stock,23.47,0.0665,-0.0928,0.2255,0.0001,5.86,41.36,0.1523
+TOL,Toll Brothers Inc,U.S. Mid-cap Value Common Stock,12.71,0.1322,-0.1394,0.4046,0.0,6.25,44.85,0.0937
+TR,Tootsie Roll Industries Inc,U.S. Small-cap Growth Common Stock,44.43,-0.0014,-0.1022,0.0996,0.0,14.83,43.73,0.1318
+TRC,Tejon Ranch Co,U.S. Small-cap Growth Common Stock,103.38,0.0155,-0.1491,0.1806,0.0023,85.66,7182.42,0.0665
+TRMK,Trustmark Corp,U.S. Small-cap Blend Common Stock,12.2,0.0344,-0.0629,0.1323,0.0,5.14,16.41,0.1036
+TRN,Trinity Industries Inc,U.S. Small-cap Blend Common Stock,13.14,-0.0127,-0.2298,0.2045,0.0,2.47,19.71,0.3612
+TRNS,Transcat Inc,U.S. Small-cap Blend Common Stock,83.52,-0.0385,-0.2856,0.2067,0.0,8.25,116.52,0.5154
+TROW,T Rowe Price Group Inc,U.S. Mid-cap Growth Common Stock,15.05,0.259,0.1818,0.3344,0.0,10.34,34.03,0.7759
+TRST,TrustCo Bank Corp NY,U.S. Small-cap Growth Common Stock,11.65,-0.0063,-0.1489,0.1364,0.0,4.34,16.89,0.1646
+TRV,Travelers Cos Inc/The,U.S. Large-cap Blend Common Stock,15.23,0.0754,-0.0378,0.1882,0.0007,6.07,19.7,0.0598
+TSCO,Tractor Supply Co,U.S. Mid-cap Blend Common Stock,43.04,0.1626,0.0136,0.3152,0.0,3.82,66.65,0.8592
+TSN,Tyson Foods Inc,U.S. Mid-cap Value Common Stock,9.97,0.1404,-0.1039,0.3851,0.0001,6.06,34.69,0.058
+TTC,Toro Co/The,U.S. Mid-cap Blend Common Stock,37.69,0.0847,-0.0735,0.2423,0.0,8.7,50.66,0.4811
+TTEK,Tetra Tech Inc,U.S. Mid-cap Blend Common Stock,47.64,0.0052,-0.1752,0.1863,0.0,15.56,74.63,0.3284
+TUP,Tupperware Brands Corp,U.S. Small-cap Value Common Stock,0.94,0.7169,0.3841,1.0496,0.0,3.81,22.59,0.34
+TXN,Texas Instruments Inc,U.S. Large-cap Growth Common Stock,30.89,0.0757,-0.0714,0.2211,0.0,9.31,149.61,0.6582
+TXT,Textron Inc,U.S. Mid-cap Blend Common Stock,22.5,-0.0491,-0.2226,0.123,0.0,2.34,29.69,0.6068
+UBA,Urstadt Biddle Properties Inc,Real Estate REIT,24.77,0.0113,-0.0755,0.0976,0.0,1.65,27.24,0.605
+UBSI,United Bankshares Inc/WV,U.S. Small-cap Growth Common Stock,15.74,-0.0223,-0.1311,0.0875,0.0,3.72,18.04,0.3452
+UFCS,United Fire Group Inc,U.S. Small-cap Value Common Stock,17.17,-0.0398,-0.2007,0.1222,0.0,4.1,29.16,0.6446
+UFPT,UFP Technologies Inc,U.S. Small-cap Blend Common Stock,55.66,0.0971,-0.1365,0.3303,0.0,8.74,74.2,0.142
+UGI,UGI Corp,U.S. Mid-cap Value Common Stock,17.03,0.0798,0.0111,0.1499,0.0,5.75,24.79,0.8693
+UHAL,U-Haul Holding Co,U.S. Mid-cap Value Common Stock,20.15,0.2302,-0.0681,0.5276,0.0,2.87,61.54,0.31
+UHS,Universal Health Services Inc,U.S. Mid-cap Value Common Stock,15.95,0.2455,0.1064,0.386,0.0,12.49,59.64,0.4933
+UHT,Universal Health Realty Income Trust,Real Estate REIT,19.22,0.0845,-0.0286,0.1969,0.0,2.36,25.82,0.1891
+UMBF,UMB Financial Corp,U.S. Small-cap Blend Common Stock,17.02,0.081,-0.0055,0.1676,0.0,8.94,26.14,0.2991
+UNF,UniFirst Corp/MA,U.S. Small-cap Blend Common Stock,26.09,0.0699,-0.0573,0.196,0.0,6.15,30.72,0.4135
+UNFI,United Natural Foods Inc,U.S. Small-cap Value Common Stock,11.83,0.1428,-0.1542,0.44,0.0013,15.87,65.03,0.0739
+UNH,UnitedHealth Group Inc,U.S. Large-cap Blend Common Stock,37.51,0.142,-0.0921,0.3764,0.0,8.44,53.52,0.3081
+UNM,Unum Group,U.S. Mid-cap Value Common Stock,9.86,0.0133,-0.1772,0.2026,0.0,3.04,16.62,0.2296
+UNP,Union Pacific Corp,U.S. Large-cap Growth Common Stock,22.26,0.1725,0.0303,0.3147,0.0029,7.79,34.21,0.0417
+UPS,United Parcel Service Inc,U.S. Large-cap Blend Common Stock,21.68,0.0314,-0.0719,0.1353,0.0,8.56,24.78,0.373
+URBN,Urban Outfitters Inc,U.S. Small-cap Value Common Stock,12.19,0.3424,-0.1427,0.8258,0.0001,9.83,151.12,0.1646
+USLM,United States Lime & Minerals Inc,U.S. Small-cap Growth Common Stock,32.55,0.0647,-0.2202,0.3491,0.0,3.79,43.38,0.2542
+USM,United States Cellular Corp,U.S. Small-cap Value Common Stock,28.77,-0.0021,-0.1443,0.1406,0.0,13.53,137.21,0.2044
+USNA,USANA Health Sciences Inc,U.S. Small-cap Blend Common Stock,12.52,0.3414,0.1551,0.5277,0.0,12.37,103.69,0.6253
+UTL,Unitil Corp,U.S. Small-cap Blend Common Stock,20.62,0.1079,0.0067,0.2089,0.0069,3.42,26.22,0.0504
+UTMD,Utah Medical Products Inc,U.S. Small-cap Growth Common Stock,21.25,0.0785,-0.0286,0.1857,0.0,4.9,29.64,0.6018
+UVSP,Univest Financial Corp,U.S. Small-cap Blend Common Stock,13.08,-0.0013,-0.1454,0.1431,0.0,4.99,19.09,0.2725
+UVV,Universal Corp/VA,U.S. Small-cap Value Common Stock,12.46,-0.0344,-0.1252,0.0566,0.0,2.01,12.22,0.4252
+VFC,VF Corp,U.S. Mid-cap Value Common Stock,8.12,0.1746,-0.0142,0.3637,0.0,4.65,30.06,0.1718
+VHI,Valhi Inc,U.S. Small-cap Value Common Stock,12.34,0.125,-0.1746,0.4245,0.0,4.14,379.04,0.5064
+VIVO,Meridian Bioscience Inc,U.S. Small-cap Growth Common Stock,32.81,0.0413,-0.2545,0.3388,0.0,4.37,76.65,0.4638
+VLGEA,Village Super Market Inc,U.S. Small-cap Value Common Stock,11.78,0.1093,-0.0072,0.2252,0.0,6.11,21.03,0.7836
+VLY,Valley National Bancorp,U.S. Mid-cap Blend Common Stock,13.07,-0.0139,-0.1291,0.101,0.0,4.59,14.07,0.1101
+VMC,Vulcan Materials Co,U.S. Mid-cap Growth Common Stock,55.84,0.0584,-0.1537,0.2701,0.0028,10.08,153.14,0.0262
+VMI,Valmont Industries Inc,U.S. Mid-cap Blend Common Stock,32.65,0.0541,-0.1187,0.2267,0.0,11.45,53.21,0.3092
+VNO,Vornado Realty Trust,Real Estate REIT,159.49,-0.4849,-0.5884,-0.3814,0.0,4.93,36.1,0.826
+VSH,Vishay Intertechnology Inc,U.S. Small-cap Value Common Stock,13.35,0.0117,-0.1749,0.1964,0.0,1.86,65.71,0.4308
+VTRS,Viatris Inc,U.S. Mid-cap Value Common Stock,4.64,0.4542,0.1967,0.7118,0.0,9.43,48.15,0.2418
+VZ,Verizon Communications Inc,U.S. Large-cap Blend Common Stock,7.85,0.0531,-0.0775,0.1835,0.0246,3.22,13.9,0.0174
+WAFD,Washington Federal Inc,U.S. Small-cap Blend Common Stock,14.03,0.0134,-0.1199,0.1475,0.0,4.51,20.21,0.2525
+WASH,Washington Trust Bancorp Inc,U.S. Small-cap Blend Common Stock,11.43,0.0754,-0.0584,0.2086,0.0,5.02,21.11,0.3167
+WAT,Waters Corp,U.S. Mid-cap Growth Common Stock,37.6,0.0839,0.0137,0.1548,0.0,18.02,48.55,0.6059
+WBA,Walgreens Boots Alliance Inc,U.S. Large-cap Value Common Stock,7.62,0.1789,-0.0125,0.3702,0.0,10.27,67.82,0.1917
+WBS,Webster Financial Corp,U.S. Mid-cap Blend Common Stock,15.42,0.0095,-0.2565,0.2755,0.0,0.95,36.68,0.2051
+WDFC,WD-40 Co,U.S. Small-cap Growth Common Stock,38.86,0.2028,0.0665,0.3393,0.0,7.4,42.96,0.1903
+WEC,WEC Energy Group Inc,U.S. Mid-cap Blend Common Stock,24.05,0.1507,0.0643,0.2376,0.0297,4.49,24.45,0.0331
+WELL,Welltower Inc,Real Estate REIT,65.71,0.0433,-0.0328,0.1192,0.0,1.9,55.03,0.5917
+WERN,Werner Enterprises Inc,U.S. Small-cap Value Common Stock,22.26,0.0517,-0.0373,0.1408,0.0,6.54,29.2,0.2236
+WEYS,Weyco Group Inc,U.S. Small-cap Value Common Stock,13.73,-0.001,-0.1044,0.1014,0.0,6.32,16.07,0.6108
+WGO,Winnebago Industries Inc,U.S. Small-cap Value Common Stock,15.08,0.1504,-0.2164,0.5161,0.0,2.61,60.15,0.1372
+WHR,Whirlpool Corp,U.S. Mid-cap Value Common Stock,8.38,0.1024,-0.0193,0.2238,0.0,2.16,16.94,0.6557
+WIRE,Encore Wire Corp,U.S. Small-cap Blend Common Stock,20.33,0.1192,-0.0749,0.3149,0.0,9.92,64.42,0.3605
+WLY,John Wiley & Sons Inc,U.S. Small-cap Blend Common Stock,13.62,0.0413,-0.0928,0.1755,0.0001,12.09,58.31,0.0919
+WMB,Williams Cos Inc/The,U.S. Large-cap Growth Common Stock,23.11,-0.1409,-0.3743,0.0896,0.0,0.7,27.29,0.6347
+WMT,Walmart Inc,U.S. Large-cap Value Common Stock,24.45,0.0631,-0.0525,0.1779,0.0,11.27,64.41,0.3712
+WOR,Worthington Industries Inc,U.S. Small-cap Value Common Stock,11.63,0.0879,-0.0794,0.2554,0.0,4.28,28.33,0.1629
+WRB,W R Berkley Corp,U.S. Mid-cap Blend Common Stock,26.39,0.1025,-0.0794,0.2847,0.0,6.78,35.01,0.1881
+WRLD,World Acceptance Corp,U.S. Small-cap Value Common Stock,8.58,0.2743,0.02,0.5274,0.0,4.31,40.7,0.2432
+WSBC,WesBanco Inc,U.S. Small-cap Growth Common Stock,12.08,0.0051,-0.1294,0.1399,0.0,4.23,17.58,0.2856
+WSFS,WSFS Financial Corp,U.S. Small-cap Blend Common Stock,14.24,0.1333,-0.0344,0.3007,0.0,5.75,33.61,0.6708
+WSM,Williams-Sonoma Inc,U.S. Mid-cap Value Common Stock,18.55,0.1629,-0.087,0.4139,0.0,3.77,94.28,0.25
+WSO,Watsco Inc,U.S. Mid-cap Blend Common Stock,39.55,0.0611,-0.0964,0.2176,0.0,7.69,40.98,0.3475
+WTFC,Wintrust Financial Corp,U.S. Small-cap Blend Common Stock,16.52,0.1064,-0.0465,0.2575,0.0,5.55,44.91,0.4895
+WTRG,Essential Utilities Inc,U.S. Mid-cap Growth Common Stock,29.28,0.0715,-0.02,0.1636,0.0,8.09,36.45,0.4759
+WTS,Watts Water Technologies Inc,U.S. Small-cap Blend Common Stock,43.86,0.0467,-0.1035,0.1967,0.0002,6.86,34.22,0.1005
+WWD,Woodward Inc,U.S. Small-cap Blend Common Stock,26.6,0.153,0.0501,0.2569,0.0,10.63,53.61,0.6465
+WWW,Wolverine World Wide Inc,U.S. Small-cap Value Common Stock,7.54,0.3689,0.2447,0.4932,0.0,10.47,49.0,0.6079
+XEL,Xcel Energy Inc,U.S. Large-cap Blend Common Stock,24.0,0.1596,0.0255,0.2941,0.0,1.53,25.46,0.2595
+XOM,Exxon Mobil Corp,U.S. Large-cap Blend Common Stock,20.07,0.1282,-0.0037,0.2602,0.0,6.97,15.92,0.1
+XRAY,DENTSPLY SIRONA Inc,U.S. Mid-cap Blend Common Stock,15.72,0.179,0.0277,0.3301,0.0,16.31,37.0,0.2203
+XRX,Xerox Holdings Corp,U.S. Small-cap Value Common Stock,5.29,-0.0195,-0.1621,0.1234,0.0,1.54,22.23,0.6791
+ZBRA,Zebra Technologies Corp,U.S. Mid-cap Blend Common Stock,42.67,0.1117,-0.1858,0.4082,0.0011,11.77,62.06,0.0731
+ZEUS,Olympic Steel Inc,U.S. Small-cap Value Common Stock,17.86,0.0353,-0.3475,0.4191,0.0,3.24,44.95,0.3024
+ZION,Zions Bancorp NA,U.S. Mid-cap Blend Common Stock,13.52,0.025,-0.2452,0.2956,0.0006,1.83,100.69,0.0441
