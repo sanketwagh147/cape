@@ -39,7 +39,7 @@ def run():
     df['UPPER_CONFIDENCE'] = df['UPPER_CONFIDENCE'].map('{:,.2%}'.format)
     df['F_PVALUE'] = df['F_PVALUE'].map('{:,.4f}'.format)
     df['ACF_YIELD'] = df['ACF_YIELD'].map('{:,.2%}'.format)
-    df['VOLATILITY_162W'] = df['VOLATILITY_162W'].map('{:,.2%}'.format)
+    df['VOLATILITY_360D'] = df['VOLATILITY_360D'].map('{:,.2%}'.format)
     df['YLD_VOL_RATIO'] = df['YLD_VOL_RATIO'].map('{:,.2f}'.format)
     df['PE_RATIO'] = df['PE_RATIO'].map('{:,.2f}'.format)
 
@@ -70,7 +70,7 @@ def run():
             obj.index_ticker = row.INDEX_TICKER
             obj.security_type = row.SECURITY_TYPE
             obj.acf_yield = row.ACF_YIELD
-            obj.volatility_162W = row.VOLATILITY_162W
+            obj.volatility = row.VOLATILITY_360D
             obj.yield_vol_ratio = row.YLD_VOL_RATIO
             obj.bond_pe_ratio = row.PE_RATIO
             obj.outlier_bool = row.OUTLIER_BOOL
@@ -94,7 +94,7 @@ def run():
                 index_ticker=row.INDEX_TICKER,
                 security_type=row.SECURITY_TYPE,
                 acf_yield=row.ACF_YIELD,
-                volatility_162W=row.VOLATILITY_162W,
+                volatility=row.VOLATILITY_360D,
                 yield_vol_ratio=row.YLD_VOL_RATIO,
                 bond_pe_ratio=row.PE_RATIO,
                 outlier_bool=row.OUTLIER_BOOL,

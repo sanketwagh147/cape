@@ -8,7 +8,7 @@ class Forecast(models.Model):
     cape = models.CharField(max_length=10)
     fwd_return_forecast = models.CharField(max_length=10)
     acf_yield = models.CharField(max_length=10)
-    volatility_162W = models.CharField(max_length=10)
+    volatility = models.CharField(max_length=10)
     yield_vol_ratio = models.CharField(max_length=10)
     bond_pe_ratio = models.CharField(max_length=10)
     lower_confidence = models.CharField(max_length=10)
