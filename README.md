@@ -1,6 +1,6 @@
-# NRCapital
+# cape
 
-NRCapital is a financial application for displaying statistically-derived equity and bond exchanged-traded funds (ETFs) and common stock expected returns. These expected returns can be used as inputs in securities analysis and portfolio optimization. Only ETFs and common stocks with sufficient data and statistically significant regression model results are included in the application. Please refer to the [documentation](https://nr-capital-management.gitbook.io/nrcapital/) for more details. 
+cape is a financial application for displaying statistically-derived equity and bond exchanged-traded funds (ETFs) and common stock expected returns. These expected returns can be used as inputs in securities analysis and portfolio optimization. Only ETFs and common stocks with sufficient data and statistically significant regression model results are included in the application. Please refer to the [documentation](https://nr-capital-management.gitbook.io/cape/) for more details. 
 
 ## Table of Contents
 
@@ -11,27 +11,27 @@ NRCapital is a financial application for displaying statistically-derived equity
 
 ## Quick Start
 
-These instructions work on Windows 10. For any other system, simply do the equivalent commands on your system. These instructions assume the user is starting from nothing and so some steps may be redundant. Feel free to skip any step that has already been satisfied. After install, only steps 7-9 in Anaconda Prompt need to be used to run the application. If you have any issues installing or using the application, submit your issue to the project's GitHub [Issues](https://github.com/nathanramoscfa/nrcapital/issues) page. 
+These instructions work on Windows 10. For any other system, simply do the equivalent commands on your system. These instructions assume the user is starting from nothing and so some steps may be redundant. Feel free to skip any step that has already been satisfied. After install, only steps 7-9 in Anaconda Prompt need to be used to run the application. If you have any issues installing or using the application, submit your issue to the project's GitHub [Issues](https://github.com/nathanramoscfa/cape/issues) page. 
 
  1. Install the [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) package manager on your computer. 
  
  2. Open Anaconda Prompt and create a new environment with the following command: <br>
-	 `conda create -n nrcapital python=3.10`
+	 `conda create -n cape python=3.10`
 	
  3. Activate the new environment.<br>
-	 `conda activate nrcapital`
+	 `conda activate cape`
 	 
  4. If you don't have a folder for your projects, create one anywhere on your computer. In Anaconda Prompt, navigate to the project folder where you want to store project files.<br>
 	 `cd C:\Users\JohnDoe\Projects`
 	 
- 5. Clone the NRCapital project repository into your environment. This downloads the project's files to your environment. <br>
-	 `git clone https://github.com/nathanramoscfa/nrcapital.git`
+ 5. Clone the cape project repository into your environment. This downloads the project's files to your environment. <br>
+	 `git clone https://github.com/nathanramoscfa/cape.git`
 
  6. Install the project's dependencies into your environment. <br>
 	 `python setup.py install`
 
  7. Navigate to folder containing the application's `manage.py` file. <br>
-	 `cd C:\Users\JohnDoe\Projects\nrcapital\django_apps\mysite`
+	 `cd C:\Users\JohnDoe\Projects\cape\django_apps\mysite`
 
  8. Run the project's server. <br>
 	 `python manage.py runserver`
