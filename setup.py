@@ -5,9 +5,9 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
-    name='nrcapital',
+    name='cape',
     version='0.0.0',
-    packages=['nrcapital'],
+    packages=['cape'],
     url='https://github.com/nathanramoscfa/nrcapital',
     license='MIT',
     author='Nathan Ramos',

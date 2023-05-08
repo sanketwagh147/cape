@@ -1,0 +1,34 @@
+default_context:
+  _pegasus_version: 2023.4.1
+  author_name: Nathan Ramos
+  ci: github_actions
+  css_framework: bootstrap
+  css_theme: bootstrap-material
+  database: sqlite
+  deploy_platform: google_cloud_run
+  description: Financial application for the evaluation of equity and bond exchange-traded
+    funds (ETFs) and common stocks.
+  domain_name: localhost:8000
+  email: nathan.ramos.cfa@gmail.com
+  enable_google_login: y
+  enable_twitter_login: y
+  front_end_framework: htmx
+  post_process: n
+  project_name: SaaS NR Capital
+  project_slug: saas_nrcapital
+  stripe_payment_mode: checkout
+  subscription_billing_model: default
+  use_2fa: y
+  use_api_keys: y
+  use_cloud_media_storage: n
+  use_debug_toolbar: n
+  use_docker: n
+  use_examples: y
+  use_impersonation: y
+  use_openai: n
+  use_sentry: n
+  use_subscriptions: y
+  use_teams: n
+  use_teams_example: y
+  use_translations: y
+  use_wagtail: n
