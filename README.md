@@ -11,7 +11,7 @@ cape is a financial application for displaying statistically-derived equity and 
 
 ## Quick Start
 
-These instructions work on Windows 10. For any other system, simply do the equivalent commands on your system. These instructions assume the user is starting from nothing and so some steps may be redundant. Feel free to skip any step that has already been satisfied. After install, only steps 7-9 in Anaconda Prompt need to be used to run the application. If you have any issues installing or using the application, submit your issue to the project's GitHub [Issues](https://github.com/nathanramoscfa/cape/issues) page. 
+These instructions work on Windows 11. For any other system, simply do the equivalent commands on your system. These instructions assume the user is starting from nothing and so some steps may be redundant. Feel free to skip any step that has already been satisfied. After install, only steps 7-9 in Anaconda Prompt need to be used to run the application. If you have any issues installing or using the application, submit your issue to the project's GitHub [Issues](https://github.com/nathanramoscfa/cape/issues) page. 
 
  1. Install the [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) package manager on your computer. 
  
