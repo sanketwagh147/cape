@@ -16,7 +16,7 @@ These instructions work on Windows 11. For any other system, simply do the equiv
  1. Install the [Anaconda](https://docs.anaconda.com/anaconda/install/index.html) package manager on your computer. 
  
  2. Open Anaconda Prompt and create a new environment with the following command: <br>
-	 `conda create -n cape python=3.10`
+	 `conda create -n cape python=3.11`
 	
  3. Activate the new environment.<br>
 	 `conda activate cape`
