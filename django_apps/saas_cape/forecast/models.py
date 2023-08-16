@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 
 class Forecast(models.Model):
@@ -25,3 +26,23 @@ class Forecast(models.Model):
 
     def __str__(self):
         return self.ticker
+
+
+class Subscription(models.Model):
+    FREE = 'free'
+    MONTHLY = 'monthly'
+    SEMI_ANNUAL = 'semi_annual'
+    ANNUAL = 'annual'
+
+    PLAN_CHOICES = [
+        (FREE, 'Free'),
+        (MONTHLY, 'Monthly'),
+        (SEMI_ANNUAL, 'Semi-Annual'),
+        (ANNUAL, 'Annual'),
+    ]
+
+    name = models.CharField(choices=PLAN_CHOICES, max_length=12)
+    price = models.DecimalField(max_digits=6, decimal_places=2)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    trial_ends_at = models.DateField(null=True, blank=True)
+    # Other fields like billing information, etc.

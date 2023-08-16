@@ -118,9 +118,8 @@ _CACHED_LOADERS = [("django.template.loaders.cached.Loader", _DEFAULT_LOADERS)]
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [
-            BASE_DIR / 'templates',
-        ],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),
+                 os.path.join(BASE_DIR, 'forecast', 'templates', 'forecast')],
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
