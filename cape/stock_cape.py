@@ -79,15 +79,15 @@ def chart(etf_ticker, chart_num=1):
     index_ticker = fwd_return_forecast.loc[etf_ticker]['INDEX_TICKER']
     if chart_num == 1:
         display(Image(
-            '../django_apps/mysite/forecast/static/forecast/images/sample_regression_{}.jpg'.format(index_ticker)))
+            '../django_apps/website/forecast/static/forecast/images/sample_regression_{}.jpg'.format(index_ticker)))
     elif chart_num == 2:
         display(Image(
-            '../django_apps/mysite/forecast/static/forecast/images/sample_observed_forecast_{}.jpg'.format(index_ticker)))
+            '../django_apps/website/forecast/static/forecast/images/sample_observed_forecast_{}.jpg'.format(index_ticker)))
     elif chart_num == 3:
         display(Image(
-            '../main/django_apps/mysite/forecast/static/forecast/images/long_term_pe_ratio_{}.jpg'.format(index_ticker)))
+            '../main/django_apps/website/forecast/static/forecast/images/long_term_pe_ratio_{}.jpg'.format(index_ticker)))
     elif chart_num == 4:
         display(Image(
-            '../django_apps/mysite/forecast/static/forecast/images/expected_fwd_return_{}.jpg'.format(index_ticker)))
+            '../django_apps/website/forecast/static/forecast/images/expected_fwd_return_{}.jpg'.format(index_ticker)))
     else:
         raise ValueError('Invalid chart_num parameter. Must input integer from 1 to 5 corresponding to desired chart.')

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Charts</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'forecast/css/forecast_charts_style.css' %}">
+</head>
+<body>
+<div class="sidenav">
+    <a class="nav" href="{% url 'forecast:index' %}">Home</a>
+    <a class="nav" href="{% url 'forecast:equity_etf_table' %}">Equity ETFs</a>
+    <a class="nav" href="{% url 'forecast:bond_etf_table' %}">Bond ETFs</a>
+    <a class="nav" href="{% url 'forecast:common_stock_table' %}">Stocks</a>
+</div>
+
+<div id="images-grid" class="grid-container">
+    <img onclick="enlarge(this)" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_regression_chart}}?{{ charts.updated_at }}" alt="sample_regression"/>
+    <img onclick="enlarge(this)" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.sample_observed_forecast_chart}}?{{ charts.updated_at }}" alt="sample_observed_forecast"/>
+    <img onclick="enlarge(this)" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.long_term_pe_ratio_chart}}?{{ charts.updated_at }}" alt="long_term_pe_ratio"/>
+    <img onclick="enlarge(this)" style="cursor: zoom-in" class="grid-item" src="{% static 'forecast/images/' %}{{charts.expected_fwd_return_chart}}?{{ charts.updated_at }}" alt="expected_fwd_return"/>
+</div>
+
+<div class="disclaimer">
+    <h3>
+        Disclaimer: Nothing in this application should be interpreted as investment advice or a recommendation to buy or sell a
+        security. No guarantees are made regarding the accuracy or reliability of the data or forecasts. We accept no
+        liability for any actions made based on any data or forecasts from this application. This application is for purely
+        research purposes only. Invest at your own risk.
+    </h3>
+</div>
+
+<script type="text/javascript">
+    function enlarge(image) {
+        var modal = document.createElement("div");
+        modal.style.background = "rgba(0,0,0,0.5) url('" + image.src + "') no-repeat center";
+        modal.style.backgroundSize = "contain";
+        modal.style.width = "100%";
+        modal.style.height = "100%";
+        modal.style.position = "fixed";
+        modal.style.zIndex = "10000";
+        modal.style.top = "0";
+        modal.style.left = "0";
+        modal.style.cursor = "zoom-out";
+
+        modal.onclick = function() {
+            document.body.removeChild(modal);
+        };
+
+        document.onkeyup = function(e) {
+            if (e.key === 'Escape') {
+                document.body.removeChild(modal);
+            }
+        };
+
+        document.body.appendChild(modal);
+    }
+</script>
+</body>
+</html>
