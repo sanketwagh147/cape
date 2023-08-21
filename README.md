@@ -4,10 +4,16 @@ cape is a financial application for displaying statistically-derived equity and 
 
 ## Table of Contents
 
- - [Quick Start](#Quick-Start)
- - [Forecast Tables](#Forecast-Tables)
- - [Forecast Dashboards](#Forecast-Dashboards)
- - [Forecast Charts](#Forecast-Charts)
+- [cape](#cape)
+	- [Table of Contents](#table-of-contents)
+	- [Quick Start](#quick-start)
+	- [Forecast Tables](#forecast-tables)
+	- [Forecast Dashboards](#forecast-dashboards)
+	- [Forecast Charts](#forecast-charts)
+		- [Regression Plot](#regression-plot)
+		- [Forecast Plots](#forecast-plots)
+		- [CAPE Plot](#cape-plot)
+	- [Disclaimer](#disclaimer)
 
 ## Quick Start
 
@@ -31,7 +37,7 @@ These instructions work on Windows 11. For any other system, simply do the equiv
 	 `python setup.py install`
 
  7. Navigate to folder containing the application's `manage.py` file. <br>
-	 `cd C:\Users\JohnDoe\Projects\cape\django_apps\mysite`
+	 `cd C:\Users\JohnDoe\Projects\cape\django_apps\website`
 
  8. Run the project's server. <br>
 	 `python manage.py runserver`
