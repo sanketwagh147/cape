@@ -10,6 +10,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # region		     -----Application Definition-----
 THIRD_PARTY_APPS = [
+    'jazzmin',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
 ]
 
 INSTALLED_APPS = [
@@ -23,8 +28,11 @@ INSTALLED_APPS = [
 ]
 
 USER_APPS = [
-    'forecast'
+    'forecast',
+    'user'
 ]
+
+AUTH_USER_MODEL = "user.User"
 
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
@@ -43,6 +51,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware'
+]
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend'
 ]
 
 ROOT_URLCONF = 'website.urls'
