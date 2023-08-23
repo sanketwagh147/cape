@@ -40,7 +40,7 @@ class User(AbstractUser):
             return stripe.Subscription\
                 .retrieve(
                     id=self.stripe_subscription_id
-                )
+                ).status
         
         return "unpaid"
     
