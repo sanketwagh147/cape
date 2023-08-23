@@ -37,6 +37,8 @@ RUN chown -R django:django /home/django/web
 
 USER django
 
+EXPOSE 5000
+
 ENTRYPOINT ["/home/django/web/entrypoint.sh"]
 
 CMD ["gunicorn", "website.wsgi", "--bind", "0.0.0.0:5000", "-w", "1"]
