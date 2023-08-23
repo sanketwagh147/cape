@@ -1,6 +1,5 @@
 # region				-----External Imports-----
-from django.core.management.utils import get_random_secret_key  
-import glob, os
+import os
 # endregion
 
 # region				-----Internal Imports-----
@@ -29,16 +28,16 @@ DATABASES = {
 
 # CACHE
 
-CACHES = {
-    'default': {
-        'BACKEND': 'django_redis.cache.RedisCache',
-        'LOCATION': f'redis://{os.environ.get("REDIS_HOST","127.0.0.1")}:{os.environ.get("REDIS_PORT",6379)}/1',
-    }
-}
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django_redis.cache.RedisCache',
+#         'LOCATION': f'redis://{os.environ.get("REDIS_HOST","127.0.0.1")}:{os.environ.get("REDIS_PORT",6379)}/1',
+#     }
+# }
 
-MIDDLEWARE = ['django.middleware.cache.UpdateCacheMiddleware'] + \
-             MIDDLEWARE + \
-             ['django.middleware.cache.FetchFromCacheMiddleware']
+# MIDDLEWARE = ['django.middleware.cache.UpdateCacheMiddleware'] + \
+#              MIDDLEWARE + \
+#              ['django.middleware.cache.FetchFromCacheMiddleware']
 
 CSRF_TRUSTED_ORIGINS = [
     f'http://{os.environ.get("BACKEND_DOMAIN")}',
