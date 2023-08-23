@@ -1,6 +1,9 @@
 from django.shortcuts import render, redirect
 from .models import Forecast
 from django.conf import settings
+from django.views.decorators.csrf import csrf_exempt
+from django.http.response import JsonResponse
+from django.http import HttpResponse
 import typing
 
 

@@ -22,6 +22,7 @@
 <!--<h1><a href="{% url 'forecast:outliers_table' %}" target="_blank">Outlier Forecasts</a> &#8592; Click</h1>-->
 {% if user.is_authenticated %}
   <p>Welcome, You are logged in as {{ user.username }}</p>
+  <h1><a href="{% url 'forecast:subscribe' %}">Subscribe</a> &#8592; Click</h1>
 {% else %}
   <a href="{% provider_login_url 'google' %}">Login With Google</a>
 {% endif %}
