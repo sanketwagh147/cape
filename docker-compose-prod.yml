@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  db:
+    container_name: forecast-database
+    image: postgres:14.0-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=${DATABASE_NAME}
+      - POSTGRES_USER=${DATABASE_USER}
+      - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
+    networks:
+      - back_network
+
+  redis:
+    container_name: forecast-redis
+    image: redis:alpine
+    networks:
+      - back_network
+
+  back:
+    image: forecastcontainerregistry.azurecr.io/forecast-backend:latest
+    container_name: forecast-backend
+    volumes:
+      - ./media/:/usr/src/app/media
+    ports:
+      - 5000:5000
+    environment:
+      - DATABASE_NAME=${DATABASE_NAME}
+      - DATABASE_USER=${DATABASE_USER}
+      - DATABASE_PASSWORD=${DATABASE_PASSWORD}
+      - DATABASE_HOST=db
+      - DATABASE_PORT=5432
+      - ENGINE=django.db.backends.postgresql_psycopg2
+      - TIMEZONE=UTC
+      - DJANGO_SETTINGS_MODULE=website.settings.prod
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+    depends_on:
+      - db
+    networks:
+    - back_network
+
+networks:
+  back_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  back-static:
