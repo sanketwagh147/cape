@@ -22,7 +22,10 @@ DATABASES = {
         'PORT': os.environ.get('DATABASE_PORT'),
         'USER': os.environ.get('DATABASE_USER'),
         'ENGINE': os.environ.get('ENGINE'),
-        'ATOMIC_REQUESTS': True
+        'ATOMIC_REQUESTS': True,
+        'OPTIONS': {
+            'sslmode': 'require'
+        },
     }
 }
 
