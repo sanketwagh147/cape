@@ -41,7 +41,8 @@ CACHES = {
 
 MIDDLEWARE = ['django.middleware.cache.UpdateCacheMiddleware'] + \
              MIDDLEWARE + \
-             ['django.middleware.cache.FetchFromCacheMiddleware']
+             ['django.middleware.cache.FetchFromCacheMiddleware',
+              'whitenoise.middleware.WhiteNoiseMiddleware']
 
 # CSRF_TRUSTED_ORIGINS = [
 #     f'http://{os.environ.get("BACKEND_DOMAIN")}',
