@@ -19,6 +19,15 @@ services:
     networks:
       - back_network
 
+  stripe-cli:
+    image: stripe/stripe-cli
+    container_name: stripe-cli
+    command: "listen --api-key ${STRIPE_SECRET_KEY} --forward-to back:8000/forecast/stripe/webhook/"
+    networks:
+      - back_network
+    depends_on:
+      - back
+
   back:
     image: forecast-backend
     container_name: forecast-backend
@@ -40,7 +49,29 @@ services:
       - DATABASE_HOST=db
       - DATABASE_PORT=5432
       - ENGINE=django.db.backends.postgresql_psycopg2
+
+      - FRONTEND_DOMAIN=${FRONTEND_DOMAIN}
+      - BACKEND_DOMAIN=${BACKEND_DOMAIN}
+
       - TIMEZONE=UTC
+
+      - EMAIL_BACKEND=${EMAIL_BACKEND}
+      - EMAIL_HOST=${EMAIL_HOST}
+      - EMAIL_PORT=${EMAIL_PORT}
+      - EMAIL_HOST_USER=${EMAIL_HOST_USER}
+      - EMAIL_HOST_PASSWORD=${EMAIL_HOST_PASSWORD}
+      - EMAIL_USE_SSL=${EMAIL_USE_SSL}
+      - EMAIL_USE_TLS=${EMAIL_USE_TLS}
+
+      - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY}
+      - STRIPE_WEBHOOK_SECRET=${STRIPE_WEBHOOK_SECRET}
+      - STRIPE_PUBLISHABLE_KEY=${STRIPE_PUBLISHABLE_KEY}
+
+      - SEMIANNUAL_SUBSCRIPTION_ID=${SEMIANNUAL_SUBSCRIPTION_ID}
+      - MONTHLY_SUBSCRIPTION_ID=${MONTHLY_SUBSCRIPTION_ID}
+      - ANNUAL_SUBSCRIPTION_ID=${ANNUAL_SUBSCRIPTION_ID}
+
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
     logging:
       options:
         max-size: "10m"
