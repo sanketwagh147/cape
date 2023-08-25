@@ -31,17 +31,27 @@ DATABASES = {
 
 # CACHE
 
-CACHES = {
-    'default': {
-        'BACKEND': 'django_redis.cache.RedisCache',
-        'LOCATION': f'rediss://{os.environ.get("REDIS_HOST","127.0.0.1")}:{os.environ.get("REDIS_PORT",6379)}/1',
-    }
-}
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django_redis.cache.RedisCache',
+#         'LOCATION': f'rediss://{os.environ.get("REDIS_HOST")}:{os.environ.get("REDIS_PORT")}',
+#         'OPTIONS': {
+#             'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+#             'PASSWORD': os.environ.get("REDIS_PASSWORD"),
+#             'SSL': True
+#         }
+#     }
+# }
 
-MIDDLEWARE = ['django.middleware.cache.UpdateCacheMiddleware'] + \
-             MIDDLEWARE + \
-             ['django.middleware.cache.FetchFromCacheMiddleware',
-              'whitenoise.middleware.WhiteNoiseMiddleware']
+# MIDDLEWARE = ['django.middleware.cache.UpdateCacheMiddleware'] + \
+#              MIDDLEWARE + \
+#              ['django.middleware.cache.FetchFromCacheMiddleware',
+#               'whitenoise.middleware.WhiteNoiseMiddleware']
+
+MIDDLEWARE.insert(
+    MIDDLEWARE.index('django.middleware.security.SecurityMiddleware') - 1,
+    'whitenoise.middleware.WhiteNoiseMiddleware'
+)
 
 CSRF_TRUSTED_ORIGINS = os.environ.get('CSRF_TRUSTED_ORIGINS', '').split(',')
 
