@@ -49,19 +49,19 @@ jobs:
           EMAIL_BACKEND: django.core.mail.backends.smtp.EmailBackend
           EMAIL_HOST: smtp.gmail.com
           EMAIL_PORT: 587
-          EMAIL_HOST_USER: ${{ env.EMAIL_HOST_USER }}
-          EMAIL_HOST_PASSWORD: ${{ env.EMAIL_HOST_PASSWORD }}
+          EMAIL_HOST_USER: ${{ secrets.EMAIL_HOST_USER }}
+          EMAIL_HOST_PASSWORD: ${{ secrets.EMAIL_HOST_PASSWORD }}
           EMAIL_USE_SSL: False
           EMAIL_USE_TLS: True
           FRONTEND_DOMAIN: http://127.0.0.1:8000/
           BACKEND_DOMAIN: http://127.0.0.1:8000/
           ALLOWED_HOSTS: localhost,127.0.0.1,0.0.0.0,back
-          SEMIANNUAL_SUBSCRIPTION_ID: ${{ env.SEMIANNUAL_SUBSCRIPTION_ID }}
-          MONTHLY_SUBSCRIPTION_ID: ${{ env.MONTHLY_SUBSCRIPTION_ID }}
-          ANNUAL_SUBSCRIPTION_ID: ${{ env.ANNUAL_SUBSCRIPTION_ID }}
-          STRIPE_WEBHOOK_SECRET: ${{ env.STRIPE_WEBHOOK_SECRET }}
-          STRIPE_SECRET_KEY: ${{ env.STRIPE_SECRET_KEY }}
-          STRIPE_PUBLISHABLE_KEY: ${{ env.STRIPE_PUBLISHABLE_KEY }}
+          SEMIANNUAL_SUBSCRIPTION_ID: ${{ secrets.SEMIANNUAL_SUBSCRIPTION_ID }}
+          MONTHLY_SUBSCRIPTION_ID: ${{ secrets.MONTHLY_SUBSCRIPTION_ID }}
+          ANNUAL_SUBSCRIPTION_ID: ${{ secrets.ANNUAL_SUBSCRIPTION_ID }}
+          STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
+          STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
+          STRIPE_PUBLISHABLE_KEY: ${{ secrets.STRIPE_PUBLISHABLE_KEY }}
 
   build:
     runs-on: ubuntu-latest
