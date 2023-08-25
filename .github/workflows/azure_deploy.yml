@@ -46,6 +46,22 @@ jobs:
           DATABASE_PORT: 5432
           ENGINE: django.db.backends.postgresql_psycopg2
           SECRET_KEY: django-insecure-key-${{ github.run_id }}-${{ github.run_attempt }}
+          EMAIL_BACKEND: django.core.mail.backends.smtp.EmailBackend
+          EMAIL_HOST: smtp.gmail.com
+          EMAIL_PORT: 587
+          EMAIL_HOST_USER: mailtest.neuraldynamics@gmail.com
+          EMAIL_HOST_PASSWORD: gavxbgrwutoarlgm
+          EMAIL_USE_SSL: False
+          EMAIL_USE_TLS: True
+          FRONTEND_DOMAIN: http://127.0.0.1:8000/
+          BACKEND_DOMAIN: http://127.0.0.1:8000/
+          ALLOWED_HOSTS: localhost,127.0.0.1,0.0.0.0,back
+          SEMIANNUAL_SUBSCRIPTION_ID: price_1NiEylGfEsbU7cjfFhUU7AQn
+          MONTHLY_SUBSCRIPTION_ID: price_1NiEyGGfEsbU7cjfBW3raSVW
+          ANNUAL_SUBSCRIPTION_ID: price_1NiEzDGfEsbU7cjf5dWF1mlz
+          STRIPE_WEBHOOK_SECRET: whsec_f496a8325982949ff5bf061953686eceea15efe76fd8475a927ef38f9088d18f
+          STRIPE_SECRET_KEY: sk_test_51NiEtcGfEsbU7cjfOZPDmzxLmANiRDfgIafTafNApl3cEi890G6KrZCVSGAS0f7bUvNf6MDm11x694Il646W8blP00RJcjZGfE
+          STRIPE_PUBLISHABLE_KEY: pk_test_51NiEtcGfEsbU7cjfMLHIKr51NN2fKZNB2hYKbFqgBZJB4G71xfmOpwcGUnwzLLMbjDPCi1dTsGh5y47ItNj2Qimo00EDec6CKM
 
   build:
     runs-on: ubuntu-latest
