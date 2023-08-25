@@ -12,7 +12,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 DEBUG = False
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
+# ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
+ALLOWED_HOSTS = ['.azurecontainerapps.io']
 
 DATABASES = {
     'default': {
@@ -40,15 +41,17 @@ CACHES = {
 
 MIDDLEWARE = ['django.middleware.cache.UpdateCacheMiddleware'] + \
              MIDDLEWARE + \
-             ['django.middleware.cache.FetchFromCacheMiddleware']
+             ['django.middleware.cache.FetchFromCacheMiddleware',
+              'whitenoise.middleware.WhiteNoiseMiddleware']
 
-CSRF_TRUSTED_ORIGINS = [
-    f'http://{os.environ.get("BACKEND_DOMAIN")}',
-    f'https://{os.environ.get("BACKEND_DOMAIN")}',
-    'http://127.0.0.1:3000',
-    'http://127.0.0.1',
-    'http://localhost:3000',
-    'http://localhost'
-]
+# CSRF_TRUSTED_ORIGINS = [
+#     f'http://{os.environ.get("BACKEND_DOMAIN")}',
+#     f'https://{os.environ.get("BACKEND_DOMAIN")}',
+#     'http://127.0.0.1:3000',
+#     'http://127.0.0.1',
+#     'http://localhost:3000',
+#     'http://localhost'
+# ]
+CSRF_TRUSTED_ORIGINS = ['https://*.azurecontainerapps.io']
 
 print(">>> START PROJECT WITH PROD SETTINGS <<<")
