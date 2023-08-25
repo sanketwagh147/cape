@@ -1,0 +1,870 @@
+[33mcommit 45eeefb3342e3874bc114917171b6ed3739404ca[m[33m ([m[1;36mHEAD -> [m[1;32mdiablos_dev[m[33m, [m[1;31morigin/diablos_dev[m[33m)[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 12:31:12 2023 +0300
+
+    Revert "Merge pull request #9 from Neural-Dynamics-Web/docker"
+    
+    This reverts commit 61e971fd809839b800c1c625d2796d17ed8b0241, reversing
+    changes made to f60e43baec5b26274222c2d9322a81500fc3abe7.
+
+[33mcommit 99d4614356497b1509f0c3cf4accb5e6badbcdbc[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 12:25:48 2023 +0300
+
+    Revert "Revert "Revert "Revert "update: fix""""
+    
+    This reverts commit 3f6ec757dd3f698aa6f078a64c3acaf7c567471b.
+
+[33mcommit 3f6ec757dd3f698aa6f078a64c3acaf7c567471b[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 12:25:44 2023 +0300
+
+    Revert "Revert "Revert "update: fix"""
+    
+    This reverts commit 228b618648deb0a1e7c65bf95ca50f6bd1beb107.
+
+[33mcommit 228b618648deb0a1e7c65bf95ca50f6bd1beb107[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 12:25:42 2023 +0300
+
+    Revert "Revert "update: fix""
+    
+    This reverts commit 424761107e1c628c55dae2ebc3a0e22a9be93fd4.
+
+[33mcommit 424761107e1c628c55dae2ebc3a0e22a9be93fd4[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 12:25:39 2023 +0300
+
+    Revert "update: fix"
+    
+    This reverts commit 9d4f0ec71d68f6d2209f781304a0461cdac3b81a.
+
+[33mcommit 9d4f0ec71d68f6d2209f781304a0461cdac3b81a[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 12:23:40 2023 +0300
+
+    update: fix
+
+[33mcommit be8d746858596597e2a0811749a0f61c01f40716[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 12:14:54 2023 +0300
+
+    vars
+
+[33mcommit 18350385a84d2430c62c6c58de05db8f26703431[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 12:00:39 2023 +0300
+
+    update: new variables in deploy
+
+[33mcommit cff9530866924ec4efcb9df109b101f5723d204d[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Fri Aug 25 11:39:13 2023 +0300
+
+    Replace settings with recommended values
+
+[33mcommit e8c81b1185f7a94e24374041948a485d2cab7994[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 09:56:51 2023 +0300
+
+    update: route with additional information about subscriptions + route for accepting different subscription payments
+
+[33mcommit 492ce39aa8322408834201fc1f9f37614dfd2faf[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Fri Aug 25 09:50:38 2023 +0300
+
+    update: route with additional information about subscriptions + route for accepting different subscription payments
+
+[33mcommit 86efd2341400866ee0b66902be49d3f10c030055[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Wed Aug 23 18:55:27 2023 +0300
+
+    update: default login + logout, stripe integration, email verification
+
+[33mcommit 7d477abdd591aace455167ae477238a2dfd2d6f4[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Wed Aug 23 16:09:56 2023 +0300
+
+    update: stripe integration
+
+[33mcommit f451cee591a6d28a2799d0389395925176210516[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Wed Aug 23 16:03:57 2023 +0300
+
+    update: stripe integration
+
+[33mcommit 583e1239159dbd2f29ad1beaf9a7649d63722d45[m
+Author: DiablosWhisper <shelyakingleb@gmail.com>
+Date:   Tue Aug 22 17:48:32 2023 +0300
+
+    update: only payment left
+
+[33mcommit 770eb8540eac44659d98654f4db08a9b13b9f71b[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Thu Aug 24 19:49:00 2023 +0300
+
+    Add ssl option for production database
+
+[33mcommit 5d40d58fa49c788c377d99735ba3217d44920e14[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Wed Aug 23 23:30:41 2023 +0300
+
+    Add port expose
+
+[33mcommit 41d91d8f8cfec811e539ec90d887463a469199fb[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Wed Aug 23 23:02:01 2023 +0300
+
+    Remove cache from production build
+
+[33mcommit 55364b94b8a50d3b64c89e914d2f830365fdff67[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Wed Aug 23 23:01:03 2023 +0300
+
+    Remove cache from production build
+
+[33mcommit 28cb6647d24ef1cbe4311137adf4f39ee543f5dd[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Wed Aug 23 13:03:41 2023 +0300
+
+    Add jobs dependencies and remove unique b version
+
+[33mcommit b1119bfe760062b659cea726dae2e6002eb008f7[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Wed Aug 23 12:58:45 2023 +0300
+
+    Setup test before build and fix
+
+[33mcommit b7d8f471078524dcc6e6f4fce6df3bebcdbd8606[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Wed Aug 23 12:40:54 2023 +0300
+
+    Fix github actions workflow
+
+[33mcommit 4f3e89b1080a2539f2c6177810250c5112bcbdd1[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Wed Aug 23 12:34:00 2023 +0300
+
+    Setup azure docker image build
+
+[33mcommit d970308a230a14a8f0a64ef5de02fe8ddd7f0d67[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Tue Aug 22 14:22:05 2023 +0300
+
+    Setup production dockerfile
+
+[33mcommit 6cca835b1bee939c7afc4fe3f5864717beff8613[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Tue Aug 22 12:02:47 2023 +0300
+
+    Return data folder
+
+[33mcommit 3ab788aa9a69a6396cec3d1dec0fa0cd40e39b83[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Tue Aug 22 00:03:00 2023 +0300
+
+    Setup docker configs
+    Divide settings into development and production
+    Clear structure
+    Clear repository
+    Move data migration to django native command
+
+[33mcommit de1cd140a00c6ed23ec40b40d0c9fa20a1192f0f[m
+Author: Nick Krykunov <nik.krikunov.99@gmail.com>
+Date:   Mon Aug 21 21:51:49 2023 +0300
+
+    Setup dockerizing
+
+[33mcommit 1fa6933ec461449af515385a6803615959fa39e1[m[33m ([m[1;31morigin/old[m[33m, [m[1;32mmain[m[33m)[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Aug 20 22:05:42 2023 -0500
+
+    Update django_apps
+
+[33mcommit 38af28ed1834aa9f409bc8bed437d00d2d520df4[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Aug 16 20:51:38 2023 -0500
+
+    Update django_apps
+
+[33mcommit b1b096c36d15397fc8eeea0175b0b871d032867a[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue Aug 15 21:02:47 2023 -0500
+
+    Update data
+
+[33mcommit a26a821fd6c718a5a46197b5f87ecd48e4420d9e[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Jul 31 20:37:38 2023 -0500
+
+    Update data
+
+[33mcommit 9244a798e4a9982258a5baa4cf08aadc7ab2d196[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Jul 26 00:21:09 2023 -0500
+
+    Update data
+
+[33mcommit f1bce24d0b51774392a3050f44bbebf437d8762d[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Jul 10 20:34:24 2023 -0500
+
+    Update data
+
+[33mcommit e0184db97edcc4f5db2f729f48cf50b19ffcec27[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Thu Jul 6 13:34:53 2023 -0500
+
+    Update data
+
+[33mcommit a9a66d8d4293ae1e3af1cd2c5eeebc3a9bc0ac01[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Jun 26 11:17:43 2023 -0500
+
+    Update data
+
+[33mcommit 88f2d5230ea341c83ee79cb281107fa2164eab71[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue Jun 20 14:03:09 2023 -0500
+
+    Update images
+
+[33mcommit 96418aa5e68df195916ec633c308de5436213fa4[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Jun 5 14:10:51 2023 -0500
+
+    Update data
+
+[33mcommit 2bd573073f698d88cc7c9248fa40a01095746997[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Jun 4 11:04:19 2023 -0500
+
+    Update data
+
+[33mcommit b174cdf519913ed021b3f97d306e14c4797f4154[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue May 23 22:46:34 2023 -0500
+
+    Update data
+
+[33mcommit 886cbcc17dfdc5eea717bd3a4a0aa133c4f2eaf3[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon May 15 11:56:42 2023 -0500
+
+    Update data
+
+[33mcommit 759a67c0e0d86ca56365479c06ef7c06b530558a[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed May 10 11:54:29 2023 -0500
+
+    Update data
+
+[33mcommit 8c5781f99144834e60a0000688acb2f42c37bb3d[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed May 10 10:37:18 2023 -0500
+
+    Update data
+
+[33mcommit 11dbd071d282517815b0bc2b80f068a1eb3e65e0[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon May 8 09:49:19 2023 -0500
+
+    Update README.md
+
+[33mcommit 8f197652387a7c31162cf5389216d5825d026207[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun May 7 19:24:42 2023 -0500
+
+    Update data
+
+[33mcommit daa7551c6e6424376b599ad0b6ac49af05f309c5[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Apr 30 21:24:19 2023 -0500
+
+    Update data
+
+[33mcommit cc21ee2e46e79bacdd40269b35e41231e8e74f48[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Apr 8 21:20:02 2023 -0500
+
+    Update index.html
+
+[33mcommit c6a66abdd580ce7ba0cde45edaaca8877ca847fb[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Apr 8 21:13:57 2023 -0500
+
+    Update bond_etf_table.html
+
+[33mcommit 7130fd09df4922ff85db75830a7715809b9e2ff3[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Apr 8 21:07:38 2023 -0500
+
+    Update django_apps
+
+[33mcommit 9abcf4fac283de8c8d413724eb7c363c7010e85e[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Apr 8 17:03:22 2023 -0500
+
+    Update data
+
+[33mcommit 5b4da5d6b2a1614d840b5bc360e29855f74038cc[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Mar 29 00:18:43 2023 -0500
+
+    Update data
+
+[33mcommit 2b4a4f95256cbbd1235da299fc2fadaed51de4d4[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Mar 13 18:42:22 2023 -0500
+
+    Update data
+
+[33mcommit f9401c39a50927fe6e11ae47f4d47fe7826e1d9b[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Feb 13 20:34:18 2023 -0600
+
+    Update csv
+
+[33mcommit d7568bfceebeb01a22e09fcb10b02dfe6c0a3cb8[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Jan 29 21:44:52 2023 -0600
+
+    Uppdate data
+
+[33mcommit b51ff6fa665b240e5845d8fecebcb0c1ec3a18c0[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Jan 16 11:57:25 2023 -0600
+
+    Update sqlite3
+
+[33mcommit 64e46d178d72ebe9b133f11640ce3851c7643508[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Jan 14 20:35:26 2023 -0600
+
+    Update etf return forecast
+
+[33mcommit 19b377806a08ca6f6fd24605f6f21a653a329286[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Thu Jan 12 16:43:26 2023 -0600
+
+    Update data
+
+[33mcommit 93ae8ee3001dbd9d04d51fac788494ba769b2dc6[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Jan 9 00:24:10 2023 -0600
+
+    Update charts
+
+[33mcommit fa5929fc3ab0f5c59503a9fefe651ca9977f7a40[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Jan 4 00:34:33 2023 -0600
+
+    Create JNL_Series_Prospectus.pdf
+
+[33mcommit 9dd4e0074dcb54eb0cd20687499d91b57b7ebbf2[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue Jan 3 23:09:39 2023 -0600
+
+    Update README.md
+
+[33mcommit 2265dbf3cc103db988f1f598bb1f36b50b9bf346[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue Jan 3 21:02:03 2023 -0600
+
+    Fix broken link
+
+[33mcommit 4f8fe18839576bd1b7557ce3edecae24ff4a7648[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Dec 26 22:41:16 2022 -0600
+
+    Update data
+
+[33mcommit ee215042d23ea5f5d6f1539c92fa1b91c55c5318[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Dec 4 15:09:50 2022 -0600
+
+    Update README.md
+
+[33mcommit 53dd5faffa29595b5ae3d7def6118b9574032be6[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Dec 4 13:25:57 2022 -0600
+
+    Update README.md
+
+[33mcommit e9ffb1684ab5a6dc8749d9218113c54a26577a72[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Dec 4 13:23:29 2022 -0600
+
+    Update README.md
+
+[33mcommit c831f7719efc60c2f7eaf9b4b3d3b186e58a2692[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Dec 4 13:15:03 2022 -0600
+
+    Update README.md
+
+[33mcommit c63de02bc84dd8bc70f06f5d34b0e8cfb89efb21[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Dec 4 11:23:02 2022 -0600
+
+    Update setup.py
+
+[33mcommit 66085a8162e3cf731c09a5681e12c5c8564812f4[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Dec 3 18:28:59 2022 -0600
+
+    Update README.md
+
+[33mcommit cfef6c02798d5a82ad8eccecfd60c7c59f9f79b1[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Dec 3 17:30:11 2022 -0600
+
+    Update README.md
+
+[33mcommit 3888ac245b53354c7c555ce047b8b50c022efbad[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Dec 3 15:58:09 2022 -0600
+
+    Update nrcapital
+
+[33mcommit d723f5f02432133a113f908f50e91f52f2cc14ca[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Nov 13 12:15:50 2022 -0600
+
+    Update cape_return_forecast.csv
+
+[33mcommit a1e5d96f436f052f1db548823f7d742329567e22[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Thu Nov 10 10:44:41 2022 -0600
+
+    Update README.md
+
+[33mcommit 375702d8167108f0461a505f96cd48dec3526776[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Thu Nov 10 10:44:13 2022 -0600
+
+    Update README.md
+
+[33mcommit 04050107abdea5e4cffec604e04d35600542252b[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Thu Nov 10 10:11:21 2022 -0600
+
+    Update forecast_charts.html
+
+[33mcommit 54d818a3883f4663cd37aeda1673371700323135[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Nov 9 19:01:33 2022 -0600
+
+    Update README.md
+
+[33mcommit 42869c225e1b3905ce9e1fccd573f9426a50df69[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue Nov 8 15:44:00 2022 -0600
+
+    Update forecast_charts_style.css
+
+[33mcommit d9e2b0a55222aeafabdf19e6dcbffc59d6cc334f[m
+Merge: 297cf15e 1067a803
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Nov 6 22:26:13 2022 -0600
+
+    Merge pull request #2 from nathanramoscfa/branch2
+    
+    Branch2
+
+[33mcommit 1067a803d1acd3825c6488375ce4aae7bc3f818e[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Nov 6 22:24:51 2022 -0600
+
+    Fix URL issues
+
+[33mcommit b4fbbd42133ffdaa0bd83620a0b4b8492daf5ebd[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Nov 4 22:25:19 2022 -0500
+
+    Update views.py
+
+[33mcommit 502527b69a9d82319399467ccc4eb55cd11a85c7[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Nov 4 18:47:32 2022 -0500
+
+    Working on branch1
+
+[33mcommit 297cf15e2e5523fc11e3fe646343b00ebf8ebe35[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Nov 4 18:04:01 2022 -0500
+
+    Update etf_cape_monitor.ipynb
+
+[33mcommit f76d40452d06b8fb2925f748e0fd4a21db3ec649[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Nov 4 17:37:44 2022 -0500
+
+    Update cape.py
+
+[33mcommit 92734d0fd5fb8c3028ed56f4dc71942ec9e51c50[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Nov 4 17:10:48 2022 -0500
+
+    Update cape.py
+
+[33mcommit ebcaf3234ba39529f9584a9e45fbb804f77d51e4[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Nov 4 17:02:57 2022 -0500
+
+    Update cape.py
+
+[33mcommit 83ac137e42b25ae41f53811537075caa11d08eef[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Nov 4 16:58:43 2022 -0500
+
+    Update cape.py
+
+[33mcommit 2f82a4b37357078bd5d17725e1ba522908c3f8ad[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Nov 4 16:42:14 2022 -0500
+
+    Update app
+
+[33mcommit 87712cdf783b9333bbc5f51e694c13d2cf5f6e97[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Nov 2 10:58:11 2022 -0500
+
+    Update data
+
+[33mcommit d85b2e6653ee465e384cdb99e2ea3ede149dc635[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Oct 28 19:46:47 2022 -0500
+
+    Update README.md
+
+[33mcommit 03800a349573dfbcaa0d9beb3bbbec6629d3eecf[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Oct 28 19:39:39 2022 -0500
+
+    Update README.md
+
+[33mcommit 0100c1dde3d896d9d2d0798e771a9934d0dfaede[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Oct 28 19:31:24 2022 -0500
+
+    Update README.md
+
+[33mcommit b8e52025a9eb8aabc0b8ef5903e7f71b06438d52[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Oct 28 19:28:51 2022 -0500
+
+    Update README.md
+
+[33mcommit 0786640b01cc8940931f2424c089e39ede7b1d7f[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Oct 28 19:20:31 2022 -0500
+
+    Update regression_results_SPX.png
+
+[33mcommit 84e0e3b316ba25ad26b65fe103c57a30e7c905ca[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Oct 28 19:16:47 2022 -0500
+
+    Update regression_results_SPX.png
+
+[33mcommit f97d1415c480e86619c4a3cc5370c38425e83146[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Oct 28 17:23:41 2022 -0500
+
+    Create regression_results_SPX.png
+
+[33mcommit 977f41553f4303672875bd399d6a5e58455e032c[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Fri Oct 28 15:41:46 2022 -0500
+
+    Update images
+
+[33mcommit fd0d6b5c1948ef9a7e21856ab067776b776a1c89[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Thu Oct 27 00:01:05 2022 -0500
+
+    Update images
+
+[33mcommit b20d9b260d6812f24b87e2e6b3f86728baa9af24[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Oct 26 23:10:23 2022 -0500
+
+    Update images
+
+[33mcommit 47e0321c84f11cb7c721ad78987260f617f77214[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Oct 26 20:28:47 2022 -0500
+
+    Update README.md
+
+[33mcommit 119493b7a829f8e1e88c3a2cfc302adc470f2952[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Oct 26 20:25:19 2022 -0500
+
+    Update README.md
+
+[33mcommit 2b850eaa51017f5084cde124c7808939f9fdbd70[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Oct 26 20:24:42 2022 -0500
+
+    Update README.md
+
+[33mcommit bbb59eea1150713e30518147997d074ccc6d88cb[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Oct 26 20:21:37 2022 -0500
+
+    Update db.sqlite3
+
+[33mcommit 652b7c039c403e191d3fccde225dfc36df8065cb[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue Oct 25 23:41:41 2022 -0500
+
+    Update charts
+
+[33mcommit 98039208a57ccb38f68065909cc149c1c1ae0a61[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 24 14:35:26 2022 -0500
+
+    Update README.md
+
+[33mcommit 696a8a302426fb321f5105c382033ac4e82b9745[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 23 19:57:23 2022 -0500
+
+    Update README.md
+
+[33mcommit 43ba0e1a2984651a4a11beded25509e113ebca22[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 23 19:51:46 2022 -0500
+
+    Update charts
+
+[33mcommit 4bb970b19a6c07de3494ca2bb9915f72c08f50fc[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 23 11:19:12 2022 -0500
+
+    Update django_apps
+
+[33mcommit 2a5489604899133e29a68691a6402338c744c9e6[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Thu Oct 20 22:48:23 2022 -0500
+
+    Rename django folder
+
+[33mcommit e7efc4bd19cbd98fe83cd6374c6a918cdaa45f34[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Wed Oct 19 17:08:49 2022 -0500
+
+    Upload test csv
+
+[33mcommit 84481d9ad3377b972cc47fc5f8047fc7dbdfe346[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue Oct 18 19:03:00 2022 -0500
+
+    Update etf_cape_monitor.ipynb
+
+[33mcommit c5adbb75b91319b49312e8fff0c7585854a07388[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue Oct 18 00:23:57 2022 -0500
+
+    Update cape.py
+
+[33mcommit 2e213bf8dbe5e4de5495f8f85841df2a36e1b964[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 17 12:15:17 2022 -0500
+
+    Upload django app
+
+[33mcommit 9832f406ebc2d5d2104fb30090a3b767a03206b1[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Oct 15 18:37:08 2022 -0500
+
+    Update cape.py
+
+[33mcommit 6020e488f508969d6259f065b319306c6d96836e[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 19:30:39 2022 -0500
+
+    Update cape.py
+
+[33mcommit 5f903144a42ea7aed6a5528117e2f8afacb0bedf[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 19:14:16 2022 -0500
+
+    Update cape.py
+
+[33mcommit a300e862f901a06314207d0995443d05882e8653[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 19:12:20 2022 -0500
+
+    Update cape.py
+
+[33mcommit 603d6f08e7cd8d7ad8b47c9d2b76bd303bb14579[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 19:09:11 2022 -0500
+
+    Update cape.py
+
+[33mcommit 7d662dc7f045fe840a08fd2d622bc6a94732a67f[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 18:53:24 2022 -0500
+
+    Update cape.py
+
+[33mcommit 5ddcbd63fa7663d922811e2cc3b9cc5c64812586[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 18:35:36 2022 -0500
+
+    Update __init__.py
+
+[33mcommit ae260b08ddbe31b7216f5a538eb960665243f9d3[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 18:20:10 2022 -0500
+
+    Update setup.py
+
+[33mcommit d8cb524cf9afd32e467d60972dc78bdb7334a267[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 18:18:14 2022 -0500
+
+    Update setup.py
+
+[33mcommit bb5417e0e607860865f629b0beb99c375ab1fa40[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 18:08:38 2022 -0500
+
+    Update setup.py
+
+[33mcommit 7f6f8519b648da5d6998b7836ffb87cbe5a4b34d[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 17:52:13 2022 -0500
+
+    Update setup.py
+
+[33mcommit aca68f6c0a955324866452d298e17c9a28128fad[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 10 17:50:09 2022 -0500
+
+    Upload setup.py
+
+[33mcommit 081af5b6003b179d34b547c8548f946c7803ad8e[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sat Oct 8 15:02:27 2022 -0500
+
+    Update README.md
+
+[33mcommit 22b094b0f5a444ab98fe86f84d0a9388e3c0e0c1[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Thu Oct 6 21:22:17 2022 -0500
+
+    Update data
+
+[33mcommit 87daa0b349fcfabee978b8b09dd975bde8facb44[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 3 09:52:28 2022 -0500
+
+    Update etf_cape_monitor.ipynb
+
+[33mcommit a8da63e5a4d62fd18edf3fda51ce0f69eb73ac94[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 3 00:45:46 2022 -0500
+
+    Update etf_cape_monitor.ipynb
+
+[33mcommit 352ce113effcba101591ca42f58bbe5370d874b9[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 3 00:38:12 2022 -0500
+
+    Update README.md
+
+[33mcommit e1954bc753d488c6e403f1ef1b280a6c535ab055[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Oct 3 00:05:09 2022 -0500
+
+    Upload data
+
+[33mcommit ba6b25cca664baf6a2e1750562857cb053f7086f[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 2 21:02:01 2022 -0500
+
+    Update charts
+
+[33mcommit 85d957bf7a327eee9ab611cf632a8a8688b4a7be[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 2 18:22:10 2022 -0500
+
+    Update README.md
+
+[33mcommit 3822a0d7e5fe5c8458db5ca249a7ff579178f13b[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 2 18:04:51 2022 -0500
+
+    Update charts
+
+[33mcommit 041a7d702d60105753963257bc3cd4e6196822bc[m
+Merge: e69781f1 dae679de
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 2 14:57:54 2022 -0500
+
+    Merge branch 'main' of https://github.com/nathanramoscfa/cape
+
+[33mcommit e69781f18206823316ca4ff0867a3c0fbaa8a2ca[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 2 14:57:51 2022 -0500
+
+    Update README
+
+[33mcommit dae679de85131ca16506f0c90c278cc4d7dbfa0a[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 2 14:10:10 2022 -0500
+
+    Rename etf_cape_monitor (1).ipynb to etf_cape_monitor.ipynb
+
+[33mcommit 4c38dc58bdd2c594680676b42713176c0df7aa93[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 2 14:08:58 2022 -0500
+
+    Delete ETF_CAPE_MONITOR.ipynb
+
+[33mcommit a71f717720d5587b5fa560d19ab9cd9d44e73088[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 2 14:08:45 2022 -0500
+
+    Update README
+
+[33mcommit f3434fbd44f075eb9e0e193152933e7cc886bcc2[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Sun Oct 2 13:47:10 2022 -0500
+
+    Upload results
+
+[33mcommit b365ef1e07a84f5a2a3a58fe0b9bbc932455fa67[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Sep 26 20:04:04 2022 -0500
+
+    Delete csv files
+
+[33mcommit b636faad4c80a78b5ded35e332d4df37da3128ce[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Tue Sep 20 19:12:13 2022 -0500
+
+    Upload csv
+
+[33mcommit b0cfed0b98a5a5d766c98302e612a6840c834745[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Sep 19 19:49:43 2022 -0500
+
+    Upload data
+
+[33mcommit cc69b1feda6d5c3f85b738df144fdca615e818c8[m
+Author: Nathan Ramos, CFA® <86393277+nathanramoscfa@users.noreply.github.com>
+Date:   Mon Sep 19 15:38:47 2022 -0500
+
+    Add benchmark_prices.csv
+
+[33mcommit 7171d67e23ead082b64ffd8959aa6ad8067e086b[m
+Author: TokenDAO <tokendao.quant@gmail.com>
+Date:   Mon Sep 19 13:59:06 2022 -0500
+
+    Initial commit
