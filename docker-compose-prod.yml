@@ -20,8 +20,12 @@ services:
       - back_network
 
   back:
-    image: forecastcontainerregistry.azurecr.io/forecast-backend:latest
+    image: forecast-prod
     container_name: forecast-backend
+    # command: python manage.py runserver 0.0.0.0:5000
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
     volumes:
       - ./media/:/usr/src/app/media
     ports:
@@ -35,12 +39,33 @@ services:
       - ENGINE=django.db.backends.postgresql_psycopg2
       - TIMEZONE=UTC
       - DJANGO_SETTINGS_MODULE=website.settings.prod
+      - SECRET_KEY=${SECRET_KEY}
+
+      - FRONTEND_DOMAIN=${FRONTEND_DOMAIN}
+      - BACKEND_DOMAIN=${BACKEND_DOMAIN}
+
+      - EMAIL_BACKEND=${EMAIL_BACKEND}
+      - EMAIL_HOST=${EMAIL_HOST}
+      - EMAIL_PORT=${EMAIL_PORT}
+      - EMAIL_HOST_USER=${EMAIL_HOST_USER}
+      - EMAIL_HOST_PASSWORD=${EMAIL_HOST_PASSWORD}
+      - EMAIL_USE_SSL=${EMAIL_USE_SSL}
+      - EMAIL_USE_TLS=${EMAIL_USE_TLS}
+
+      - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY}
+      - STRIPE_WEBHOOK_SECRET=${STRIPE_WEBHOOK_SECRET}
+      - STRIPE_PUBLISHABLE_KEY=${STRIPE_PUBLISHABLE_KEY}
+
+      - SEMIANNUAL_SUBSCRIPTION_ID=${SEMIANNUAL_SUBSCRIPTION_ID}
+      - MONTHLY_SUBSCRIPTION_ID=${MONTHLY_SUBSCRIPTION_ID}
+      - ANNUAL_SUBSCRIPTION_ID=${ANNUAL_SUBSCRIPTION_ID}
+
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
+      - CSRF_TRUSTED_ORIGINS=http://0.0.0.0:5000
     logging:
       options:
         max-size: "10m"
         max-file: "3"
-    depends_on:
-      - db
     networks:
     - back_network
 
