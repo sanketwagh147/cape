@@ -65,7 +65,6 @@ def create_checkout_session(request):
         }
         try:
             body = json.loads(request.body)
-            print(body)
             checkout_session = stripe.checkout.Session.create(
                 client_reference_id=request.user.id,
                 success_url=domain_url + 'forecast/',
