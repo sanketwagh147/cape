@@ -10,10 +10,9 @@ from .third_party import *
 
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
-DEBUG = True
+DEBUG = False
 
-# ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
-ALLOWED_HOSTS = ['.azurecontainerapps.io']
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
 
 DATABASES = {
     'default': {
@@ -35,7 +34,12 @@ DATABASES = {
 # CACHES = {
 #     'default': {
 #         'BACKEND': 'django_redis.cache.RedisCache',
-#         'LOCATION': f'redis://{os.environ.get("REDIS_HOST","127.0.0.1")}:{os.environ.get("REDIS_PORT",6379)}/1',
+#         'LOCATION': f'rediss://{os.environ.get("REDIS_HOST")}:{os.environ.get("REDIS_PORT")}',
+#         'OPTIONS': {
+#             'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+#             'PASSWORD': os.environ.get("REDIS_PASSWORD"),
+#             'SSL': True
+#         }
 #     }
 # }
 
@@ -44,14 +48,11 @@ DATABASES = {
 #              ['django.middleware.cache.FetchFromCacheMiddleware',
 #               'whitenoise.middleware.WhiteNoiseMiddleware']
 
-# CSRF_TRUSTED_ORIGINS = [
-#     f'http://{os.environ.get("BACKEND_DOMAIN")}',
-#     f'https://{os.environ.get("BACKEND_DOMAIN")}',
-#     'http://127.0.0.1:3000',
-#     'http://127.0.0.1',
-#     'http://localhost:3000',
-#     'http://localhost'
-# ]
-CSRF_TRUSTED_ORIGINS = ['https://*.azurecontainerapps.io']
+MIDDLEWARE.insert(
+    MIDDLEWARE.index('django.middleware.security.SecurityMiddleware') - 1,
+    'whitenoise.middleware.WhiteNoiseMiddleware'
+)
+
+CSRF_TRUSTED_ORIGINS = os.environ.get('CSRF_TRUSTED_ORIGINS', '').split(',')
 
 print(">>> START PROJECT WITH PROD SETTINGS <<<")
