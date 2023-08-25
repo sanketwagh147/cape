@@ -7,36 +7,65 @@ from django.http import HttpResponse
 from user.models import User
 import typing
 import stripe
+import json
 
 
 stripe.api_key = settings.STRIPE_SECRET_KEY
 
 
 def subscribe(request):
-    return render(request, 'subscribe.html')
+    semiannual_subscription = stripe.Price\
+        .retrieve(id=settings.SEMIANNUAL_SUBSCRIPTION_ID)
+
+    monthly_subscription = stripe.Price\
+        .retrieve(id=settings.MONTHLY_SUBSCRIPTION_ID)
+    
+    annual_subscription = stripe.Price\
+        .retrieve(id=settings.ANNUAL_SUBSCRIPTION_ID)
+    
+    context = {
+        "semiannual_subscription": {
+            "currency": semiannual_subscription.currency,
+            "price": semiannual_subscription.unit_amount
+        },
+        "monthly_subscription": {
+            "currency": monthly_subscription.currency,
+            "price": monthly_subscription.unit_amount
+        },
+        "annual_subscription": {
+            "currency": annual_subscription.currency,
+            "price": annual_subscription.unit_amount
+        }
+    }
+
+    return render(request, 'subscribe.html', context)
 
 
 @csrf_exempt
 def stripe_configuration(request):
     if request.method == "GET":
         stripe_config = {
-            "publicKey": settings.STRIPE_PUBLISHABLE_KEY,
-            "monthlySubscription": "",
-            "subannualSubscription": "",
-            "annualSubscription": ""
+            "publicKey": settings.STRIPE_PUBLISHABLE_KEY
         }
         return JsonResponse(stripe_config, safe=False)
     else:
         return HttpResponse(
             status=405
         )
-    
 
 @csrf_exempt
 def create_checkout_session(request):
-    if request.method == 'GET' and request.user.is_authenticated:
+    if request.method == 'POST' and request.user.is_authenticated:
         domain_url = settings.FRONTEND_DOMAIN
+
+        relations = {
+            "semiannual_subscription": settings.SEMIANNUAL_SUBSCRIPTION_ID,
+            "monthly_subscription": settings.MONTHLY_SUBSCRIPTION_ID,
+            "annual_subscription": settings.ANNUAL_SUBSCRIPTION_ID
+        }
         try:
+            body = json.loads(request.body)
+            print(body)
             checkout_session = stripe.checkout.Session.create(
                 client_reference_id=request.user.id,
                 success_url=domain_url + 'forecast/',
@@ -45,7 +74,7 @@ def create_checkout_session(request):
                 mode='subscription',
                 line_items=[
                     {
-                        'price': settings.SEMIANNUAL_SUBSCRIPTION_ID,
+                        'price': relations[body["subscription_type"]],
                         'quantity': 1,
                     }
                 ]
@@ -67,7 +96,6 @@ def stripe_webhook(request):
     event = None
     
     try:
-        print("Here!")
         event = stripe.Webhook.construct_event(
             payload, sig_header, endpoint_secret
         )

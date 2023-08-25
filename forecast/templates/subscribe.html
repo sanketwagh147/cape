@@ -12,9 +12,42 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="container mt-5">
-      <button type="submit" class="btn btn-primary" id="submitBtn">Subscribe</button>
-    </div>
+    <table id="equity_etf_table" class="table table-dark table-hover table-striped table-bordered table-sm">
+      <thead>
+        <tr>
+        <th data-sortable="true">Subscription Type</th>
+        <th>Price</th>
+        <th>Currency</th>
+        <th>Button</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Semiannual</td>
+          <td>{{ semiannual_subscription.price }}</td>
+          <td>{{ semiannual_subscription.Currency }}</td>
+          <td>
+            <button type="submit" class="btn btn-primary" id="submitBtn1">Subscribe</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Monthly</td>
+          <td>{{ monthly_subscription.price }}</td>
+          <td>{{ monthly_subscription.Currency }}</td>
+          <td>
+            <button type="submit" class="btn btn-primary" id="submitBtn2">Subscribe</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Annual</td>
+          <td>{{ annual_subscription.price }}</td>
+          <td>{{ annual_subscription.Currency }}</td>
+          <td>
+            <button type="submit" class="btn btn-primary" id="submitBtn3">Subscribe</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
 
@@ -27,11 +60,55 @@
 
         // new
         // Event handler
-        let submitBtn = document.querySelector("#submitBtn");
-        if (submitBtn !== null) {
-                submitBtn.addEventListener("click", () => {
+        let submitBtn1 = document.querySelector("#submitBtn1");
+        let submitBtn2 = document.querySelector("#submitBtn2");
+        let submitBtn3 = document.querySelector("#submitBtn3");
+
+        if (submitBtn1 !== null || submitBtn2 !== null || submitBtn3 !== null) {
+            submitBtn1.addEventListener("click", () => {
                 // Get Checkout Session ID
-                fetch("{% url 'forecast:stripe-session-creation' %}")
+                fetch("{% url 'forecast:stripe-session-creation' %}", {
+                  method: "POST",
+                  body: JSON.stringify({
+                    subscription_type: "semiannual_subscription"
+                  })
+                })
+                .then((result) => { return result.json(); })
+                .then((data) => {
+                    console.log(data);
+                    // Redirect to Stripe Checkout
+                    return stripe.redirectToCheckout({sessionId: data.sessionId})
+                })
+                .then((res) => {
+                    console.log(res);
+                });
+            });
+            submitBtn2.addEventListener("click", () => {
+                // Get Checkout Session ID
+                fetch("{% url 'forecast:stripe-session-creation' %}", {
+                  method: "POST",
+                  body: JSON.stringify({
+                    subscription_type: "monthly_subscription"
+                  })
+                })
+                .then((result) => { return result.json(); })
+                .then((data) => {
+                    console.log(data);
+                    // Redirect to Stripe Checkout
+                    return stripe.redirectToCheckout({sessionId: data.sessionId})
+                })
+                .then((res) => {
+                    console.log(res);
+                });
+            });
+            submitBtn3.addEventListener("click", () => {
+                // Get Checkout Session ID
+                fetch("{% url 'forecast:stripe-session-creation' %}", {
+                  method: "POST",
+                  body: JSON.stringify({
+                    subscription_type: "annual_subscription"
+                  })
+                })
                 .then((result) => { return result.json(); })
                 .then((data) => {
                     console.log(data);
