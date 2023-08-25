@@ -53,6 +53,12 @@ MIDDLEWARE.insert(
     'whitenoise.middleware.WhiteNoiseMiddleware'
 )
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+
+WHITENOISE_USE_FINDERS = True
+WHITENOISE_AUTOREFRESH = True
+WHITENOISE_MANIFEST_STRICT = False
+
 CSRF_TRUSTED_ORIGINS = os.environ.get('CSRF_TRUSTED_ORIGINS', '').split(',')
 
 print(">>> START PROJECT WITH PROD SETTINGS <<<")
