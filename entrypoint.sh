@@ -17,5 +17,6 @@ fi
 python manage.py makemigrations --noinput --merge
 python manage.py migrate
 python manage.py collectstatic --no-input
+python manage.py data-import
 
 exec "$@"
