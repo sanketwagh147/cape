@@ -49,7 +49,7 @@ DATABASES = {
 #               'whitenoise.middleware.WhiteNoiseMiddleware']
 
 MIDDLEWARE.insert(
-    MIDDLEWARE.index('django.middleware.security.SecurityMiddleware') - 1,
+    1,
     'whitenoise.middleware.WhiteNoiseMiddleware'
 )
 
