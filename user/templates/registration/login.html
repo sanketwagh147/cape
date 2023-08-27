@@ -1,0 +1,45 @@
+{% extends "auth-base.html" %}
+
+{% load static socialaccount %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    <h1 class="auth-title">Sign In</h1>
+
+    <div class="auth-socials">
+        <a href="{% provider_login_url 'google' %}">
+            <span class="social-icon">
+                {% include 'icons/socials/google.svg' %}
+            </span>
+            <span class="social-title">Continue with Google</span>
+        </a>
+    </div>
+
+    <div class="auth-divider">
+        <span class="text-muted">or</span>
+    </div>
+
+    <form class="auth-form" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="{{ form.username.id_for_label }}">Email</label>
+            <input type="email" class="form-control" id="{{ form.username.id_for_label }}" placeholder="Enter email" required name="{{ form.username.name }}">
+            {% if form.username.errors %}
+	        	<small>{{ form.username.errors|striptags }}</small> 
+	        {% endif %}
+        </div>
+        <div class="form-group">
+            <label for="{{ form.password.id_for_label }}">Password</label>
+            <input type="password" class="form-control" id="{{ form.password.id_for_label }}" placeholder="Password" required name="{{ form.password.name }}"> 
+            {% if form.password.errors %}
+	        	<small>{{ form.password.errors|striptags }}</small> 
+	        {% endif %}
+        </div>
+        <button type="submit" class="btn btn-outline-primary w-100">Sign in</button>
+    </form>
+
+    <div class="auth-footer">
+        <a class="text-muted" href="/">Home</a>
+    </div>
+{% endblock %}
