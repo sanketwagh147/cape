@@ -1,21 +1,27 @@
+/* variables */
+:root {
+  --background: #17181E;
+  --primary: #CC5500;
+  --border-color: #30303D;
+  --white: #FAF3E0;
+}
+
+/* global styles */
 body {
     background-color: black;
-    color: orange;
+    color: #ffa500;
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    background-color: black;
     color: orange;
     font-size: 5.0em;
 }
 h2 {
-    background-color: black;
     color: orange;
     font-size: 2.5em;
 }
 h3 {
-    background-color: black;
     color: orange;
     font-size: 1.25em;
 }
@@ -42,4 +48,63 @@ a:active {
 .disclaimer {
     position: absolute;
     bottom: 0;
+}
+
+
+/* bootstrap style update */
+
+.form-control,
+.form-control:-internal-autofill-selected {
+  height: calc(24px + 10px * 2);
+  line-height: 24px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: var(--border-color);
+  background-color: var(--background) !important;
+}
+
+.btn {
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-primary {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, 
+.btn-outline-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-outline-primary.dropdown-toggle {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus, 
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: #e2725b6c 0px 0px 0px 3.2px;
+}
+
+/* remove chrome autocompleted fields default styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: var(--white);
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: inset 0 0 20px 20px var(--background);
 }
