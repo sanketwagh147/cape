@@ -2,9 +2,25 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 import stripe
 
+# region				-----Internal Imports-----
+from . import managers as user_managers
+# endregion
+
 
 class User(AbstractUser):
     # region			  -----Informations-----
+    USERNAME_FIELD = "email"
+    REQUIRED_FIELDS = []
+
+    username = None
+    email = models.EmailField(
+        help_text="User email",
+        verbose_name="email address", 
+        unique=True,
+        blank=False,
+        null=False
+    )
+
     stripe_subscription_id = models.CharField(
         help_text="This field will be populated automatically "
                   "after the first transaction",
@@ -32,6 +48,9 @@ class User(AbstractUser):
         verbose_name = "User"
     # endregion
 
+    # region             -----Manager-----
+    objects = user_managers.CustomAccountManager()
+    # endregion
     
     # region			    -----Functions-----
     def get_subscription_status(self)\

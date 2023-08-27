@@ -6,5 +6,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('forecast/', include('forecast.urls')),
     path('', include('allauth.urls')),
+    path('', include('user.urls')),
     path('', views.index)
 ]
