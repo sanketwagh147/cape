@@ -5,7 +5,8 @@ on:
     branches: [ main ]
 
 env:
-  REGISTRY: forecastcontainerregistry.azurecr.io
+  REGISTRY_NAME: forecastcontainerregistry
+  REGISTRY_DOMAIN: forecastcontainerregistry.azurecr.io
   IMAGE_NAME: forecast-backend
   CONTAINER_APP: forecast-app
   RESOURCE_GROUP: forecast-rg
@@ -84,7 +85,7 @@ jobs:
       - name: Login to Azure Container Registry
         uses: docker/login-action@v2
         with:
-          registry: ${{ env.REGISTRY }}
+          registry: ${{ env.REGISTRY_DOMAIN }}
           username: ${{ secrets.AZURE_REGISTRY_LOGIN }}
           password: ${{ secrets.AZURE_REGISTRY_PASSWORD }}
       - name: Build and push
@@ -93,7 +94,7 @@ jobs:
           context: .
           file: Dockerfile.prod
           push: true
-          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          tags: ${{ env.REGISTRY_DOMAIN }}/${{ env.IMAGE_NAME }}:latest
           cache-from: type=local,src=/tmp/.build-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
   
@@ -110,8 +111,8 @@ jobs:
       - name: Container App deploy
         uses: azure/container-apps-deploy-action@v1
         with:
-          acrName: ${{ env.REGISTRY }}
+          acrName: ${{ env.REGISTRY_NAME }}
           containerAppName: ${{ env.CONTAINER_APP }}
           resourceGroup: ${{ env.RESOURCE_GROUP }}
-          imageToDeploy: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          imageToDeploy: ${{ env.REGISTRY_DOMAIN }}/${{ env.IMAGE_NAME }}:latest
         
