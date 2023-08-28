@@ -1,0 +1,133 @@
+/* layout */
+
+body {
+    color: #F0F0F0;
+    background-color: var(--background);
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--primary);
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    color: var(--primary);
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* page */
+
+.subscription-page {
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.subscription-page > h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subscription-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+.subscription-cards {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: start;
+    margin: 0 auto;
+}
+
+.subscription-card {
+    width: 300px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--border-color);
+}
+
+.subscription-card__header {
+    margin-bottom: 10px;
+}
+
+.subscription-card__header .title {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    margin-bottom: 0;
+}
+
+.subscription-card__header .description {
+
+}
+
+.subscription-card__price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subscription-card__action {
+
+}
+
+.subscription-card__divider {
+    margin: 25px 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--border-color);
+}
+
+.subscription-card__advantages {
+
+}
+
+.subscription-card__advantages ul {
+    padding-left: 15px;
+}
+
+.subscription-card__advantages ul li {
+    list-style: none;
+}
+
+.subscription-card__advantages ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.subscription-card__advantages ul li::before {
+    content: "✓";
+    color: var(--primary);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+@media (max-width: 30em) {
+    .subscription-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}

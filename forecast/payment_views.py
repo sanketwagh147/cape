@@ -38,7 +38,7 @@ def subscribe(request):
         }
     }
 
-    return render(request, 'subscribe.html', context)
+    return render(request, 'subscription/subscribe.html', context)
 
 
 @csrf_exempt

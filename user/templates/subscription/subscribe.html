@@ -1,0 +1,156 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Subscriptions{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'subscription/css/main.css' %}">
+{% endblock %}
+
+{% block js %}
+<script src="https://js.stripe.com/v3/"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="subscription-page">
+  <h1>Membership plans</h1>
+
+  <div class="subscription-container">
+    <div class="subscription-cards">
+      <div class="subscription-card">
+        <div class="subscription-card__header">
+          <h2 class="title">
+            Monthly
+          </h2>
+          <p class="description text-muted">
+            Best plan for newbies
+          </p>
+        </div>
+        <div class="subscription-card__price">
+          <p>{{ monthly_subscription.price }} {% if not monthly_subscription.Currency %}${% else %}{{ monthly_subscription.Currency }}{% endif %}</p>
+        </div>
+        <div class="subscription-card__action">
+          <button type="submit" class="btn btn-outline-primary w-100 subscription-btn" data-subscription="monthly_subscription">Subscribe</button>
+        </div>
+        <div class="subscription-card__divider"></div>
+        <div class="subscription-card__advantages">
+          <ul>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="subscription-card">
+        <div class="subscription-card__header">
+          <h2 class="title">
+            Semiannual
+          </h2>
+          <p class="description text-muted">
+            Save up to 10%
+          </p>
+        </div>
+        <div class="subscription-card__price">
+          <p>{{ semiannual_subscription.price }} {% if not semiannual_subscription.Currency %}${% else %}{{ semiannual_subscription.Currency }}{% endif %}</p>
+        </div>
+        <div class="subscription-card__action">
+          <button type="submit" class="btn btn-outline-primary w-100 subscription-btn" data-subscription="semiannual_subscription">Subscribe</button>
+        </div>
+        <div class="subscription-card__divider"></div>
+        <div class="subscription-card__advantages">
+          <ul>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="subscription-card">
+        <div class="subscription-card__header">
+          <h2 class="title">
+            Annual
+          </h2>
+          <p class="description text-muted">
+            Save up to 30%
+          </p>
+        </div>
+        <div class="subscription-card__price">
+          <p>{{ annual_subscription.price }} {% if not annual_subscription.Currency %}${% else %}{{ annual_subscription.Currency }}{% endif %}</p>
+        </div>
+        <div class="subscription-card__action">
+          <button type="submit" class="btn btn-outline-primary w-100 subscription-btn" data-subscription="annual_subscription">Subscribe</button>
+        </div>
+        <div class="subscription-card__divider"></div>
+        <div class="subscription-card__advantages">
+          <ul>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+            <li>
+              Unlimited lorem ipsum
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p><a class="text-muted" href="/">Home</a></p>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="module">
+  const response = await fetch("{% url 'forecast:stripe-config' %}");
+  const jsonData = await response.json()
+  const stripe = Stripe(jsonData.publicKey);
+
+  $('.subscription-btn').on('click', async (event) => {
+    const cButton = $(event.target)
+    const subscriptionType = cButton.data('subscription')
+
+    const response = await fetch("{% url 'forecast:stripe-session-creation' %}", {
+      method: "POST",
+      body: JSON.stringify({
+        subscription_type: subscriptionType
+      })
+    })
+    const data = await response.json()
+    stripe.redirectToCheckout({sessionId: data.sessionId})
+  });
+</script>
+{% endblock %}
