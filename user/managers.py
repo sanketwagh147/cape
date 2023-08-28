@@ -5,9 +5,7 @@ from django.contrib.auth import models
 
 
 class CustomAccountManager(models.BaseUserManager):
-
     def create_superuser(self, email, password, **other_fields):
-
         other_fields.setdefault('is_staff', True)
         other_fields.setdefault('is_superuser', True)
         other_fields.setdefault('is_active', True)
@@ -20,8 +18,8 @@ class CustomAccountManager(models.BaseUserManager):
                 'Superuser must be assigned to is_superuser=True.')
         return self.create_user(email, password, **other_fields)
 
-    def create_user(self, email, password, **other_fields):
 
+    def create_user(self, email, password, **other_fields):
         if not email:
             raise ValueError(_('You must provide an email address'))
 
