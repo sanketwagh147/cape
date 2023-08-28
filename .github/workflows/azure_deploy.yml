@@ -94,7 +94,7 @@ jobs:
           context: .
           file: Dockerfile.prod
           push: true
-          tags: ${{ env.REGISTRY_DOMAIN }}/${{ env.IMAGE_NAME }}:latest
+          tags: ${{ env.REGISTRY_DOMAIN }}/${{ env.IMAGE_NAME }}:latest, ${{ env.REGISTRY_DOMAIN }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
           cache-from: type=local,src=/tmp/.build-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
   
@@ -114,5 +114,5 @@ jobs:
           acrName: ${{ env.REGISTRY_NAME }}
           containerAppName: ${{ env.CONTAINER_APP }}
           resourceGroup: ${{ env.RESOURCE_GROUP }}
-          imageToDeploy: ${{ env.REGISTRY_DOMAIN }}/${{ env.IMAGE_NAME }}:latest
+          imageToDeploy: ${{ env.REGISTRY_DOMAIN }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
         
