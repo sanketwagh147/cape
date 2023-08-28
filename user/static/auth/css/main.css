@@ -1,3 +1,45 @@
+/* layout */
+
+body.auth {
+    color: #F0F0F0;
+    background-color: var(--background);
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--primary);
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    color: var(--primary);
+    text-decoration: none;
+    text-transform: none;
+}
+
+.auth-page {
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container {
+    max-width: 380px;
+    width: 100%;
+}
+
+/* form */
+
 .auth-title {
     width: 100%;
     text-align: center;
