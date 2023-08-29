@@ -100,9 +100,23 @@ def stripe_webhook(request):
         )
     except ValueError as e:
         # Invalid payload
+        if settings.DEBUG:
+            return HttpResponse(status=400, content=str({
+                "hook_secret": settings.STRIPE_WEBHOOK_SECRET,
+                "sig_header": sig_header,
+                "error": str(e)
+            }))
+
         return HttpResponse(status=400, content=str(e))
     except stripe.error.SignatureVerificationError as e:
         # Invalid signature
+        if settings.DEBUG:
+            return HttpResponse(status=400, content=str({
+                "hook_secret": settings.STRIPE_WEBHOOK_SECRET,
+                "sig_header": sig_header,
+                "error": str(e)
+            }))
+        
         return HttpResponse(status=400, content=str(e))
 
     # Handle the checkout.session.completed event
