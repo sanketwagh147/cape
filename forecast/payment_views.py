@@ -26,15 +26,15 @@ def subscribe(request):
     context = {
         "semiannual_subscription": {
             "currency": semiannual_subscription.currency,
-            "price": semiannual_subscription.unit_amount
+            "price": semiannual_subscription.unit_amount / 100
         },
         "monthly_subscription": {
             "currency": monthly_subscription.currency,
-            "price": monthly_subscription.unit_amount
+            "price": monthly_subscription.unit_amount / 100
         },
         "annual_subscription": {
             "currency": annual_subscription.currency,
-            "price": annual_subscription.unit_amount
+            "price": annual_subscription.unit_amount / 100
         }
     }
 

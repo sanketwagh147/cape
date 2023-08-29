@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% load static %}
+{% load static humanize %}
 
 {% block title %}Subscriptions{% endblock %}
 
@@ -29,7 +29,7 @@
           </p>
         </div>
         <div class="subscription-card__price">
-          <p>{{ monthly_subscription.price }} {% if not monthly_subscription.Currency %}${% else %}{{ monthly_subscription.Currency }}{% endif %}</p>
+          <p>{{ monthly_subscription.price|floatformat:2|intcomma }} {% if not monthly_subscription.Currency %}${% else %}{{ monthly_subscription.Currency }}{% endif %}</p>
         </div>
         <div class="subscription-card__action">
           <button type="submit" class="btn btn-outline-primary w-100 subscription-btn" data-subscription="monthly_subscription">Subscribe</button>
@@ -65,7 +65,7 @@
           </p>
         </div>
         <div class="subscription-card__price">
-          <p>{{ semiannual_subscription.price }} {% if not semiannual_subscription.Currency %}${% else %}{{ semiannual_subscription.Currency }}{% endif %}</p>
+          <p>{{ semiannual_subscription.price|floatformat:2|intcomma }} {% if not semiannual_subscription.Currency %}${% else %}{{ semiannual_subscription.Currency }}{% endif %}</p>
         </div>
         <div class="subscription-card__action">
           <button type="submit" class="btn btn-outline-primary w-100 subscription-btn" data-subscription="semiannual_subscription">Subscribe</button>
@@ -101,7 +101,7 @@
           </p>
         </div>
         <div class="subscription-card__price">
-          <p>{{ annual_subscription.price }} {% if not annual_subscription.Currency %}${% else %}{{ annual_subscription.Currency }}{% endif %}</p>
+          <p>{{ annual_subscription.price|floatformat:2|intcomma }} {% if not annual_subscription.Currency %}${% else %}{{ annual_subscription.Currency }}{% endif %}</p>
         </div>
         <div class="subscription-card__action">
           <button type="submit" class="btn btn-outline-primary w-100 subscription-btn" data-subscription="annual_subscription">Subscribe</button>
