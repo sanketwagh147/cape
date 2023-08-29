@@ -20,7 +20,13 @@
   <p>Welcome, You are logged in as {{ user.email }}</p>
   <h1><a href="{% url 'forecast:subscribe' %}">Subscribe</a> &#8592; Click</h1>
   <br>
-  <a href="{% url 'admin:logout' %}">Logout</a>
+  <form method="post" action="{% url 'account_logout' %}">
+    {% csrf_token %}
+    {% if redirect_field_value %}
+    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+    {% endif %}
+    <button type="submit">Logout</button>
+  </form>
 {% else %}
   <a href="{% url 'auth-login' %}">Login</a>
 
